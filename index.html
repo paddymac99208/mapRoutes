@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Map with Custom Info</title>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY&libraries=places"></script>
+
+    <!-- Load the EWARoutes.js from GitHub Pages -->
+    <script src="https://paddymac99208.github.io/map-routes/EWARoutes.js"></script>
+
+    <script>
+      function initMap() {
+        if (typeof locations === "undefined") {
+          console.error("Locations data not loaded!");
+          return;
+        }
+
+        const map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 47.75, lng: -116.85 },
+          zoom: 10,
+        });
+
+        const service = new google.maps.places.PlacesService(map);
+
+        locations.forEach(({ placeId, route, edition, notes }) => {
+          service.getDetails({ placeId: placeId }, (place, status) => {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+              const marker = new google.maps.Marker({
+                position: place.geometry.location,
+                map: map,
+                title: place.name,
+              });
+
+              const infoWindow = new google.maps.InfoWindow({
+                content: `
+                  <div>
+                    <h3>${place.name}</h3>
+                    <p><strong>Address:</strong> ${place.formatted_address}</p>
+                    <p><strong>Route:</strong> ${route}</p>
+                    <p><strong>Editions:</strong> ${edition}</p>
+                    <p><strong>Notes:</strong> ${notes || ""}</p>
+                    ${
+                      place.photos
+                        ? `<img src="${place.photos[0].getUrl({
+                            maxWidth: 300,
+                            maxHeight: 200,
+                          })}" alt="Photo of ${place.name}" style="max-width: 100%; height: auto; margin-top: 10px;">`
+                        : "<p>No photo available.</p>"
+                    }
+                    <p><a href="https://www.google.com/maps/place/?q=place_id:${
+                      place.place_id
+                    }" target="_blank">View on Google Maps</a></p>
+                  </div>
+                `,
+              });
+
+              marker.addListener("click", () => {
+                infoWindow.open(map, marker);
+              });
+            } else {
+              console.error(`Failed to fetch details for Place ID: ${placeId}`);
+            }
+          });
+        });
+      }
+    </script>
+  </head>
+
+  <body onload="initMap()">
+    <div id="map" style="height: 100vh; width: 100%"></div>
+  </body>
+</html>
