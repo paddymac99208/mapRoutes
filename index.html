@@ -6,8 +6,15 @@
     <!-- Google Maps API -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBl46Xot5HR5-oJjxVyVw72TQDsdhJpxGI&libraries=places"></script>
 
-    <!-- Load the EWARoutes.js from GitHub Pages -->
-    <script src="https://paddymac99208.github.io/mapRoutes/EWARoutes.js"></script>
+    <!-- Load the EWARoutes.js dynamically -->
+    <script>
+      function loadLocationsAndInit() {
+        const script = document.createElement("script");
+        script.src = "https://paddymac99208.github.io/mapRoutes/EWARoutes.js";
+        script.onload = initMap;
+        document.head.appendChild(script);
+      }
+    </script>
 
     <script>
       function initMap() {
@@ -67,7 +74,7 @@
     </script>
   </head>
 
-  <body onload="initMap()">
+  <body onload="loadLocationsAndInit()">
     <div id="map" style="height: 100vh; width: 100%"></div>
   </body>
 </html>
