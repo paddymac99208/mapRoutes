@@ -2,40 +2,52 @@
 <html>
   <head>
     <title>Exchange Distribution Locations</title>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg" defer></script>
-    <!-- Load your locations JS file -->
-    <script src="https://paddymac99208.github.io/mapRoutes/EWARoutes.js"></script>
 
-    <script>
+    <!-- Load locations file first, and defer -->
+    <script src="https://paddymac99208.github.io/mapRoutes/EWARoutes.js" defer></script>
+
+    <!-- Google Maps API: use callback, async, defer -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap"
+      async
+      defer
+    ></script>
+
+    <!-- Main Map Code -->
+    <script defer>
       function initMap() {
         const map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: 47.75, lng: -116.85 }, // Adjust as needed
+          center: { lat: 47.75, lng: -116.85 },
           zoom: 10,
         });
 
-        // Loop through locations and create markers
+        if (typeof locations === "undefined") {
+          console.error("Locations data not loaded!");
+          return;
+        }
+
         locations.forEach(({ lat, lng, placeId, route, edition, notes, address }) => {
           const position = { lat: parseFloat(lat), lng: parseFloat(lng) };
 
           const marker = new google.maps.Marker({
             position,
             map,
-            title: placeId, // Optional: You can show name or placeId
+            title: placeId,
           });
 
           const infoWindow = new google.maps.InfoWindow({
             content: `
-                <div style="max-width: 250px;">
-                  <h3>${placeId}</h3> <!-- Replace with name if you have it -->
-                  <p><strong>Route:</strong> ${route}</p>
-                  <p><strong>Address:</strong> ${address}</p>
-                  <p><strong>Edition:</strong> ${edition}</p>
-                  <p><strong>Notes:</strong> ${notes}</p>
-                  <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                    address
-                  )}" target="_blank">View on Google Maps</a></p>
-                </div>
-              `,
+              <div style="max-width: 250px;">
+                <h3>${placeId}</h3>
+                <p><strong>Route:</strong> ${route}</p>
+                <p><strong>Address:</strong> ${address}</p>
+                <p><strong>Edition:</strong> ${edition}</p>
+                <p><strong>Notes:</strong> ${notes}</p>
+                <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                  address
+                )}" target="_blank">View on Google Maps</a></p>
+              </div>
+            `,
           });
 
           marker.addListener("click", () => {
@@ -46,7 +58,7 @@
     </script>
   </head>
 
-  <body onload="initMap()">
+  <body>
     <div id="map" style="height: 100vh; width: 100%"></div>
   </body>
 </html>
