@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map Test (AdvancedMarkerElement)</title>
+    <title>Simple Map Test</title>
 
     <script>
       // Hardcoded locations array with 5 points
@@ -13,18 +13,17 @@
         { lat: 46.6021, lng: -120.5059, placeId: "Yakima" }
       ];
 
-      let map;
-
       function initMap() {
-        map = new google.maps.Map(document.getElementById("map"), {
+        const map = new google.maps.Map(document.getElementById("map"), {
           center: { lat: 47.5, lng: -121.9 },
           zoom: 7,
         });
 
+        // Add markers
         locations.forEach(({ lat, lng, placeId }) => {
-          const marker = new google.maps.marker.AdvancedMarkerElement({
-            map,
+          const marker = new google.maps.Marker({
             position: { lat, lng },
+            map,
             title: placeId,
           });
 
@@ -41,14 +40,14 @@
 
     <!-- Google Maps API -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap&libraries=marker"
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
       async
       defer
     ></script>
   </head>
 
   <body>
-    <h1>Simple Google Map with AdvancedMarkerElement</h1>
+    <h1>Simple Google Map</h1>
     <div id="map" style="height: 90vh; width: 100%;"></div>
   </body>
 </html>
