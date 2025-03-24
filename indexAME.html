@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map Test (AdvancedMarkerElement)</title>
+
+    <script>
+      // Hardcoded locations array with 5 points
+      const locations = [
+        { lat: 47.6097, lng: -122.3331, placeId: "Seattle" },
+        { lat: 47.7511, lng: -120.7401, placeId: "Washington" },
+        { lat: 45.5051, lng: -122.6750, placeId: "Portland" },
+        { lat: 48.7519, lng: -122.4787, placeId: "Bellingham" },
+        { lat: 46.6021, lng: -120.5059, placeId: "Yakima" }
+      ];
+
+      let map;
+
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 47.5, lng: -121.9 },
+          zoom: 7,
+        });
+
+        locations.forEach(({ lat, lng, placeId }) => {
+          const marker = new google.maps.marker.AdvancedMarkerElement({
+            map,
+            position: { lat, lng },
+            title: placeId,
+          });
+
+          const infoWindow = new google.maps.InfoWindow({
+            content: `<strong>${placeId}</strong>`,
+          });
+
+          marker.addListener("click", () => {
+            infoWindow.open(map, marker);
+          });
+        });
+      }
+    </script>
+
+    <!-- Google Maps API -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap&libraries=marker"
+      async
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <h1>Simple Google Map with AdvancedMarkerElement</h1>
+    <div id="map" style="height: 90vh; width: 100%;"></div>
+  </body>
+</html>
