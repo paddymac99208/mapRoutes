@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Exchange Distribution Locations fetch method</title>
+    <title>Exchange Distribution Locations drop s</title>
     <script>
       let locations = [];
 
       async function loadLocations() {
         // Dynamically fetch and evaluate the JS file
-        const response = await fetch('https://paddymac99208.github.io/mapRoutes/EWARoutes.js');
+        const response = await fetch('http://paddymac99208.github.io/mapRoutes/EWARoutes.js');
         const jsText = await response.text();
         eval(jsText); // This will define `locations` globally
       }
