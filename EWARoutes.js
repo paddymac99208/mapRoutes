@@ -1079,3 +1079,6 @@ const locations = [
     attribution: "<a href="https://maps.google.com/maps/contrib/116509584317775872795">Paul &amp; Denise STETTLER</a>"
   },
 ];
+
+export default locations;
+
