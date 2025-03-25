@@ -1,54 +1,108 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map Test (AdvancedMarkerElement)</title>
+    <title>Exchange Distribution Locations</title>
 
+    <!-- Google Maps API with callback -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap"
+      async
+      defer
+    ></script>
+
+    <!-- Main Map Code -->
     <script>
-      // Hardcoded locations array with 5 points
       const locations = [
-        { lat: 47.6097, lng: -122.3331, placeId: "Seattle" },
-        { lat: 47.7511, lng: -120.7401, placeId: "Washington" },
-        { lat: 45.5051, lng: -122.6750, placeId: "Portland" },
-        { lat: 48.7519, lng: -122.4787, placeId: "Bellingham" },
-        { lat: 46.6021, lng: -120.5059, placeId: "Yakima" }
+        {
+          lat: 47.6703683,
+          lng: -117.4107588,
+          placeId: "ChIJuWUQL-4YnlQRecNUdVsfVSo",
+          route: "Central Spokane",
+          edition: "EWA",
+          notes: "Inside EX Rack; Opens at 11am",
+          address: "1320 N Division St, Spokane, WA 99202, USA",
+        },
+        // Add 4 more simple sample points here
+        {
+          lat: 47.6588,
+          lng: -117.426,
+          placeId: "Place 2",
+          route: "North Spokane",
+          edition: "EWA",
+          notes: "Sample Note 2",
+          address: "123 N Monroe St, Spokane, WA 99201, USA",
+        },
+        {
+          lat: 47.6565,
+          lng: -117.411,
+          placeId: "Place 3",
+          route: "South Spokane",
+          edition: "EWA",
+          notes: "Sample Note 3",
+          address: "456 S Cedar St, Spokane, WA 99204, USA",
+        },
+        {
+          lat: 47.6700,
+          lng: -117.390,
+          placeId: "Place 4",
+          route: "East Spokane",
+          edition: "EWA",
+          notes: "Sample Note 4",
+          address: "789 E Sprague Ave, Spokane, WA 99202, USA",
+        },
+        {
+          lat: 47.6500,
+          lng: -117.450,
+          placeId: "Place 5",
+          route: "West Spokane",
+          edition: "EWA",
+          notes: "Sample Note 5",
+          address: "321 W Riverside Ave, Spokane, WA 99201, USA",
+        },
       ];
 
-      let map;
-
       function initMap() {
-        map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: 47.5, lng: -121.9 },
-          zoom: 7,
+        const map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 47.65, lng: -117.42 },
+          zoom: 11,
+          mapId: "52467dabf04a25e0", // <-- Add your Map ID here!
+          tilt: 0,
+          rotateControl: false,
         });
 
-        locations.forEach(({ lat, lng, placeId }) => {
+        locations.forEach(({ lat, lng, placeId, route, edition, notes, address }) => {
+          const position = { lat: parseFloat(lat), lng: parseFloat(lng) };
+
           const marker = new google.maps.marker.AdvancedMarkerElement({
             map,
-            position: { lat, lng },
+            position,
             title: placeId,
           });
 
           const infoWindow = new google.maps.InfoWindow({
-            content: `<strong>${placeId}</strong>`,
+            content: `
+              <div style="max-width: 250px;">
+                <h3>${placeId}</h3>
+                <p><strong>Route:</strong> ${route}</p>
+                <p><strong>Address:</strong> ${address}</p>
+                <p><strong>Edition:</strong> ${edition}</p>
+                <p><strong>Notes:</strong> ${notes}</p>
+                <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                  address
+                )}" target="_blank">View on Google Maps</a></p>
+              </div>
+            `,
           });
 
-          marker.addListener("click", () => {
+          marker.addListener("gmp-click", () => {
             infoWindow.open(map, marker);
           });
         });
       }
     </script>
-
-    <!-- Google Maps API -->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap&libraries=marker"
-      async
-      defer
-    ></script>
   </head>
 
   <body>
-    <h1>Simple Google Map with AdvancedMarkerElement</h1>
-    <div id="map" style="height: 90vh; width: 100%;"></div>
+    <div id="map" style="height: 100vh; width: 100%"></div>
   </body>
 </html>
