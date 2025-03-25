@@ -3,80 +3,47 @@
   <head>
     <title>Exchange Distribution Locations</title>
 
-    <!-- Google Maps API with callback -->
+    <!-- Load locations file first -->
+    <script src="EWARoutes.js" defer></script>
+
+    <!-- Load Google Maps API with the marker library -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap&libraries=marker"
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=marker"
       async
       defer
     ></script>
 
     <!-- Main Map Code -->
     <script>
-      const locations = [
-        {
-          lat: 47.6703683,
-          lng: -117.4107588,
-          placeId: "ChIJuWUQL-4YnlQRecNUdVsfVSo",
-          route: "Central Spokane",
-          edition: "EWA",
-          notes: "Inside EX Rack; Opens at 11am",
-          address: "1320 N Division St, Spokane, WA 99202, USA",
-        },
-        // Add 4 more simple sample points here
-        {
-          lat: 47.6588,
-          lng: -117.426,
-          placeId: "Place 2",
-          route: "North Spokane",
-          edition: "EWA",
-          notes: "Sample Note 2",
-          address: "123 N Monroe St, Spokane, WA 99201, USA",
-        },
-        {
-          lat: 47.6565,
-          lng: -117.411,
-          placeId: "Place 3",
-          route: "South Spokane",
-          edition: "EWA",
-          notes: "Sample Note 3",
-          address: "456 S Cedar St, Spokane, WA 99204, USA",
-        },
-        {
-          lat: 47.6700,
-          lng: -117.390,
-          placeId: "Place 4",
-          route: "East Spokane",
-          edition: "EWA",
-          notes: "Sample Note 4",
-          address: "789 E Sprague Ave, Spokane, WA 99202, USA",
-        },
-        {
-          lat: 47.6500,
-          lng: -117.450,
-          placeId: "Place 5",
-          route: "West Spokane",
-          edition: "EWA",
-          notes: "Sample Note 5",
-          address: "321 W Riverside Ave, Spokane, WA 99201, USA",
-        },
-      ];
+      async function initMap() {
+        // Ensure the locations array is loaded
+        if (typeof locations === "undefined") {
+          console.error("Locations data not loaded!");
+          return;
+        }
 
-      function initMap() {
-        const map = new google.maps.Map(document.getElementById("map"), {
+        // Import necessary libraries
+        const { Map } = await google.maps.importLibrary("maps");
+        const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+        // Initialize the map
+        const map = new Map(document.getElementById("map"), {
           center: { lat: 47.65, lng: -117.42 },
           zoom: 11,
-          mapId: "52467dabf04a25e0", // <-- Add your Map ID here!
+          mapId: "52467dabf04a25e0", // Your Map ID
           tilt: 0,
           rotateControl: false,
         });
 
+        // Add markers to the map
         locations.forEach(({ lat, lng, placeId, route, edition, notes, address }) => {
           const position = { lat: parseFloat(lat), lng: parseFloat(lng) };
 
-          const marker = new google.maps.marker.AdvancedMarkerElement({
+          const marker = new AdvancedMarkerElement({
             map,
             position,
             title: placeId,
+            gmpClickable: true,
           });
 
           const infoWindow = new google.maps.InfoWindow({
