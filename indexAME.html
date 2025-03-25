@@ -3,24 +3,29 @@
   <head>
     <title>Exchange Distribution Locations</title>
 
-    <!-- Load external locations array FIRST -->
-    <script src="EWARoutes.js" defer></script>
+    <!-- Load EWARoutes.js FIRST -->
+    <script src="EWARoutes.js"></script>
 
-    <!-- Load Google Maps API with Advanced Marker support -->
+    <!-- Load Google Maps API -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap&libraries=marker"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&libraries=marker"
       async
       defer
+      onload="initializeApp()"
     ></script>
 
-    <!-- Main Map Code -->
-    <script defer>
-      function initMap() {
-        if (typeof locations === "undefined") {
-          console.error("Locations data not loaded!");
-          return;
+    <script>
+      async function initializeApp() {
+        // Wait until locations is defined
+        while (typeof locations === "undefined") {
+          console.log("Waiting for locations to load...");
+          await new Promise((r) => setTimeout(r, 100));
         }
 
+        initMap(); // Now it's safe to call
+      }
+
+      function initMap() {
         const map = new google.maps.Map(document.getElementById("map"), {
           center: { lat: 47.65, lng: -117.42 },
           zoom: 11,
