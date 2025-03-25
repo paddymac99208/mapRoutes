@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Exchange Distribution Locations4</title>
+    <title>Exchange Distribution Locations</title>
 
-    <!-- Google Maps API with callback -->
+    <!-- Load external locations array FIRST -->
+    <script src="EWARoutes.js" defer></script>
+
+    <!-- Load Google Maps API with Advanced Marker support -->
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap&libraries=marker"
       async
@@ -11,37 +14,17 @@
     ></script>
 
     <!-- Main Map Code -->
-    <script>
-   const locations = [
-  {
-    lat: 47.6500,
-          lng: -117.450,
-          placeId: "Place 5",
-          route: "West Spokane",
-          edition: "EWA",
-          notes: "Sample Note 5",
-          address: "321 W Riverside Ave, Spokane, WA 99201, USA",
-  },
-     {
-    lat: 47.67036830000001,
-    lng: -117.4107588,
-    placeId: "ChIJuWUQL-4YnlQRecNUdVsfVSo",
-    route: "Central Spokane",
-    edition: "EWA",
-    notes: "Inside EX Rack; Opens at 11am",
-    address: "1320 N Division St, Spokane, WA 99202, USA",
-    photoReference: "AUy1YQ2laDYb8Lcp5st-R4p6KTc8IfjwJhiTANrxFQMnatorvaCyCKsIl5dcO3q-0lbjKXXZTlDnCoYDRMnMuT-0zCEU6zOcL1tvz8eAB8vbrr7p8uMdUwlarDmuNNKh_SBdpZjgbMU1DHbvOOahp3XNoQFxSw_d4iJ6ExosPbuGBfNVuDtOBfyS8FhKfYjLkIOi2BqEGw9XEP0770lSncyocs_EWAnYId-4AlRmiZUzM1n03EN-_jvtVlGvmSZaRMGibX7hdzSIvSAbKPUsFEninTyPLltX9f7pdsodsu_2MSSxNQiAIU_8emmTG32Ym-AJXDt5jpMcseSjblLIRSeI6GkneuOB3ImIJKHDrpqKBlvN0EPzeKl_PFRsDt6sMU_2miafcuJO6Lgy6D2Kcpa6-1OeU9NggU-7qY9FcEHkZyFtlDJut3taju5A3YT0KULHOkpdWC8p8FF0ungtFBQJ7OPAKvZgjVswKXxa8-eN7SBMV9BJxg0_U6IaHPvCV9VG22NnGN1cd6JHWtzleJe4Kq7Ua5k7VkEmoqvdIsAZxknL-yxXL4SP_5CNlb2NZcAMAEvOmpvTd4z9oBvx8ivOVGMVm_vXJCy_k8kXhzt0LMs",
-    photoHeight: 3024,
-    photoWidth: 4032,
-       attribution: "<a href='https://maps.google.com/maps/contrib/112397229917336447136'>Jason Ralphs</a>",
-  },
-    ];
-
+    <script defer>
       function initMap() {
+        if (typeof locations === "undefined") {
+          console.error("Locations data not loaded!");
+          return;
+        }
+
         const map = new google.maps.Map(document.getElementById("map"), {
           center: { lat: 47.65, lng: -117.42 },
           zoom: 11,
-          mapId: "52467dabf04a25e0", // <-- Add your Map ID here!
+          mapId: "52467dabf04a25e0",
           tilt: 0,
           rotateControl: false,
         });
