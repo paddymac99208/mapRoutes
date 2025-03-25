@@ -6,11 +6,7 @@ const locations = [
     notes: "Inside EX Rack; Opens at 11am",
     address: "1320 N Division St, Spokane, WA 99202, USA",
     lat: 47.67036830000001,
-    lng: -117.4107588,
-    photoReference: "AUy1YQ2laDYb8Lcp5st-R4p6KTc8IfjwJhiTANrxFQMnatorvaCyCKsIl5dcO3q-0lbjKXXZTlDnCoYDRMnMuT-0zCEU6zOcL1tvz8eAB8vbrr7p8uMdUwlarDmuNNKh_SBdpZjgbMU1DHbvOOahp3XNoQFxSw_d4iJ6ExosPbuGBfNVuDtOBfyS8FhKfYjLkIOi2BqEGw9XEP0770lSncyocs_EWAnYId-4AlRmiZUzM1n03EN-_jvtVlGvmSZaRMGibX7hdzSIvSAbKPUsFEninTyPLltX9f7pdsodsu_2MSSxNQiAIU_8emmTG32Ym-AJXDt5jpMcseSjblLIRSeI6GkneuOB3ImIJKHDrpqKBlvN0EPzeKl_PFRsDt6sMU_2miafcuJO6Lgy6D2Kcpa6-1OeU9NggU-7qY9FcEHkZyFtlDJut3taju5A3YT0KULHOkpdWC8p8FF0ungtFBQJ7OPAKvZgjVswKXxa8-eN7SBMV9BJxg0_U6IaHPvCV9VG22NnGN1cd6JHWtzleJe4Kq7Ua5k7VkEmoqvdIsAZxknL-yxXL4SP_5CNlb2NZcAMAEvOmpvTd4z9oBvx8ivOVGMVm_vXJCy_k8kXhzt0LMs",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/112397229917336447136">Jason Ralphs</a>"
+    lng: -117.4107588
   },
   {
     route: "Central Spokane",
@@ -19,11 +15,7 @@ const locations = [
     notes: "Inside Auto Clipper Rack",
     address: "1918 N Division St #2252, Spokane, WA 99207, USA",
     lat: 47.6758403,
-    lng: -117.4108012,
-    photoReference: "AUy1YQ2gDyiNmnMB98WX5aUJ0VRhM6YqL9TATo_QOqSubSkKu2MlowpZ63jepuG3dRQu3Keep9rRh1aP7Qes9cY-Ezj-EzT8KVvLWCcs5lfY3cuXMKzdfuAzsN75h4oMrWw3Ie8GdEKwh4meB1ktarw__TIbw5Fo2QcjyvoGrsyEsngghYSamHcQSQU1BFf9NhlVrQRmofQPTb6U8SjtTbY5FLJuxM9iwFaBrOW0hAgTreR_wGTJte5W4P1MfIcoTjeWGJQuUgyywM8qhnmtBwClMvbItp3qNsfZCG37PZaekppj4bVStVvpS2tYMruqt_G0RRamMGI_99dtqZDOiKsuj8jNObgIQzDTo_QFtjgK35V1iV7Un5p37Pa5kSDnQ6JPBrmKdF_gmbpIgxGlPeRFUmhM7pe3YYIqyNIQbT2-tvNDrfO5Cw79Cz9oV3liDGSjDCoh4j0EhmtY21MDbzNRZrbD47N5Ky5C3a_kz7Jk5OuY_cPJgo05_kcu6ZHhO0Cu8X__hnvcNHj3xMF0WMBBQyZuIkHbxh9emX_abhVy5U1yiMWfFw5LK7dSkGjYiup6jFrJN_FWEP_Hh6uYNZt9PtECub7-yH_DmPLwHzWadIzymDX5",
-    photoHeight: 3120,
-    photoWidth: 4160,
-    attribution: "<a href="https://maps.google.com/maps/contrib/107000990158163862113">Nataus</a>"
+    lng: -117.4108012
   },
   {
     route: "Central Spokane",
@@ -32,11 +24,7 @@ const locations = [
     notes: "Shared rack top shelf; 6pm close",
     address: "2020 N Division St, Spokane, WA 99207, USA",
     lat: 47.6768492,
-    lng: -117.4102867,
-    photoReference: "AUy1YQ2vPVak4701zHX7nvYxMT5-MVaIZRn6zV1QOLWXyW0K-R5TCm4FyI-htw4IuXKoLYy8gzBE5tEUXDO64dRhW-_Ipy1Ta8on8ZA87ELunvmlxK2Pf20bB0X6H03CXobnYY_vwaqik2wvjnwOy69OHGc2hA1AxsGwpY9nxdmNrMbGnhxLtHWK3a6u3DMod52nMV9pHJTy1jswZusFeFDj9Ex7DFq6HYBIDt45A3oFeMWl7a6VJFvzKN585ObiVvuIqpTcZsynWPGg-5iQGkgqrHPHsAml5_IyWevp3JiSV3iF2xOpVn2Ciq25FJPpiJ_UebjipTHzvE91E0C7eSLDy6-l4raHXofvkk13-Hz7GiDvg6mwBmcAZO__fbRmi6dqdFx1_n9gVjRvZnHyYJdDDVBCZ2pbO48NT7Qkl32Fxca_rVLrzvVxppdYP_gzl8xu-s2bzV-67_2pIWo3DpJl8rT6WkrLFIEgHAs3lhOJgT01vuvgx-zvicLy5c9BGEOuLy7X1xfquTk3SPDNQ1kca6wkMFt9dtyVuNCTJT8FctyCgZkUc6Vp7hGJyS9-8VZlrKE8oIrWhDR5VnTvodbrEyaxsxPUD-6TIGcbZ_SYF6Y",
-    photoHeight: 1800,
-    photoWidth: 4000,
-    attribution: "<a href="https://maps.google.com/maps/contrib/106224901490226350421">Tom Zack</a>"
+    lng: -117.4102867
   },
   {
     route: "Central Spokane",
@@ -45,11 +33,7 @@ const locations = [
     notes: "Shared rack inside",
     address: "2424 N Division St, Spokane, WA 99207, USA",
     lat: 47.680107,
-    lng: -117.410356,
-    photoReference: "AUy1YQ3d8BkO-tHy6M_RPL86ocC0ra_3PzkPQGrMTI0ilqtlbOXQHo0leFfN85NwtWFWg0OVN7u3opoPljhbW6ex4o29SEFsA2dhjyECd7_oQhgIxihf0NFXnNnnu1OKuFLe5No1YYkf-6OYyq4v4zPRJXW8rSieAW-cq7TipxR0Sz0QqpuisfAj5zo9tIp1SdHjuDf74Gc6TbxNxmTr2Bl4GhPf71w_47Ly3_6OZzPO9hcwdgatwl24jH19BfMrynlwxFP5u0tPX1uhwr2Bu296HzkJvPsXRyydpci5lwOtWy3VoA0IZ0Em5d4qOUnNkLSmY6dAVMDny3xp-SkeiSWsS1X7_ByVupAIwK1zcOt3skQi350rHed6etxtye9APwEYtX_RxNCBv__w58iMg59UZtwoFVSP22dwKOZgDtbi4dy6DfuFkXsVYGBtaeHPRjlsSWouCZDzdN1X22U-b5VGPF2bdaY_rovZC9Neke9o4TJCpk8Uy96iw_qYF0hLypdPqCzkHCUTXMX3KQZj_fK82YNMJLtdLAy0oBTs76qi7kBZ4fkyQM75208I0am-w6XtVeAcMAdm6Msk6nWiTnk6RRwH2o1hC5ivV1Xa36vPtZOLCxax",
-    photoHeight: 4032,
-    photoWidth: 3024,
-    attribution: "<a href="https://maps.google.com/maps/contrib/114462809030194976548">Jordan Davies</a>"
+    lng: -117.410356
   },
   {
     route: "Central Spokane",
@@ -58,11 +42,7 @@ const locations = [
     notes: "Inlander store rack - 2 pockets, west door. ",
     address: "210 E North Foothills Dr, Spokane, WA 99207, USA",
     lat: 47.6815931,
-    lng: -117.4055263,
-    photoReference: "AUy1YQ0Gh9e5tgRzznbMHcBisx2CgFvzK6yaE_kgU-RSjoUMrWhjialXgsDTLCzEJpcXkcLgrr3cTkZCEH8KVj-QgsaaQlYCHQqCwO_DvjUVTrNg8wNJwk8gXef6HBYsOcOyU5hNxPVOEgTB32BwNc62HDGiAyEVQvrhS-YDOWhWPOMNLGRmh_IB1zed0i-2aMNsw27j7pHeCO0imkZZ8R-MUPArr551kiajtCcR2dO_89scNiSd4Y99jYzwq5H5GSFYL2MLTF6shoomTDGdAJtD2G-gc9WZO6WJew3FLcATuieZvyFyR5aFOfOTl8VoA7sbJLtUX5Y47cTwJd3iogJp9cQqclCsx8bbwENEyo6aUsceS0QKB503qCif-nIvT8rXOCrJm6vLz6WbKU4eVMbrCQWEruOaC6L77B1B0QiPiscIjG6g5RqwA-Pc_f1KTBAkgy0JE1On1Mu8CZBhb5Re_bZSZj03fjKrhYN3Pdy6kjwz4h4vekgljwpa1adZn6hlQ95xnXIoic4fKsUYM-IAa_oJwW99uil9x_eU-pAUofXdBIRSkmmNmtQ__LXpSSNbK4ClJNaEnneHYaVcv404VqSlLMV3o8abtZV92nr_C5aKIwvR",
-    photoHeight: 5312,
-    photoWidth: 2988,
-    attribution: "<a href="https://maps.google.com/maps/contrib/109451450852158699156">Brian Klein</a>"
+    lng: -117.4055263
   },
   {
     route: "Central Spokane",
@@ -71,11 +51,7 @@ const locations = [
     notes: "Inlander Rack; Opens at 12pm",
     address: "3714 N Division St, Spokane, WA 99207, USA",
     lat: 47.6919587,
-    lng: -117.4102374,
-    photoReference: "AUy1YQ2ctpd-PYw8pudivSq6crBRMITGUgdCpDd5nqJMaMF6ixH52smOQWwurluI8EGi_8IgONybMeJdib-UY4_Aa6k9IQE7YXpDc8Kyo3hhVp0ep1YpI-JXigBZdkfmkQHWy_jX-auT7t7bu9p9PMhJKB4Gm701ml7kr3WASihgdvRrqaWvbI5AZ2XRCIkPF9xThXcZh19cBN5baAVPo4gf4drlceLeiQAa7Sq0a5CrqdWeblBn04YTRiXISFMQPayb6QfytwQILCuIy-DjhSuIKxcQ6DtkufMRFWWaavgpQaZZmOaGb73ba6R5DyG0__XtYIIrz9vtqSuRFUv9dPMzGTUFpdQ7PnOi8TQ4pdaAfuJf9EVMPlqgdeh0cJ97D0cW8BPlIn9fYsx6IbCcEItUrU8ZONE4-Wx5mZtCmiLzcG6gvHOeDbVpSjy-yqSAVVBpQa1oJ4UUKN-p79XjZn949RLhJ0TtlSLy6KL07d9LiGERatUklVAOaGhobCMGN1Dkgm47Fwakk_bd_gn81qqLIyOJOLT40LTfag7NXwiHLAq4RBUqY_-is3m2d0JjK3D5Qjk_MdVUhC08Cl1kNOoYsDW6tQugd1Ca1P7uSTljofGBQkgj",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/104900451881818440541">Andrea Knight</a>"
+    lng: -117.4102374
   },
   {
     route: "Central Spokane",
@@ -84,11 +60,7 @@ const locations = [
     notes: "Inside Store Rack ",
     address: "12 E Empire Ave, Spokane, WA 99207, USA",
     lat: 47.6926291,
-    lng: -117.410415,
-    photoReference: "AUy1YQ1ul2WQEcBdLYJ26-_eyKW2K2ENbeEu0mCPdKPzrhVFv5OAAJQ_BreaZjWEGWMx005w22XacgIIi6mS9egTGbiTnzfvnJdsGC_Ky_KaNILeKlDeCCycUnLsBuVJ5vaT7sGQaUOwzIBUJCpGXvQr8ohlRjmYFmWFfddKaANCN-cBGOVmnQTYeLv17c_YJTpuhXX6SClSKVcPilJSyXy3vJe3T-lzrVFRULePhPEyxYMWX4XlJIBscVXyaXF3D7wqDvtwSVsad2GPRLUBmm9vTWDQdAKWzSThdYTnoMyjogq5v0ww8PA3n5lY-FLmBXkPn_KnfYqimrQ9gxW8Kcnju4MsD18ZzO_3Autx4CokfFyjBBXw6iGT2xDWQqhcTXQwgRk0GryfbwmYuuIslx55zeh0rfhqzob0P2-DaH7LFkK5UjInGp2GkiqXDZDo9FC8aWK0lS20XH7GUnh1zQ2yyCg58DxNR81cTCPNQeQ-LJ0pISVbbjxSVGc-b_QM0fDC7x-axWv6NDgtq2ujUFHHEa4FUiBMxDWPLjY5tMmJWII3qCR-GitY4-_dTOt3fSTGLEklM-RZgHkoNP_-bZOAcQH6MuexGvQmGSEoYx2VzPazVNX1",
-    photoHeight: 720,
-    photoWidth: 1280,
-    attribution: "<a href="https://maps.google.com/maps/contrib/116193014803430196489">Amandabob Hoffman</a>"
+    lng: -117.410415
   },
   {
     route: "Central Spokane",
@@ -97,11 +69,7 @@ const locations = [
     notes: "Community rack - claim top shelf",
     address: "4120 N Division St, Spokane, WA 99207, USA",
     lat: 47.6959263,
-    lng: -117.4107787,
-    photoReference: "AUy1YQ0FTx-G87YBPA4Lt6bFiBh7tg0THhT7zlXrjYUfsr1dJfdVCGAYHVrB1OPCz5DRPoWi8NVIZ97Lk9LbmOdr4A6yyrtMluOMERSja73cHCflEBIi08k8223dV3iFUsb3df4nOw_0QGtpuhAy13BLmWBRSRDtvtjNp_P9RPfmrhVz8w5Z1lFDmYtaiCfGi6tS2WdzQY_uTU5LteplHqVGCtE1YJKfUZRzNP1u99XHE5IM9KtqHrWAB4JIDiKbxoezjbY9TAZGt3I3m9_OgqpDEZq-qMCFaKIy-enxAnJ6jSDyJiZl8EzBvV6m-Jh7QyKcDqg93awI9Hv0PUltyNwgLES__m9rU4EkB4iuMcqpi1Sth3RSqMweauFoYfBXAKL0outdHBvsRt-WKDblywlhp4SW_m_cRvKMhxaWmTUdqbMst63Fw3WX0Oh7sYfsv40lpj8GYrdy4E-p9ENOf6O-80b9FAXYvefjaH6D9ZfgCgw-7J26C6rLJMb3tnrqWHneZ6JB6D-RWdj5VLu4qUF8zf3FBeC2yMRYOq52nR9nCpVIS4pmAeDye8v3OUXVHSXU0jZYBx7acv1tjh2UaXAnxcOqo66PzGhz65jFOKvT6DwRO54u",
-    photoHeight: 2988,
-    photoWidth: 5312,
-    attribution: "<a href="https://maps.google.com/maps/contrib/118052030747839410976">Rick Giles</a>"
+    lng: -117.4107787
   },
   {
     route: "Central Spokane",
@@ -110,11 +78,7 @@ const locations = [
     notes: "Single EX rack inside",
     address: "4320 N Division St, Spokane, WA 99207, USA",
     lat: 47.6974584,
-    lng: -117.4107841,
-    photoReference: "AUy1YQ2sYIFAAClVvxbbG8QncNaG-vSHvElOqEAo-X_fP15w032FKmdKjAhbvinNVvrFf4zQSG8669lAt1PUWyBJmbcbZXBKg8HeacumqwZMemPRBQt1xMlGyD3F5_s6kWcX8sAy15Vo9hxJVOgE1D_0tD0KDuFVH6ZM5HUOuvkzNHrVWTHFuzc6UEJtFY7RWhfUyLaZiz-wWCYxu-epMyAlsU3nAdE3IvXymohHsGlgemPHn7NsJQeg1ElMiKkhebgX0cRpQ4NAAyGMZGFKQtHOsAdcxN5FV34EWkqE9iFWP3toLMSY45umiAbW6HhUK5mHGzsnUAowTV9x0D1atobTeNL2By5evPgyy7JiXM7xd59K6Z9-ypvUoc_M808MsBgNuGAA0cfIDI2gtzd6FcY4FWJTlWKQltZRYB4QIj8PiiVejCGAl68sFgH9dClKP_q9oaOljOhp37RWM47MieH5DmD1mZP0hpeLx3ZoILOfZtwP-gV5EBnsY0jtLO9DXpvGz_9_yBPVyIxze2hUQzKtwUFommWypxC1c6BMkLZDLYwHftIZpqfcsug7fwx0yRzCk0l6iIbviRdXTN-3H93CNHHT5kqPGI8Aum4jaYZWV-4",
-    photoHeight: 1080,
-    photoWidth: 1920,
-    attribution: "<a href="https://maps.google.com/maps/contrib/108962216322611908599">Mike Hansen</a>"
+    lng: -117.4107841
   },
   {
     route: "Central Spokane",
@@ -123,11 +87,7 @@ const locations = [
     notes: "",
     address: "5023 N Addison St, Spokane, WA 99207, USA",
     lat: 47.70380789999999,
-    lng: -117.4034464,
-    photoReference: "AUy1YQ35OGnRqUzwtAPBa3ylPN2J94amZaDtmBrN3SMDEOV8hJU5WPIw1Y5PLWbP4EnRx1ewgFktbnvbKXOlkJ29-GceSF9imDnJGxdMCP1y2wDpqbdcLcUVwlBPufudY6842SKexgH3SUHsXXckEgZ_qp3P7U7kdHF2ml0HSQAaIox-7d6hOPtBsdcAjhL0501j_Iz5z9YO-z5QAGoOSZDvZVindNCqT5pefqG4sXPnPx-dodI-YgSw1uyGlO8GaogH0Wl_dzKw59mvSGOjOPDnVXFFJo3lJRYJrJmxZL3o9ufg2clbB8oPhP6bW1cYqTPS340Lfeaor0xKSBElBDsuz_vG816UtjgGAlTI0_Nq3vyLJ5guJAePtcP5Vu-8E_XzD7oGqoeQAd5iLf1JKG4_dyg2BVfTJ0rz18l3Jcgxq05SiVwGxwYB-8ivEq00NAYh752vqqGicuAw8LgL8Hiz7cQYyZlFFFC1tL-C9Z28Wko5-JGrEjx3zm28H_wkl7GKp6NICg-con14A4SfOKNtkcnqh2XvYKvwAznTLZLZnizWN_bTpLEy8OM1Wb4Q3eCDtNhwuhR8o5gfgxrBPEXKGdHTRMlzikHx7m-qF08cK_0",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/111488831251573542750">Benjamin Allen</a>"
+    lng: -117.4034464
   },
   {
     route: "Central Spokane",
@@ -136,11 +96,7 @@ const locations = [
     notes: "Inlander Rack",
     address: "4750 N Division St, Spokane, WA 99207, USA",
     lat: 47.7024811,
-    lng: -117.4101016,
-    photoReference: "AUy1YQ3W7zMdRbAXYqyQzisyYL3NGMukOrE6ou2Hz7otRV7BDWmB2hZRB6wyhCUF7Khu8s2bpo4VZgxvNSSC-yX1l3rHy2lB90JLRGp6d-RmcwjSmIJbS8soevPG89AlGEkUkIz1r5Krm3bhq7g4BjYno0vVteY8Dy9LDwsA9mxftwN2xTwLrSUtNymDIeVKWWC5vop7Ba-JNx8hATCAcqjc4-uDB9zZIsV6J89kx7HlDTtb8KPLDcrRcFI2E2F4o8BhP13uxe7ZyruXP1O3Yu2bJTaZnCItlsnRzRhg6r0CXChvQnKsk_IXV697GEg_PVZLrt_5OyQxGelHqMpVclAr1fN3n2I2uWueSzfEKoM7cFiGdUzOeWbcHYH313hYx152HX2rqsYZuARFatOK2mfFk0cI4DAqMh4wVNxA6Lmdpq1umbV4P1NOv5viceAdR5n1hk-0ht8HdrWAMPmW3B6ksG5G9nv41kRspudQEUj3CuWVos0mm9YjSb39jFejj1HwgCogN7oyzyklmU7Hx9oa1Au3hOyd440nnVbtBHC91Vo3Hs7mcwV2GBauWHlFazDNsDYWb7_RqDCdp0Yc24265LHMiKRkcQCxgR2XLXp1kVU",
-    photoHeight: 2448,
-    photoWidth: 3264,
-    attribution: "<a href="https://maps.google.com/maps/contrib/101788963357469462767">Perry Robinson</a>"
+    lng: -117.4101016
   },
   {
     route: "Central Spokane",
@@ -149,11 +105,7 @@ const locations = [
     notes: "Table in entryway",
     address: "27 E Queen Ave, Spokane, WA 99207, USA",
     lat: 47.7044504,
-    lng: -117.4099229,
-    photoReference: "AUy1YQ1vCPyIPoQZt3NW9kCLUKfMCZ5lCxFO2-uyoGpO3-mT6EqjvTolQCMl2bB3I80fvZvDVdXfWOiVE3Bdqs2DPLF-m8bsftJlnkW1W1IqVyajDTrsAucSHRl2VvKd6Aw6mot8FAFLfDkAA3AKTVZRxxn5U11CIBEiav-BSfwiN-wMkhN38JdJo4QHcg_-uDkq0BWXc3Svjgq77PBaNiuQFlM21cblbKE4R5cLIPHDHs5g9rYPOe7IGFU7jkzu0WznmbP5lO4NQWMayyi_VKcUX2iVP-A_hSLNvI1c6mV6IXzAMTjw8uYtCwhqE_jyT8ieCY7iy2UXYPaj-gqbO43WuFkiFPplA7QUjukUJeID_cT0kQG_LLqp9Te5Yvl0V9VaqrFE6ahaawrdnduUZ2QvfDGcqBoKZX8ucwlWX3A9ULq5EYW5s4PYEaFG8NhjCIVshRdgMYc5nI2L1in185Y5-Ks61izYS4bU1rZiymBBMNX8u90KZk_2lGa_h3Iz9htbUq-m6B0j8Ac7xfgyQc_Fq_w9yenhVu4VrPmsXal7ksc9wneqm2MD37k8VWlJB4Pz-jJizQkVN_yxnulhVIJLutmwsXHXskApUAOAh4L1WY8",
-    photoHeight: 4624,
-    photoWidth: 3468,
-    attribution: "<a href="https://maps.google.com/maps/contrib/106724625434117982007">John prince</a>"
+    lng: -117.4099229
   },
   {
     route: "Central Spokane",
@@ -162,11 +114,7 @@ const locations = [
     notes: "Inlander Rack",
     address: "5102 N Division St, Spokane, WA 99207, USA",
     lat: 47.70459699999999,
-    lng: -117.4105505,
-    photoReference: "AUy1YQ14UvptAJ4Ewy0blbiSyiCNRqPGO6e_LFWEq8gj8Mnho037Ej5eGj7EuLS3OyZgCMqNkHriMZ901hkAQJP299vj6ZmfUz-51C9GxUD2cNqQC8yFlQ5sZzsrt0IF7pQ4aY4lHVnJX8iXHvUwZHTpYnoV_rbwazWijGx9qVaWAqCe-iVOkwIUbFoWaC_hzI_Shz2f5pipDwKacb1wlyrMRtBcYVDWK4oauG1PI2Y1SkJilpUSKOOxJgvM2TklekMrdF0c0EzQoO7SpBDUiuLxxMYrNTNEbUdsTJ_HgL8QfjHJY3UwWQ5kMzTRXj-__x-KGWvx2X4Hmo8",
-    photoHeight: 600,
-    photoWidth: 1080,
-    attribution: "<a href="https://maps.google.com/maps/contrib/111152223399767104354">TacoTime</a>"
+    lng: -117.4105505
   },
   {
     route: "Central Spokane",
@@ -175,11 +123,7 @@ const locations = [
     notes: "Inlander Rack",
     address: "5406 N Division St, Spokane, WA 99207, USA",
     lat: 47.7072631,
-    lng: -117.4104353,
-    photoReference: "AUy1YQ1BGqxobKxvjh8OBl9gPJ2juEY7tJWmb971CLJp_y8tQYfiqXnNfZVYkQvp_fklLMk4UPW3TmAgSRLO73NG-UibJ2mkaEEUEF5kNx5Wl6CMtkFkXvxl9_9JBgq8EznDsP2WqelAymII6WZ1HAFJulsvDPLd2Ba7bAaczkzI53OTCpbu6J5MtUZxVnYYtAcRcfA52SoWmY3CTVym0RGfcZoefW1OohPNhENh83cfA6VMlcIGTkh8vUY5C8YDkJwHxV2AxKTvpp1kE1UpZQcdjJluzp7JE89TvCNM39SPaW2bq2uJlStUl2yC1KxXmMo87Z9QndQ0Lv8",
-    photoHeight: 3264,
-    photoWidth: 4928,
-    attribution: "<a href="https://maps.google.com/maps/contrib/108437076530016881216">Thai Bamboo Restaurant</a>"
+    lng: -117.4104353
   },
   {
     route: "Central Spokane",
@@ -188,11 +132,7 @@ const locations = [
     notes: "Inside Community Shelf",
     address: "5422 N Division St, Spokane, WA 99207, USA",
     lat: 47.70758499999999,
-    lng: -117.4107802,
-    photoReference: "AUy1YQ3zAXoVXJhV6_pnCNmwyTM6JPSVdSVn716VcwJIyt2D1TKr_0s-OM0uKLUSQigJu2QUAJb1D3Z7tPh35dJ8LUQQHuqSGyW-wbc5ZZwF2GP-_SpKXl0tZ8OFQuwE1Y-kFbC7vQtqp3hKPKm8f9gDLbz62DFy3KLUrK3-E0AR3qd_6HrYx-XSBKrB2KZGL1dyrour4GZUMwNm8fBtIurbvzC-8T03JuUQlvNLL5bWUWOpv1SLea2n_MCIyqCNla_OnsnRh0DB02zthHRUeTjoSHBHlKGtIdUJNLn6Ao8gYrrB8oDkzskd2crMExhh0QtwpLZbW0Lm5j0",
-    photoHeight: 2448,
-    photoWidth: 3264,
-    attribution: "<a href="https://maps.google.com/maps/contrib/116668624366885470057">Phillycious</a>"
+    lng: -117.4107802
   },
   {
     route: "Central Spokane",
@@ -201,11 +141,7 @@ const locations = [
     notes: "",
     address: "220 E Rowan Ave, Spokane, WA 99207, USA",
     lat: 47.7077272,
-    lng: -117.406274,
-    photoReference: "",
-    photoHeight: 0,
-    photoWidth: 0,
-    attribution: ""
+    lng: -117.406274
   },
   {
     route: "Central Spokane",
@@ -214,11 +150,7 @@ const locations = [
     notes: "Single EX rack inside main entrance",
     address: "5633 N Lidgerwood St, Spokane, WA 99208, USA",
     lat: 47.7114573,
-    lng: -117.4071068,
-    photoReference: "AUy1YQ1ZCNQQYQOmoP7bU7-MJXPTbagIG72pCAJprk4Z43AeFkvW-XWPKCiPGrBIXGtmHjIJgb0FH_T9DiC7zLg0ksWy5hQw309_f6KcUd_-3q1HJ1MBA_v5u9I9SORepKIYiU2zU2RtK0U3bc9eO56_dCsmlK3uii4LFd28yYttpUKhBn1ozFpfXLPkrRL-bzIBvh8IepZdO88yO3lak4IJRBBj_m9niFqwbbkG4feijBvqAWlqXItF-C_aglpostmSTXkazsw9JXwEyrZGt5_jHNOOCIKSnyckVDz27pZChc_JomqxC93xgp5rIGBeyvo_CJkkeVuie_A",
-    photoHeight: 400,
-    photoWidth: 711,
-    attribution: "<a href="https://maps.google.com/maps/contrib/117795048609839693455">Providence Holy Family Hospital</a>"
+    lng: -117.4071068
   },
   {
     route: "Central Spokane",
@@ -227,11 +159,7 @@ const locations = [
     notes: "(at HF Hospital, NE Corner of building)Single EX rack by fireplace",
     address: "5715 N Lidgerwood St, Spokane, WA 99208, USA",
     lat: 47.70983119999999,
-    lng: -117.4060833,
-    photoReference: "",
-    photoHeight: 0,
-    photoWidth: 0,
-    attribution: ""
+    lng: -117.4060833
   },
   {
     route: "Central Spokane",
@@ -240,11 +168,7 @@ const locations = [
     notes: "Double EX rack inside",
     address: "5633 N Lidgerwood St, Spokane, WA 99208, USA",
     lat: 47.7102515,
-    lng: -117.4063559,
-    photoReference: "AUy1YQ1fH74T8YnLWusZt4Otb5IylwpEGIeBxW_rAUu4MK_YqmuZACzqpXnadZw48Jnn02hsDQnUF1-4HfCFEzqeCDXrGxNXd1zH1AoFqr9yK_SIkzs4wJ5sUwOZCYadsm6iqhGnJJh_U3E4TEMxPhDBpg3DZIdFikb0sPb0n3-AXM57hFK2AybyjTAHPVfEvxiwWCjoRvF4n6ydnUJ9v1T9vaAAf8evz3bsF006wcAO3CT7bj56javeELbOD_RtGUNB-xhzapl9GuC1JFnTcJlFfDQ2I5yltp1xBpjfMU_P5Ky-eXIC9EFNHQI5EVf9H5wAv53ClncyVsTJLRig3AWavyizcLUzGIQ0buOsrnjlRe92Tue0icj9zzMVSZhD9METQ6Iu28DGvBVQ-DbZWpW0_UBGF8yyk4Xnm1T28l37goYrkvq58wLqA0UvWnEdT1Jq8goQh7DGFH5VIt2ss65rWFj-d2tsAKxmssY5xGouvlPxqEk1_opZUR7bqot9LIjgcCFGVBJGiDOHmXW15BQBnreEVCRGFm4Lda9nschT3Omi17FdTFmLlWGyMcz9YaAeJlV2FuWH2oBLJAHK3a2V8CHW_4oboL1dEHWBZA",
-    photoHeight: 4032,
-    photoWidth: 3024,
-    attribution: "<a href="https://maps.google.com/maps/contrib/102263754356058040840">Rodney Clark</a>"
+    lng: -117.4063559
   },
   {
     route: "Central Spokane",
@@ -253,11 +177,7 @@ const locations = [
     notes: "Inside EX Rack",
     address: "6002 N Lidgerwood St, Spokane, WA 99208, USA",
     lat: 47.7127609,
-    lng: -117.4051043,
-    photoReference: "AUy1YQ0V6Tbr0X4RiRINDpeAR9diVGaqvXA9IDn0e2GyTZ4tKiYOtrilVpf8hToXmCL8rzOid5CmEd5qnzwxhEPNH0S_AxK5H4rkob8SpXujK2QaMGL3JMRmIvwZDbHPagHHARNvk7RrulQHXxcg-KPfx2fKQI1dnJA0ov_u2k7TwW4KrZB_JpuHPUnwCxAcNy-9OPhkaMygdJHqqVqDuOwn3EsjlsfTTsHrKn0dgRAjXi8DFc1Ytjk5ullIIX9V7OqgYY3u1lu2pPo0iaOdK5D4L8kNQxkqnH89XyJj9E0VLLjkplrlmzPg39_TSt8cOrcW-AlBIELK240",
-    photoHeight: 1600,
-    photoWidth: 2400,
-    attribution: "<a href="https://maps.google.com/maps/contrib/101275519969749789294">Kaiser Permanente Lidgerwood Medical Center</a>"
+    lng: -117.4051043
   },
   {
     route: "Central Spokane",
@@ -266,11 +186,7 @@ const locations = [
     notes: "Inlander Rack",
     address: "102 E Francis Ave, Spokane, WA 99208, USA",
     lat: 47.714701,
-    lng: -117.407702,
-    photoReference: "AUy1YQ2Jgai5aMQs8iF83vB2NCS3zlA773iHJQqGyfFvV4cQuXvN2far-Z2QUN8q2AQP_Yid3LcJINIzRnXbssdllRTtJUWkAepBIlir-3_JCLmjFFgD-b89vVJUBoNaT4n75kjmpmxZBCWacjGknBrDPJmge0o4KT5YYiCHT2xSo323QMc8Ep0tY8CA8jxZqOKWf_r1xhNd6VrV9Q6mTbwez7PVD9liOfMhe66G0CW0ImZuh0RDTvr34hGZfnnG6zudYCdvKcb8CBT4izQ7L7nBAqNj2elGEp2BJCH9DFxjndecqkI0IAnxR85yRraJMbr_yI3gg9Mf7d3BReTn7vB-JsNIXfgiW5xgN4D8eYGxA3TEFBeU4QjwcmgmKB1t1LMELDQ-d32_EoO-1uUnOmGnMqoYOG78C6OXR67lS_-tDtC6CMZI8yWrxuepdZMSta7pEtU55dCxizNneefXRhSQVCMk9b20NqafmkKZSQTiGWQ7KBn88lGU7L3xQJ063JEmnPl_elO6eix6v6XZjzAUgwhBW_qmoj13gZ2b6eXBjFoqU1tIk4dVQpLXl54s9pkYgK_GbRBQwdWSGv8W1VyKal8X6cHMvFeDNQOmGtJEGTg",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/115333505165409385157">Bobbie Riley</a>"
+    lng: -117.407702
   },
   {
     route: "Central Spokane",
@@ -279,11 +195,7 @@ const locations = [
     notes: " Inside EX Rack; ",
     address: "725 E Francis Ave, Spokane, WA 99208, USA",
     lat: 47.7153973,
-    lng: -117.3984741,
-    photoReference: "AUy1YQ1N_vWWCmv--o8a9V-SYmF01vTJoGuezl7JxZvkAKPHD_eS4GbrRlVAdPgrwlJUD0GEV5doK4J1huX1KaYQjzHYHPQhgHIN8KQli4I_4c81vpxhtG5ZUOWRfvsu7gXWRM3UeR6W2TgkRSVGMZIyA_Dfvrg3vwkl0ppGH5LqnZFlVyyvgZqgxB6L1mcwQTCgVvCTW3avvFaiOzzTMRicwvqJr91XxULTRQBWDSzDozR5AJeqi--hg2oYsn5Q8wnIFAygjUwjWAmpSjeJM2vMKYp4rWji4xy7u1G9dNEfE3Hx50Tco6noUHJ868t_4L5Drrdv8acUGDxOuUK4tVtzgTs2pqO8G_PqtpjrfI2mEekPApTgqt1auwWitgFjeD5rqfuzeoi8t5YHYVssmb-cUXtiNkFTTd50vFFszys7Q-86I7zC9MY_fHGSv3PF8bP0wNaGPmE2JBbVyI8IA2LT39vkuy8elyVU2G5PAgQ6VZ5PWck3Zi_edZDXjQNr_zwri05jRQ3i9vRnKPPXTDPgEdmrD1ubyLX-CYZUs0qalDVT8OvUk2bKt8VI9Z_VLYvjFlwQmLZHA972Z8r_xT2r9-Xiipo3CAjhNpeHi6QPxxfMXlUV",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/113324227550700919223">Etienne le Roux</a>"
+    lng: -117.3984741
   },
   {
     route: "Central Spokane",
@@ -292,11 +204,7 @@ const locations = [
     notes: "",
     address: "6410 N Lidgerwood St, Spokane, WA 99208, USA",
     lat: 47.7165786,
-    lng: -117.4053582,
-    photoReference: "AUy1YQ0DOpajyJFF_g8aM2uJ4TmrPPQxzTWI1-8Tz0kdKHZiEmdUyKFUoE0Tad0Vuv4IbwvwhvQq9b8uE-W6lpehiahmOFE4daZ1Lo9AIbVzy6Hr5f2NtaAveV_WRkmKd_OteLjof3y2hbeIv4TODUk6Hyv1Kg6ZZBtoNjX1a9ycoFv6BUIUNsmGp0IrOXzyicnBaNwIA5_OnQYUHXW4eYpjdn_8WkDpJPMg6dLgrCkrw0Bo3cOLFPrNTMHAUMLB2VFkrI7MYHm6VWJn723kvb38HfYQ2K1VwlhLy_TZKTWQIRcyAJGKAuJYxK7iv7iI29KSG9x3FKMLMlvvNzVLnCgLjL3X1i71DHlJuaC_RmgPYrKKzJWMXBAt0vSkcb4toX2OgSTI0kxFQcY1iezPiqi0GTmooW8euPzWUlVyuEoCZK3pVd4K3Pfi3bEnIEoVgS_RBh0rXiQ3IrgJ54mjNJzIegpdYy6QXgeH5YoHfWOrT2vgmhRAmy_7Ym2w4fm5iv_Y7B11EUmZ-MbtZKGbfr2iyQi__kPHCrvj9MG32khBNyYp1ZYtwsG2uXtFNTUPNNn3-uua909LB8E6dFy0noM65zBz1y5bgFVKhDkrGG_A",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/112218735295870755055">Ducci</a>"
+    lng: -117.4053582
   },
   {
     route: "Central Spokane",
@@ -305,11 +213,7 @@ const locations = [
     notes: "Inside EX wire rack",
     address: "315 E Francis Ave, Spokane, WA 99208, USA",
     lat: 47.7156081,
-    lng: -117.4050981,
-    photoReference: "AUy1YQ0XOBJ03mjfV_pXKnKXhN0CHMmKG994ntS04Ilqrd0qaYPW0gxoBci0L_Lp6vT0Mq6kMhfCSOY7kUA94bihQIG3FxZ1PgR0mSn-B2lmR9KXn_6hS0avwEuOJoPGWrFmuZ8T8Kpz5tddM8YfvycOUx_tl7EJMM7QOGHr_uXQHb7AMKdgvz9d7MrCrByQZvMOZtNOyWD1hwlfMZddqLJLG8eZUBVPJakwqxVMC4WjKxA2WokSsLKKaar3oJDUqOU_Y3jRVpNF3jbvXLGbjmHlcxFgvHgPGsOXIv_JPJOw8VNVcE1rZBQS17GDLHTF3tak6c-abrUdRPo",
-    photoHeight: 406,
-    photoWidth: 723,
-    attribution: "<a href="https://maps.google.com/maps/contrib/111527719579820168423">Double Eagle Pawn</a>"
+    lng: -117.4050981
   },
   {
     route: "Central Spokane",
@@ -318,11 +222,7 @@ const locations = [
     notes: "Single EX rack ; ",
     address: "3201 N Division St Ste A, Spokane, WA 99207, USA",
     lat: 47.68785129999999,
-    lng: -117.4116629,
-    photoReference: "AUy1YQ1waTNUvVeYd9gebegph21gGovlhZIIWYd4gfNZxKxzxeJZQxzMfw957-c4l_C-P-S3TpIxdbTvHiwLYliZRShBR__GigjAnNl4edQoGexGeHHLmaV0yVN8yffvzmu4ii3iCHKqJev8r_w1BEJUS1RgZncrD9wYAm991a8FMCZlqE6n29olcUvkiCP9_tava9pnptNKHulgybDfqCt62JM50QPhsEwbql922rFG8FmzJHU1zgBGseVbxBqYnJuxFtmO2G1m3tL0IdFbqdURF3Q4O2HoDRMRZuGotNME8X3pjkJcaIyViqohJca0hpLnGHxVFFtCkCY",
-    photoHeight: 854,
-    photoWidth: 1280,
-    attribution: "<a href="https://maps.google.com/maps/contrib/100023984380732466537">Coins Plus,Inc</a>"
+    lng: -117.4116629
   },
   {
     route: "Central Spokane",
@@ -331,11 +231,7 @@ const locations = [
     notes: "",
     address: "1712 N Division St, Spokane, WA 99207, USA",
     lat: 47.6730497,
-    lng: -117.410701,
-    photoReference: "AUy1YQ1IYeqBTLk1AxA4VlZQch6wS5dbpKnY9oQEXyl3VU_0CPZruPEbhd3hPVd0BBGFBTiXy_jR5DljRsAdYG6DRMMprZTUTEkn3R_CK6oN5lTQHZgwwrKqYxM8EfdleQY62lc5mbbTsuyeeJ0jdIDhjCSW7usdyUDDkVinHKycEnePR5EuHYlw2Oiczkk4eDge1W2cKKMTmkvjKv1pd84k_2V25excRSXTNgScxKqQyN_Sv9XShm7IvGGL91sNwaCQAzJDP-VjKUAKMPgVVNOvfasboP6UaB527No7_YLkGy90xnaBqeMaiOIK4UqR4Ry4QUwPpzeMVrWqL0cEtkD_r8zM6803y7sUt6hzyPfLpNRTUz8QN7uHXhvL99I_dDY5BdHJJlgzdeS3t9NwhEZvGj1UJjVd_7pruyhgK92nRTzFYfXxAqu8YJ1YzBg8znn5XRbcqbQqxcYdV2FMV5OXOSpxadt4jm5DrCxl7Eyfbshm4RJQmdwIS9IafrmIXTkCzcAPt8kJo0i2Jcwe1Tl-HCE4HHlPn9wFfbIIwDpx01WVsY654mJFS82TSDHj_gAqxNgvPE1AMf39ptMbzP1YZxlO-3JdcwWSPIv8D2V0utQft-Jv",
-    photoHeight: 1920,
-    photoWidth: 1080,
-    attribution: "<a href="https://maps.google.com/maps/contrib/118324603422779792034">Guod Rellims (Doug miller)</a>"
+    lng: -117.410701
   },
   {
     route: "Central Spokane",
@@ -344,11 +240,7 @@ const locations = [
     notes: "Inside EX Rack",
     address: "1625 N Division St, Spokane, WA 99207, USA",
     lat: 47.67247039999999,
-    lng: -117.4115115,
-    photoReference: "AUy1YQ24b5P-Almwn_GBWiCdmGbVXlij5eO5ojXijQ_GZNmr-zJ_oIxwk7tKv0w7PUXPsRpHOb68lci6WV5oveK_D9Jp6NfLjttn7m_kSCneaWKJ6xPsnYJbtaenUcOhw558sJQ8V5jKF0KkOS6sn-WRKSZIMxlbxP6Ep0TRNuBAHFSfghl2HXbos7auGSGDNZY8z7uyvHZjQwguLSPvb6J_Tv4h7BBKKpdSjsXHVZYzAguDTyfosoJbXVrXuK3fJ3uvz0a7RNsU9ncFNFjMaUjSSMwGJC6CjoMmV-wcc4ONSxnClGu5fCsQ2fjo-RTa2fFMPMarC_AoTBY",
-    photoHeight: 960,
-    photoWidth: 736,
-    attribution: "<a href="https://maps.google.com/maps/contrib/103870297222967026819">D. Lish&#39;s Hamburgers</a>"
+    lng: -117.4115115
   },
   {
     route: "Central Spokane",
@@ -357,11 +249,7 @@ const locations = [
     notes: "Inlander Rack",
     address: "1101 N Division St, Spokane, WA 99202, USA",
     lat: 47.66749869999999,
-    lng: -117.4118193,
-    photoReference: "AUy1YQ1BRQw-fuC718hmKkEuu7cEktNk2D8R26PSQIempN_vSyREzl-PK14WCAVaMQB6UuOWYYJn2YojDA8yWyagngYNaWfhcTY3DEtb7QKfbrfIfGjU9hMlNZvzBRsVBD-KqDlG_6-3rMCbEmv_zmgyGw71wDQfBqVTexdazhJw53e10BlbRfxGZKDxMdy3YydYCYPy93g-VBPQIs4ei_93W9twoIOQm3bZxD6eSL7pA8NndJBSjJ4jdLmH5B6hijbYDNxtycbdedKMp-G9ZIDTQPVobjqi4YmZ0WIYCKAbM-EkVsx9IMImflQFo15EGi7M0WTmkcxixzkcnkqx9P6fcWEDSwRSDbWlbN_ED8WpTga2fHnvZifntvb7TFp-cghjPpQh5JTSIsb8GhPOJk9LQ4o_rt3ccf7fPUv2RVffuO7NJX9JaqxccvLpOViUxiheN39s4ONyWQnwsWiUIwPBiSi1JiFjpMuu7dgESMP9NS3cP5J2SGHWFmVB4_78vayZQy_HEyj6lfLhw1pt41TFwHdn2-VzzP_mSXk9Pq-Y9qAuE4eC5EPdx34baPYLOymZWG1ZFAeNzdMwAMPHNPaPgJ6R5Jm6MtPCSmdTO6t-",
-    photoHeight: 3024,
-    photoWidth: 3024,
-    attribution: "<a href="https://maps.google.com/maps/contrib/102263917625039396347">Joel B</a>"
+    lng: -117.4118193
   },
   {
     route: "Central Spokane",
@@ -370,11 +258,7 @@ const locations = [
     notes: "",
     address: "301 W Boone Ave #2313, Spokane, WA 99201, USA",
     lat: 47.667572,
-    lng: -117.416311,
-    photoReference: "AUy1YQ01BuiBUu8X-LxM93xT05v7RwH7t-kvds-Br2jZr6rQuSq1w_VjU2oVEQAUSIBTcBq7ItO2lljTpnQtjNhomZ3arIZeuN29j6Ofdd6aSXYKJoBlx73F4xO52ED3LT2SI4-USs9skiyL__ADKyh-qMdF9S4NAI-1jtok8UT71jhQfMkMG0RoGp4E2D84w9I051dL-YhxHKa-j_lDkDNS25VgClCUJjZMLMv1FOu-nGR5kUQXhPoIYFWIGuJqVSxEdfbjPHMSboH78ZZea_iqo6LGYOr1_JiyfmwaMnOOrIT4msXR_dJ6DSHLX_c3TS6nyOtjTZXRbpo",
-    photoHeight: 1040,
-    photoWidth: 1600,
-    attribution: "<a href="https://maps.google.com/maps/contrib/117002469052187596375">UGM Thrift Store - Downtown</a>"
+    lng: -117.416311
   },
   {
     route: "Central Spokane",
@@ -383,11 +267,7 @@ const locations = [
     notes: "Need Rack? ",
     address: "1230 N Division St, Spokane, WA 99202, USA",
     lat: 47.669193,
-    lng: -117.4108084,
-    photoReference: "AUy1YQ3enBmmC5zK39k-FC6koOWbXrElNaUlDvdDRHW8MEg_Q5h-h1-p1jfU3bbsi4LmuWMnnblpCn3PebI6aIYWpoO0pMtXT4HLEqrrPKFuV5vxKZxMCZlYv0iZABx4pREXy4Ivjl-c79PwjVqvfIMw9YUOIi3wVX7NRvBCDfW27HjwcOn1sY8RzYDu19zhaIofWzGrLfbcuG0GLlHIyrqBhs1SsJOrvlP4Ud1MjkDJtwmLvuEZl1uJ8lo4WQrYppf846fvuda7_5-E0yX57yead2fMhDyTS_rFHOWnvuPce0OTqxt_I5O1C2h_SfN9slhBngeNx-h-kcM",
-    photoHeight: 694,
-    photoWidth: 1234,
-    attribution: "<a href="https://maps.google.com/maps/contrib/101127985704757862423">Carl’s Jr.</a>"
+    lng: -117.4108084
   },
   {
     route: "Central Spokane",
@@ -396,11 +276,7 @@ const locations = [
     notes: "Inlander Rack",
     address: "322 W North River Dr, Spokane, WA 99201, USA",
     lat: 47.66529990000001,
-    lng: -117.4146008,
-    photoReference: "AUy1YQ0-5OoFUn8FG_zu2Lgo2RbB6CDjeJWDUp4wuZ0tIUsauu6TkxMN6tQKtXPRO7o-RArte0r_jP4KjuSeo1Y-oiVcGQ3rlBTjykpyu4PDCG7OaYZqfaSFaVJbcvPvh3SVaW4ydVBwM4PaNd4HYvFdQ7ia1aVFsXkYJCFCQ2C1WQNohXe7wNFFkMB_SOjPQB3IQ5SLprEqQwDuHQphZYuCHsAdRweT0oh0uA5KqfLFPFz8k8cRin5KEih57C4Nw1iNEG6-OTETwMTEjEI9b2Y8Z3fmlYV8BF6y63605bRxrWQWx-u_FMDksFEkA54uYldfjjh8rSBKaU6XFLIUsuZ-Z3vCKccswVfXKhnYb-NflQEqDq5dJ6eyh2zwsE3KKPK6I6HIDFDr-xMbdsh3cVARV8FViUfI_-rp13uVVpSrMQMhMQNtHpVeuSUamGQJjfL59xIGPQ0FwcDoDk8PKrE7QWXahWjC-lCCgLIgSLQYEq3ZJL63K-fHeIr7Qho8B4rJdJ2XESfgOtty-JAXfZ16dENW2uUBXMayaliwfUQ9Ere8USxkZgAiZPpNSUKljm2A-UBLpjwUZGPuYIYYnO6fp4pDRtVnYyCsQwkTJJyy4IQ",
-    photoHeight: 1960,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/114785277475285524483">John O&#39;Gorman</a>"
+    lng: -117.4146008
   },
   {
     route: "Colville Loop",
@@ -409,11 +285,7 @@ const locations = [
     notes: "Single EX outside",
     address: "23312 US-395, Colbert, WA 99005, USA",
     lat: 47.8692375,
-    lng: -117.4217083,
-    photoReference: "AUy1YQ0C0qHCruqlY8KTWqNQ1f2KLvhnLUP8icXo-66n-ioTO8Hny3ehNebmNDffRyptKeGsGmB8VF5KI5PuHqMYv7JU47LgrivFetO7qYG7M4N4CT4yErtdqJkeHCWdHwu6HJnPZL9ZuIviAeStq3quoqbF-8n5229SzUsm-BigMuf2NbSjlzzJZkxNMxp8c-0h2PzR9ODuIFmumaQUA-9fXN_RbLXUCoRXbdy5H1SbtfEUWF4WsjmwXaJIVM-jwSRhNhasuG0OotKsFhDEGUmAGmrP20eOnib_YrT9dfNjsL5z0x5Ip8K2q-hX5PnQ5_ik-ctnq0XasVLbX2zcs39x6ArggXhSblKhUAn-bLHVNaEXFDgoYDVdvb6uVM-l2vW1uBNXZ2hHpK7_F5STfzIEvB-1_YqjN_fZlCpvoHiOgZcOJ0okaSYjNGv3TQOOdYxMpVe8hkJgBiGw3zATKbnDtLaxTv-eqXsLXzurEgV18QKgPOw0AzeozrfbyUKk2buJBgae1c5uJJ2QHjdHkse_NdvA29Plni1x_OLdKxJaxI3rnD9482Qb2uvB1lRXRMruiJBXYhE3L0oEx-q02nxPLA0tYA7pGs79Il6qzn3_MoxS4Y10",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/111699850116015585711">Kay Seal</a>"
+    lng: -117.4217083
   },
   {
     route: "Colville Loop",
@@ -422,11 +294,7 @@ const locations = [
     notes: "Inside Single EX Rack",
     address: "3937 Gardenspot Rd, Loon Lake, WA 99148, USA",
     lat: 48.0605943,
-    lng: -117.6202324,
-    photoReference: "AUy1YQ00l2toR3OC-pYdn8xWdban9paOJns3j-GXmWFT3yiw726ozeLXrrSjpnq-e2IBdWcZmPO9ssgshgsdmU3z8TksXo3TEjio4BQecnJx4ELHwFPyMgAj6Sctgdcw8N5tOqhILvSaHeJm21HVYuuKElksyGdxj0Q7eZP4RMBCGLS-kCXE1KOSOXgY93HzMsxDKdYzxesC8gwERwHHYevr7rIjbTmSUsy2bUGKORcWfRQJapCNQWWMxz18vOWtLMHGfAmLIgrDBVEM1PnlUVGkyfZhE5KTIVet9sEedRi8Arx1XWA9J7Zi-lzYvgG2XpEYFPhDEb3YEXGG0FcoIPhmILloMLjbxqaY_rFWb-ZdBGwn_2ZoZY1DPnQ0WT0s9fZklgFn3gJkiyPzfLXcYlYilHLJDlX97Z16PVOmXhzRBhZoI2N7boJ813ipjXTTeGCiG1ziC17Grr_AQAfORxWTbndhASLZH1z4uUYX3ykp6pNFoNkfQ6hQNaHBUgVqnOkd9kQ9CMqUy2EYESInypunsGsb90GCEBoXz_DTZiKNbryLaoVuqCa8y6htspsHL_ewDbmjssSVE40EBGuJBrS0SpF5EUqodmS0LFkoYql-pKgRq7uR",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/109834612983802698813">Henk de Swardt</a>"
+    lng: -117.6202324
   },
   {
     route: "Colville Loop",
@@ -435,11 +303,7 @@ const locations = [
     notes: "Inside Single EX Rack",
     address: "3938 WA-292, Loon Lake, WA 99148, USA",
     lat: 48.0600706,
-    lng: -117.6218432,
-    photoReference: "AUy1YQ0npWEij7hki48apfrH_uqNUR338FzItq5egY4l_eoiURqeNrjszmiTCJrPw3XSaf-LmCjxZe7-naczTP-tbuclwNBdmlCinArXa8wiLE9GfLFSHukLVUYiZiS2rNOvI_HB8B6L5lhsqA3s9UpTrNBSY-TqllZN7G-w0ryRixr1Mde2hQ3mGVHvGvoXd_MgZ8qfEw2_3pVavcsYsQj56EoMIotzqORtDuAfrn32DJTG8hTG0f4V-5zX0a__eJgXm3R0IOo6ER-SBEgO6ebhW5xK-dXkXOCdErcQyCcVvjr6nXNqZ_gIPKtdyJE_kkJ5Bs6vkJmDExhrMhSlf4barTi78CvNIGK2LzwVrkleimZ86oOz8fRlJjG3zwGSnbTrQC93NZ6Sz108LbEC8WS63nUJKoUVW0EtV0Yg2kGXNWmOqqpKiZEW9dE9ClCI6s5Lz_BLHPkWwHfL5Uruvo8Hm9DVUwNWLxa2r04tShLokIoBpyi0K_iKpF9fpQYrP9VUbqwoSoiWZbzXWOpWp1hvnx-BWd1oOFq9iUNB5aw7yzn2uHXlZfedpHtbs44fthTgrXe4axJK-PJHUQBurVGmgNFqm6d1joiD50rEa7IIRD-8r2_B",
-    photoHeight: 1019,
-    photoWidth: 1920,
-    attribution: "<a href="https://maps.google.com/maps/contrib/117045274663472782564">Rachel Pfiefle (Ccandypnw)</a>"
+    lng: -117.6218432
   },
   {
     route: "Colville Loop",
@@ -448,11 +312,7 @@ const locations = [
     notes: "Outside Double EX",
     address: "3942 WA-292, Loon Lake, WA 99148, USA",
     lat: 48.0598842,
-    lng: -117.6224713,
-    photoReference: "AUy1YQ2Y3FAaSiLFoBSAteUoVm1tTjbhq0UCrf2zCAEnScxjENWZwtQywFIuH_SgenaZqMxbisiqG3J0-rUERAp6XZ4MRMQGZJazLyjYMYlZ5xwIEh0erJeT93B8QfUhXr24BZEvbPA4HYAMw-4i12IEtaJxIqlG3weeOmQSWuegyIyjfeBeDgmfef2dED-3cRA6wLtX72z6CocJ3Kxn9mgH1Zr13Y7xj6SGpuxJzqnY9wp-D1PkQaMpnIqMhnxRB0w_LJ1nMXq8MJImU89Naf5VR6lPMa8um-UtG6HC8mafIgAfbqV4s5Ftx2SqWV7PARqRszMOk4y-nY7TiiI-729KrD0V9mwO0kCzaLR-PhjBG67ZQyCsEsntKKtlP0c5ZlZIdwJCIQ_YLywXW1n0vhFf9k--TDdgoWcs86e_0-Z8g8hShv8-IYHGdvIPuLc9TTrYSRhgrhQk0qBzTHuudD-ONr5M0-BdH8CA0Bhgn7ArQgMaC2mTz8QpFSIwUrxuMKyOUgKn57xbZgAnpTewIzpknAjrP6chZ55PRfqrro1sbbavCyb36Fgqr7cetVuoxwOH-W-GGfRGqNQzG0MJ6MQvjB24IOCkGXIeGGctj75O",
-    photoHeight: 4160,
-    photoWidth: 3120,
-    attribution: "<a href="https://maps.google.com/maps/contrib/103798486175193110662">KerinMzR</a>"
+    lng: -117.6224713
   },
   {
     route: "Colville Loop",
@@ -461,11 +321,7 @@ const locations = [
     notes: "1 BUNDLE OF INLANDER; <-- Please write returns here",
     address: "3942 WA-292, Loon Lake, WA 99148, USA",
     lat: 48.0598842,
-    lng: -117.6224713,
-    photoReference: "AUy1YQ1MaOtDdnpPPWPewjeKuvVlpI-zL5NBsgoalAchhVufmLLWShUQ5J2pQX1SH7Ske5FnNY2mAPnVDo-6PENqhc_lJSRRmYamvKJAeEyCb-IbEYNlTM1zB8yXVkVyNHjTKuC7HVGTx59KA-ONvee99LDKmDdgd4ZKZq36f_9RnkEbZsCAiWrdxSzISpNRgLvTMNkFRGdC_EmbYIvSKIKDyjRQg9Q0LpQAJWEZOvZZ0mH3aE3mg5NYI3y-BtUgo_4sACA0Q_AYchO4l9LYh3vVg1OHVfd7YbaBgou0HWvsHDNA2gG4znpeRiis9nch9W66XFdqr1nnpDX3pHJ2OfRR-Mdj28ovYre9BZDOwdUG9v90MyUKJ9Qo7wPo_p0c2zjUpv5b-TFOOoT5rN3eLIJDzhPOJIHcrqtiaPE5k72ptaAP1OnzvRjrQbfFON7HQlRCiqxt2dBegWYeAMHgyn0OLSx27xAMMN6N0mYvNg5MCupTJ6vaWFn2zdrM_rwDMhujNCTjFQOFzpdKYgdkGqIBD57LzdGNNGP_QM7Vmqs3qaTsChUjxWU39N7u4YQ9UUDxKUcSyXDppRMskS-7Qokbb1zqPz_sQ7-hxEwmN0r6",
-    photoHeight: 4160,
-    photoWidth: 3120,
-    attribution: "<a href="https://maps.google.com/maps/contrib/103798486175193110662">KerinMzR</a>"
+    lng: -117.6224713
   },
   {
     route: "Colville Loop",
@@ -474,11 +330,7 @@ const locations = [
     notes: "SHARED RACK INSIDE ",
     address: "203 W Shaffer Ave, Springdale, WA 99173, USA",
     lat: 48.0575661,
-    lng: -117.7434139,
-    photoReference: "AUy1YQ3BpHRyUKevke0rrX3D3UPzCesAxVm8YhI5FCOfYK3XHckwm86jg_L6FWnjwpB_Wwh23jvQpvG_vo1LDD8Uh-W4UMgd0fSR6GrfUf4FZG-f9GJ8Qdjgg1aApk75CGY-5AS584xHdU1aHYdMObQxOI2gQSiIVUjvz5XcS2mCtSGF7AteTFT2k4iuugCCmmo7Kdqid10cxhXqk0PSsnUBtStU8zOBsaJT3uLJX2s8XCyU5J3QiDllLcHWZmUhifPxjPA4bDpbGkReR6L32RFl4rOhdGzJYfv6Sefu01NODTzN4GTsx7hHFUCuv4prm_0ZabCE-kYfJQqLaWjK2EIhkT14AHxMSn6ZdiM16dHcNysCngLgNDI-eajNnVh3ce8xh2I3MhcMnlvNri7GOM2mlvs1ej2Qlz3UjEDgyGkXNcHu6w7n-Va_RnZjdemGHSwGZyHDITNwNRMT8jB5CCv1-UhIvwHEKvIFx_cjPT_X5nxCQU15UqBin728r72-SI1-yce9pGukR4R5iYFwZsedw0slSG7R1-tBrtaYgdnbPI77M1VRyj7-4woCt46-HTAffH-YlVSIUJSKX4MEAlguYruLfS6EvvbSB1w2RLZiAAfVzzNz",
-    photoHeight: 3264,
-    photoWidth: 2448,
-    attribution: "<a href="https://maps.google.com/maps/contrib/117512654157923439318">Bob Asterino</a>"
+    lng: -117.7434139
   },
   {
     route: "Colville Loop",
@@ -487,11 +339,7 @@ const locations = [
     notes: "Leave on Bench if closed; Inside white community",
     address: "3071 3rd Ave, Valley, WA 99181, USA",
     lat: 48.1754006,
-    lng: -117.7258784,
-    photoReference: "AUy1YQ0nzW84aBLG_0IVtFQrUJu9AvZEmrL6TmL04BpbBqTy10oOXa6ri0Qn82hcn4ZGB3mbwby3fksLVHPT60bLS1VKnRp0-qNAAS8di6Umy_2CgU7su6cQRbnw1hTZ-ZvRN04_icM6uVexq2kZ0VuQtnbsTbiK8CAf1n1tYOd--YGnHLy5a2Ek8T8CC35qXUUAjPu1tjhY6uniEwl3w8gYEtw6nuQsASkLyOtALz37YFUNDnYlvwKPdKhBkLg4AmbmX2HNaDvAljKMxEZx2sokgmwSWDLMgCPorLaD6YcZoI4y8gvS5z2ezxolVlA309TVy2IOkakDN7_eOr7H9AzcoF7vEsZI-vBIt7OjQgyq094yHXIiXunZ2OPfhk543ZBSKeLamceW4nqN2obY3QyBkRVQVDhH2oClgRz0niDTXgpzYFYmf2TuVMvMQZcyuNOl2IyGLnci7x8VYHO1qzDzkIrvgGpW2IsZihc92WLOmL3PyxUHVnstHn0EzCAY9ez2oNcKaH2jo3pPNi1nkUyIq1p37GVFg4FvttDk9HGA8-e-9xJv4N_0sqX_x3CH4Ul3TtU3f3miWfn4AxUMvqid_vEDrcplMm3iTBiAYYUxWbcI7ia3",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/104409192296132953416">Michael M</a>"
+    lng: -117.7258784
   },
   {
     route: "Colville Loop",
@@ -500,11 +348,7 @@ const locations = [
     notes: "Community Rack Right, by Deli",
     address: "2509 US-395, Chewelah, WA 99109, USA",
     lat: 48.2415189,
-    lng: -117.7144461,
-    photoReference: "AUy1YQ2--i0s6gtoLP1i95jboTdY5e9izHm2Fg7U5wtVEu7UoyOpA43Hu_gf_quUEkuuQYjLcHkaIdnb-iDqqFqllcdKppDCosZAlS844c99CcxT8pyGiqASzzcaNR7em7a9ZMhq36zT4xUiVpI2pS-ca3hiCYVjAqh9cJnf3PJHmhWETQlmE0fmJMvwDvYgbW7UIoDKqkdfUo6Q6sg5dbZBt3xBCzf2qN-zFOszXzH7l29E0KUFj2kyYOFpWioEL0guql8W_YkPPJO_2q3A_iOwWSYwPdntK8W8uD7CbWEVAxgzQZMzYXjml_tUk3pTwRa5192SdCEXQJgIH2BqqSlrK3pIBKanh292lwyGl_No10EvDrRdMzmDaErpx81i3uEDgECK4AV_0DdnEHDFajwJ1bUS8Vf8zTaGAi75lYgRB3E27PacTAicXM17VPljv95Ly4Cv0enZ-ZS11CSlaZH095FzkPVv2my823LSQSLPS6NXOosi1H67mxqQ0GC9pBmLE0wSV4PVhPY6EgFvxJOKu44WZ9DsSe9Nw-P6XbsdBIyErCEq3wlgDHC4GCrnLG5TkvSs1ITdjZij2461nhhnao8W7iPV1XrQF8CBhNe1",
-    photoHeight: 1960,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/101264476092994937867">Jim T</a>"
+    lng: -117.7144461
   },
   {
     route: "Colville Loop",
@@ -513,11 +357,7 @@ const locations = [
     notes: "Outside Tall Angle Iron",
     address: "403 S Park St, Chewelah, WA 99109, USA",
     lat: 48.2725413,
-    lng: -117.7152549,
-    photoReference: "AUy1YQ1C01kQgnluonT5fdUVKdVTlt0VNXJHcP6YHVfUHihE7BxoeZZmAfcTZDIDrN89WWHFUPKgr6aoaowsYPB4KC3RGWkMFTmCThse7l7z-3kvMfLf4sUNUPzczvTiKAjNz_WsegD3-Ce6wQM0trjRqMdLE_bGpLMcTpXdzOoW-oATYJzLdMEDwWwfwH6cHFwQQBXo61_E8x2rqSQu9RrYCVLIie7S4a9SCvIL7gh7e9ujmklL4_ykkbZkOtTir6ubB4uDyWbnde4X9uLpZIhPafVV8-V4mKHZJ0bNCE0wJ6tR-mcay44TO8yrp84cjChJOr7UUaOuzCY",
-    photoHeight: 809,
-    photoWidth: 1440,
-    attribution: "<a href="https://maps.google.com/maps/contrib/117131675746450963442">Hico</a>"
+    lng: -117.7152549
   },
   {
     route: "Colville Loop",
@@ -526,11 +366,7 @@ const locations = [
     notes: "1 BUNDLE OF INLANDER; <-- Please write returns here",
     address: "403 S Park St, Chewelah, WA 99109, USA",
     lat: 48.2725413,
-    lng: -117.7152549,
-    photoReference: "AUy1YQ1hfZn4OytSTRLWEZuhlGfQNTXnHIscMNFFExuOG3LWPqHqTEOg2ls1nWmKlZLOOnLpuGJxnqttjI5MXkLIHMimBHPb4QZ3acT3WSjybFLVXX_P1zymcTszC8e0QU9s-IgY7RPpo5C-PoFNScDkZa6wzrU4CBKGNnUPfRAGVJV9Qav4GUvyyGwpx-t6sEg9i1qkJBQdDAKDmFwK39JqDghkY6iNaYS5wulblF6WaPYl4-nIA544lyxN3sLxemzof6IhyrwVQivjTZYuMt0DonLsWT4o94LKhKnnhvrOCLowpXc4u0_bK8VoffNUeKGvOKXiL4ssNf4",
-    photoHeight: 809,
-    photoWidth: 1440,
-    attribution: "<a href="https://maps.google.com/maps/contrib/117131675746450963442">Hico</a>"
+    lng: -117.7152549
   },
   {
     route: "Colville Loop",
@@ -539,11 +375,7 @@ const locations = [
     notes: "Bag",
     address: "101 W Robert Ave, Chewelah, WA 99109, USA",
     lat: 48.2734338,
-    lng: -117.7160533,
-    photoReference: "AUy1YQ3RBA-70kMOTB7L4Yhp7WIkNzORxOg2qFqf_5j2BLQd9ShJOHU47-QDqYKJYTdv9fzY2FVfdMntdHN_s1g7EnThghqVT8AgrdmdFWNJqQX-HboLbmfbagwJ_qyb76gI3AB1-fR6sOXrccKayMVFT2qE9oHJsMdGXyWgZZxeSfFge1ztxrNfdRbW-vQKnhGd59q1DN6x_9f96YH9nbQM-xu_u7J0FpIb34xDgFGxA4dhQ4MPaDKfwW-RhW52kn7JG3VqNfS9-ysDSvom6r_svvcAtt9sdexU3Pf3HOgUOEIfZO6UaegCQEA7Fu8H5_cxA8vMErQ8TkIE5siKdjGgUrxpQzR6GRf62ekWflhvcWvO-H1JgspLAVU0ze0n4pzAFUlplRECNMszoEyR7qkFxrtB6teKOkUSaMJGJEXTpUUWQywjI0JYX7y_fXS4aWkHPLu2J6Tebct8Q_Zu3cIF0v06hraSLUHKGn0dcgW0PNjJ-ZwPDme7qxL5urjWIAli-z6WIfmYeHGnUmPMlHad8CbrLaz7WLlrZRhlZHOTPtTuW-f2JsKMIOjGmVljLsTFkwoUgA8ilDANXS5G4cYjXWY_UGDIourHXc0Bt3dfwuEqWlEV",
-    photoHeight: 1224,
-    photoWidth: 1632,
-    attribution: "<a href="https://maps.google.com/maps/contrib/103122726903915298295">Tim the Hermit</a>"
+    lng: -117.7160533
   },
   {
     route: "Colville Loop",
@@ -552,11 +384,7 @@ const locations = [
     notes: "Bag",
     address: "205 E Main Ave, Chewelah, WA 99109, USA",
     lat: 48.27641180000001,
-    lng: -117.714086,
-    photoReference: "AUy1YQ1Pn5CB2xbcNXNNe8ZhOJalYP1gPGICEKmKJ8Oy4XwMDv0B00AdIl7Ny7pwjGpqiywztYgXgYh2TdwM7PGcMulVm74HdzCnkbVgPfFdUIGpwNXmXaMZl53rvFmmzDaswZuBTR2WQWjyksUGKMQ7tbEsHnWvJV3oKYIMRULLD9k6n7eS3kuJFBNSAvZ7fd-jQP8vo_5-QbEzf7e3QE1NmTjk6DSOmX6ANroqqm0gzBvX7DGZ_U858X_T1EYFgMWktpMZHb1B7F9XxOncabExeVUs12GSyesIkcqiZF0w8lJEps5tBVrbRDBCs337GCwK7S1UlAkcBnnWhT9fCCLhupiGReVQNrNN4Pz-FzZVk9Q68ijpATbO1RL-6LYB26nEdrP14r5OkcARdKyNSSkAXITvl3fXduNRRZF5j4bxZFY7eEcWLyIUS0-Ih5u-e9h2CHmLLJ9_8aK1KWge6gK1xKj7L3aIomNj8vkcI3hll6PSq_SH48bD4MSxdzKz-LxL12z91iWVTQBZqiUGkU70uKZ1NVjU7DRiKPVFrh1zvnUNoJZrod5RCJOVvcL8S7SEiSdJ89cru5_FEWQ6P2zauB3uheU0GFZr0JMno3AcZ8A9QcrIVirqHqltWOV1jwXg",
-    photoHeight: 3000,
-    photoWidth: 4000,
-    attribution: "<a href="https://maps.google.com/maps/contrib/117152026962638654091">D Ray G</a>"
+    lng: -117.714086
   },
   {
     route: "Colville Loop",
@@ -565,11 +393,7 @@ const locations = [
     notes: "",
     address: "309 E Main Ave, Chewelah, WA 99109, USA",
     lat: 48.276503,
-    lng: -117.7127802,
-    photoReference: "AUy1YQ2y_6_wOk6UgRoniGSvuaeZSpVHq9nSpN7OqdKDYvJrCEa0R0rpY7Q2nZwpmFHMIbznWoAk0geRBTi_vGe_-m_LJoQTv8MqTt-eN7jKisfl_XlUu0EnUssqRU5abisORfA8qNTnNxBseZytXo-IMoaWo5JyJAcetksNxuYcikZUFi6a7WR5qoFVEzTqHz1o4hFkdSXfUVvvg3ZDmL4twjFAgMB6_yO_aefCF4SXJz29Stj-aBN-Qxw7jb-VS7q-rMFFcuWIaqBQsnnS1-DJmf26ZPoHNicOrljkaJfbdEJFPvDIMqjFlGDOm7vrmHbPwBXbZpyar8Q",
-    photoHeight: 3114,
-    photoWidth: 4671,
-    attribution: "<a href="https://maps.google.com/maps/contrib/113035131019848894297">The Yale Press</a>"
+    lng: -117.7127802
   },
   {
     route: "Colville Loop",
@@ -578,11 +402,7 @@ const locations = [
     notes: "Inander Rack, Opens at 10AM, BAG IF CLOSED",
     address: "311 E Clay Ave, Chewelah, WA 99109, USA",
     lat: 48.2775809,
-    lng: -117.7130261,
-    photoReference: "AUy1YQ2Wua9VZq8BQEfSQ8en31L0HgnjfbEomerrlPlGrS5ulKzgrEzt9vdRlB2YRn0pgzuaW-ZeT4y75TiwvRlrgichifQRg9RfiEi-C9wS0HrZwDqeRsogfEju0Y0hqI0iSvZ7_uitP_gSrJeKjcBk0iOGK6MY4yXZrrOhcG0du-neSJcU66eE1Pem6pskLbCUvHJAYoFYEzgLMIWKmDMsw-Mxpq-6JCmugZh01xnBKTlXNZg0-xXkkxBW76jsGZMYYy7apcaJWZHIzQeOAWUqcRLQce-lpaY-mCn8apm6OO1K7QJhuAHtVgaS0k4iaOuo_Y0tqUlOBkA",
-    photoHeight: 720,
-    photoWidth: 960,
-    attribution: "<a href="https://maps.google.com/maps/contrib/101403511168704409248">Chewelah Library</a>"
+    lng: -117.7130261
   },
   {
     route: "Colville Loop",
@@ -591,11 +411,7 @@ const locations = [
     notes: "1 BUNDLE OF INLANDER ",
     address: "311 E Clay Ave, Chewelah, WA 99109, USA",
     lat: 48.2775809,
-    lng: -117.7130261,
-    photoReference: "AUy1YQ2KZvOBgfc7LvQAWvjHj15g0cgIPSnhwR378Sb5RF3pgznUpRiWFfsGvUhSG6AORmfg93YEs2AJfQm6_Zu-OawdPZor3156DLvjDfL3oUEMP0hXb_cVMZWdihBRPyC9yfft-2wOHLC-mL_2QeM0msCe5j41agdqTmwqPEnipzL6DFIYazGs_u8gXatspp1PGG3xhT15nRmJtwscMPNvWEXQC0fAB6fNsPAcgRBF477vrWUm0ES6QSKj3GpV4rEr8xjk6U3KHpCgmpMFFQK7m4_g0xU_QhIfFXhLYbk-aKePV2pcgFeA-eF4disMgZL8NFOEqDdVu8k",
-    photoHeight: 720,
-    photoWidth: 960,
-    attribution: "<a href="https://maps.google.com/maps/contrib/101403511168704409248">Chewelah Library</a>"
+    lng: -117.7130261
   },
   {
     route: "Colville Loop",
@@ -604,11 +420,7 @@ const locations = [
     notes: "4 pockets + Bottom Shelf Inlander Rack ",
     address: "10 W Colville Ave, Chewelah, WA 99109, USA",
     lat: 48.2797304,
-    lng: -117.7160692,
-    photoReference: "AUy1YQ0uwEq3MHN4xfayxB3aeI2T2GJO66l1X4ih4loBxGX5akx8XzsqMfJLTAwxJ3e6THjAwJvHj9-3Bns0ZOcq6OnapuGZo1EqL2Ur9jh6sDMzMqDE1Icll31QzSP5IiptNWfXyne5qD10WBVjn9tUy6mC1KI2X0GiPB9Xx5t51FmbEuBjj4ge4akXbbn3pxN17_CMkNWypA5Ro4XW1QfDMwnltdyZc4vbb1mPRz_Q9Bt4Mm8Sc826ue6OGBJRz3TUnsjIdOjC0MK3jmFNl7djXpNtlRkq83TYMApSwN-vA-qvJMN1EFV8Ap3uk2AgIYtaHT9rBV4Im44",
-    photoHeight: 309,
-    photoWidth: 549,
-    attribution: "<a href="https://maps.google.com/maps/contrib/116906016597743476074">Safeway</a>"
+    lng: -117.7160692
   },
   {
     route: "Colville Loop",
@@ -617,11 +429,7 @@ const locations = [
     notes: "3 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
     address: "10 W Colville Ave, Chewelah, WA 99109, USA",
     lat: 48.2797304,
-    lng: -117.7160692,
-    photoReference: "AUy1YQ2Ww6_dp1DNOPN6qRbxRg2LXDbAYHOJiLJdg8K-adOqA2Q97hhEbqAhuSXh3OFWmlwZELOFTWYR0CELutd5K2NAaHBUleg2oa-zkACGut8W5wePxdHorEC9pMzT8g2XDTsmFFd9DMENaJgNChee3evvL3sjHe13FDvJqaIXE3EsxKaaYi9vm89ZfrKV9_fBgaYcCJgLnTe7s9mnf_hHCk-IjDlVVd_fsHJtoiuIB5ht6xlJSzN-fmf_AFKtEa3wQlNwAtgZgP9N6DVDUhodk-LJH8UcclYVfC5HwtJf3eE2O4Y5O_QIvsHBopLRdEp5hZwTEaZe_gM",
-    photoHeight: 309,
-    photoWidth: 549,
-    attribution: "<a href="https://maps.google.com/maps/contrib/116906016597743476074">Safeway</a>"
+    lng: -117.7160692
   },
   {
     route: "Colville Loop",
@@ -630,11 +438,7 @@ const locations = [
     notes: "Inside EX Single",
     address: "516 N Park St, Chewelah, WA 99109, USA",
     lat: 48.2804556,
-    lng: -117.7152167,
-    photoReference: "AUy1YQ0ffOlzaBudViwDFmobw5YlLk9zNiByWDc05NGO3f9dHtMeRXPcjp2UucuDMBnTPZHGsfKvc2QCa2NJdZCvKfDnpJTzf8MeOSxZbtpS-qXPo9oirDq7G842adrl9455xiZykwNHXrnpXJ4huCzNOUUehC_wHtspQXIXJJQwKOO3MflAt0dGayZkwCFBo4jlg4Vqu6JJh40BogUEqA9rzek7vakDwsZqa9kHe33ThLt93-XGBLxVt5smgg_eAk1KWR_2tvUJEMVOikD1U3-fotSa--F12xtoNauQYhQSg5ZEqZQ_XWRa4glgjvlG8vjhDJu-UeMBa9ECcHt9efZzWoZW1zHl9LtllRLQCBQr5z78sJV-ohxL_kZx-pYqHYK4BFtATQCPmRZ1aoNXM_PBOUi29sSFafFoRmaV2rJlziWQYPbjexPucqfbAHdXX-ciIeCgtfSst5Z3eFoGZtjNrqFry-jLp25NnEtAuRdKay7BGJLqIDWTLtwoj8BMNt2qN5G7BDMGUm78U6X__JQfPuA_djYBiVmT6kXc9lDMcYucx5OubH2jyD_j0u4IDuMyDKrSc45gDfjUHwpFK43JfnqJr6WDSwi1kYfg2pe78W0",
-    photoHeight: 2432,
-    photoWidth: 4320,
-    attribution: "<a href="https://maps.google.com/maps/contrib/115965541971717273872">KS Brooks</a>"
+    lng: -117.7152167
   },
   {
     route: "Colville Loop",
@@ -643,11 +447,7 @@ const locations = [
     notes: "Inside Black Single ",
     address: "1409 N Park St, Chewelah, WA 99109, USA",
     lat: 48.2868353,
-    lng: -117.7233097,
-    photoReference: "AUy1YQ3D6h47n5JuhYhx8tIdjY-Nvv6Rw9hx6RXoddN4ezdkiAMNxnOdS1Mb6dnuROgWfIrKBDwy1_wMNmSx0p4E8P4s8GJV-sfIQXfO0A7j8ZO-oRvC3KjrTx2mWKtfDmHesABklOaBSZQUtHDhFYV-H9Rz4lqRZ-5p5uIGT530mz9zAW88irkSm_qezqfuh-Ob99mGtq7XjXrx4nsL10tQ1Rk3h4q2ZBm8CALkQabOorQcAePUZPfPTbH5TKMb1r_vgEPItW_kSKTE57uzQDhQ6Sbof1CXRPNW3VOekyDeNr7dpMSlgWk7I3NcRubdFqwfu4oVxkTCnIfEwmnSADYLcR59D_vZs28h4YRNrg3aTHRcFHfXjh3Fs4YcurNdHzqIbVvG_x9pyVmE--8aMzK_A6vS9-KaCz0VVsaHM8mc6LKPPkGX64rPthkffKOKwNJFuP_SJyUHmw-3ctpDdYnHeWiRUIbO1IWS1h57MJYX4ztGkAxoCNoyXy0OQpvibE4_aGNkyaTVLLGV6h9irmgmL0JS8VpAcaFw1njQ2ylM1g3zaoFycl7R7Gw7FK7UXDs4WeX3-V22ROWhA0QEeq1PSahHkx1-zSUcYNllkosDc9sU-s3N",
-    photoHeight: 1932,
-    photoWidth: 2576,
-    attribution: "<a href="https://maps.google.com/maps/contrib/108216594078869424244">David Lewis</a>"
+    lng: -117.7233097
   },
   {
     route: "Colville Loop",
@@ -656,11 +456,7 @@ const locations = [
     notes: "Shelf above EPOCH",
     address: "1677 Blue Creek Rd W, Chewelah, WA 99109, USA",
     lat: 48.3183809,
-    lng: -117.8218983,
-    photoReference: "AUy1YQ2dJPy6bry8QpvcThiDxBrUYEI6Fa5SVHkbJPbq9Fw14pft4NgVbs2U30B9HKhLxRRQkKgzvj_s_RM9ZyT2789paLsXvhsPcWLu_Gm6e7jfyjH9nx5IIKhVLegLxSPozz5bMDaC_GSxFqyIYF9BWFnbqTSZrUYZp_yfIg8uKwEG5u8e4Pr9UHu8C28BCZlXl43z5TEosiqf_ia1XAZg0bAi_r1_FnZc-6RbOCJUm4BG5--j53kH3UovWSU3a9l0GoKsMFqICCBWgo7GM49EPolkqFUNOX05TNSP9ucSyEEZ-YRYz6LkZecwb11oMfNePCKFJuY3uCucsE82NHCU87fS6XMzS4R2Pu7rdHK9jc877oBnUDs5lFQEeuHVc0LhdLVWFEwUjpFDIDAmNXNU_E7OZQDu96EdA3WLvLVajEtyNk1hv3KVLEdfIqhrE2jbMCRuduGKW-0ez24hOcEVktkxfpmAPKcys2nEP6BGztfCw0OqrjhrCeHE6pPnK_ekhC7HCFokurRNdqgWYSqRAFtPR92cF0uhQjGQV5jvK5HYcW-RZLKYbJtLi10i-rZ7IWZAE4hHvug74r3eNbd8P_WZ5q6JiCW2gkY5iOz9vDv7BQfG",
-    photoHeight: 1080,
-    photoWidth: 1920,
-    attribution: "<a href="https://maps.google.com/maps/contrib/105527610268337562207">Nicole Olson</a>"
+    lng: -117.8218983
   },
   {
     route: "Colville Loop",
@@ -669,11 +465,7 @@ const locations = [
     notes: "Outside Green Community Box",
     address: "1372 North St, Addy, WA 99101, USA",
     lat: 48.3589374,
-    lng: -117.8356653,
-    photoReference: "AUy1YQ1ROme2ELFEEtB29H2aKF_bE465BZOEINa2x75_XDi-Saw9aDdYDH9KkSn4OHMXIViwj0EpQngjsRqo1Y96UUPLo9GNklGGGApBXhltY4CPruv-xKXsvnzIoqsp7A4BfYhkbuzZzNpQ6Z9SucQujxqcVQuAbhPCoNXUl0P0h9JJktM9V6rmFi1pv3sQDSay5WKRXjWE_z1epyR7as_Rwl8tFwe4_YSifuAbGA_EIGwRUumTF__TUeB41xwbgO9yQrcFG90FMmTu757-o9s-Peoph2lv_lVU5HXtrcz-_awaSns7Otpmi7f73jUX1CYgGwuireWTchUa4yOHkeXObP1pe0YDMQMorjn5QmenHUVwcc9On7gzBxbzi4zZLeTTRiU_RCwO7oM8weLii8yMmMPQgsFmSLWo3FeDzameo2KI53HI5D8eYPISDh-jDzgPEHQHIId_LqOwMSr8iNcS6hYqsG3D99LxF772XslYIUL8NmmmFs-pd4pgDTjF9F4PlWs7B5Eg7A1Ajo0hbUK3_irH-BR87epFMplWHi1ZArNvEnT9OFMU5-4_L56r8XisyCTUeBEogPaTRqxCvCF0C3f4WZkcuCrt6P9BkV10wpM",
-    photoHeight: 3582,
-    photoWidth: 5086,
-    attribution: "<a href="https://maps.google.com/maps/contrib/117755902721329495270">Beverly Lee Wood</a>"
+    lng: -117.8356653
   },
   {
     route: "Colville Loop",
@@ -682,11 +474,7 @@ const locations = [
     notes: "INSIDE COUNTER",
     address: "635 US-395, Colville, WA 99114, USA",
     lat: 48.45835049999999,
-    lng: -117.8794909,
-    photoReference: "AUy1YQ23mGm2LSR-h0-BNx4egZ_LwAb9-jqGpdeyHBnRjv4Sg-bzYpTm2ZgpGKam-rPTrU6BX6v6xNIgd2zlKx_Bejp1WeTn_vK7n5OeTA8Di62ycQYcKlg7bzp_MYMV8GNMLT9S4TEbEE1gMGJo2szkMvfIa5fSxnX-CJkqRKk2yYG1K2rhTcjyfC_75yqhnG9FnYLngu-YOovmgLJXzG0OG4P4cLfGVPufVseqlxzkU5JC36yRbLtxPC2ROEbxLKChW-pFRZcX6PdKejgdBLCffp0GV9slnmSPs655SQpXQ3fkIVTNXbxYuvWfyZmAKDqYrvaeIFjjqzA",
-    photoHeight: 4000,
-    photoWidth: 6000,
-    attribution: "<a href="https://maps.google.com/maps/contrib/111798109711554347499">Adams Tractor Colville</a>"
+    lng: -117.8794909
   },
   {
     route: "Colville Loop",
@@ -695,11 +483,7 @@ const locations = [
     notes: "Outside EX Double Rack",
     address: "545 US-395 B, Colville, WA 99114, USA",
     lat: 48.4688644,
-    lng: -117.888051,
-    photoReference: "AUy1YQ2UAPw74SOcx1bsKs0YxwAIxyc1HUqwT9KAz0vGl_HPFexQK6NN5kmx2LwIkzJTmwcrCUa8nhdm0hmKf6d5-PtvIMMXiZjoY_k-zDtA7lHm2b5h928hLf7151v-HJVRnXq6EmMAfLZ0jc6FSzaYXb2POez9s8e7RPr1rUn-Bmc3458dFtzFL1IFWCNNORZtiOBw9Z1z2TjNYhFEeU6jUkkJ3dl-0jhsmqzRsB3_2cpN1ukQ6KUmieOx-29nLnesVdeQczFPURsmxivMNwiVJ9qbYLCcp8DlA0I8BWNRE_ZyddQH4AcNE6jKvrvBvy2G0ZWUCx_snvK-WY686r6rIgabxJv5wEd-3FsCQgvd0bCtKhDUPaYzuQNd_ciBiDAX9jiQyLfVpJ0XZBlagT8QK6cU6fADWsS2i93k3Za0NS5CmADxZdw6geyspE0eLgo92k1Vq2q3y6zv5WeebsAyvDmxL3cWpuktPJHtojk1kVhxmmbaUFhH9148cJxap0BEZvLeCREW9stc0bUQFc3_E3ezlBZauxCZPULX8SN2_DhnY0PgMlR_tA45bSkNm8wtIVzqyFwq_igMhVlq5Wshd1tT13MK1kVORumjq0in",
-    photoHeight: 681,
-    photoWidth: 2028,
-    attribution: "<a href="https://maps.google.com/maps/contrib/103122726903915298295">Tim the Hermit</a>"
+    lng: -117.888051
   },
   {
     route: "Colville Loop",
@@ -708,11 +492,7 @@ const locations = [
     notes: "Inside Shared rack",
     address: "1265 S Main St, Colville, WA 99114, USA",
     lat: 48.5321368,
-    lng: -117.903637,
-    photoReference: "AUy1YQ0_hFWGqr2TJ8stQrhvKm3--D2UjjlBAOQdk6LSqpptVZKdjSk4k-UPIinekTghCrO4JNtZTEumhIH57wl4gM7ahs9_mHGYxL7LhzUK5qkD19cIBQV7EDqPkP2BOp99k8lJ4wpNcK4mxwsIf10JYb9iDWBSnqY9EL5f7_OrlZEOkPEXlIStsZ2a-aWYQy3gdj0tjcMFHSIKjeCu0zbXyc2AD48u898A7ccBi43rhPe0zehkHdeIRcyXwut4qjS7p33e4y9vRwrzeaQsBsJryPdShWxDtzOBvPVwsvcfyq-osxDYanaPrjg0JfDE0Yrxfai3syV4a50fRS_EBo6exE5ZmAwwtViv3g9EoMngpGTQ3IE97m-8UrKlurVEJNFUQzNNHA0x_LO3zu_7wHMsrljSfRmaZqBcKNoaJI1IEs081XBBPcY5aFwMsJku84l2QxusW8iCRytqQ0oq04oRc12HEavtmeEtjdnhqWyzCdiaF68P_JxdYxMyaVVHCoZwQa34qUozUlGeq3j8xmDap933cSfDaSJa4z5JUUz8fECIe2DVsa8-JwD1_hVPwFMJVQwvlnhoRcww89OyH67pMhWkAsoDfFONRxzU6WWcBR4",
-    photoHeight: 2992,
-    photoWidth: 2992,
-    attribution: "<a href="https://maps.google.com/maps/contrib/104232058516727742619">Watermelon Warlord</a>"
+    lng: -117.903637
   },
   {
     route: "Colville Loop",
@@ -721,11 +501,7 @@ const locations = [
     notes: "",
     address: "980 S Main St, Colville, WA 99114, USA",
     lat: 48.53562059999999,
-    lng: -117.9064913,
-    photoReference: "AUy1YQ2luw1EZnVX7b3Gc-kFprQSrGSLh21SwkXCSpR3HlXizFvZfa-bJE_p_zP3L5rPzMNyTR3HENQgg2CWTqZKHDrSZI0lZP9Pu8s57vCgvdMFSnrLnbWlx9Y4uqg5jjum5SQomqpHBq6GkjMww0xcLeeAPNoJDZuEc7bHckrbNnN9nWJrPNjy8W7Ose61UAO4wRygIhS1g18b47NHqfHr46m3h-xjikSdIvd4nWNbSzgLcprWUk9VTW2_dHpicFXag1hAHSHOUX9TGOf35-wo2VuN_zwvlD8bAh9EjqNvHUuwvKCFh5n1hM3bwMK_AQ9wyJXSV4fW8Z_GmWflxBd7Ya8vQ2QxUX9suZ07AMpcpxd8F4gsjdqo_w-QiiV3ea6H1p6l4E9fl_F2zHMcYdSCTwZDow4GWF5YjJ9pGx8lmTduZt4aiEn9JMdnGMSVG9r2HoBS8TI7PZA0P4ZitM4vsZ9m-N8vRWoHRu0E7TrIemfQ9t4ekbCzA7t9fPsNcvLZnPdeYYTGqB8Sqsjs1YWTQlCe2DRVX8944mNZwP3i0vtHVjkBnKV6EczF4KbdsHtZEeXEF8k3kg6CYGoGekZpCyc8A5IbkP85JrazXA",
-    photoHeight: 1153,
-    photoWidth: 2048,
-    attribution: "<a href="https://maps.google.com/maps/contrib/115965541971717273872">KS Brooks</a>"
+    lng: -117.9064913
   },
   {
     route: "Colville Loop",
@@ -734,11 +510,7 @@ const locations = [
     notes: "Inside EX Rack",
     address: "915 S Main St, Colville, WA 99114, USA",
     lat: 48.5356994,
-    lng: -117.9050401,
-    photoReference: "AUy1YQ1QIfhaDFnvgYgHKynw0XdAlWIJ-kUn5-Dv-J1NjiA8DXga5rFdKFXt0jWV1jUPALfyQw76OjieHDHwv_CB4B8cBz3qH1FUz6kGZ1GwKE9G-o6hEHix2xeRYMK9AwkxK8YdUt8CR2uved1AUbCj4siOwam9Ycoe-2Ekx9Yf_WYrwam0DAl5fBrvkaWIb0tDUIOzKFErSRGGGIESNtLtjjEtpjtgoutFVn9vPm4o69lJtsQeCjgT1mk-gVknDIGvkxEYXMhXNlBpf4RRvDMKooWZakF-9yG_0YxP6GdSwL9yEyXe8NQ4SH9fHD73swEDUhFxm9fg",
-    photoHeight: 898,
-    photoWidth: 3600,
-    attribution: "<a href="https://maps.google.com/maps/contrib/111755981660805408689">Benny&#39;s Colville Inn</a>"
+    lng: -117.9050401
   },
   {
     route: "Colville Loop",
@@ -747,11 +519,7 @@ const locations = [
     notes: "Two outside racks - one on either side; Most papers on South door",
     address: "Colville, WA 99114, USA",
     lat: 48.5365504,
-    lng: -117.9052709,
-    photoReference: "",
-    photoHeight: 0,
-    photoWidth: 0,
-    attribution: ""
+    lng: -117.9052709
   },
   {
     route: "Colville Loop",
@@ -760,11 +528,7 @@ const locations = [
     notes: "Inside second doors, to left on shelf ",
     address: "557 S Main St, Colville, WA 99114, USA",
     lat: 48.53924,
-    lng: -117.9044122,
-    photoReference: "AUy1YQ0RymBRMG7kjcIHpeXX3aL83Tmc_4BHibbx2En8Novqph5Bsec8TEluJGHpxnSmH7nvR_ynw_Ic5kzC5kKeJ4_QzZ4M6mlKzo2UZNnzdHIiAc18vrZwvjh5vjcwUH95zv-IXivOc-IIH-vgS3tu-jxExAXIGUuhAhf_DxrmGAOqCggco-hjCAZhjO0F2DmxUn1AbUgZ66G8KdBRrlSFBWEO73S4oXSIAkXqMrcwP57kTAw7vk1Uo4tmyHp-CVvHXuuaEbYYNm9boJNmV2PrKFPZILIcw7MfOBj39-wPNYYTwvNCKjQfjpdM1KcWCfVf6-DHZm9ZnzGJGmWkQjaG0NazZ1_jhlXa4z2VqhDG86eaA-ubD68i5nSHUXvKY3bVVj6kCnKh3IrQ8mVaUXj02bq90wr_7OMX84aiVCMcqh6BDAMEFGGTkF77YvyORw6WEjbc0OiLsBP4ualg-AEe9CzGLeNGrlmUk-d0gm65H960YQ08xMZSqorbooeAgmLm1S0_-hhjaPAt3t_PeUeCv-oPOFXWBhaiT0fK_mkLdUKh8lsKObEC_R-xHySaepHw2hEFz3d8wUt2hEte2Jbc2fSoA4qmNjfvc5y_2_IhlWkVJdt1",
-    photoHeight: 4032,
-    photoWidth: 3024,
-    attribution: "<a href="https://maps.google.com/maps/contrib/108216931156304912168">real review</a>"
+    lng: -117.9044122
   },
   {
     route: "Colville Loop",
@@ -773,11 +537,7 @@ const locations = [
     notes: "Inside Community Rack Center of store",
     address: "466 W 1st Ave, Colville, WA 99114, USA",
     lat: 48.5440984,
-    lng: -117.9113519,
-    photoReference: "AUy1YQ0WGjv3X6aKoYduWJofQWu6OJ-IgvqtBwjUu5ZY3uzNaWg0UUrpsYuxWP47dDrnaSXI5lDPg6BJqff1BDAZzjfOjqZ_VREjTieeVQphledOXZHzrfHoOMe_UWyw8lF-HyVKuIzM8wfoBITJ9EK1nTfh4Acjgj4hu3AKlWXRN_s49QNk8J36Ae8yrT9Oi_HAGbKimV5LMXiOrvf2LascM3j3lSZ8EGKLJIebmnSdgUyfitWOEW3NoK6cewvEhV5Oo4KkoEIsceYjiaT3-Q3WRvNhDFybIIQhlzWvPdi86KQxHj3Wj7xSPc-x436D_cQSe7KXvZ2uV902K-GEmT2mlrLprgRFwr2e4m8XXQ-Ag2ih90FYoZJ36TnJIA0aoCuhcOKc83PNKo1Be6uRtWtRElH5aJEq7XrBtW8zxXAgeaJMA8NbDOGvhXhTrjHKvrTc_l_qU2D-bP_tGPoKCr543iPECeIrzrbYFAV0H0cLEZDew_plk9y7IQjVMgXA0jFiV7GG7HVwFOiVaCg4b40eOnBoi1ck9D2TH-Jl9nBbom4Xl1wZZrCUf2K9eYi8QFdBlNevvcQzly_zxLn4BUNyxl2WHay4JW3pOc5LqZvURujGa56Y",
-    photoHeight: 3264,
-    photoWidth: 2448,
-    attribution: "<a href="https://maps.google.com/maps/contrib/100278870900388602202">Luke Baumann</a>"
+    lng: -117.9113519
   },
   {
     route: "Colville Loop",
@@ -786,11 +546,7 @@ const locations = [
     notes: "Outside EX Double",
     address: "285 W 5th Ave, Colville, WA 99114, USA",
     lat: 48.54841589999999,
-    lng: -117.9084551,
-    photoReference: "AUy1YQ0iwDbF3EGAx3qmpJ3u5UvqQJrGrJX4WGPCXg1TMThJS_I9MxajDCQYSy2tTu5DxiRntkZLGKPWbo2rXKBkyKhGFyExmneJvBvrf52oIomCiJ4A0TxV2AfSBw2BjnnFZTqrO_A-NmnytRZ7ToZMxI8bjefOOpUZjx7r3K3L7T_-p7R40CRqFy4xCXURY4pRyY__xn2uHAYuCzWzb9rG9Y2KTNHOfXDybvfAykQEsaFIZaxr6t7-TI-Sk_TdTeHXQgPEJd0gh2AB2INdLFbtCKoj10kRagcQkq3hAwmHNIILdL38hKBdfyFbkCUyuXMFE8dxfRCkov0twJYKxIVX5_b7ISMxn5vipJKQ_Yc7z40LeiTSLSM_C_5Q5du1b5IC43x7D1_ZWSrnhhaDUpCxlvtgbHFdWXwVz8KQiuBpiRwL1Qu2jY1QL_s3st3oVk47kSAxPmZzUmTgAZvI6jliicukpp5C89QdYLIQfTgUFP7yFpyMRhrOTD7h5z273efJBwvAqQXD2Yv1If3YGoV0HYTFOVVbH5Yc92sRYDbb9KPsYZj2BjfN9cp0oJAEahkP4b7ABDF9VecxwVq_IU4rcbL4hCI2ti-lE6njK-4XsB7EyT8l",
-    photoHeight: 2084,
-    photoWidth: 4624,
-    attribution: "<a href="https://maps.google.com/maps/contrib/104158207645061052975">John Seckar</a>"
+    lng: -117.9084551
   },
   {
     route: "Colville Loop",
@@ -799,11 +555,7 @@ const locations = [
     notes: "Inside Community rack by Check Stand",
     address: "370 W 5th Ave, Colville, WA 99114, USA",
     lat: 48.54895519999999,
-    lng: -117.9098457,
-    photoReference: "AUy1YQ0LizOF8NvSkC2M7vyvndsHCXj6qBnlMNetFUyyXNAMwhgXw747eT9Rrpor-QBxN9EeL15W3vtkDJrZGN4-hLa2PJhT7e5bbGEBT0_BG-TuYVJ301Bl_c8NPtxlCccAg8zm6pQ6Pu6OifOv95qpHX2U0bwOG0D9qWQa21GsW4kVLuhNE54fIv8DXiStl4IvcoctPonxiSod46jLFhNM1uz5XD2aH6dyDir3kJGBjSdas-Ie-xdDfXekV5C-Bonrq_ern26DcoRD1h2P0KXTFEprKZHVY-hYnMGANNlEI8wRdRmF5MeX6oE_oReOSubrE2RhJFoj0sS3O8jf5PiYzElKx950A9FUDQP1cOGrhWda2w-EbNRzvc4SU9p-Sy73iTz_fksoPEhyGngyBH6rkKr3v3X7IuLQJeH3XcXRJuKuCnHWrK1YRVonF5bvegYkwLTecOtBQHWzh1jtr5wV-rXVwNxtAfOhblVJUHoAW81O6vtSEHMLWpAcTBla7zv6wyVvkxPsAX3TH8OjVvuTDPwcSbCS42OfVs7FVMrt9Qi0VQUa1kIXG1Z9O8egE5vq5KRt0OFRTYYC8jFtft9I7M5lQZUYmi9SyU6znKhjysBDVwry",
-    photoHeight: 3000,
-    photoWidth: 4000,
-    attribution: "<a href="https://maps.google.com/maps/contrib/117479620348777383796">Daniel Hosler</a>"
+    lng: -117.9098457
   },
   {
     route: "Colville Loop",
@@ -812,11 +564,7 @@ const locations = [
     notes: "USE inside White Sasquatch rack",
     address: "505 N Lincoln St, Colville, WA 99114, USA",
     lat: 48.548851,
-    lng: -117.911013,
-    photoReference: "AUy1YQ3nlWcua7-jK3n0R_0CODxuLOHx8sFi8PD4xjl4rp0PuNcsI-tcUExtgex1zEzY84bOV2OrXjYnQsnAdveFvkOC88e7FDgNGJZbh1JKbTloSa8FLnRc0GIwb-hh4gvNMmx2V2PmBgifMKlcsEE2iBnBASCSqGS3WJpFuX1HjpEK4JJ-jqn7DMJOlqIG3nikOwq-_62RGXImq9TGRh8ZrZ8fgOC0nIYxPYNRKb1LV09geD3QUlb-Ew2Ua_zK6pEuOWmdRQiYSjRFEN33vUUaoCoZ7sC7c6YGxR9zmQojC8hFgJQfToVOhqZUNs_R9DHlAO4qYN8DkA90llx3TDoPHhu9tnul4LUFiYQpMhgNqmoINB6jsjDEx8MmvN7ZEmkT_aK_LPlgHYWFxEGwzWqeDMZ4cKTAvCzGX-WxZVpW6oDHlsFM_9GG0miSpZrc31l3kxJQ6yOHIPixfey3FT6y2cK1CP8H_wFbhyGbqRokANXT0QxVXyXMuYYLDleyhfsCyeYT8OxjMnPymFxnvhPO3GlZ1G1Vro6bKZvZhREDnhJI8kLcEyjn33zq_tMuOriPGtOV2oudgZVaH-KWaC7waaWXDjN63bjNvU6WBNf7SAk",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/106562860582459373408">Andrew Culver</a>"
+    lng: -117.911013
   },
   {
     route: "Colville Loop",
@@ -825,11 +573,7 @@ const locations = [
     notes: "Inside Rack",
     address: "710 N Hwy, Colville, WA 99114, USA",
     lat: 48.55124959999999,
-    lng: -117.9138649,
-    photoReference: "AUy1YQ2U7M8dYkr1BjTGcb81bJ0BUxy4UMEqd3TP2xumJ7y8m-qkrC-5SnWK_VFFbJ_X8mcxBTgdZqJ3ExOlfEvacC204bU9Pvy4iNyAgvA5hzMdle8HUJ_PjpDRHqis47mgSi-2mk44Fc49HTZCT3kLuYEYlhTY0mAWM9Rg1A42XatBjB6_555XXtV5APnXOOoVH4Gv3Bvmf7xBmlbC9dAdPfb_2rAKfToy2OLYS2tx5POkZDzuIsp8Hxah2evRGrUjoRurY3PuZSBAq1N7Dix7NbaZz4LTXwKwqnlt5aT_F_YwYu8Od64kZRYfci6tM4M383wXIKCfcZI",
-    photoHeight: 1536,
-    photoWidth: 2048,
-    attribution: "<a href="https://maps.google.com/maps/contrib/108646388561035798729">Country Value Auto</a>"
+    lng: -117.9138649
   },
   {
     route: "Colville Loop",
@@ -838,11 +582,7 @@ const locations = [
     notes: "",
     address: "391 N Main St, Colville, WA 99114, USA",
     lat: 48.54722979999999,
-    lng: -117.9064062,
-    photoReference: "AUy1YQ2nXlKDbSZ4VeI9VyRagPc1l7m4xNRpqgchm80V3n2FVjOzKBVYBrr9-UXATJU2Lno4TxjbgH4a5NPj7GqfQNOH4EGbXTde2nFcdVFuCrE3P5nt0wcR5Tm8revIpfaF4LLYtiOpkAENPwilkaUwNHou_GL4wfAt7CT-WkcXhQRjzLyb7n_Qav6ZygW8gAbz3O410DGnc5zGHuYI1pHmO32txxaCt6ly5k9oP5bYChVvd4QcAuY2ijWufpBENpKYLalodkQKe4GbVy6KTXXV7j6Wdj9zDUgtuFjKzxO0S0i3Ik96MXzvjMwoYBT1GoVx1S4pnHs8NTg",
-    photoHeight: 270,
-    photoWidth: 480,
-    attribution: "<a href="https://maps.google.com/maps/contrib/109847617157254562921">Safeway</a>"
+    lng: -117.9064062
   },
   {
     route: "Colville Loop",
@@ -851,11 +591,7 @@ const locations = [
     notes: "",
     address: "391 N Main St, Colville, WA 99114, USA",
     lat: 48.54722979999999,
-    lng: -117.9064062,
-    photoReference: "AUy1YQ0jSu1pgswBj6kMU5Do-MbWmaGXEPzyUyLRhOjZ4oZMJDIaHKLDYjjtyBuq5Kpyb0H7Qoa_d4bdlhvH2sGxz6vahFpC--qPuQ2QU5TB591Znriy6DOKkAXdbIbf8BZRMj3faT0niIHLQ5EtHCU-DhQtNQDD0w5kDDcPFOFnlmFOLAZO_kQynSRnOqTFQ3wmoE8UhbRcOdZRE7C7DaLLNtcKk_9FigGnBzGGJkcFfiFnpn4WNITQJWaDccTKzr1A077gJbdw4oUU2zCKgluViVrlSZ-_M0OIEMcWCV9Hto6rjZBoPOMXVz5R53fseqsnu318M0OCFVs",
-    photoHeight: 270,
-    photoWidth: 480,
-    attribution: "<a href="https://maps.google.com/maps/contrib/109847617157254562921">Safeway</a>"
+    lng: -117.9064062
   },
   {
     route: "Colville Loop",
@@ -864,11 +600,7 @@ const locations = [
     notes: "20 bundles at 40 dependent on page count Inlanders on bottom rack Leave only 1 pocket for N.Colombia",
     address: "1250 N Hwy, Colville, WA 99114, USA",
     lat: 48.5562115,
-    lng: -117.9202721,
-    photoReference: "AUy1YQ3EEBb3BkhouO4Zf3Y7B3AMETOPNKupZchHyNxHKSvAbyTgBx7eIAcKciVOz9ZYOimfa381il5qms7kwZjin0jHIUedyQGLhy7jzKkFcetq51_REm9sF9yZ00qh1huFKKA5Sv6TmS-o117t9WEMsRn7FeOd32kYuNFgTg-fVQ1IlyPJyqZztw_P-tKXh95kbiqyOOR0niRe22-_g5IWHaYiOpWj59EdMs94i7o6PZj3TBj-UPW-SBuy2Sa4USSuR69_h0kSSlHTi6XkntXNX0EVHbArm7CHLH50hkA1cxGTCIsrlLtWe-t9cR1EwHQqQSu9m_1RLhY",
-    photoHeight: 1067,
-    photoWidth: 1762,
-    attribution: "<a href="https://maps.google.com/maps/contrib/103049556051073474929">Super 1 Foods</a>"
+    lng: -117.9202721
   },
   {
     route: "Colville Loop",
@@ -877,11 +609,7 @@ const locations = [
     notes: "",
     address: "1250 N Hwy, Colville, WA 99114, USA",
     lat: 48.5562115,
-    lng: -117.9202721,
-    photoReference: "AUy1YQ3y5EZGDEKyw2rmurh9V5WYemZDwtjRfzssbXHXUQYyyzqxxrI1JiYMAm25WV7YpZGviwzD7KlqkjkyEs3QLXxOAQg-fD-yJ1z9fv09u6BPuXmQGvSouYPlR28283QYWcFps1undhqDwo7j6cdf_ZS2YhyqVSoDb4aWe2eMs_3aT2lFdJ2CTUVvJXKiQfUeaaIlECEPGrsfT8o7jhN0GrCImFEgqkKK90egQXZW5B39uM0_TeXTMSiK045kBcpyFk30hLVwDefzoQtUE94SoPrz040HtiqMuorQa5BdBriBIk-i_s82RTabOpqPzrdwiUHZQrVIMrE",
-    photoHeight: 1067,
-    photoWidth: 1762,
-    attribution: "<a href="https://maps.google.com/maps/contrib/103049556051073474929">Super 1 Foods</a>"
+    lng: -117.9202721
   },
   {
     route: "Colville Loop",
@@ -890,11 +618,7 @@ const locations = [
     notes: "Bottom Shelf in from door; Inside Rack",
     address: "103 E 3rd Ave, Kettle Falls, WA 99141, USA",
     lat: 48.6110559,
-    lng: -118.0562731,
-    photoReference: "AUy1YQ1HShPUiHXUqyMOKD2Spwx1AcZLl1c_A7cAisw4AbUa4R5lrznFjGq_hqK9APUYx9E7H0HWxvm59RFBCJvOlQJefHYWLN2NmX-TlEfaoW7k59vQw7PSR5vhuJdPZZShpRqRlS5G4C_njame6eYYnCP4hADFpnAvKLRvs7oOV9TM6x95FMH224DBQn_FwzypcgwMXJwSUzVwhacrqPO1DqzUFiofpJ7vq21IF7qqAM_PMzOcY41fzrymHkle2FSjmNdZDfDKF7G9xDHGvCJzH-N405CCt4zpjJTjFzlDicYwGr9oezoIpf0PYLOjnECXPed3CudySIt12Xlf2jWIw6DESIMZKtnu3cRc6GxqwQnb_sDKuBZ1Mcm_KzeBucWsnbSkU6LHOUDwBxO4phzZvBTOgNVoXMfCESovtdT0ajCv6z_BoNC4hSbUDy5Mg5B8Z4Yi3X4tCUZOAzymMUxHQQunPEGjxMfPMZIVwg3FoMNHVzkyDD4X0tSnKEVx-UZf8P5puD_eKR5jdS8bfjGHr8J3lXSRFEZsX-VMA1V09x401EyTAOjvi1VMS_3jRDuQ9Ve5VH-SGLnIqOchH41cjsYL4BbNt_NOUhcUA1ncsoI",
-    photoHeight: 1932,
-    photoWidth: 2576,
-    attribution: "<a href="https://maps.google.com/maps/contrib/108216594078869424244">David Lewis</a>"
+    lng: -118.0562731
   },
   {
     route: "Colville Loop",
@@ -903,11 +627,7 @@ const locations = [
     notes: "Drop in book drop box",
     address: "615 Meyers St, Kettle Falls, WA 99141, USA",
     lat: 48.6074183,
-    lng: -118.0556137,
-    photoReference: "AUy1YQ39sP4rZGMsloyRWfPf0lihndn4ZaRjVWyF1MWfDX4S3l4wYA_gGsMEXQJPpL6Wifk0QKcG9-Yhb5BUlJVH6JO90wk96NzabytH6tkoCiVITOZ3BGpdzXOlepz_y0lq7mZDsO6-jbDFYoxf8xPKM6WJkXQjyv-zqjs10kpAGpnlFIV3TUT_4xnVF4vPWG_xjNHs1_VD086jEZ1cnQibSp4u5Wc-6BspXvWdKNZtuFSpKCRAQQXrqy71JlLWGsFP3seJgeebt3Am7f1x-utcSogU-GP5i4G4jBzTjgmc-pj2DQHmIrd803xzPcBisHj2wFvNiZ5OLyo",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/101463481850996426144">Kettle Falls Library</a>"
+    lng: -118.0556137
   },
   {
     route: "Colville Loop",
@@ -916,11 +636,7 @@ const locations = [
     notes: "Leave in Laundry - Other end of building",
     address: "260 W 3rd Ave, Kettle Falls, WA 99141, USA",
     lat: 48.61154490000001,
-    lng: -118.0586475,
-    photoReference: "AUy1YQ2gUMbc6paIz9FYE-3VrS95-0DApLbdgIZMg9m_BEpHtG5tvuekQuyZBx8zzFb_FWw_7RTbc1DpAWHqNBcTYiQ-dB3yjR999mJW04u5kzx5AOZ3UnRyZNJm7oY7OB-5eEjSzyqn1LvC-tCKfmixr0igIzriiNVimSHmHZSmjQuu-cerl8BtnjK_zKqa-9XGKiqKRkrNSGRsWn-gOwnriEEIBucc7aKN87GeE77Mw-MIV-XeKhgwsb8B_j0BQ1MrM-q-pzZ2sevJMTBVQbEkmibCZDzE-Jw2FgMnrWj5NdW048DoqrGYywMOOqmJtYr6PaajA-LTwiu_JujNEnjqE6KIdG8IEDn2WGLqMa1SHsPiYzL0XRkvrv5xIt1kI4zcD-R66iNuQ8qKYI1DMMXLb271R42fCQJTcpRX2_otg7HTPnsFzPI_qUG8VCr24VvfIR5yt1oB5qvSaxJ8eR00A4SiealaBGbNfPm-j1kLNmjrG_P0EUoi96RjlIFdLH36cRKW9PvU9sczfvw2Y3EjxwhiIUANcuW8XkIXhLpPt27QlBJovS6_gi44Mt2NsABFbKr2HI1DRh99CP-QYEDMnReQQBtfsXS57WUuti4eOdWEalJp",
-    photoHeight: 1932,
-    photoWidth: 2576,
-    attribution: "<a href="https://maps.google.com/maps/contrib/108216594078869424244">David Lewis</a>"
+    lng: -118.0586475
   },
   {
     route: "Colville Loop",
@@ -929,11 +645,7 @@ const locations = [
     notes: "Leave inside",
     address: "3379 WA-25, Gifford, WA 99131, USA",
     lat: 48.3065807,
-    lng: -118.1467698,
-    photoReference: "AUy1YQ3Y_boMCGRO0Q9_MZm2Mo5D-7IgzZZOpwg1jGbuAQYqHj4LDlXXPgN6wHbj57iSNFaCBfsO0PiLxjFZLsOnuuEfbgvqFjvqxuFi6zN7JNvr96wGs2gunlP5MaH-26-9eNKQBbF1kFliURNKWq4TupCsjGq--CFsNofhdsXSBuq5yLvw6nJ9IN1Slwccp7erLCi8tljqJjYl-T9T9heFmodq5Zl_hzdGVN-NYb8DesTtgFpADLq3-GT6tU4GWGFVeRmAxN_Sq0OXv2IyuepjJeYATBtjzR2zdAYHF8ZrIeDECLjj1xcHQNGG-vLtTmmVBhF7WeGUTiTEgR-38sAhzlaUWo7eFd4D-_8UXe_GKp0wT4bVClWC2xUs_vt-zHm9Qr7JIHvK_x_iNPKDwnGMRZrAajBtRS45NL-lT-7kPHwoWNXwfh__oxSgIP9bQezXGn59DmDkqk6i5FMrsbd4-fr40tpA-pRnVXNAdFL0Ffm6oOHUNJhQCmmLxE4VgS_qgqzZuLCIwPFpUT1ishxSlBrpeZZRHNO0XSLJXKGOci4t0qrKp3v8UrCAKeCiQk9goNDWsVGnQs5sfXjfiZDARyCTH0GMxQcN6Qdo3sAC",
-    photoHeight: 1932,
-    photoWidth: 2576,
-    attribution: "<a href="https://maps.google.com/maps/contrib/108216594078869424244">David Lewis</a>"
+    lng: -118.1467698
   },
   {
     route: "Colville Loop",
@@ -942,11 +654,7 @@ const locations = [
     notes: "YELLOW RACK",
     address: "4983 WA-25, Hunters, WA 99137, USA",
     lat: 48.1175848,
-    lng: -118.2025598,
-    photoReference: "AUy1YQ3_yvS0ZfjHSiLXhEzN9BW3xlfwlMRop5_SSCfbcLa1sJKG-IdsN74SIgKSHo11zJmOD5St1jWuKjNz3urGSbiOOMdrF2miii2zE3J3UgihK9x6fSFbjidHyIn8J8aSyv-sbX8fgjYPsRJXyr0HL_Jcz7XUr_oIyIt8jN3fLCar5-f6RqzrxBvgmau45c1xmn7x3DRBg6Zg_Jbap7doMpsva5jIe8Bt5RuBuMYysCXgWbgQqVPRwPCWqS8phJNYu47uFU1SSNItcET8sI15C2Uvk1gVcaSFwegBQ-ByjMEm96F_TgPWDquDHn7EMx4UEBLHueDvqHYdA38WYOexighQ-bGGZJySUmlvpcWqvXlsPqCNtuz6FgC64PH8muMvHLTRIhZA8K0qQ42Ig7zeKKbKS1j43NRhJXnhhjTv0F8A8zGyJeFAJhWUXbVTyjH5_I2hICb9IbQVYS03v5HON6C1bymnB1wQwsZUkHU7NbN_kN-HmqGFpXWnTy2VpXxhcCvmvXR0S04inORRq95nGP517ZdNc-lOwFz10AZ2mRyLfb8kRw4yCBp8lWLxL4AOwlS9rVeMCUAkZIC7ZHhz7SG57SPLEzVMVPfPwOu__0U",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/104409192296132953416">Michael M</a>"
+    lng: -118.2025598
   },
   {
     route: "Colville Loop",
@@ -955,11 +663,7 @@ const locations = [
     notes: "Outside rack by bench",
     address: "5369 WA-25, Fruitland, WA 99129, USA",
     lat: 48.07123319999999,
-    lng: -118.1982156,
-    photoReference: "AUy1YQ2VeYa9GHwwGeFABZreKAbPd-i4uohMb-3nEghHScUXwD8o6XcnmRfX9gHcoE9MBNTSLirpFeyTRwbQr9JNV0Dk-KfA_oy1QGCvZSsz4MymhwPyjBE_ZdTS_KCK1_l2Yjd9VrBztqTPHjEVx5s2yi5TxTYBBjbHajnZ0LHAE0N37ZSmYB-oes5xqRr2bDeP-KdbpbvTfgYRx8pB-AoeP9QMgYAO_OKGcNJaVwB5qUjukYIqV6Pds27PYR95xGQsVZoue0K2T-4E3mJ_4LarePBxSWkvqKh_78CBV-ctVUPeoWgZBFiicWm8oQWTnRCmu6qVtfkaU_YMwGPCZxe8NPJoKpcZ4wfoknW3gMVsYGOeglstvrfDGOk8gS4LjaQEubDjtJDqoBsiHr-a7JEkFFoqS-O8ycqayascRD_LGQn2qQ4KvAQoXlS9B366wlnCnQ0eJIFGfbTOI4_8vfBvRvqT3QmX5Wkb8y_l98SDpNprC7G5dL4H3iug2ZuS7KUC5J94LhuPcqAvqsL8lGIZbicA97F_gnrzCvLOka_rRiZFMN2v8tLt2hetKiq9_O1kqLsUu9ZqkSjtDF-qZHwXsuhL11kB5f2liQZRe_LwbeSuzhSY",
-    photoHeight: 2268,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/117243603039233575003">Alex Gold</a>"
+    lng: -118.1982156
   },
   {
     route: "Colville Loop",
@@ -968,11 +672,7 @@ const locations = [
     notes: "Outside single EX",
     address: "6394 West End Rd, Fruitland, WA 99129, USA",
     lat: 47.963041,
-    lng: -118.2340165,
-    photoReference: "AUy1YQ3idvAFH5SVcQyUzg3e2ae-3fBmEgzd0rGHF4-hHEqdcNtVkrbaS3-qu0VlNcAJNeTQrAkS_xnEaahCOXjTOzOt6QSBnMzsywp_sgpr97emPaGqLv5ddsTcq_bKVVvZqmXM65BelVkvhkSYmRL3vxO-Z5kV6eFe6Wo9sAPSf_c9lvv0GLYgAHh9ChooDV0LB4WrLolQBMWUIpVHoO6Wb9nSLIYKE11PP0FyFRvhI8FQYwPBNevWD-zM1W3NWeuMEM--fgFw74oMc-GQTajSrKwafmjR1sTTgUPxQpUBIzvjLAObU7xMlcYoFukB-GDZblIVhrz8lzLh_Ao-pdQwPQDkWjrmClQ_gegYzNX7qacfWHPm0k3ZDLfVzfAUmBvxDt5zKprg8chrgJvhszyMx3MwdXSyqIWDOQzRcM-xWAHAt7LugOK90T6D-Mcnlc0vQ6po3lbfKHCWXgEQr7mOjJCjjM6obnpyhpoKbs3i9y2aMUl5NTIT00oeSnZFzfRbxsRoe9970f-3lGZN_Xchveo_LhL8yIYXQtS_5BkfZbLSX09JOIdHPXCqMfbTZyWHpWl5KKlkwye1n0_7zuO3nVrTX1XytnuIO_B3EJ-xuvE5icYU",
-    photoHeight: 600,
-    photoWidth: 800,
-    attribution: "<a href="https://maps.google.com/maps/contrib/103122726903915298295">Tim the Hermit</a>"
+    lng: -118.2340165
   },
   {
     route: "Colville Loop",
@@ -981,11 +681,7 @@ const locations = [
     notes: "Store Rack",
     address: "6206 Ford-Wellpinit Rd, Wellpinit, WA 99040, USA",
     lat: 47.8884015,
-    lng: -117.9892477,
-    photoReference: "AUy1YQ3QpRU512JSg4DEFGjC4mJ7gwIuPOvQAAJOW5Ede7ZgcsNLyGYVA_hhmrDVi9rrJKgEYI-O0l_waixSXl5ci5u-PtKt6sTyCDHBqjvyRTqLb---ZWugQusa1HEytFQh6IX7sFjPVZuDhc6QIBrc3wqodBOP1h6Akr4WtZRKxTWNTTNCJue8nJi3dZk9S8cCUFuYaDDuGiM6D7MevK9McmZ8aX_yWztWBcuwGsFzH-9y9XdPpVXjJHsoa9NNYAnBrlG6DaHIUXQQTUMV-SOsIIhfFatjE7_L959thP3NCuHeGS_mhrGPNjb1YdkpV8tEyYey0GiKg4mqG-SMtu_EoQIIjMkn6wWYRSCDIEZcP00rr6B2RVmklTxkQVbIPGOr--wgrwbMnxkC5IhfSPB1DgcVCPUGQUmHlwFIzUyTAQ6TGQR-1V1VjiAqb_wjZ-6iyTaayDag0-z-EG6nRqXDSYU8mfpSHdZ0ppKx8ooEWa8ag5H5j_iEmxBqppzEd5Ut0ZZ90FNQlau6a7SiNDtWSmRZqCsjqZPrWLS-9M1AZftgo-FURCK0FioQb61Ku9qr2rEF8ZrFiLyWK0pZQZ3TQbvlHVOkR8NssVAOjS4A0oU",
-    photoHeight: 1932,
-    photoWidth: 2576,
-    attribution: "<a href="https://maps.google.com/maps/contrib/108216594078869424244">David Lewis</a>"
+    lng: -117.9892477
   },
   {
     route: "Colville Loop",
@@ -994,11 +690,7 @@ const locations = [
     notes: "INSIDE single EX",
     address: "6144 Ford-Wellpinit Rd, Wellpinit, WA 99040, USA",
     lat: 47.88998789999999,
-    lng: -117.9802366,
-    photoReference: "AUy1YQ3im0OFKJYg4pYd47pazyl70Axds_0VMYzdHY2txSwdHhrR-wo6cZxIgNt7PavRpsY8WWy_1c5zf_Ca7dpKpaqOngoBrOnMZQeNSFPCoePlFr5txqBkC8uF6NryvKYjEbKQIkhjgQq3gXmNOxl2bnXTrsr2PkPOecqvTcG_NIL3cX64lYZzbrD1Q5NPFQi4F4wu5t0oM4XPmezH8FKNOldcyzl0oUsLen81EWosb79Yu0vPIuYDBJiv7VFpDPLL7Hg58LYui-1DaCo3LTELt06Ltg3EG-0a8K-nvPKdqs2EUBE7DVegqoZZU9ASX4IPJLGOLqvV4ggT72NEtgBKmc7VoLnZV7OvmV-n87h07Ap9fReEzy4ZsyP_VRePGuQ1Y-1-PUAScQN31dSsMEPHc_76c4Ixi_jOs_t6qE7UrBtWITq8nA4I_KR-NM1QozZiawravsZQPpAX3aS9h6E5Wedir3qGmlvkgrYpCuy97ROGqRp3W7zifoJ7x9MXX34sEfB4hY8ruWVOKAvGhYfz-rjSSz5PGQWo2aGB1QCaxC7cxmxxV8WOCIMAkqy7B3X0Icq9b1Dc0w_imEWsjaCG5SHSWp39qpxwsVbYMUo-jkr_AD92",
-    photoHeight: 1472,
-    photoWidth: 3276,
-    attribution: "<a href="https://maps.google.com/maps/contrib/101687482956903611009">Traci Mack</a>"
+    lng: -117.9802366
   },
   {
     route: "Colville Loop",
@@ -1007,11 +699,7 @@ const locations = [
     notes: "INSIDE double EX",
     address: "Washington 99013, USA",
     lat: 47.91583509999999,
-    lng: -117.8497404,
-    photoReference: "",
-    photoHeight: 0,
-    photoWidth: 0,
-    attribution: ""
+    lng: -117.8497404
   },
   {
     route: "Colville Loop",
@@ -1020,11 +708,7 @@ const locations = [
     notes: "Only wants 10 papers",
     address: "5243 Ford-Wellpinit Rd, Ford, WA 99013, USA",
     lat: 47.9085328,
-    lng: -117.8088898,
-    photoReference: "AUy1YQ3PCsBmp4Nq2OK2xZOO6g14mIzAcepAXxro0wILq79_l4AZVilCtuAkqzHASPtth1nYYniRa5b0gl1WViGTnwySbvBLuTCrg1facn5QU5Uu3xoj9DZACQpZR43XbLl9um3i7k4v_QExwyTC3tJ5ZngJXAI98ocTdh1JkPm-QxOteCS2vncVsKIPjPFeG10RPpn-1jwoLaoUDPFghymBCQX6FGOSxtEJUaeT2Qsoy23IVf_OoK7xYWsyIOSYC5h2vNP_FeLVrRaJpHJPy9dSgrlAc0GfwHHSs2c-t7hbiZtubYzwqIwMKGoO51-_V1LA_KJcd-u4DqcRbeNr1BD9mRTfIWz3axJOd9kEmh4haIiWS6BxmM139DfNOpv7jr2s3rnykB2TdmyrhlZOV9k6EmSVuVNQ2cngRfUNR7lNWbNNeFrVJCwSrDU23E5LNAU2mp4uctQYlwlGw3kXomBFrR_FU-O-9hQNdoV7STz1WLrQFogJ_03oeKhMPz9ODC2lKN56-KgvLkqOhlA5HoJaho7-Zkgz0dZ5sZkfGRtwolsL3dLvZ49Y9lnRFkN7aGRjhp79CZ_Trj-FYTxe7A_qmwBBQVthSXmpvfM1Ga8Bl_cRZTms",
-    photoHeight: 4000,
-    photoWidth: 1800,
-    attribution: "<a href="https://maps.google.com/maps/contrib/107066475443939643335">Adela Dibble</a>"
+    lng: -117.8088898
   },
   {
     route: "Colville Loop",
@@ -1033,11 +717,7 @@ const locations = [
     notes: "Inlander Community Rack; 3 Pockets ",
     address: "5912 WA-291, Nine Mile Falls, WA 99026, USA",
     lat: 47.8126747,
-    lng: -117.5621314,
-    photoReference: "AUy1YQ0shtPyYWh6tRytYQLf-NgBP3b_dd6DdZ4o02guEdCiAQszIDXG_8nxsqLwkTJUj1zuqRQYvvGOR7wwkKI6W_8wdLMSKS1x75cx9WkuqKFbL3ccaqnx841f5Zb5vm8hN50lq0-VBLrICUmk_dZwu0FxzwM-rVjnoQKRhmV3PXcXeajtpImeo6GvRyc_eDJhbY3ld4oHxt7W_M-XKZU1fR6-wvJE6Zg49TlVClqjb295cHr98BAEAe6gQBEYw1KQnpWGNB20pnK-aW0uzU7y-meK9hbNNiNQYbG-9L9evp99fdIrNKpF6tz1a2_hMXcc8pB4x_PC",
-    photoHeight: 314,
-    photoWidth: 720,
-    attribution: "<a href="https://maps.google.com/maps/contrib/109104203213742643749">Rosauers Supermarkets</a>"
+    lng: -117.5621314
   },
   {
     route: "Colville Loop",
@@ -1046,11 +726,7 @@ const locations = [
     notes: "Inside Single Ex; ",
     address: "5919 WA-291, Nine Mile Falls, WA 99026, USA",
     lat: 47.810738,
-    lng: -117.561657,
-    photoReference: "AUy1YQ0Jdh6aNoFCBCjoj-HpWSj9J0fYw1p504f4NhIHW0IuImcm_PeB5fTS6ESjVQ_nzN6D6BCjivoWwnfzF3renJdlcC2eTlen_76c3lyfXfkbH4gfeZHGwIOE1fr7CNwJBN55lSlCRHBMM4umu9X_8cKgL3kTxRCjTJH2736uy4ap8D8_Wcsgbt4nkOvjbyvZ4wwHbtiL013DAoaw_L3CC2IOzDHEzacGqtAGWjPleDGCFnQ31mSByFZrwtDKcTUIj9XfVOnKcs7ng7Hi5cwOTc4cHU6jm_ZvA00q9gNP3i6Sah-MkALEYamtzM-B2-zT80llHmaTScM",
-    photoHeight: 806,
-    photoWidth: 1296,
-    attribution: "<a href="https://maps.google.com/maps/contrib/107357843238765301858">Zip&#39;s Drive In</a>"
+    lng: -117.561657
   },
   {
     route: "Colville Loop",
@@ -1059,11 +735,7 @@ const locations = [
     notes: "Green Community Box Top Right spot",
     address: "12602 N Nine Mile Rd, Nine Mile Falls, WA 99026, USA",
     lat: 47.7717494,
-    lng: -117.5431856,
-    photoReference: "AUy1YQ0NtkYvGWyPh8UOBuOyvbpL9trFfps07kT3TOksi9-GVS9kiju6LBS3Mx3jlPgyf7sxbXkMrUA350j2IY1WuYIRAjjbeQByhUpJHYLkjZfmlQofIOoQGGFUuLMgLl3J6of5CBgjOd305giWAlMLY7V9kypRQYfFY9rCH33Walw8_Og3yLCkzfZqTQI45zND_TLIhaIbtUqeIq-QQp_LvRjqyGh3vI2TeayuVSFYptoYS3Hy7TUGcGXCDeBAzh-5Gr50D7nSEuQooc6OOf0uEUi_rkDtoGvrXmbe80Tz_9PR4jPrbAcr4pfz_sYNBTwLzx_DyeHeFtM",
-    photoHeight: 3024,
-    photoWidth: 4032,
-    attribution: "<a href="https://maps.google.com/maps/contrib/107750380763791107538">Nine Mile Store</a>"
+    lng: -117.5431856
   },
   {
     route: "Colville Loop",
@@ -1072,12 +744,312 @@ const locations = [
     notes: "Outside EX Single; ",
     address: "12516 N Nine Mile Rd, Nine Mile Falls, WA 99026, USA",
     lat: 47.77116909999999,
-    lng: -117.5435789,
-    photoReference: "AUy1YQ1zzO-XgrPQoavrNqHhtc1dK9hzbfSjNhXxnKJTnShZHyYWvpHaMCXaGn0qB5nijDpczahgIoEC-XfppykQN8ztbJ__keoECVuWVOSXm_EI8uiOgkKtYhS_18Ard-sl8kL-vs7cjxttEWRbArvReMiYipV7PGbYmttBDCpcyjWRYxE2hPSaDySPcysAKlWXDTJf__Lgq9-JFT3finkZaCMgFCTAMYaTaXJJjJz5VehWEMMxNbm8NC0bUbov3pGRbXfvX_EbbdqriaTJfbH8krnv5czdSn2dd_RDWl8qcuFd_RtkP3L8SpjQ_D-exEBjls7A93F7Fdc-K8flqhdJP_qcKoBOzDWlHxMhM9RTuIA7GpOzrU5UrsYszDFgDl_KQtFuxkr7KfNlzbh3JShyEMwz1KJcFYn759E2Og1vxhNurk7x9X68O0ThkmmRd-A62anGZRotdUop9cTqNOZa6NR0m75UyY8tGNOe9llTtd3OUYx77dgBqlN6oBYV6YeSB7SZNfMAxjNa9r6pQaLl3kn0TZMO0Y1ZfgS5nguMDWbqqMJbZwGhFSiESEJghwEfeIr2vm302LSxdmq9TQKoRaPrtS5SyXbyVGWjtGBK3WQ",
-    photoHeight: 1728,
-    photoWidth: 1728,
-    attribution: "<a href="https://maps.google.com/maps/contrib/116509584317775872795">Paul &amp; Denise STETTLER</a>"
+    lng: -117.5435789
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJM0RElicfnlQR7vlQMSJjQGE",
+    edition: "EWA",
+    notes: "Inlander Store Rack Rack - 2 pockets; North Door (MAX 120 for 30)",
+    address: "3919 N Market St, Spokane, WA 99207, USA",
+    lat: 47.6941507,
+    lng: -117.3673333
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJq6raq94enlQR6CKdnv4HAL0",
+    edition: "EWA",
+    notes: "Black Spokesman Rack inside door",
+    address: "3021 E Wellesley Ave, Spokane, WA 99217, USA",
+    lat: 47.700883,
+    lng: -117.3653308
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJbc-jMN0enlQRqptZMsDr9sI",
+    edition: "EWA",
+    notes: "Inside top pocket of rack",
+    address: "5217 N Market St, Spokane, WA 99217, USA",
+    lat: 47.70578669999999,
+    lng: -117.364936
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJZ3rf6ukenlQRKAAnnkdF7eg",
+    edition: "EWA",
+    notes: "Single EX rack ",
+    address: "5803 N Market St Unit B, Spokane, WA 99208, USA",
+    lat: 47.7105965,
+    lng: -117.3650854
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJO4LlDYQenlQRQq05g33ndM0",
+    edition: "EWA",
+    notes: "; RED EX (old Auto Clipper) Box",
+    address: "8213 N Market St, Spokane, WA 99217, USA",
+    lat: 47.7323372,
+    lng: -117.3651301
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJg_ZE0r8dnlQRn_tvUEP7iV8",
+    edition: "EWA",
+    notes: "Shared rack, top shelf inside",
+    address: "11810 N Market St, Mead, WA 99021, USA",
+    lat: 47.76468559999999,
+    lng: -117.3549287
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJWxAiipYdnlQRmGHy5WBw9aY",
+    edition: "EWA",
+    notes: "Leave by entrance door, bag if possible",
+    address: "12218 N Market St, Mead, WA 99021, USA",
+    lat: 47.7688268,
+    lng: -117.3540591
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJ2XSZzHgdnlQRQhIS_6Yp7QA",
+    edition: "EWA",
+    notes: "Inlander Community Rack; 3 Pockets ; ",
+    address: "14202 N Market St, Mead, WA 99021, USA",
+    lat: 47.78640859999999,
+    lng: -117.3506782
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJeyuYtH0dnlQRoSMncn2vRQo",
+    edition: "EWA",
+    notes: "Yellow Community Rack, Right of dooe outside (MAX 60)",
+    address: "14710 N Newport Hwy, Mead, WA 99021, USA",
+    lat: 47.7912167,
+    lng: -117.3515078
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJdzDes4LiYVMRh_Cw4U05MdI",
+    edition: "EWA",
+    notes: "OUTSIDE RED BOX",
+    address: "15228 N Newport Hwy, Mead, WA 99021, USA",
+    lat: 47.79496770000001,
+    lng: -117.3494429
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJSXfu2sriYVMRDmoqtDOJUJc",
+    edition: "EWA",
+    notes: "Bag - Opens at 11am",
+    address: "18711 N Yale Rd, Colbert, WA 99005, USA",
+    lat: 47.8275489,
+    lng: -117.3465358
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJwZB1Tqj-YVMRCUQ5c8YwMpU",
+    edition: "EWA",
+    notes: "EX Single Wire Rack w/ WCD; ",
+    address: "28312 N Newport Hwy, Chattaroy, WA 99003, USA",
+    lat: 47.91469540000001,
+    lng: -117.3497987
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJT9JLlu74YVMRnx_7wbrcP3A",
+    edition: "EWA",
+    notes: "Inside store Rack (MAX 120 for bundles of 30)",
+    address: "Washington 99003, USA",
+    lat: 47.97093779999999,
+    lng: -117.3487555
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJ-4uYp5MCYlMRpSMN83Pzdxg",
+    edition: "EWA",
+    notes: "Outside Double Ex Wire Rack",
+    address: "39824 N Newport Hwy, Elk, WA 99009, USA",
+    lat: 48.0174595,
+    lng: -117.3489622
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJTzgtKHP_YVMR8b0w0NAi5h4",
+    edition: "EWA",
+    notes: "EX Single Wire Rack Inside",
+    address: "2915 E Crawford St, Deer Park, WA 99006, USA",
+    lat: 47.9549056,
+    lng: -117.4344417
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJqdtthZ7_YVMRBZfE6PhPZXs",
+    edition: "EWA",
+    notes: "@ Roundabout Store Rack",
+    address: "1501 E Crawford St, Deer Park, WA 99006, USA",
+    lat: 47.9549585,
+    lng: -117.45316
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJIRIEGpL_YVMRI2ZJIZakJII",
+    edition: "EWA",
+    notes: "Inside Community Shelf",
+    address: "115 E Crawford St, Deer Park, WA 99006, USA",
+    lat: 47.9544431,
+    lng: -117.4744981
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJvZoZcJL_YVMRSp7SnVSqxlA",
+    edition: "EWA",
+    notes: "; On Pillar By Window",
+    address: "5 E Crawford St, Deer Park, WA 99006, USA",
+    lat: 47.9546718,
+    lng: -117.4765116
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJa8JfnI7_YVMR4B9tXR4hGkA",
+    edition: "EWA",
+    notes: "Angle Iron Exchange Rack",
+    address: "109 W 4th St, Deer Park, WA 99006, USA",
+    lat: 47.9580491,
+    lng: -117.4791119
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJHXB2EY3_YVMRoXFjjOAkn6A",
+    edition: "EWA",
+    notes: "Opens 11 AM Bottom of Huckleberry rack",
+    address: "122 W 1st St, Deer Park, WA 99006, USA",
+    lat: 47.9556281,
+    lng: -117.4804141
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJbWdMjI3_YVMRnOHCUZl29k8",
+    edition: "EWA",
+    notes: "Spread across Tables, counters, rack",
+    address: "202 W 1st St, Deer Park, WA 99006, USA",
+    lat: 47.9561456,
+    lng: -117.4809408
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJq3o6exb_YVMRVKRx7vGu1AM",
+    edition: "EWA",
+    notes: "",
+    address: "121 W Crawford St, Deer Park, WA 99006, USA",
+    lat: 47.9539204,
+    lng: -117.480423
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJ2UPJ8ZL_YVMRykdWEOhY4kk",
+    edition: "EWA",
+    notes: "Desk",
+    address: "110 S Main St, Deer Park, WA 99006, USA",
+    lat: 47.952808,
+    lng: -117.477225
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJbSOxZJL_YVMRUYDirSp5rvs",
+    edition: "EWA",
+    notes: "Store shelves",
+    address: "220 S Main St, Deer Park, WA 99006, USA",
+    lat: 47.9515445,
+    lng: -117.4773936
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJ_dp_SZP_YVMRa6rF4wf_4hA",
+    edition: "EWA",
+    notes: "Coffee Table",
+    address: "404 S Main St, Deer Park, WA 99006, USA",
+    lat: 47.95040160000001,
+    lng: -117.4775623
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJz14fHvT_YVMRwSUGB8AxCSY",
+    edition: "EWA",
+    notes: "",
+    address: "517 S Fir Ave, Deer Park, WA 99006, USA",
+    lat: 47.94867559999999,
+    lng: -117.4819712
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJr0N8mOv_YVMRJ4dzCNqvvkk",
+    edition: "EWA",
+    notes: " EX Single Wire Rack Opens 11AM (side door if not open)",
+    address: "619 S Fir Ave, Deer Park, WA 99006, USA",
+    lat: 47.9471859,
+    lng: -117.479981
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJDdwoejP_YVMRWVW1zczpiMU",
+    edition: "EWA",
+    notes: "Bottom of Huckleberry rack",
+    address: "141 W H St, Deer Park, WA 99006, USA",
+    lat: 47.94675600000001,
+    lng: -117.480117
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJmTiRVer_YVMRdLc58oGiMJk",
+    edition: "EWA",
+    notes: "Inlander Community Rack; 4 Pockets        ",
+    address: "810 S Main St, Deer Park, WA 99006, USA",
+    lat: 47.9465621,
+    lng: -117.4781558
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJ0QRdYur_YVMRBuSAvgjt-78",
+    edition: "EWA",
+    notes: "EX Single Angle Iron Rack; Inside North Door",
+    address: "900 S Main St, Deer Park, WA 99006, USA",
+    lat: 47.9441409,
+    lng: -117.4777897
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJD4H9XFH_YVMRE0s376omEOI",
+    edition: "EWA",
+    notes: "2 Racks inside by door to Left wooden",
+    address: "1100 S Main St, Deer Park, WA 99006, USA",
+    lat: 47.9435996,
+    lng: -117.4776179
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJWYzbier_YVMRgay1MAYFbgs",
+    edition: "EWA",
+    notes: "Inside EX Single Wire Rack (MAX 75 bundles of 30)",
+    address: "1005 S Main St, Deer Park, WA 99006, USA",
+    lat: 47.945,
+    lng: -117.4763889
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJjYHA6ur_YVMR6HvLB_oVBgc",
+    edition: "EWA",
+    notes: "Single wire EX rack",
+    address: "811 S Main St, Deer Park, WA 99006, USA",
+    lat: 47.9456497,
+    lng: -117.4758541
+  },
+  {
+    route: "Deer Park/ Spokane North",
+    placeId: "ChIJIUoY-ev5YVMRtQdwjwJcl7o",
+    edition: "EWA",
+    notes: "opens 11, leave bag; Entry shelf",
+    address: "34608 N Newport Hwy, Chattaroy, WA 99003, USA",
+    lat: 47.96989139999999,
+    lng: -117.349053
   },
 ];
-
-
