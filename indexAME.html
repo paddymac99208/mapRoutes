@@ -34,19 +34,19 @@
           rotateControl: false,
         });
 
-        locations.forEach(({ lat, lng, placeId, route, edition, notes, address }) => {
+        locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
           const position = { lat: parseFloat(lat), lng: parseFloat(lng) };
 
           const marker = new google.maps.marker.AdvancedMarkerElement({
             map,
             position,
-            title: placeId,
+            title: locationName,
           });
 
           const infoWindow = new google.maps.InfoWindow({
             content: `
               <div style="max-width: 250px;">
-                <h3>${placeId}</h3>
+                <h3>${locationName}</h3>
                 <p><strong>Route:</strong> ${route}</p>
                 <p><strong>Address:</strong> ${address}</p>
                 <p><strong>Edition:</strong> ${edition}</p>
