@@ -8189,5 +8189,115 @@ const locations = [
     lng: -116.3132248,
     locationName: "Kootenai River Brewing Co"
   },
+   {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJvVOTJsnWY1MRL2HOhnDlg_M",
+    edition: "NID",
+    notes: "Tables",
+    address: "502 Fifth Ave, Sandpoint, ID 83864, USA",
+    lat: 48.2773489,
+    lng: -116.5530256,
+    locationName: "Wash-o-Mat"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJja_qrs7WY1MR7RRoQOp9eCc",
+    edition: "NID",
+    notes: "KEOKEE POCKET ONLY 1 MAX 60",
+    address: "702 Fifth Ave, Sandpoint, ID 83864, USA",
+    lat: 48.2796508,
+    lng: -116.5523818,
+    locationName: "Safeway"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJvdXf8svWY1MRjyT-W8kHIiI",
+    edition: "NID",
+    notes: "KEOKEE POCKET ONLY 1 MAX 60",
+    address: "624 Larch St, Sandpoint, ID 83864, USA",
+    lat: 48.281838,
+    lng: -116.5562533,
+    locationName: "Super 1 Foods"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJrSSE4yfRY1MRGms3wVHVPTM",
+    edition: "NID",
+    notes: "COMMUNITY RACK (per convo with Rich 4/6/22, he leaves 40 here AND WOULD LIKE HP HERE AUGUST)",
+    address: "125 Tibbetts Ln, Ponderay, ID 83852, USA",
+    lat: 48.2969358,
+    lng: -116.5475554,
+    locationName: "The CO-OP Gas & Supply Co., Inc."
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJrbFG2tjQY1MRqfLUGRDG290",
+    edition: "NID",
+    notes: "Front Counter",
+    address: "47656 0, US-95, Ponderay, ID 83852, USA",
+    lat: 48.3018975,
+    lng: -116.5470816,
+    locationName: "Zip’s Drive In - Ponderay"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJ7TdU4tjQY1MROQXyEQlI1Gw",
+    edition: "NID",
+    notes: "KEOKEE POCKET ONLY 1 MAX 60",
+    address: "212 Bonner Mall Way, Sandpoint, ID 83864, USA",
+    lat: 48.3022252,
+    lng: -116.5451252,
+    locationName: "Yoke's Fresh Market - Sandpoint"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJnbfhbNnQY1MRvkfKoezKwvs",
+    edition: "NID",
+    notes: "",
+    address: "300 Bonner Mall Way, Sandpoint, ID 83864, USA",
+    lat: 48.30153350000001,
+    lng: -116.5428369,
+    locationName: "Bonner Mall"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJXZw5qOfQY1MRIP_JVqOpOdk",
+    edition: "NID",
+    notes: "Exchange Tall Angle Iron Rack",
+    address: "477181 US-95, Ponderay, ID 83852, USA",
+    lat: 48.3102098,
+    lng: -116.5443484,
+    locationName: "North 40 Outfitters"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJyZ8uAdvQY1MRq9sx_Gm2Ja8",
+    edition: "NID",
+    notes: "Closes 2pm",
+    address: "30784 ID-200, Ponderay, ID 83852, USA",
+    lat: 48.3014884,
+    lng: -116.5390659,
+    locationName: "Hoot Owl Cafe"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJZ-kIipbBY1MR1QqTGTVVQXk",
+    edition: "NID",
+    notes: "Inside past cashier to left; Cabinet marked Auto Clipper",
+    address: "486260 US-95, Sandpoint, ID 83864, USA",
+    lat: 48.428585,
+    lng: -116.4955749,
+    locationName: "Blue Heron Cafe & Samuel Store"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJaRoICibrY1MRBPcCzFt7lNk",
+    edition: "NID",
+    notes: "Inside Right Window Sill; Last stop if going up and back on 95",
+    address: "517 Deep Creek Loop, Naples, ID 83847, USA",
+    lat: 48.5700037,
+    lng: -116.3941087,
+    locationName: "Naples General Store"
+  },
  
 ];
