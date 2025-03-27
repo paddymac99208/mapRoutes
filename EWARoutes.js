@@ -8873,7 +8873,7 @@ const locations = [
     route: "Coeur d'Alene",
     placeId: "ChIJ_3vjtRnHYVMR0vT84t8M8FQ",
     edition: "NID",
-    notes: ""Closes @ 2pm; Kat 208-416-0238" Exchange folding rack foyer",
+    notes: "Closes @ 2pm; Kat 208-416-0238 Exchange folding rack foyer",
     address: "155 W Neider Ave, Coeur d'Alene, ID 83815, USA",
     lat: 47.7076436,
     lng: -116.7898087,
