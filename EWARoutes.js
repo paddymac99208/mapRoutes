@@ -8659,5 +8659,455 @@ const locations = [
     lng: -116.8953597,
     locationName: "Ziggy's Home Improvement"
   },
+   {
+    route: "Coeur d'Alene",
+    placeId: "ChIJp5AB17fGYVMR_JDS4JevHgw",
+    edition: "NID",
+    notes: "shared yellow rack right of door outside",
+    address: "1650 West Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.701497,
+    lng: -116.80885,
+    locationName: "Goodies 76"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJCwV-usnGYVMRHrMnlDjtk6E",
+    edition: "NID",
+    notes: "Single Exchange rack in front of customer service",
+    address: "1485 West Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.7038489,
+    lng: -116.8055175,
+    locationName: "WinCo Foods"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJhdS7VsTGYVMRdyb3EP0KHKQ",
+    edition: "NID",
+    notes: "Community Rack, ; inside left of door",
+    address: "502 West Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.7004342,
+    lng: -116.792564,
+    locationName: "Mobil"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJqwqi78TGYVMRdjsnUgClhX4",
+    edition: "NID",
+    notes: "Inside left of door narow Exchange metal ",
+    address: "W 350 Appleway Ave., Coeur d'Alene, ID 83815, USA",
+    lat: 47.70052799999999,
+    lng: -116.7909218,
+    locationName: "Exxon"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJTUicwcTGYVMRE9rl_OUenI0",
+    edition: "NID",
+    notes: "Middle of Shared rack space",
+    address: "290 West Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.699718,
+    lng: -116.789724,
+    locationName: "Elmer's Restaurant (Coeur d'Alene, ID)"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJzbEQR9vGYVMR5e7TqjmHN7U",
+    edition: "NID",
+    notes: "Top Community Rack, ; inside door to Right",
+    address: "W 201 Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.700905,
+    lng: -116.7868187,
+    locationName: "Exxon"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJDUNin3zHYVMR8ZrHS47ONYs",
+    edition: "NID",
+    notes: "Community Rack, ; inside left of door",
+    address: "1427 E Best Ave, Coeur d'Alene, ID 83814, USA",
+    lat: 47.7009596,
+    lng: -116.7655225,
+    locationName: "NomNom"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJP2KQc_nGYVMRPEvRn-seI_o",
+    edition: "NID",
+    notes: "Shared rack outside",
+    address: "1003 N 15th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.68285849999999,
+    lng: -116.7651669,
+    locationName: "Taj Grocery Store"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJEfhSmVHGYVMRad23HSznIJ0",
+    edition: "NID",
+    notes: "Inside East Door ; community rack by cashier",
+    address: "2301 Sherman Ave, Coeur d'Alene, ID 83814, USA",
+    lat: 47.67303620000001,
+    lng: -116.7530055,
+    locationName: "Mobil"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJd6H45VDGYVMRqVMWqPw8itk",
+    edition: "NID",
+    notes: "Community Rack",
+    address: "2001 E Sherman Ave, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6735058,
+    lng: -116.757691,
+    locationName: "Chevron"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJEZB2OFnGYVMRLZRtOk8QvrE",
+    edition: "NID",
+    notes: "INSIDE NW COMMUNITY RACK; Black Angle Iron  USE MIDDLE RIGHT",
+    address: "1211 Sherman Ave, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6739308,
+    lng: -116.7683629,
+    locationName: "Harvest Foods"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJxdRcamDGYVMR5QlAnzS7uIw",
+    edition: "NID",
+    notes: "Outside bottom of Nickel's Worth Rack",
+    address: "107 N 5th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6737427,
+    lng: -116.7800068,
+    locationName: "Nickel's Worth Classifieds"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJL2IK51LHYVMRgss_HgfzS8E",
+    edition: "NID",
+    notes: "Single Exchange rack inside with other racks",
+    address: "210 Sherman Ave #156, Coeur d'Alene, ID 83814, USA",
+    lat: 47.67321279999999,
+    lng: -116.783342,
+    locationName: "Downtown Mall"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJl6OkcPPGYVMRJ9dtiSE4OGo",
+    edition: "NID",
+    notes: "9am - Bottom of Nickel's Worth Rack; Wants 50 returned papers for wrapping",
+    address: "845 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.68151199999999,
+    lng: -116.78124,
+    locationName: "Idaho Youth Ranch Thrift Store"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ7YdlT_LGYVMRyR-k9i3WeSY",
+    edition: "NID",
+    notes: "Inlander Community Rack; 1 Pocket",
+    address: "1001 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6831962,
+    lng: -116.7817444,
+    locationName: "Safeway"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJK6-ma-7GYVMRhl0PQPB0pSU",
+    edition: "NID",
+    notes: "Exchange Folding Rack",
+    address: "1217 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.68674370000001,
+    lng: -116.7812601,
+    locationName: "Seright's Ace Hardware"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJV-XWUO7GYVMRsUnj1msBukw",
+    edition: "NID",
+    notes: "Bottom of Inlander Rack",
+    address: "1316 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.687611,
+    lng: -116.780135,
+    locationName: "Pilgrim's Market"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ0Urh6ujGYVMRtXnQdsA5kDE",
+    edition: "NID",
+    notes: "Outside Red box",
+    address: "1719 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6919226,
+    lng: -116.7814993,
+    locationName: "The Breakfast Nook"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ7dCmZ93GYVMRVar5z-R847Y",
+    edition: "NID",
+    notes: "Bottom of NW? ",
+    address: "2105 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.696411,
+    lng: -116.781424,
+    locationName: "Exxon Jifi Stop"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJQbQSAOrGYVMRG1dNUalJAzk",
+    edition: "NID",
+    notes: "Inlander Community Rack; 1 Pocket",
+    address: "220 Ironwood Dr, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6936402,
+    lng: -116.7898478,
+    locationName: "Safeway"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJQ6G65cTGYVMRhgCwHl36fMo",
+    edition: "NID",
+    notes: "Inside Community Rack by front door. Share shelf with Nickels Worth",
+    address: "335 West Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.7012054,
+    lng: -116.7905702,
+    locationName: "Walgreens"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ_3vjtRnHYVMR0vT84t8M8FQ",
+    edition: "NID",
+    notes: ""Closes @ 2pm; Kat 208-416-0238" Exchange folding rack foyer",
+    address: "155 W Neider Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7076436,
+    lng: -116.7898087,
+    locationName: "Giorgi's Breakfast & Lunch"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJLcmkytbGYVMRLEqpErnt0Lk",
+    edition: "NID",
+    notes: "Inlander Community Rack; 1 Pocket",
+    address: "121 W Neider Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7087848,
+    lng: -116.7878515,
+    locationName: "Safeway"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJP56hnirHYVMRYgcs7Ge0pPc",
+    edition: "NID",
+    notes: "Inside Exchange Angle Iron Multi-Shelf Rack",
+    address: "170 E Kathleen Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.71415409999999,
+    lng: -116.7847022,
+    locationName: "North 40 Outfitters"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJFdXX5SrBYVMRRYMI0Nc93sk",
+    edition: "NID",
+    notes: "Inlander Community Rack; 3 Pockets ",
+    address: "305 W Kathleen Ave Suite 1, Coeur d'Alene, ID 83815, USA",
+    lat: 47.71636469999999,
+    lng: -116.7904276,
+    locationName: "Super 1 Foods"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJx_apbjHBYVMR2BObQcnjqVM",
+    edition: "NID",
+    notes: "Inside Community Rack bottom with Nickels Worth",
+    address: "1735 W Kathleen Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7161391,
+    lng: -116.8097348,
+    locationName: "Fairway Grocery & Gas"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJLwHn1M_GYVMR_3RRasV3xlA",
+    edition: "NID",
+    notes: "12 pocket EX RACK ",
+    address: "410 W Neider Ave, Coeur d'Alene, ID 83814, USA",
+    lat: 47.7059214,
+    lng: -116.7938058,
+    locationName: "Grocery Outlet"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ7e_szeXBYVMRCgZk7pGC3Hw",
+    edition: "NID",
+    notes: "Community Rack",
+    address: "5525 N Government Wy, Coeur d'Alene, ID 83815, USA",
+    lat: 47.72205049999999,
+    lng: -116.7876382,
+    locationName: "Maverik"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJi5JuStfAYVMRE2DrFNa8QuM",
+    edition: "NID",
+    notes: "Manuel Azevedo; Community Rack",
+    address: "5831 N Government Wy, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7250777,
+    lng: -116.7872944,
+    locationName: "Cenex"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJp3QcYtzAYVMReFcjPTw8dt8",
+    edition: "NID",
+    notes: "Mall Foodcourt entrance, east end, double EX 2 shelf",
+    address: "200 W Hanley Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7317686,
+    lng: -116.7896362,
+    locationName: "Silver Lake Mall"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJM1ns7dPGYVMRVGBTHRHoTM8",
+    edition: "NID",
+    notes: "Bottom of Nickelsworth rack in foyer",
+    address: "200 W Hanley Ave #200-2, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7310246,
+    lng: -116.7902406,
+    locationName: "Black Sheep Sporting Goods"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJjWNhku3AYVMRx77uRN-pkHI",
+    edition: "NID",
+    notes: "Inlander Community Rack; 1 Pocket",
+    address: "161 W Prairie Ave, Hayden, ID 83835, USA",
+    lat: 47.7461576,
+    lng: -116.7889153,
+    locationName: "Safeway"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJhU9JJ-7AYVMRD0fxLIU8gj8",
+    edition: "NID",
+    notes: "",
+    address: "8120 N Cornerstone Dr, Hayden, ID 83835, USA",
+    lat: 47.745438,
+    lng: -116.7930958,
+    locationName: "Discount Tire"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJdTQKifzAYVMRvOKzLXiaNHY",
+    edition: "NID",
+    notes: "CDA Press Comm Rack middle shelf",
+    address: "1600 W Prairie Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7441156,
+    lng: -116.807611,
+    locationName: "Exxon"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJz3_RqmHAYVMRgrb2ZK9BIe8",
+    edition: "NID",
+    notes: "Green Table in Entry; Closes 2pm",
+    address: "9757 N Rustlers TRL, Hayden, ID 83835, USA",
+    lat: 47.76028809999999,
+    lng: -116.7918304,
+    locationName: "Rustlers Roost"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJy9ETV2DAYVMRCqYGZkTnEmc",
+    edition: "NID",
+    notes: "Comunity Rack",
+    address: "425 Hayden Ave, Hayden, ID 83835, USA",
+    lat: 47.7596601,
+    lng: -116.7918772,
+    locationName: "Maverik"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ12Hve_TAYVMRMxh4NxRRVws",
+    edition: "NID",
+    notes: "Single Black angle iron rack in vestabule by carts",
+    address: "550 W Honeysuckle Ave, Hayden, ID 83835, USA",
+    lat: 47.7489986,
+    lng: -116.7932458,
+    locationName: "Walmart Supercenter"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ66Ceu2HAYVMRNy_BFZkoQLY",
+    edition: "NID",
+    notes: "Inlander Community Rack ; 2 pockets",
+    address: "240 Hayden Ave ste f ste f, Hayden Lake, ID 83835, USA",
+    lat: 47.7577952,
+    lng: -116.7898497,
+    locationName: "Super 1 Foods"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJR0O522HAYVMR2Oj8PBuFeas",
+    edition: "NID",
+    notes: "Inside EX Single Rack",
+    address: "196 Hayden Ave, Hayden, ID 83835, USA",
+    lat: 47.7577459,
+    lng: -116.788869,
+    locationName: "Hayden Ace Hardware"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJl6pbHWLAYVMR0XlsUmqNDT8",
+    edition: "NID",
+    notes: "Inside Rack, Left of Door",
+    address: "9577 N Government Wy, Hayden, ID 83835, USA",
+    lat: 47.75871,
+    lng: -116.7870708,
+    locationName: "Fast Trip and Vapor"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ57I6kIzAYVMR3t_W1424VZk",
+    edition: "NID",
+    notes: "Opens @ 11am ; Top community rack with Inlander (black)",
+    address: "8882 N Government Wy, Hayden, ID 83835, USA",
+    lat: 47.75220299999999,
+    lng: -116.785799,
+    locationName: "Rancho Viejo Hayden ID"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJKxobhGPAYVMRZS8n2pTj4wE",
+    edition: "NID",
+    notes: "Use bottom of Inlander Rack (owner does not want more racks) Closes 1:30pm",
+    address: "10015 N Government Wy, Hayden, ID 83835, USA",
+    lat: 47.7627868,
+    lng: -116.7874718,
+    locationName: "Blue Plate Cafe"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJA7QclHHAYVMRAMH4IAGSAF0",
+    edition: "NID",
+    notes: "Exchange Rack, ; Inside Entry, Right",
+    address: "176 W Wyoming Ave, Hayden, ID 83835, USA",
+    lat: 47.77223659999999,
+    lng: -116.7894519,
+    locationName: "Habitat For Humanity of North Idaho"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ-V2p6fe_YVMRFE8wYVnIheE",
+    edition: "NID",
+    notes: "Inside store - shared rack",
+    address: "266 W Lancaster Rd, Hayden, ID 83835, USA",
+    lat: 47.78732120000001,
+    lng: -116.7893347,
+    locationName: "Lancaster Market"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJsyhGgHHAYVMRbU29RHJ5PuY",
+    edition: "NID",
+    notes: "Jake (mgr) use the middle rack of the Blue Ziggys marketing rack",
+    address: "170 W Wyoming Ave, Hayden Lake, ID 83835, USA",
+    lat: 47.77277759999999,
+    lng: -116.7893611,
+    locationName: "Ziggy’s Home Improvement"
+  },
  
 ];
