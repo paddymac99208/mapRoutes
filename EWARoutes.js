@@ -1532,7 +1532,7 @@ const locations = [
   {
     route: "Moses Lake",
     placeId: "ChIJuf0HFCo5mVQR_Haft1ej-eA",
-    edition: "IND",
+    edition: "IND, WML",
     notes: "Take Exit 179; 1/2 Bundle of Inlander",
     address: "1810 Kittelson Rd, Moses Lake, WA 98837, USA",
     lat: 47.1020857,
@@ -1542,7 +1542,7 @@ const locations = [
   {
     route: "Moses Lake",
     placeId: "ChIJO_ABvrw4mVQRDzkhBcs64CY",
-    edition: "EWA, IND",
+    edition: "EWA, IND, WML",
     notes: "Inside Rack Far Left or Northern Entrance; 1 Bundle of Inlander",
     address: "601 S Pioneer Way, Moses Lake, WA 98837, USA",
     lat: 47.13038900000001,
@@ -1552,7 +1552,7 @@ const locations = [
   {
     route: "Moses Lake",
     placeId: "ChIJgx1-Bl5HmVQRXRCeWfeM3Zg",
-    edition: "EWA, IND",
+    edition: "EWA, IND, WML",
     notes: "Rack Inside Right Main Door leave WML Copies primary; 1/2 Bundle of Inlander",
     address: "1177 N Stratford Rd, Moses Lake, WA 98837, USA",
     lat: 47.145412,
@@ -1562,7 +1562,7 @@ const locations = [
   {
     route: "Moses Lake",
     placeId: "ChIJUXK5FRQ_mVQR7UNxVcWHd4Y",
-    edition: "EWA, IND",
+    edition: "EWA, IND, WML",
     notes: "Inside Rack On top/Inlander on bottom; 2 blocks past is 1-90 On Ramp; 1 Bundle of Inlander",
     address: "2709 W Broadway Ave, Moses Lake, WA 98837, USA",
     lat: 47.1040399,
@@ -6418,5 +6418,1725 @@ const locations = [
     lat: 46.4948845,
     lng: -116.294342,
     locationName: "Riverside Lanes"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJXRLpXbFAmVQRhOc13phMebY",
+    edition: "WML",
+    notes: "",
+    address: "8034 Valley Rd NE, Moses Lake, WA 98837, USA",
+    lat: 47.1422459,
+    lng: -119.3201305,
+    locationName: "Cascade Valley Grocery"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJzfjOs15HmVQRElplbjySQyQ",
+    edition: "WML",
+    notes: "",
+    address: "789 N Central Dr, Moses Lake, WA 98837, USA",
+    lat: 47.1428451,
+    lng: -119.283333,
+    locationName: "Goodwill Industries of the Inland Northwest"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJGyIXbFhHmVQRjadJskD9mkI",
+    edition: "WML",
+    notes: "",
+    address: "518 W Valley Rd, Moses Lake, WA 98837, USA",
+    lat: 47.1386799,
+    lng: -119.2852762,
+    locationName: "Valley Quick Stop"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJfUgGQlhHmVQRhfNbTWjKiW4",
+    edition: "WML",
+    notes: "",
+    address: "530 W Valley Rd, Moses Lake, WA 98837, USA",
+    lat: 47.13947839999999,
+    lng: -119.2853696,
+    locationName: "Chico's Pizza"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJ7-bZtKA4mVQRI9BjAftfz_w",
+    edition: "WML",
+    notes: "",
+    address: "640 N Stratford Rd, Moses Lake, WA 98837, USA",
+    lat: 47.13803,
+    lng: -119.27865,
+    locationName: "Circle K"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJB6-q16A4mVQRJfOruRAH2l0",
+    edition: "WML",
+    notes: "",
+    address: "619 N Stratford Rd, Moses Lake, WA 98837, USA",
+    lat: 47.1371962,
+    lng: -119.277299,
+    locationName: "Plaza Coin-Op Laundry"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJF4BgZF9HmVQRcmVWHgUgCXI",
+    edition: "WML",
+    notes: "",
+    address: "825 N Stratford Rd, Moses Lake, WA 98837, USA",
+    lat: 47.1400143,
+    lng: -119.278022,
+    locationName: "McDonald's"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJuWuE6604mVQR9yy9GfSk7tI",
+    edition: "WML",
+    notes: "",
+    address: "710 W Broadway Ave, Moses Lake, WA 98837, USA",
+    lat: 47.12744410000001,
+    lng: -119.2868099,
+    locationName: "Simply Divine Espresso"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJY-7sjEg_mVQRONaSeZbXtjY",
+    edition: "WML",
+    notes: "",
+    address: "1606 W Broadway Ave, Moses Lake, WA 98837, USA",
+    lat: 47.1161283,
+    lng: -119.2966085,
+    locationName: "Adi Food Mart"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJHSJ3dT8_mVQRvkHdyF3lqVc",
+    edition: "WML",
+    notes: "",
+    address: "2224 W Broadway Ave, Moses Lake, WA 98837, USA",
+    lat: 47.1096364,
+    lng: -119.3047468,
+    locationName: "Lake's Market"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJFzIUTQ4_mVQR8W_3dWrf5QI",
+    edition: "WML",
+    notes: "",
+    address: "420 S Wanapum Dr, Moses Lake, WA 98837, USA",
+    lat: 47.09863050000001,
+    lng: -119.3170704,
+    locationName: "Colville Fuels Half Sun Travel Plaza"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJY8WKaUw_mVQRHY-_kqB6LXw",
+    edition: "WML",
+    notes: "",
+    address: "1147 W Broadway Ave, Moses Lake, WA 98837, USA",
+    lat: 47.1209576,
+    lng: -119.292462,
+    locationName: "North 40 Outfitters"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJ21ATb7I4mVQR0Puhw7vDU8Y",
+    edition: "WML",
+    notes: "",
+    address: "723 W 3rd Ave, Moses Lake, WA 98837, USA",
+    lat: 47.1258702,
+    lng: -119.2861428,
+    locationName: "Mi Casa Market"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJu6zHS1I5mVQRDUajl-CSxBY",
+    edition: "WML",
+    notes: "",
+    address: "321 W Broadway Ave, Moses Lake, WA 98837, USA",
+    lat: 47.12916190000001,
+    lng: -119.2822141,
+    locationName: "Laundry Lavenderia"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJf-4Guq84mVQRPNFnc_gOWx0",
+    edition: "WML",
+    notes: "",
+    address: "317 W Broadway Ave, Moses Lake, WA 98837, USA",
+    lat: 47.1292815,
+    lng: -119.2818935,
+    locationName: "Tacos El Rey"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJSyKs-q84mVQRDUyEUc6IUDg",
+    edition: "WML",
+    notes: "",
+    address: "324 S Ash St, Moses Lake, WA 98837, USA",
+    lat: 47.12877899999999,
+    lng: -119.2787827,
+    locationName: "Windermere Property Management Grant County"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJW15bec45mVQRAjh6o-43I7A",
+    edition: "WML",
+    notes: "",
+    address: "117 W 3rd Ave, Moses Lake, WA 98837, USA",
+    lat: 47.12959670000001,
+    lng: -119.2788025,
+    locationName: "Emperador Azteca Moses Lake"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJU1mG98c4mVQRNL7iLCDKaIs",
+    edition: "WML",
+    notes: "",
+    address: "1000 S Pioneer Way, Moses Lake, WA 98837, USA",
+    lat: 47.1207885,
+    lng: -119.2681495,
+    locationName: "Coldwell Banker Tomlinson Ranch & Home"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJAcMK3Ms4mVQRYeo5G9qeggw",
+    edition: "WML",
+    notes: "",
+    address: "209 E Nelson Rd, Moses Lake, WA 98837, USA",
+    lat: 47.1162862,
+    lng: -119.2725811,
+    locationName: "FRANK'S SUPERETTE"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJ6XtF09c4mVQRmXRNwuAlE5M",
+    edition: "WML",
+    notes: "",
+    address: "Yonezawa Blvd, Moses Lake, WA 98837, USA",
+    lat: 47.10400443941192,
+    lng: -119.2543941041679,
+    locationName: "Yonezawa Boulevard"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJj_A9HgA5mVQRN9EqbGmguDs",
+    edition: "WML",
+    notes: "",
+    address: "2481 Maiers Rd, Moses Lake, WA 98837, USA",
+    lat: 47.10190590000001,
+    lng: -119.2477553,
+    locationName: "Moses Lake Market"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJDUi_vSg5mVQR52zWuqswOa8",
+    edition: "WML",
+    notes: "",
+    address: "1725 Kittelson Rd, Moses Lake, WA 98837, USA",
+    lat: 47.1013515,
+    lng: -119.2483236,
+    locationName: "Conoco"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJG0h1ryg5mVQRxWRuJiBRLJQ",
+    edition: "WML",
+    notes: "",
+    address: "1795 Kittelson Rd, Moses Lake, WA 98837, USA",
+    lat: 47.1011,
+    lng: -119.2472041,
+    locationName: "McDonald's"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJz236LLo5mVQRKpr2dIaLlN8",
+    edition: "WML",
+    notes: "",
+    address: "1807 East Kittelson Rd, Moses Lake, WA 98837, USA",
+    lat: 47.1013433,
+    lng: -119.2454241,
+    locationName: "Bob's Cafe"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJ6YTdOLw4mVQR8Xr5AmN49nU",
+    edition: "WML",
+    notes: "",
+    address: "801 E Wheeler Rd, Moses Lake, WA 98837, USA",
+    lat: 47.1284798,
+    lng: -119.2655642,
+    locationName: "Samaritan Hospital"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJOzRn_8U4mVQR70b5ZIlTj0k",
+    edition: "WML",
+    notes: "",
+    address: "1253 S Pioneer Way, Moses Lake, WA 98837, USA",
+    lat: 47.1167837,
+    lng: -119.2638754,
+    locationName: "ASTRO"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJhaHP1Mc4mVQRE-o-Qegsj7Q",
+    edition: "WML",
+    notes: "",
+    address: "1135 S Pioneer Way, Moses Lake, WA 98837, USA",
+    lat: 47.11907699999999,
+    lng: -119.2661014,
+    locationName: "Franz Bakery Outlet"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJ70sjhbs4mVQRXcaTiHVcQOo",
+    edition: "WML",
+    notes: "",
+    address: "705 S Pioneer Way, Moses Lake, WA 98837, USA",
+    lat: 47.1283259,
+    lng: -119.268854,
+    locationName: "Big Smoke"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJt0-EaKQ4mVQRnAC2JLBquZs",
+    edition: "WML",
+    notes: "",
+    address: "406 E Broadway Ave Apt B, Moses Lake, WA 98837, USA",
+    lat: 47.1331934,
+    lng: -119.2751609,
+    locationName: "General Laundry"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJSWUWcqQ4mVQRu0mfyMiVCYY",
+    edition: "WML",
+    notes: "",
+    address: "418 E Broadway Ave, Moses Lake, WA 98837, USA",
+    lat: 47.1335728,
+    lng: -119.2748317,
+    locationName: "Les Schwab Tire Center"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJT68ceqQ4mVQRiXdekO8BneA",
+    edition: "WML",
+    notes: "",
+    address: "423 E Broadway Ave, Moses Lake, WA 98837, USA",
+    lat: 47.1332902,
+    lng: -119.2741167,
+    locationName: "Faber Industrial Supply"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJCfvch6M4mVQRQVdOeH1evu4",
+    edition: "WML",
+    notes: "",
+    address: "507 E Broadway Ave, Moses Lake, WA 98837, USA",
+    lat: 47.1335161,
+    lng: -119.2734642,
+    locationName: "Sporty's Steakhouse"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJXyCadaM4mVQRfXiSL7KJQ9k",
+    edition: "WML",
+    notes: "",
+    address: "602 E 3rd Ave, Moses Lake, WA 98837, USA",
+    lat: 47.1334889,
+    lng: -119.271757,
+    locationName: "Senior CenterThrift Store"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJzZOBH6I4mVQRAF_W3-2qCBI",
+    edition: "WML",
+    notes: "",
+    address: "820 E Broadway Ave, Moses Lake, WA 98837, USA",
+    lat: 47.1359049,
+    lng: -119.2703293,
+    locationName: "Norco, Moses Lake"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJk33zGNA4mVQR_ZrPp7xaZwo",
+    edition: "WML",
+    notes: "",
+    address: "1550 S Pioneer Way Suite 100, Moses Lake, WA 98837, USA",
+    lat: 47.1121487,
+    lng: -119.2602805,
+    locationName: "CareToday at Samaritan Clinic on Pioneer"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJw7epYpE4mVQRK6Xgrp5IE4Q",
+    edition: "WML",
+    notes: "",
+    address: "1520 E Wheeler Rd, Moses Lake, WA 98837, USA",
+    lat: 47.1323406,
+    lng: -119.2505741,
+    locationName: "Ziggy’s Home Improvement"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJ1b-m84w4mVQRJzbLzBmvuTI",
+    edition: "WML",
+    notes: "",
+    address: "11852 Wheeler Rd NE, Moses Lake, WA 98837, USA",
+    lat: 47.13151589999999,
+    lng: -119.2390102,
+    locationName: "One Stop Mart & Truck Stop"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJn3cWCF5HmVQRi1mIZ1PmTM8",
+    edition: "WML",
+    notes: "",
+    address: "1158 N Stratford Rd, Moses Lake, WA 98837, USA",
+    lat: 47.1447673,
+    lng: -119.2786244,
+    locationName: "76"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJrYebfH9HmVQRVxskskw2KW0",
+    edition: "WML",
+    notes: "",
+    address: "4793 Stratford Rd NE, Moses Lake, WA 98837, USA",
+    lat: 47.1574073,
+    lng: -119.2776136,
+    locationName: "Dos tesorros co."
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJS8f3ECVHmVQRMuP0BkJjM8w",
+    edition: "WML",
+    notes: "",
+    address: "5219 Patton Blvd, Moses Lake, WA 98837, USA",
+    lat: 47.1635874,
+    lng: -119.3132066,
+    locationName: "Exxon"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJU50doE0_mVQR2JUuvVyUD1s",
+    edition: "WML",
+    notes: "",
+    address: "9299 Beacon Rd NE, Moses Lake, WA 98837, USA",
+    lat: 47.15014219999999,
+    lng: -119.2933006,
+    locationName: "Community Services of Moses Lake"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJudqJ2y5cmVQRazz9jOyUyNk",
+    edition: "WML",
+    notes: "",
+    address: "Ephrata, WA 98823, USA",
+    lat: 47.3102425,
+    lng: -119.5589928,
+    locationName: "Safeway on Basin St SW"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJyU16Iy9cmVQRWrZO5lJyQwE",
+    edition: "WML",
+    notes: "",
+    address: "1140 Basin St SW, Ephrata, WA 98823, USA",
+    lat: 47.3104387,
+    lng: -119.5573557,
+    locationName: "Ag Supply Ace Hardware"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJg_MSNy9cmVQRE-n_O-i7MBU",
+    edition: "WML",
+    notes: "",
+    address: "1050 Basin St SW, Ephrata, WA 98823, USA",
+    lat: 47.31115699999999,
+    lng: -119.557962,
+    locationName: "NAPA Auto Parts - Ephrata Auto Parts"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJcQ__DidcmVQROKGGSvBf91k",
+    edition: "WML",
+    notes: "",
+    address: "456 Basin St SW, Ephrata, WA 98823, USA",
+    lat: 47.31578450000001,
+    lng: -119.5548517,
+    locationName: "Cost Less Tobacco"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJr_mO6y5cmVQRD59SOUfqNyQ",
+    edition: "WML",
+    notes: "",
+    address: "1154 Basin St SW, Ephrata, WA 98823, USA",
+    lat: 47.3094997,
+    lng: -119.5593219,
+    locationName: "Short Stop Gas Station"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJx0SOvy1cmVQRDzWkbpuBnMM",
+    edition: "WML",
+    notes: "",
+    address: "1352 Basin St SW, Ephrata, WA 98823, USA",
+    lat: 47.3065446,
+    lng: -119.5610328,
+    locationName: "Chukar Hill Shell"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJZ7Xyli1cmVQRwnAz-OXlbzM",
+    edition: "WML",
+    notes: "",
+    address: "1410 Basin St SW, Ephrata, WA 98823, USA",
+    lat: 47.3063395,
+    lng: -119.5614158,
+    locationName: "Four Seasons Farm Service"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJyQFEj2pdmVQRN5CSWOi_yXQ",
+    edition: "WML",
+    notes: "",
+    address: "1460 Basin St SW, Ephrata, WA 98823, USA",
+    lat: 47.3055087,
+    lng: -119.561056,
+    locationName: "Grocery Outlet"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJb6rbgTJcmVQRjM6i_uew_Jo",
+    edition: "WML",
+    notes: "",
+    address: "1510 Basin St SW, Ephrata, WA 98823, USA",
+    lat: 47.3051801,
+    lng: -119.5618404,
+    locationName: "Hales Farm and Feeds"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJFxEHgVV7mVQROsAYM9W7NJA",
+    edition: "WML",
+    notes: "",
+    address: "305 F St SE, Quincy, WA 98848, USA",
+    lat: 47.234261,
+    lng: -119.847509,
+    locationName: "NAPA Auto Parts - Quincy Auto Parts"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJb59J9QsGkVQRQb01I6MhzSI",
+    edition: "WML",
+    notes: "",
+    address: "223 F St SE, Quincy, WA 98848, USA",
+    lat: 47.2343619,
+    lng: -119.848728,
+    locationName: "Quincy Short Stop"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJ9yvRZKh8mVQRWc_1yHLg3e4",
+    edition: "WML",
+    notes: "",
+    address: "211 F St SW, Quincy, WA 98848, USA",
+    lat: 47.2335413,
+    lng: -119.8577436,
+    locationName: "Les Schwab Tire Center"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJCyOjL6h8mVQRyjuY7pteQuQ",
+    edition: "WML",
+    notes: "",
+    address: "106 F St SW, Quincy, WA 98848, USA",
+    lat: 47.232781,
+    lng: -119.85557,
+    locationName: "Akins Fresh Market"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJA4YT7ux2mVQRcec3Cmg_fAk",
+    edition: "WML",
+    notes: "",
+    address: "404 S Frontage Rd NW, George, WA 98824, USA",
+    lat: 47.0828256,
+    lng: -119.859979,
+    locationName: "Shree's Truck Stop & Gas Station - Shaan's Autos"
+  },
+  {
+    route: "MosesLake",
+    placeId: "ChIJE0-sVZ4_mVQRpIzQOCybpLc",
+    edition: "WML",
+    notes: "",
+    address: "4421 Prichard Rd, Moses Lake, WA 98837, USA",
+    lat: 47.10357169999999,
+    lng: -119.3416084,
+    locationName: "Chevron"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJw3CJ0-HMm1QRHQDierWxw2g",
+    edition: "WML",
+    notes: "",
+    address: "11 Grant Rd, East Wenatchee, WA 98802, USA",
+    lat: 47.4067005,
+    lng: -120.2909294,
+    locationName: "Fred Meyer"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJ12qxRx7Nm1QRBl95uNnZ2f0",
+    edition: "WML",
+    notes: "",
+    address: "96 Grant Rd, East Wenatchee, WA 98802, USA",
+    lat: 47.405417,
+    lng: -120.288868,
+    locationName: "Grant Road 76"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJ331r4xfNm1QR4ciDkI4Ahgc",
+    edition: "WML",
+    notes: "",
+    address: "418 Rock Island Rd, East Wenatchee, WA 98802, USA",
+    lat: 47.3973907,
+    lng: -120.2842644,
+    locationName: "Jimmy's Diner"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJA7B4ou_Mm1QRfBr0QBPe45Y",
+    edition: "WML",
+    notes: "",
+    address: "1051 Valley Mall Pkwy, East Wenatchee, WA 98802, USA",
+    lat: 47.4184575,
+    lng: -120.2947906,
+    locationName: "Discount Tobacco & Beverage"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJFdkhe4bLm1QR5prhmgRTLzU",
+    edition: "WML",
+    notes: "",
+    address: "50 29th St NW, East Wenatchee, WA 98802, USA",
+    lat: 47.45259,
+    lng: -120.298856,
+    locationName: "Bonaventure of East Wenatchee"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJRycAfJHLm1QRtewebeKDc6A",
+    edition: "WML",
+    notes: "",
+    address: "3330 Sunset Hwy, East Wenatchee, WA 98802, USA",
+    lat: 47.46199379999999,
+    lng: -120.2976786,
+    locationName: "Shell"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJ3w8wyYfJm1QRudbgO_ikWt8",
+    edition: "WML",
+    notes: "",
+    address: "10 NE Cascade Ave, East Wenatchee, WA 98802, USA",
+    lat: 47.5011544,
+    lng: -120.2963948,
+    locationName: "Van Doren Sales"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJg81TveXMm1QR_4S9O6v91Oc",
+    edition: "WML",
+    notes: "",
+    address: "13228 US-2, East Wenatchee, WA 98802, USA",
+    lat: 47.528414,
+    lng: -120.2843236,
+    locationName: "Shell"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJ757fwp25m1QRpxye1CkhN5U",
+    edition: "WML",
+    notes: "",
+    address: "Orondo, WA 98843, USA",
+    lat: 47.62576500000001,
+    lng: -120.227321,
+    locationName: "Orondo Market"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJTZraEK2Qm1QRqHiSZrGxgck",
+    edition: "WML",
+    notes: "",
+    address: "23041 US-97, Orondo, WA 98843, USA",
+    lat: 47.7755306,
+    lng: -120.0282155,
+    locationName: "Lone Pine Fruit & Espresso"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJScSX_9qBnFQRgwO9Lo5dqAU",
+    edition: "WML",
+    notes: "",
+    address: "245 Lakeshore Dr, Pateros, WA 98846, USA",
+    lat: 48.051826,
+    lng: -119.90212,
+    locationName: "Super Store"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJqXkCP7GGnFQRkOWKavaDZYc",
+    edition: "WML",
+    notes: "",
+    address: "21 Brewster Grange Rd, Brewster, WA 98812, USA",
+    lat: 48.094005,
+    lng: -119.806409,
+    locationName: "Brewster Veterinary Clinic"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJHzqGU20ECUER-zxQB98QLf8",
+    edition: "WML",
+    notes: "",
+    address: "25899 US-97, Brewster, WA 98812, USA",
+    lat: 48.0932685,
+    lng: -119.8077284,
+    locationName: "Brewster Car Care Center"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJrWl8eimOnFQRUi_1LQS3_yw",
+    edition: "WML",
+    notes: "",
+    address: "907 US-97, Brewster, WA 98812, USA",
+    lat: 48.1003477,
+    lng: -119.7880615,
+    locationName: "Brewster Marketplace"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJCUXBqpeGnFQRHVU_8RciQao",
+    edition: "WML",
+    notes: "",
+    address: "715 US-97, Brewster, WA 98812, USA",
+    lat: 48.1014941,
+    lng: -119.786246,
+    locationName: "Chevron Brewster"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJAUMPwpCGnFQRJxrisTDXcB8",
+    edition: "WML",
+    notes: "",
+    address: "405 US-97, Brewster, WA 98812, USA",
+    lat: 48.1036366,
+    lng: -119.7813184,
+    locationName: "Exxon"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJD119rk58nFQRa_CBCTM4MZM",
+    edition: "WML",
+    notes: "",
+    address: "1106 Columbia Ave, Bridgeport, WA 98813, USA",
+    lat: 48.0100989,
+    lng: -119.675378,
+    locationName: "Bridgeport Plaza Market"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJlc1v6l59nFQRvVOJ8URWaiI",
+    edition: "WML",
+    notes: "",
+    address: "1203 Columbia Ave, Bridgeport, WA 98813, USA",
+    lat: 48.0097579,
+    lng: -119.6738815,
+    locationName: "San Marcos Market LLC"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJ-WVIhkJ8nFQRY9Q94afM2vY",
+    edition: "WML",
+    notes: "",
+    address: "2606 Foster Creek Ave, Bridgeport, WA 98813, USA",
+    lat: 47.9995534,
+    lng: -119.6590813,
+    locationName: "Quik-E-Mart"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJFWZqstOHnFQRmNu7ziQj1Hg",
+    edition: "WML",
+    notes: "",
+    address: "50 A Cassimer Bar Rd, Brewster, WA 98812, USA",
+    lat: 48.1030045,
+    lng: -119.6975527,
+    locationName: "Chief Joseph Smoke Shop"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJRfnA2B6bm1QRE4T_GBsvn64",
+    edition: "WML",
+    notes: "",
+    address: "817 E Woodin Ave, Chelan, WA 98816, USA",
+    lat: 47.8397716,
+    lng: -120.0044998,
+    locationName: "Bill's Gas"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJHVLDBRubm1QR5T4UBSRnvGg",
+    edition: "WML",
+    notes: "",
+    address: "301 E Woodin Ave, Chelan, WA 98816, USA",
+    lat: 47.8402042,
+    lng: -120.0143479,
+    locationName: "Chelan Shell Foodmart"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJ4xpJEhubm1QRUzTpSzDFfDU",
+    edition: "WML",
+    notes: "",
+    address: "302 E Woodin Ave, Chelan, WA 98816, USA",
+    lat: 47.8396122,
+    lng: -120.0146197,
+    locationName: "Lake Chelan E-Z Mart"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJS5r-xg-bm1QR51wllVn0c1Q",
+    edition: "WML",
+    notes: "",
+    address: "310 W Manson Hwy, Chelan, WA 98816, USA",
+    lat: 47.8427307,
+    lng: -120.0232573,
+    locationName: "Chelan Market Fresh"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJRaaqgeWbm1QRr3NLI8UUfQo",
+    edition: "WML",
+    notes: "",
+    address: "53 S Lakeshore Rd, Chelan, WA 98816, USA",
+    lat: 47.8399516,
+    lng: -120.0911019,
+    locationName: "Pat & Mike's Chevron"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJmTH7gnu8m1QRtFqyYUAXVTs",
+    edition: "WML",
+    notes: "",
+    address: "Entiat, WA 98822, USA",
+    lat: 47.68443000000001,
+    lng: -120.2069424,
+    locationName: "Food Mart"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJP22ZAom7m1QRX9jBr3-Yyjs",
+    edition: "WML",
+    notes: "",
+    address: "2038 Entiat Way, Entiat, WA 98822, USA",
+    lat: 47.676475,
+    lng: -120.2088696,
+    locationName: "Entiat Food Center"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJO2iWgkrKm1QRsmqUx7x5X1Q",
+    edition: "WML",
+    notes: "",
+    address: "3607 US-97 ALT, Wenatchee, WA 98801, USA",
+    lat: 47.4839991,
+    lng: -120.3179317,
+    locationName: "Wenatchee Valley Truck Stop"
+  },
+  {
+    route: "WenatcheeA",
+    placeId: "ChIJMWlLF2HNm1QR8uCMze0ivL0",
+    edition: "WML",
+    notes: "",
+    address: "3628 US-97 ALT, Wenatchee, WA 98801, USA",
+    lat: 47.4837902,
+    lng: -120.3199314,
+    locationName: "Builders FirstSource"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJj80Db57Mm1QRyT8_rMb2IgA",
+    edition: "WML",
+    notes: "",
+    address: "1128 N Miller St, Wenatchee, WA 98801, USA",
+    lat: 47.4378925,
+    lng: -120.3261099,
+    locationName: "Albertsons"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ7YGj6Z7Mm1QRZNW8XVjwQ6o",
+    edition: "WML",
+    notes: "",
+    address: "1041 N Miller St, Wenatchee, WA 98801, USA",
+    lat: 47.4363883,
+    lng: -120.3246166,
+    locationName: "Chevron"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJPWD959HMm1QRCYAkMZ-eDMk",
+    edition: "WML",
+    notes: "",
+    address: "707 N Emerson Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4316861,
+    lng: -120.3221649,
+    locationName: "Wenatchee Valley Medical Center"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ1w7tzrbNm1QR3WOHEdL28Pg",
+    edition: "WML",
+    notes: "",
+    address: "501 N Western Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4302951,
+    lng: -120.3459344,
+    locationName: "Dizzy D's"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJAUvGIanMm1QRg66Z29DQd04",
+    edition: "WML",
+    notes: "",
+    address: "509 N Western Ave, Wenatchee, WA 98801, USA",
+    lat: 47.430526,
+    lng: -120.3451105,
+    locationName: "Abby's Legendary Pizza"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJgwPg5qjMm1QRx5qu__NfGcg",
+    edition: "WML",
+    notes: "",
+    address: "1732 Fifth St, Wenatchee, WA 98801, USA",
+    lat: 47.4299855,
+    lng: -120.3457588,
+    locationName: "Western Market"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ77qr3J3Mm1QRy97f-gQpY5c",
+    edition: "WML",
+    notes: "",
+    address: "1210 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4390387,
+    lng: -120.3234606,
+    locationName: "Wenatchee Specialty Store"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ0_sYruXMm1QRjrVv8FdH66I",
+    edition: "WML",
+    notes: "",
+    address: "1208 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4385586,
+    lng: -120.3234156,
+    locationName: "Wenatchee Fraternal Order of Eagles"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJJ76cK5zMm1QRQ-T_X3gdR54",
+    edition: "WML",
+    notes: "",
+    address: "1112 N Wenatchee Ave #1534, Wenatchee, WA 98801, USA",
+    lat: 47.4379243,
+    lng: -120.3225953,
+    locationName: "Buzz Inn Steakhouse & Lounge"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJtcDXS5zMm1QRR50KLb6IUX4",
+    edition: "WML",
+    notes: "",
+    address: "1115 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4379214,
+    lng: -120.3221146,
+    locationName: "Ag Supply Hardware and Feed"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ1U1SabrNm1QRCVbm_Lptv-s",
+    edition: "WML",
+    notes: "",
+    address: "815 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.43429,
+    lng: -120.31907,
+    locationName: "Best Western Plus"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJswHKzp3Mm1QRUZs5dY7CMPU",
+    edition: "WML",
+    notes: "",
+    address: "907 A N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4359136,
+    lng: -120.3191968,
+    locationName: "Good Spirits Liquor Store"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJqyA3E2LLm1QR14vnzFvRatw",
+    edition: "WML",
+    notes: "",
+    address: "1314 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.441237,
+    lng: -120.325488,
+    locationName: "Performance Auto Sound"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJQXpnnm_Lm1QRZFoSeKKd-ys",
+    edition: "WML",
+    notes: "",
+    address: "1816 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4497012,
+    lng: -120.3323249,
+    locationName: "North Avenue Market"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ_1AS8bDKm1QRzVysBZoPQ4Q",
+    edition: "WML",
+    notes: "",
+    address: "2960 Easy St, Wenatchee, WA 98801, USA",
+    lat: 47.48743400000001,
+    lng: -120.4117581,
+    locationName: "Hot Rod Cafe"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJyeuR4jG1m1QRtE9ffdIZuis",
+    edition: "WML",
+    notes: "",
+    address: "100 Apple Annie Ave, Cashmere, WA 98815, USA",
+    lat: 47.5173187,
+    lng: -120.4502334,
+    locationName: "Apple Annie Antique Gallery"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ304d6jG1m1QRYmuoGxAL2r4",
+    edition: "WML",
+    notes: "",
+    address: "102 Titchenal Rd, Cashmere, WA 98815, USA",
+    lat: 47.519985,
+    lng: -120.4542878,
+    locationName: "BJ's Cashmere"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJUyNXvjG1m1QRB17zFHL49DU",
+    edition: "WML",
+    notes: "",
+    address: "107 Mount Cashmere Pl, Cashmere, WA 98815, USA",
+    lat: 47.5125839,
+    lng: -120.465353,
+    locationName: "Cashmere Quick Stop"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJNZ5dZTG1m1QRAWPtGRLzfxU",
+    edition: "WML",
+    notes: "",
+    address: "130 Titchenal Rd, Cashmere, WA 98815, USA",
+    lat: 47.5190503,
+    lng: -120.4540349,
+    locationName: "Martin's Market Place"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJY4xYyDK1m1QRnYW1teo6HJI",
+    edition: "WML",
+    notes: "",
+    address: "Blue Star Way, Cashmere, WA 98815, USA",
+    lat: 47.5170911243825,
+    lng: -120.461435912324,
+    locationName: "Blue Star Way"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJL4Vyriy1m1QRzu3_85yiZNw",
+    edition: "WML",
+    notes: "",
+    address: "1",
+    lat: 47.5220689,
+    lng: -120.467428,
+    locationName: "Weeds Cafe"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ4-f0pdRKmlQRQGMOPGVLYH0",
+    edition: "WML",
+    notes: "",
+    address: "103 Cottage Ave, Cashmere, WA 98815, USA",
+    lat: 47.522382,
+    lng: -120.469612,
+    locationName: "NCW Realty Inc"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJE2tOytRKmlQRbra6bRljXuc",
+    edition: "WML",
+    notes: "",
+    address: "Cashmere, WA 98815, USA",
+    lat: 47.523357,
+    lng: -120.469963,
+    locationName: "Hometown Market"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJg9t1u9RKmlQRx_u32vbZs6c",
+    edition: "WML",
+    notes: "",
+    address: "201 Aplets Way, Cashmere, WA 98815, USA",
+    lat: 47.52249559999999,
+    lng: -120.4702891,
+    locationName: "Jerry's Auto Supply"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJDyQBHABLmlQRWzdHEHPAI70",
+    edition: "WML",
+    notes: "",
+    address: "310 River St, Cashmere, WA 98815, USA",
+    lat: 47.52259170000001,
+    lng: -120.4742013,
+    locationName: "River Street Laundry"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJV9MD1NdKmlQRjPVX8Ek8gvc",
+    edition: "WML",
+    notes: "",
+    address: "5607 Sunset Hwy, Cashmere, WA 98815, USA",
+    lat: 47.5228372,
+    lng: -120.4837677,
+    locationName: "Cashmere Mini Mart"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ01LVhNBKmlQRalmzqoe-wcI",
+    edition: "WML",
+    notes: "",
+    address: "702 Pioneer Ave, Cashmere, WA 98815, USA",
+    lat: 47.5167919,
+    lng: -120.4796889,
+    locationName: "Pioneer Market"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJQUp0-NlKmlQRN_0K3xkDVsI",
+    edition: "WML",
+    notes: "",
+    address: "817 Pioneer Ave, Cashmere, WA 98815, USA",
+    lat: 47.5179023,
+    lng: -120.482727,
+    locationName: "Cashmere Post Acute"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ8Yyl0BVLmlQRQM7mTrxCxKM",
+    edition: "WML",
+    notes: "",
+    address: "5720 Vale Rd, Cashmere, WA 98815, USA",
+    lat: 47.52859100000001,
+    lng: -120.4879616,
+    locationName: "The Outpost Saloon"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJJZKZCtRKmlQRl8H8Jx9RoJc",
+    edition: "WML",
+    notes: "",
+    address: "5740 Vale Rd, Cashmere, WA 98815, USA",
+    lat: 47.5286292,
+    lng: -120.4887942,
+    locationName: "Old Mission Spirits"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJLdKWpH9LmlQRyGpoWU9iMe0",
+    edition: "WML",
+    notes: "",
+    address: "6836 Dryden Ave, Dryden, WA 98821, USA",
+    lat: 47.54151649999999,
+    lng: -120.5612511,
+    locationName: "Dryden Grocery & Hardware"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJy7oYHWFMmlQRGqAXauroXgg",
+    edition: "WML",
+    notes: "",
+    address: "8600 Frontage Rd, Dryden, WA 98821, USA",
+    lat: 47.540577,
+    lng: -120.561857,
+    locationName: "Kevin's Tire Service Dryden"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJPYOehH9LmlQRlLmQh3QggI0",
+    edition: "WML",
+    notes: "",
+    address: "8620 Frontage Rd, Dryden, WA 98821, USA",
+    lat: 47.54067339999999,
+    lng: -120.5623555,
+    locationName: "Take A Break Cafe"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJUXlYl2FMmlQRRbpT0HNwVLU",
+    edition: "WML",
+    notes: "",
+    address: "7546 Saunders Rd, Peshastin, WA 98847, USA",
+    lat: 47.5540943,
+    lng: -120.5829355,
+    locationName: "Big Y Cafe"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJGYgnLlVMmlQRjhgW1uOs6fw",
+    edition: "WML",
+    notes: "",
+    address: "10170 Main St, Peshastin, WA 98847, USA",
+    lat: 47.573429,
+    lng: -120.6056883,
+    locationName: "Peshastin Market"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJN2xN_INNmlQRfe20Jr1CK_4",
+    edition: "WML",
+    notes: "",
+    address: "116 River Bend Dr, Leavenworth, WA 98826, USA",
+    lat: 47.5971995,
+    lng: -120.6451529,
+    locationName: "Safeway"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJSaCWd4VNmlQRGymY3FlM8Oc",
+    edition: "WML",
+    notes: "",
+    address: "11724 River Bend Dr, Leavenworth, WA 98826, USA",
+    lat: 47.5979581,
+    lng: -120.64799,
+    locationName: "Marson & Marson Lumber"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ4-1ciYVNmlQRs9havcBmajY",
+    edition: "WML",
+    notes: "",
+    address: "11756 US Hwy 2, Leavenworth, WA 98826, USA",
+    lat: 47.5979525,
+    lng: -120.6492693,
+    locationName: "Napa Auto Parts - Leavenworth"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJE3Phe_BNmlQRgG6CwaIiCnw",
+    edition: "WML",
+    notes: "",
+    address: "585 US Hwy 2, Leavenworth, WA 98826, USA",
+    lat: 47.5883794,
+    lng: -120.6745544,
+    locationName: "Icicle Quik Stop"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJDzz1lPNNmlQRo82PpIju3bE",
+    edition: "WML",
+    notes: "",
+    address: "305 US-2, Leavenworth, WA 98826, USA",
+    lat: 47.5927626,
+    lng: -120.6672646,
+    locationName: "Berkshire Hathaway Home Services"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ29Gs5ohNmlQR9pIhQCTgp5g",
+    edition: "WML",
+    notes: "",
+    address: "1329 US Hwy 2, Leavenworth, WA 98826, USA",
+    lat: 47.5988293,
+    lng: -120.655318,
+    locationName: "Dan's Food Market"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ048iYEJMmlQRsQg-OPAR3dw",
+    edition: "WML",
+    notes: "",
+    address: "7550 US-97, Peshastin, WA 98847, USA",
+    lat: 47.5544209,
+    lng: -120.6025773,
+    locationName: "American Harvest - Cannabis Store"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ37al8rHKm1QRbKfg7vdBD6A",
+    edition: "WML",
+    notes: "",
+    address: "3157 Main St, Monitor, WA 98836, USA",
+    lat: 47.4872767,
+    lng: -120.4168139,
+    locationName: "Monitor Handimart"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJRd8mvpPLm1QReeOdVY_IbeY",
+    edition: "WML",
+    notes: "",
+    address: "149 Easy Way, Wenatchee, WA 98801, USA",
+    lat: 47.46814499999999,
+    lng: -120.333077,
+    locationName: "Planet fitness"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJB_rvhWTLm1QRS9vJn9D0IcY",
+    edition: "WML",
+    notes: "",
+    address: "2830 Euclid Ave, Wenatchee, WA 98801, USA",
+    lat: 47.469553,
+    lng: -120.327753,
+    locationName: "WASHDOT"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJGbOMUG7Lm1QRbfYX6Ju949k",
+    edition: "WML",
+    notes: "",
+    address: "1914 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4515107,
+    lng: -120.3340008,
+    locationName: "Discount Tire"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJuaZuC2XLm1QR4K7Z6PfXJxU",
+    edition: "WML",
+    notes: "",
+    address: "1643 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4479473,
+    lng: -120.3298752,
+    locationName: "Les Schwab Tire Center"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ95UkVWTLm1QRkKA1VeTfk1o",
+    edition: "WML",
+    notes: "",
+    address: "1616 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4468025,
+    lng: -120.3303726,
+    locationName: "Grocery Outlet"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJI5tx9WPLm1QRGkEXP9duusg",
+    edition: "WML",
+    notes: "",
+    address: "1444 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4442746,
+    lng: -120.328951,
+    locationName: "Hooked On Toys & Sporting Goods"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJD_O88ZnMm1QRS-QwwL7a34U",
+    edition: "WML",
+    notes: "",
+    address: "610 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4321437,
+    lng: -120.3185698,
+    locationName: "Motel 6 Wenatchee, WA"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJgZwXTt3Mm1QRdnf4v7_7LqA",
+    edition: "WML",
+    notes: "",
+    address: "746 S Mission St, Wenatchee, WA 98801, USA",
+    lat: 47.4133186,
+    lng: -120.3048352,
+    locationName: "Jiffy Lube"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJq2N4KQDNm1QRIAbsNXlmu9c",
+    edition: "WML",
+    notes: "",
+    address: "1219 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4391259,
+    lng: -120.3213285,
+    locationName: "Veteran Thrift Store"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJ15jlLGHLm1QRrGOWPFuG520",
+    edition: "WML",
+    notes: "",
+    address: "1312 Maple St, Wenatchee, WA 98801, USA",
+    lat: 47.4431802,
+    lng: -120.3332914,
+    locationName: "Wenatchee Valley Senior Activity Center"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJXXGnMwDLm1QRORgvgOshElQ",
+    edition: "WML",
+    notes: "",
+    address: "1427 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4433739,
+    lng: -120.3263125,
+    locationName: "Huckleberry North"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJYdreHZzMm1QR8i7OEa6OMzU",
+    edition: "WML",
+    notes: "",
+    address: "1014 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.43674909999999,
+    lng: -120.3217675,
+    locationName: "Godfather's Pizza"
+  },
+  {
+    route: "WenatcheeB",
+    placeId: "ChIJo5ZNIZjMm1QR8StFqhnKfME",
+    edition: "WML",
+    notes: "Hold to 100",
+    address: "812 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4340602,
+    lng: -120.3200986,
+    locationName: "Numerica"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJd9eLwJXMm1QRgWakUAwTQhA",
+    edition: "WML",
+    notes: "",
+    address: "116 N Chelan Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4253746,
+    lng: -120.3154728,
+    locationName: "Beer Wine & More"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJ5beyE8DMm1QRsDweXzI4CNo",
+    edition: "WML",
+    notes: "",
+    address: "106 Okanogan Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4209257,
+    lng: -120.3143073,
+    locationName: "Plaza Super Jet"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJueaGKcbMm1QRlJ4PvHHQCqo",
+    edition: "WML",
+    notes: "",
+    address: "525 S Miller St, Wenatchee, WA 98801, USA",
+    lat: 47.4157563,
+    lng: -120.3244041,
+    locationName: "Ernie's Market"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJf4Qws-nMm1QRbJmnH5P7-Xs",
+    edition: "WML",
+    notes: "",
+    address: "615 S Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4165779,
+    lng: -120.3045111,
+    locationName: "Habitat for Humanity Store"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJnbnboOvMm1QRfvYQCoH48mw",
+    edition: "WML",
+    notes: "",
+    address: "1 Kittitas St, Wenatchee, WA 98801, USA",
+    lat: 47.4211918,
+    lng: -120.3065113,
+    locationName: "Wenatchee Amtrak Station"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJK2KxUurMm1QRLG0DOCDw0ZY",
+    edition: "WML",
+    notes: "",
+    address: "Wenatchee, WA 98801, USA",
+    lat: 47.42043899999999,
+    lng: -120.307463,
+    locationName: "Link Transit Columbia Station - Wenatchee"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJe4EpLOrMm1QRWXx3uu-wgL8",
+    edition: "WML",
+    notes: "",
+    address: "421 S Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4191425,
+    lng: -120.3064576,
+    locationName: "La Mexicana Super Market"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJiy_1DOjMm1QRNiw1e8HSICY",
+    edition: "WML",
+    notes: "",
+    address: "733 S Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.415209,
+    lng: -120.3027061,
+    locationName: "Stan's Merry Mart Inc."
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJeTrint3Mm1QRPAsSLfX6j6M",
+    edition: "WML",
+    notes: "",
+    address: "210 Ferry St, Wenatchee, WA 98801, USA",
+    lat: 47.4112618,
+    lng: -120.3033219,
+    locationName: "76"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJEeJTltzMm1QREfrurMaN6dY",
+    edition: "WML",
+    notes: "",
+    address: "850 Methow St, Wenatchee, WA 98801, USA",
+    lat: 47.4111111,
+    lng: -120.3086111,
+    locationName: "Ferry St. Market"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJpbmI9IbRm1QRGL40SaON7Ns",
+    edition: "WML",
+    notes: "",
+    address: "100 Rock Island Dr, Rock Island, WA 98850, USA",
+    lat: 47.3722222,
+    lng: -120.1394444,
+    locationName: "B J's Food Marts"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJuXr8lIjRm1QR7hE2dejBL3g",
+    edition: "WML",
+    notes: "",
+    address: "302 Rock Island Dr, Rock Island, WA 98850, USA",
+    lat: 47.37529139999999,
+    lng: -120.1441814,
+    locationName: "Dad's Country Store"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJ-bGviR7Nm1QRw-d3bLPrDEY",
+    edition: "WML",
+    notes: "",
+    address: "220 Grant Rd, East Wenatchee, WA 98802, USA",
+    lat: 47.4052778,
+    lng: -120.2865101,
+    locationName: "Ag Supply Ace Hardware"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJhfd8LhzNm1QREWn12x-if1w",
+    edition: "WML",
+    notes: "",
+    address: "280 Grant Rd #5332, East Wenatchee, WA 98802, USA",
+    lat: 47.4057566,
+    lng: -120.284792,
+    locationName: "Buzz Inn Steakhouse & Casino"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJW-jbWtJdlVQRx9aXkoO0NgI",
+    edition: "WML",
+    notes: "",
+    address: "260 Highline Dr, East Wenatchee, WA 98802, USA",
+    lat: 47.4024332,
+    lng: -120.2838987,
+    locationName: "Coastal Farm & Ranch"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJfSYFmxzNm1QR13NoBITEVaA",
+    edition: "WML",
+    notes: "",
+    address: "702 Grant Rd, East Wenatchee, WA 98802, USA",
+    lat: 47.4053335,
+    lng: -120.2795812,
+    locationName: "Abby's Legendary Pizza"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJD0c0XBvNm1QRgQb_vUk8NJE",
+    edition: "WML",
+    notes: "",
+    address: "780 Grant Rd, East Wenatchee, WA 98802, USA",
+    lat: 47.4046562,
+    lng: -120.2778011,
+    locationName: "Bi-Mart Membership Discount Stores"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJ0fmhwgfNm1QRunwPeuwf1Ug",
+    edition: "WML",
+    notes: "",
+    address: "1688 Grant Rd, East Wenatchee, WA 98802, USA",
+    lat: 47.4055225,
+    lng: -120.2607961,
+    locationName: "Tony's Market"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJU34Q7BzNm1QRjbnL1xccukE",
+    edition: "WML",
+    notes: "",
+    address: "595 Grant Rd, East Wenatchee, WA 98802, USA",
+    lat: 47.40639300000001,
+    lng: -120.280256,
+    locationName: "Cigarettes Cheaper"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJ9coNXB3Nm1QRVk-IuRoW_Bw",
+    edition: "WML",
+    notes: "",
+    address: "220 Eastmont Ave, East Wenatchee, WA 98802, USA",
+    lat: 47.40899039999999,
+    lng: -120.2823782,
+    locationName: "Eastmont Drop & Go Laundry"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJNQ4ws_rMm1QRKxrNnxX51sc",
+    edition: "WML",
+    notes: "",
+    address: "271 9th St NE, East Wenatchee, WA 98802, USA",
+    lat: 47.4173572,
+    lng: -120.2896849,
+    locationName: "East Wenatchee City Hall"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJyftasOXMm1QRK0P0RL-2Qto",
+    edition: "WML",
+    notes: "",
+    address: "838 Valley Mall Pkwy #4842, East Wenatchee, WA 98802, USA",
+    lat: 47.4150534,
+    lng: -120.2933024,
+    locationName: "Clearwater Saloon & Casino"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJvfk4BeTMm1QRMGbvXFjYjkM",
+    edition: "WML",
+    notes: "",
+    address: "620 Valley Mall Pkwy, East Wenatchee, WA 98802, USA",
+    lat: 47.41261240000001,
+    lng: -120.2926939,
+    locationName: "Country Inn Restaurants"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJ_2vvbB7Nm1QREW7MwzLMS5E",
+    edition: "WML",
+    notes: "",
+    address: "111 Valley Mall Pkwy, East Wenatchee, WA 98802, USA",
+    lat: 47.40643689999999,
+    lng: -120.28796,
+    locationName: "Circle K"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJ4VaQWy_Nm1QRt0K1f0Y4XTw",
+    edition: "WML",
+    notes: "",
+    address: "1780 S Mission St, Wenatchee, WA 98801, USA",
+    lat: 47.3971452,
+    lng: -120.3031822,
+    locationName: "Squilchuck Market"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJSSc9O2bSm1QR5_rKNGiv3HQ",
+    edition: "WML",
+    notes: "",
+    address: "Washington 98828, USA",
+    lat: 47.371914,
+    lng: -120.201973,
+    locationName: "Malaga Market"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJ94Bs9pTMm1QR8rcSaeKL0hY",
+    edition: "WML",
+    notes: "",
+    address: "11 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4250922,
+    lng: -120.3115474,
+    locationName: "Antique Mall of Wenatchee"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJqU3bN5TMm1QRWTFjPNLU5Po",
+    edition: "WML",
+    notes: "",
+    address: "110 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4262792,
+    lng: -120.3130533,
+    locationName: "Wok About Mongolian Grill"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJd2uzMJTMm1QRy28rHrkNYrE",
+    edition: "WML",
+    notes: "",
+    address: "114 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4263694,
+    lng: -120.3132889,
+    locationName: "Lemolo Cafe & Deli"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJI1TD_JnMm1QROpbBxKC_YyM",
+    edition: "WML",
+    notes: "",
+    address: "603 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.4321205,
+    lng: -120.31724,
+    locationName: "Bernie's burgers & suds"
+  },
+  {
+    route: "WenatcheeC",
+    placeId: "ChIJ2w5MRGLLm1QRAvuASw3FR1I",
+    edition: "WML",
+    notes: "",
+    address: "1337 N Wenatchee Ave, Wenatchee, WA 98801, USA",
+    lat: 47.44181260000001,
+    lng: -120.3250927,
+    locationName: "Denny's"
   },
 ];
