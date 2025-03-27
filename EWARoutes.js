@@ -1,6 +1,6 @@
 const locations = [
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJuWUQL-4YnlQRecNUdVsfVSo",
     edition: "EWA",
     notes: "Inside EX Rack; Opens at 11am",
@@ -10,7 +10,7 @@ const locations = [
     locationName: "Zip's Drive in"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJP29QyeUYnlQR7NclQlFHvSg",
     edition: "EWA",
     notes: "Inside Auto Clipper Rack",
@@ -20,7 +20,7 @@ const locations = [
     locationName: "Senor Froggy Mexican Foods"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJOVp3KOQYnlQRZt78rofalF0",
     edition: "EWA",
     notes: "Shared rack top shelf; 6pm close",
@@ -30,7 +30,7 @@ const locations = [
     locationName: "The Salvation Army Family Store & Donation Center"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJaxHCMOEYnlQRq0Lk3Bl0HuI",
     edition: "EWA",
     notes: "Shared rack inside",
@@ -40,7 +40,7 @@ const locations = [
     locationName: "The General Store & Ace Hardware"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJffVkJN4YnlQRueeV7BzxHxo",
     edition: "EWA",
     notes: "Inlander store rack - 2 pockets, west door. ",
@@ -50,7 +50,7 @@ const locations = [
     locationName: "Yoke's Fresh Market - Foothills"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJBfQ0CyMZnlQRCnVtXnLZ4f8",
     edition: "EWA",
     notes: "Inlander Rack; Opens at 12pm",
@@ -60,7 +60,7 @@ const locations = [
     locationName: "Cathay Inn"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJpWcTcCMZnlQRVmhLkeaxSWM",
     edition: "EWA",
     notes: "Inside Store Rack ",
@@ -70,7 +70,7 @@ const locations = [
     locationName: "Walgreens"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJpetyQTsZnlQR-ODvgpN1x5Y",
     edition: "EWA",
     notes: "Community rack - claim top shelf",
@@ -80,7 +80,7 @@ const locations = [
     locationName: "Peking North Chinese Restaurant"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJc8NVBzsZnlQR2KJkBZQQdzE",
     edition: "EWA",
     notes: "Single EX rack inside",
@@ -90,7 +90,7 @@ const locations = [
     locationName: "Burger King"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJJeDyJzQZnlQRa91quEi_bqc",
     edition: "EWA",
     notes: "",
@@ -100,7 +100,7 @@ const locations = [
     locationName: "Kayla Ava Mini Mart"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJZwb96TkZnlQRrkOTLBWjZlQ",
     edition: "EWA",
     notes: "Inlander Rack",
@@ -110,7 +110,7 @@ const locations = [
     locationName: "Mustard Seed"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJPa0txDcZnlQRpMu5PY1AT1w",
     edition: "EWA",
     notes: "Table in entryway",
@@ -120,7 +120,7 @@ const locations = [
     locationName: "China Dragon Restaurant"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJTTklM-CBVIcR7sFsTCIsoYc",
     edition: "EWA",
     notes: "Inlander Rack",
@@ -130,7 +130,7 @@ const locations = [
     locationName: "TacoTime"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJqSnPJ0gZnlQRFgi53PzUYCA",
     edition: "EWA",
     notes: "Inlander Rack",
@@ -140,7 +140,7 @@ const locations = [
     locationName: "Thai Bamboo Restaurant"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJl_Rar0kZnlQRIXfWd2Euf0I",
     edition: "EWA",
     notes: "Inside Community Shelf",
@@ -150,7 +150,7 @@ const locations = [
     locationName: "Phillycious"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJXdkuFkoZnlQR5TXI5S7znhY",
     edition: "EWA",
     notes: "",
@@ -160,7 +160,7 @@ const locations = [
     locationName: "Franklin Park Medical Center"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJeYSyuUsZnlQRNVwTYeHjHII",
     edition: "EWA",
     notes: "Single EX rack inside main entrance",
@@ -170,7 +170,7 @@ const locations = [
     locationName: "Providence Holy Family Hospital"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJUQsZmocYnlQRkesb_WBdpTI",
     edition: "EWA",
     notes: "(at HF Hospital, NE Corner of building)Single EX rack by fireplace",
@@ -180,7 +180,7 @@ const locations = [
     locationName: "Inland Imaging Interventional Radiology Consultants"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJh-pSuEsZnlQR7ujQJphXnv4",
     edition: "EWA",
     notes: "Double EX rack inside",
@@ -190,7 +190,7 @@ const locations = [
     locationName: "Providence Holy Family Hospital Emergency Room"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJPZzyvEwZnlQRmnWaRJbyqlA",
     edition: "EWA",
     notes: "Inside EX Rack",
@@ -200,7 +200,7 @@ const locations = [
     locationName: "Kaiser Permanente Lidgerwood Medical Center"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJoZ9PI00ZnlQR_ciucHcGvyI",
     edition: "EWA",
     notes: "Inlander Rack",
@@ -210,7 +210,7 @@ const locations = [
     locationName: "De Leon Foods"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJy_oF37MenlQRvOceQQPIX9o",
     edition: "EWA",
     notes: " Inside EX Rack; ",
@@ -220,7 +220,7 @@ const locations = [
     locationName: "Zip's Drive In"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJF2oDkbIenlQRG5DmxnvJtTM",
     edition: "EWA",
     notes: "",
@@ -230,7 +230,7 @@ const locations = [
     locationName: "Fraternal Order of Eagles"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJL0Bd27IenlQR4CuK1-2dxAA",
     edition: "EWA",
     notes: "Inside EX wire rack",
@@ -240,7 +240,7 @@ const locations = [
     locationName: "Double Eagle Pawn"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJ3Vrj6CEZnlQRF5RcrU00CtE",
     edition: "EWA",
     notes: "Single EX rack ; ",
@@ -250,7 +250,7 @@ const locations = [
     locationName: "Coins Plus,Inc"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJDylrhO8YnlQR5_Ixr4GefRg",
     edition: "EWA",
     notes: "",
@@ -260,7 +260,7 @@ const locations = [
     locationName: "Chevron"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJ12Ihku8YnlQROBq0xvoixP8",
     edition: "EWA",
     notes: "Inside EX Rack",
@@ -270,7 +270,7 @@ const locations = [
     locationName: "D. Lish's Hamburgers"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJeVF6le8YnlQRhNZAzwKpsns",
     edition: "EWA",
     notes: "Inlander Rack",
@@ -280,7 +280,7 @@ const locations = [
     locationName: "Bulldog Liquor & Wine"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJ28lDRPEYnlQR9_uolwbP9DA",
     edition: "EWA",
     notes: "",
@@ -290,7 +290,7 @@ const locations = [
     locationName: "UGM Thrift Store - Downtown"
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJ37N-Hu4YnlQRTxsRCtKmdQk",
     edition: "EWA",
     notes: "Need Rack? ",
@@ -300,7 +300,7 @@ const locations = [
     locationName: "Carl’s Jr."
   },
   {
-    route: "undefined",
+    route: "Central Spokane",
     placeId: "ChIJf8VdM8wZnlQRb19r2K_AJVU",
     edition: "EWA",
     notes: "Inlander Rack",
@@ -310,7 +310,7 @@ const locations = [
     locationName: "Kaiser Permanente Riverfront Medical Center"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJQecdvov9YVMRSd1dQnH5B24",
     edition: "EWA",
     notes: "Single EX outside",
@@ -320,7 +320,7 @@ const locations = [
     locationName: "Exxon"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJmW1VYYEHYlMR6-JMRL7L81E",
     edition: "EWA",
     notes: "Inside Single EX Rack",
@@ -330,7 +330,7 @@ const locations = [
     locationName: "Loon Lake Grocery and Gas"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJ__-LFIEHYlMRTzG4wwROmb0",
     edition: "EWA",
     notes: "Inside Single EX Rack",
@@ -340,7 +340,7 @@ const locations = [
     locationName: "Jmt"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJN9xnEIEHYlMRk06Ed2L0zNE",
     edition: "EWA, IND",
     notes: "Outside Double EX; 1 BUNDLE OF INLANDER; <-- Please write returns here",
@@ -350,7 +350,7 @@ const locations = [
     locationName: "All Season's Grocery & Hardware"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJnxEo-OX5nVQRETvW0fOufEE",
     edition: "EWA",
     notes: "SHARED RACK INSIDE ",
@@ -360,7 +360,7 @@ const locations = [
     locationName: "Springdale Grocery & Hardware"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJWWkevxMKYlMRROEENAnzOOU",
     edition: "EWA",
     notes: "Leave on Bench if closed; Inside white community",
@@ -370,7 +370,7 @@ const locations = [
     locationName: "Valley Market"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJ3yQ34zULYlMRqXLbeY7gK-g",
     edition: "EWA",
     notes: "Community Rack Right, by Deli",
@@ -380,7 +380,7 @@ const locations = [
     locationName: "SpoKo Fuel"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJ54b2ep50YlMR4D8z6cWh4ro",
     edition: "EWA, IND",
     notes: "Outside Tall Angle Iron; 1 BUNDLE OF INLANDER; <-- Please write returns here",
@@ -390,7 +390,7 @@ const locations = [
     locationName: "Hico"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJG4zwhH9zYlMRMRAVB3n9IVM",
     edition: "EWA",
     notes: "Bag",
@@ -400,7 +400,7 @@ const locations = [
     locationName: "Hartill’s Mountain Saw & Tractor"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJHS2bZGJzYlMRbLgtEmU2zJQ",
     edition: "EWA",
     notes: "Bag",
@@ -410,7 +410,7 @@ const locations = [
     locationName: "Sportsmans Bar & Grill"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJN9gANNRzYlMRi2iqZlrxxsc",
     edition: "EWA",
     notes: "",
@@ -420,7 +420,7 @@ const locations = [
     locationName: "The Yale Press"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJw5Uh-WJzYlMRTuWbQcZW848",
     edition: "EWA, IND",
     notes: "Inander Rack, Opens at 10AM, BAG IF CLOSED; 1 BUNDLE OF INLANDER",
@@ -430,7 +430,7 @@ const locations = [
     locationName: "Chewelah Library"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJt7gbTH1zYlMRSRiO_OBGDB8",
     edition: "EWA, IND",
     notes: "4 pockets + Bottom Shelf Inlander Rack ; 3 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
@@ -440,7 +440,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJ_ZLGH31zYlMRBuftumZJdQc",
     edition: "EWA",
     notes: "Inside EX Single",
@@ -450,7 +450,7 @@ const locations = [
     locationName: "Zip's Drive In"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJQbHSEHxzYlMRngNqjOZOX2o",
     edition: "EWA",
     notes: "Inside Black Single ",
@@ -460,7 +460,7 @@ const locations = [
     locationName: "JMT Express Mart"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJ7XJz94h2YlMR0bXb99yTy2U",
     edition: "EWA",
     notes: "Shelf above EPOCH",
@@ -470,7 +470,7 @@ const locations = [
     locationName: "Bluecreek Mercantile"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJNSENoz13YlMR9bfp57mThYo",
     edition: "EWA",
     notes: "Outside Green Community Box",
@@ -480,7 +480,7 @@ const locations = [
     locationName: "76"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJfQOAVK57YlMR4yJubXbDN4A",
     edition: "EWA",
     notes: "INSIDE COUNTER",
@@ -490,7 +490,7 @@ const locations = [
     locationName: "Adams Tractor Colville"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJ72WeAQ18YlMRQcAMitWpCuI",
     edition: "EWA",
     notes: "Outside EX Double Rack",
@@ -500,7 +500,7 @@ const locations = [
     locationName: "Arden 1 Stop"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJcYzHgnB9YlMR7iE4YqLJE3g",
     edition: "EWA",
     notes: "Inside Shared rack",
@@ -510,7 +510,7 @@ const locations = [
     locationName: "Zip's Drive-in"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJma3Hn3t9YlMR4Nvn0WHySag",
     edition: "EWA",
     notes: "",
@@ -520,7 +520,7 @@ const locations = [
     locationName: "Grocery Outlet"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJ_YvqbXt9YlMRbOQjj4vdFv8",
     edition: "EWA",
     notes: "Inside EX Rack",
@@ -530,7 +530,7 @@ const locations = [
     locationName: "Benny's Colville Inn"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJJTR-aHt9YlMR9lyhglOwhKw",
     edition: "EWA",
     notes: "Two outside racks - one on either side; Most papers on South door",
@@ -540,7 +540,7 @@ const locations = [
     locationName: "Whitty's Mini Mart"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJS9Co0nx9YlMRrK_OEVThYx4",
     edition: "EWA",
     notes: "Inside second doors, to left on shelf ",
@@ -550,7 +550,7 @@ const locations = [
     locationName: "Clarks All Sports"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJPw1rJoaHYlMR436R97YBvx8",
     edition: "EWA",
     notes: "Inside Community Rack Center of store",
@@ -560,7 +560,7 @@ const locations = [
     locationName: "Country Store - Colville"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJDzECvo6HYlMRZYYUiL55O3s",
     edition: "EWA",
     notes: "Outside EX Double",
@@ -570,7 +570,7 @@ const locations = [
     locationName: "Conoco"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJK5l65Y6HYlMRvqUVw2WWE0A",
     edition: "EWA",
     notes: "Inside Community rack by Check Stand",
@@ -580,7 +580,7 @@ const locations = [
     locationName: "Chevron"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJxyy25I6HYlMRNpju8aRDPYM",
     edition: "EWA",
     notes: "USE inside White Sasquatch rack",
@@ -590,7 +590,7 @@ const locations = [
     locationName: "Ronnie D's Drive In"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJvbfY04-HYlMRjPl4GAUoke0",
     edition: "EWA",
     notes: "Inside Rack",
@@ -600,7 +600,7 @@ const locations = [
     locationName: "Country Value Auto"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJXbDBUImHYlMRwxjnPmbEtWY",
     edition: "EWA, IND",
     notes: "",
@@ -610,7 +610,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJqXXLS5eHYlMR5HuQB-QPHAo",
     edition: "EWA, IND",
     notes: "20 bundles at 40 dependent on page count Inlanders on bottom rack Leave only 1 pocket for N.Colombia",
@@ -620,7 +620,7 @@ const locations = [
     locationName: "Super 1 Foods"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJyw0BSQ2EYlMRhTm7Ht3H2uE",
     edition: "EWA",
     notes: "Bottom Shelf in from door; Inside Rack",
@@ -630,7 +630,7 @@ const locations = [
     locationName: "Whitty's Mini Mart kettle falls"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJKZAfTwyEYlMRDlV8FArG4Qs",
     edition: "EWA",
     notes: "Drop in book drop box",
@@ -640,7 +640,7 @@ const locations = [
     locationName: "Kettle Falls Library"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJh2sQK3OEYlMR4Gyz9BR4JNU",
     edition: "EWA",
     notes: "Leave in Laundry - Other end of building",
@@ -650,7 +650,7 @@ const locations = [
     locationName: "Kettle Falls Harvest Foods"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJo4SnTl-FnVQRUjT3wHwF6zU",
     edition: "EWA",
     notes: "Leave inside",
@@ -660,7 +660,7 @@ const locations = [
     locationName: "United States Postal Service"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJpYVletPqnVQR2Jualchhifc",
     edition: "EWA",
     notes: "YELLOW RACK",
@@ -670,7 +670,7 @@ const locations = [
     locationName: "Hunters Market & Liquor Store"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJgXvrS3zqnVQRnEIKwQ_xARQ",
     edition: "EWA",
     notes: "Outside rack by bench",
@@ -680,7 +680,7 @@ const locations = [
     locationName: "Fruitland Service LLC"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJe8hUQ57EnVQRPbWtS88lbwM",
     edition: "EWA",
     notes: "Outside single EX",
@@ -690,7 +690,7 @@ const locations = [
     locationName: "M&M's Corner"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJr7HJOZLgnVQRGXwjZ50mDS0",
     edition: "EWA",
     notes: "Store Rack",
@@ -700,7 +700,7 @@ const locations = [
     locationName: "Wellpinit Trading Post"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJi2Gz8g3hnVQR1tCcJWcgxwo",
     edition: "EWA",
     notes: "INSIDE single EX",
@@ -710,7 +710,7 @@ const locations = [
     locationName: "Spoko Fuel - Wellpinit"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJD-2O0bPjnVQREX2l-WUbsBM",
     edition: "EWA",
     notes: "INSIDE double EX",
@@ -720,7 +720,7 @@ const locations = [
     locationName: "Kurt's Corner"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJyfETOavjnVQRBgH_pASEeRs",
     edition: "EWA",
     notes: "Only wants 10 papers",
@@ -730,7 +730,7 @@ const locations = [
     locationName: "Number One Store"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJpb0KuPkEnlQRiZVZFnj-Z6M",
     edition: "EWA",
     notes: "Inlander Community Rack; 3 Pockets ",
@@ -740,7 +740,7 @@ const locations = [
     locationName: "Rosauers Supermarkets"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJ77N6vPkEnlQROS2MrIPTJwA",
     edition: "EWA",
     notes: "Inside Single Ex; ",
@@ -750,7 +750,7 @@ const locations = [
     locationName: "Zip's Drive In"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJ_w1fCNEanlQR7X0YzoxLqsM",
     edition: "EWA",
     notes: "Green Community Box Top Right spot",
@@ -760,7 +760,7 @@ const locations = [
     locationName: "Nine Mile Store"
   },
   {
-    route: "undefined",
+    route: "Colville Loop",
     placeId: "ChIJgycTCNEanlQRhh2F9pMnbnk",
     edition: "EWA",
     notes: "Outside EX Single; ",
@@ -770,7 +770,7 @@ const locations = [
     locationName: "Nine Mile Feed & Hardware"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJM0RElicfnlQR7vlQMSJjQGE",
     edition: "EWA",
     notes: "Inlander Store Rack Rack - 2 pockets; North Door (MAX 120 for 30)",
@@ -780,7 +780,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJq6raq94enlQR6CKdnv4HAL0",
     edition: "EWA",
     notes: "Black Spokesman Rack inside door",
@@ -790,7 +790,7 @@ const locations = [
     locationName: "76"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJbc-jMN0enlQRqptZMsDr9sI",
     edition: "EWA",
     notes: "Inside top pocket of rack",
@@ -800,7 +800,7 @@ const locations = [
     locationName: "Liquor & More"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJZ3rf6ukenlQRKAAnnkdF7eg",
     edition: "EWA",
     notes: "Single EX rack ",
@@ -810,7 +810,7 @@ const locations = [
     locationName: "Hillyard Grocery & Liquor"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJO4LlDYQenlQRQq05g33ndM0",
     edition: "EWA",
     notes: "; RED EX (old Auto Clipper) Box",
@@ -820,7 +820,7 @@ const locations = [
     locationName: "Conoco"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJg_ZE0r8dnlQRn_tvUEP7iV8",
     edition: "EWA",
     notes: "Shared rack, top shelf inside",
@@ -830,7 +830,7 @@ const locations = [
     locationName: "Glenn's Foods"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJWxAiipYdnlQRmGHy5WBw9aY",
     edition: "EWA",
     notes: "Leave by entrance door, bag if possible",
@@ -840,7 +840,7 @@ const locations = [
     locationName: "Zip's Drive-In - Mead, WA"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJ2XSZzHgdnlQRQhIS_6Yp7QA",
     edition: "EWA",
     notes: "Inlander Community Rack; 3 Pockets ; ",
@@ -850,7 +850,7 @@ const locations = [
     locationName: "Yoke's Fresh Market - Mead"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJeyuYtH0dnlQRoSMncn2vRQo",
     edition: "EWA",
     notes: "Yellow Community Rack, Right of dooe outside (MAX 60)",
@@ -860,7 +860,7 @@ const locations = [
     locationName: "Conoco"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJdzDes4LiYVMRh_Cw4U05MdI",
     edition: "EWA",
     notes: "OUTSIDE RED BOX",
@@ -870,7 +870,7 @@ const locations = [
     locationName: "North 40 Outfitters"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJSXfu2sriYVMRDmoqtDOJUJc",
     edition: "EWA",
     notes: "Bag - Opens at 11am",
@@ -880,7 +880,7 @@ const locations = [
     locationName: "Big Red's Colbert Trading Company"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJwZB1Tqj-YVMRCUQ5c8YwMpU",
     edition: "EWA",
     notes: "EX Single Wire Rack w/ WCD; ",
@@ -890,7 +890,7 @@ const locations = [
     locationName: "Ameripride"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJT9JLlu74YVMRnx_7wbrcP3A",
     edition: "EWA",
     notes: "Inside store Rack (MAX 120 for bundles of 30)",
@@ -900,7 +900,7 @@ const locations = [
     locationName: "Watson's Market Harvest Foods"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJ-4uYp5MCYlMRpSMN83Pzdxg",
     edition: "EWA",
     notes: "Outside Double Ex Wire Rack",
@@ -910,7 +910,7 @@ const locations = [
     locationName: "Millers One Stop Grocery"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJTzgtKHP_YVMR8b0w0NAi5h4",
     edition: "EWA",
     notes: "EX Single Wire Rack Inside",
@@ -920,7 +920,7 @@ const locations = [
     locationName: "Deer Park Veterinary Clinic"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJqdtthZ7_YVMRBZfE6PhPZXs",
     edition: "EWA",
     notes: "@ Roundabout Store Rack",
@@ -930,7 +930,7 @@ const locations = [
     locationName: "Bob Mart"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJIRIEGpL_YVMRI2ZJIZakJII",
     edition: "EWA",
     notes: "Inside Community Shelf",
@@ -940,7 +940,7 @@ const locations = [
     locationName: "EXPRESSWAY"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJvZoZcJL_YVMRSp7SnVSqxlA",
     edition: "EWA",
     notes: "; On Pillar By Window",
@@ -950,7 +950,7 @@ const locations = [
     locationName: "NAPA Auto Parts"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJa8JfnI7_YVMR4B9tXR4hGkA",
     edition: "EWA",
     notes: "Angle Iron Exchange Rack",
@@ -960,7 +960,7 @@ const locations = [
     locationName: "Levis Mini Mart"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJHXB2EY3_YVMRoXFjjOAkn6A",
     edition: "EWA",
     notes: "Opens 11 AM Bottom of Huckleberry rack",
@@ -970,7 +970,7 @@ const locations = [
     locationName: "First Street Bar & Grill"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJbWdMjI3_YVMRnOHCUZl29k8",
     edition: "EWA",
     notes: "Spread across Tables, counters, rack",
@@ -980,7 +980,7 @@ const locations = [
     locationName: "Les Schwab Tire Center"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJq3o6exb_YVMRVKRx7vGu1AM",
     edition: "EWA",
     notes: "",
@@ -990,7 +990,7 @@ const locations = [
     locationName: "Windermere North / Deer Park"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJ2UPJ8ZL_YVMRykdWEOhY4kk",
     edition: "EWA",
     notes: "Desk",
@@ -1000,7 +1000,7 @@ const locations = [
     locationName: "Ericks Realty"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJbSOxZJL_YVMRUYDirSp5rvs",
     edition: "EWA",
     notes: "Store shelves",
@@ -1010,7 +1010,7 @@ const locations = [
     locationName: "Inland Feed & Farm Supply"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJ_dp_SZP_YVMRa6rF4wf_4hA",
     edition: "EWA",
     notes: "Coffee Table",
@@ -1020,7 +1020,7 @@ const locations = [
     locationName: "Real Estate Marketplace NW Inc"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJz14fHvT_YVMRwSUGB8AxCSY",
     edition: "EWA",
     notes: "",
@@ -1030,7 +1030,7 @@ const locations = [
     locationName: "EXIT Real Estate Professionals"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJr0N8mOv_YVMRJ4dzCNqvvkk",
     edition: "EWA",
     notes: " EX Single Wire Rack Opens 11AM (side door if not open)",
@@ -1040,7 +1040,7 @@ const locations = [
     locationName: "Pizza Factory"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJDdwoejP_YVMRWVW1zczpiMU",
     edition: "EWA",
     notes: "Bottom of Huckleberry rack",
@@ -1050,7 +1050,7 @@ const locations = [
     locationName: "Deer Park Henery Hardware"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJmTiRVer_YVMRdLc58oGiMJk",
     edition: "EWA",
     notes: "Inlander Community Rack; 4 Pockets        ",
@@ -1060,7 +1060,7 @@ const locations = [
     locationName: "Yoke's Fresh Market - Deer Park"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJ0QRdYur_YVMRBuSAvgjt-78",
     edition: "EWA",
     notes: "EX Single Angle Iron Rack; Inside North Door",
@@ -1070,7 +1070,7 @@ const locations = [
     locationName: "McDonald's"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJD4H9XFH_YVMRE0s376omEOI",
     edition: "EWA",
     notes: "2 Racks inside by door to Left wooden",
@@ -1080,7 +1080,7 @@ const locations = [
     locationName: "NomNom"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJWYzbier_YVMRgay1MAYFbgs",
     edition: "EWA",
     notes: "Inside EX Single Wire Rack (MAX 75 bundles of 30)",
@@ -1090,7 +1090,7 @@ const locations = [
     locationName: "Zip's Drive In - Deer Park"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJjYHA6ur_YVMR6HvLB_oVBgc",
     edition: "EWA",
     notes: "Single wire EX rack",
@@ -1100,7 +1100,7 @@ const locations = [
     locationName: "Double Eagle Pawn"
   },
   {
-    route: "undefined",
+    route: "Deer Park/ Spokane North",
     placeId: "ChIJIUoY-ev5YVMRtQdwjwJcl7o",
     edition: "EWA",
     notes: "opens 11, leave bag; Entry shelf",
@@ -1110,7 +1110,7 @@ const locations = [
     locationName: "The Ram Drive-In"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJt6AIjqgYnlQR39Sk8EpS-as",
     edition: "EWA",
     notes: "opens 9:30am",
@@ -1120,7 +1120,7 @@ const locations = [
     locationName: "Axels Pawn Tools & Gold"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJ16T1W6IYnlQRN7KKBV4ahIM",
     edition: "EWA",
     notes: "Tall Single EX Rack               opens 10am",
@@ -1130,7 +1130,7 @@ const locations = [
     locationName: "Zip's Drive In"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJo5MfxpMYnlQRsX8kCDfwKI0",
     edition: "EWA",
     notes: "Single EX Wire rack at front counter",
@@ -1140,7 +1140,7 @@ const locations = [
     locationName: "Spokane Power Tool & Equipment"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJZZmrmGYYnlQRpzAD3cplP18",
     edition: "EWA",
     notes: "Community rack to right",
@@ -1150,7 +1150,7 @@ const locations = [
     locationName: "76"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJ6_HqxLsYnlQRZ9DhWjPn9hA",
     edition: "EWA",
     notes: "Single EX outside",
@@ -1160,7 +1160,7 @@ const locations = [
     locationName: "Iron Goat Brewing"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJsZ3hvWkYnlQR87Y1Las77VY",
     edition: "EWA",
     notes: "",
@@ -1170,7 +1170,7 @@ const locations = [
     locationName: "Super Wash Laundromat"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJiZdEimkYnlQRT_exGUsyGFU",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 Pocket 1 Shelf; North Door",
@@ -1180,7 +1180,7 @@ const locations = [
     locationName: "Rosauers Supermarkets"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJCWjZUGoYnlQRWqWivowTAe0",
     edition: "EWA",
     notes: "",
@@ -1190,7 +1190,7 @@ const locations = [
     locationName: "Sunset Grocery"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJw2O_TVkYnlQRTC9432RSkfE",
     edition: "EWA",
     notes: "Share Inlander rack",
@@ -1200,7 +1200,7 @@ const locations = [
     locationName: "Providence Kendall Yards Primary Care"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJ6ZBH714YnlQR5Y8O3VhBjio",
     edition: "EWA",
     notes: "",
@@ -1210,7 +1210,7 @@ const locations = [
     locationName: "My Fresh Basket"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJNza6-GEYnlQRPKhRwhlCTOI",
     edition: "EWA",
     notes: "Inside building to the right; Green Leaflet Rack",
@@ -1220,7 +1220,7 @@ const locations = [
     locationName: "Amtrak Station - SPK"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJtb_puWEYnlQRjXxo-ZujY4A",
     edition: "EWA",
     notes: "Inside White Exchange Rack in Foyer",
@@ -1230,7 +1230,7 @@ const locations = [
     locationName: "P M Jacoy's"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJ7UZX2mAYnlQR6rPsMglY7q4",
     edition: "EWA",
     notes: "Inlander Rack",
@@ -1240,7 +1240,7 @@ const locations = [
     locationName: "Shop Around the Corner"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJBzQ9G14YnlQRcH7bm3zE3Dw",
     edition: "EWA",
     notes: "Single EX 2 shelf rack South entrance near juice bar/ self check out",
@@ -1250,7 +1250,7 @@ const locations = [
     locationName: "Spokane Public Library - Central"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJrUu6EmkYnlQRsC9rTuzLkn8",
     edition: "EWA",
     notes: "Outside EX Single Rack",
@@ -1260,7 +1260,7 @@ const locations = [
     locationName: "CITY FOOD MART"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJVc8TyHEYnlQRRivLkNtuoLk",
     edition: "EWA",
     notes: "Inside EX rack; Angle Iron Community; shared with Inlander",
@@ -1270,7 +1270,7 @@ const locations = [
     locationName: "Huckleberry's Natural Market"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJjdIaunYYnlQR91CUVZAuCss",
     edition: "EWA",
     notes: "Inlander Store Rack; 1 Pocket",
@@ -1280,7 +1280,7 @@ const locations = [
     locationName: "Rosauers Supermarkets"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJt7SzOWQYnlQRREitJyFCGM0",
     edition: "EWA",
     notes: "Inside EX Rack",
@@ -1290,7 +1290,7 @@ const locations = [
     locationName: "Zip's Drive In"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJkT0_1WUYnlQRxAt_EKL5VH4",
     edition: "EWA",
     notes: "Inside EX Single Rack",
@@ -1300,7 +1300,7 @@ const locations = [
     locationName: "Molly's Family Restaurant"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJ99brF4gYnlQRjaxose4Lv2U",
     edition: "EWA",
     notes: "Max 3 bundles; Stacks on counter",
@@ -1310,7 +1310,7 @@ const locations = [
     locationName: "Dick's Hamburgers"
   },
   {
-    route: "undefined",
+    route: "Downtown Spokane",
     placeId: "ChIJGUnmEIgYnlQRMaK8sThThNs",
     edition: "EWA",
     notes: "Inside Exchange Rack",
@@ -1320,7 +1320,7 @@ const locations = [
     locationName: "Frankie Doodle’s"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJVW8IagQ-nlQRGzEHvHRdZv4",
     edition: "EWA",
     notes: "outside front door",
@@ -1330,7 +1330,7 @@ const locations = [
     locationName: "Exxon"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJp9IL81MVnlQRq376nCPRNt4",
     edition: "EWA",
     notes: "Outside store rack",
@@ -1340,7 +1340,7 @@ const locations = [
     locationName: "Conoco"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJfTSOzqtqnlQRZVClzInEcoc",
     edition: "EWA",
     notes: "1 long pocket, 1 shelf",
@@ -1350,7 +1350,7 @@ const locations = [
     locationName: "Lakes Harvest Foods"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJKRZSdMg4nlQRaQWlDcjM4gU",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 pocket (Right entrance)",
@@ -1360,7 +1360,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJGazQxcc4nlQRdulfSEzjUsQ",
     edition: "EWA",
     notes: "Rack inside door on left",
@@ -1370,7 +1370,7 @@ const locations = [
     locationName: "Conoco"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJeaQQn7g4nlQRRhIHM5jf2dE",
     edition: "EWA",
     notes: "Inside front door",
@@ -1380,7 +1380,7 @@ const locations = [
     locationName: "McDonald's"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJT5qEpLg4nlQRArTCHxYP1Wk",
     edition: "EWA",
     notes: "Inside front door",
@@ -1390,7 +1390,7 @@ const locations = [
     locationName: "Chevron"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJy4ZtNr84nlQRRwAs51Uk3vE",
     edition: "EWA",
     notes: "On far left counter",
@@ -1400,7 +1400,7 @@ const locations = [
     locationName: "O'Reilly Auto Parts"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJswLpvJc4nlQRHpcfA6GL7LM",
     edition: "EWA",
     notes: "Outside",
@@ -1410,7 +1410,7 @@ const locations = [
     locationName: "Taj Groceries"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJqcykf2JHnlQRb8ebq97Ciy8",
     edition: "EWA",
     notes: "",
@@ -1420,7 +1420,7 @@ const locations = [
     locationName: "Bene's"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJ2TC_Y2JHnlQR6Q-RuhxyEyc",
     edition: "EWA",
     notes: "Inside on Inlander rack; ",
@@ -1430,7 +1430,7 @@ const locations = [
     locationName: "Mitchell's Harvest Foods"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJkUdxmZk4nlQRbieBwzxDDaQ",
     edition: "EWA",
     notes: "Inside ; ",
@@ -1440,7 +1440,7 @@ const locations = [
     locationName: "Gerardo's Authentic Mexican Food"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJYcZGRZk4nlQRipJcL7r4WKs",
     edition: "EWA",
     notes: "On the bench inside",
@@ -1450,7 +1450,7 @@ const locations = [
     locationName: "El Rodeo"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJqx4r25k4nlQRoHMp2M92Yoo",
     edition: "EWA",
     notes: "Single EX rack East entrance",
@@ -1460,7 +1460,7 @@ const locations = [
     locationName: "Zip's Drive-In - Cheney"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJ09oFDr84nlQRYzVkydkVyWU",
     edition: "EWA",
     notes: "Leave in waiting area ",
@@ -1470,7 +1470,7 @@ const locations = [
     locationName: "Les Schwab Tire Center"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJI2UMZ784nlQRgaTy1etkj-Q",
     edition: "EWA",
     notes: "North Door; Exchange Rack and Inlander Community Rack 1 Pocket",
@@ -1480,7 +1480,7 @@ const locations = [
     locationName: "Yoke's Fresh Market - Cheney"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJU5ff7GE5nlQRiR5N8cBrkx4",
     edition: "EWA",
     notes: "Inside entryway, single EX single shelf MAX 60",
@@ -1490,7 +1490,7 @@ const locations = [
     locationName: "Grocery Outlet"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJ896wo8g4nlQRx15O92vgI-U",
     edition: "EWA",
     notes: "Window Counter",
@@ -1500,7 +1500,7 @@ const locations = [
     locationName: "Maverik Adventure's First Stop"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJA1CWVE0-nlQRi6-_NjR_CfU",
     edition: "EWA",
     notes: "Single EX rack ; Inlander on bottom; ",
@@ -1510,7 +1510,7 @@ const locations = [
     locationName: "76"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJGdtozwg-nlQRyjgcmieB--A",
     edition: "EWA",
     notes: "Use front truck rack, inside first door on left",
@@ -1520,7 +1520,7 @@ const locations = [
     locationName: "Iron Skillet"
   },
   {
-    route: "undefined",
+    route: "Medical Lake/ Cheney",
     placeId: "ChIJkcGOitUXnlQRE6e0ZgaRwEE",
     edition: "EWA",
     notes: "Bottom of Spokesman rack at front door",
@@ -1530,7 +1530,7 @@ const locations = [
     locationName: "76"
   },
   {
-    route: "undefined",
+    route: "Moses Lake",
     placeId: "ChIJuf0HFCo5mVQR_Haft1ej-eA",
     edition: "IND",
     notes: "Take Exit 179; 1/2 Bundle of Inlander",
@@ -1540,7 +1540,7 @@ const locations = [
     locationName: "Ernie's Fuel Stop"
   },
   {
-    route: "undefined",
+    route: "Moses Lake",
     placeId: "ChIJO_ABvrw4mVQRDzkhBcs64CY",
     edition: "EWA, IND",
     notes: "Inside Rack Far Left or Northern Entrance; 1 Bundle of Inlander",
@@ -1550,7 +1550,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Moses Lake",
     placeId: "ChIJgx1-Bl5HmVQRXRCeWfeM3Zg",
     edition: "EWA, IND",
     notes: "Rack Inside Right Main Door leave WML Copies primary; 1/2 Bundle of Inlander",
@@ -1560,7 +1560,7 @@ const locations = [
     locationName: "Grocery Outlet"
   },
   {
-    route: "undefined",
+    route: "Moses Lake",
     placeId: "ChIJUXK5FRQ_mVQR7UNxVcWHd4Y",
     edition: "EWA, IND",
     notes: "Inside Rack On top/Inlander on bottom; 2 blocks past is 1-90 On Ramp; 1 Bundle of Inlander",
@@ -1570,7 +1570,7 @@ const locations = [
     locationName: "Lep-Re-Kon Harvest Foods"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJ65UXOH_dYVMRrwtVWjZEpf0",
     edition: "EWA",
     notes: "Outside community rack; w/ rock",
@@ -1580,7 +1580,7 @@ const locations = [
     locationName: "Newman Lake Store Exxon"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJ53bzOCbqYVMRz0IE8VB6bvg",
     edition: "NID",
     notes: "Inside Table",
@@ -1590,7 +1590,7 @@ const locations = [
     locationName: "Dashco Laundry"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJ1QoWMwDrYVMRybzsal_Q0Bw",
     edition: "NID",
     notes: "Place on ground by entry door.",
@@ -1600,7 +1600,7 @@ const locations = [
     locationName: "Paul Bunyan"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJASaxL43rYVMR3ivcwBn0mn4",
     edition: "NID",
     notes: "Set both Giorgis and O'Malleys on bench inside door",
@@ -1610,7 +1610,7 @@ const locations = [
     locationName: "Giorgi's Breakfast & Lunch"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJvb_O1f_qYVMRc2kvBtsKFP8",
     edition: "NID",
     notes: "See above",
@@ -1620,7 +1620,7 @@ const locations = [
     locationName: "O'Malley's Sports Bar"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJlQeFhQfrYVMRmlu-xSt3sXw",
     edition: "NID",
     notes: "Inside Window Sill; OPENS 6AM",
@@ -1630,7 +1630,7 @@ const locations = [
     locationName: "Harlows Diner"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJvb5GXv7qYVMRMLr05D1xfjI",
     edition: "NID",
     notes: "Inside Foyer Community ; Top Shelf",
@@ -1640,7 +1640,7 @@ const locations = [
     locationName: "HiCo 76"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJmxC5iPzqYVMRqeKE9Ol8Am8",
     edition: "NID",
     notes: "Set on ground by entry door if not open",
@@ -1650,7 +1650,7 @@ const locations = [
     locationName: "Local Deli "
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJ95gyruLqYVMRInOe_0gGL88",
     edition: "NID",
     notes: "Inlander Community Rack; 3 Pockets",
@@ -1660,7 +1660,7 @@ const locations = [
     locationName: "Super 1"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJE9woaQLrYVMR3YMGZcKazTQ",
     edition: "NID",
     notes: "Outside EX Angle Iron Rack NEEDS PAINTED",
@@ -1670,7 +1670,7 @@ const locations = [
     locationName: "Dollar Tree"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJ5yTz8X2VYVMR0K96tdN4G98",
     edition: "NID",
     notes: "On counter",
@@ -1680,7 +1680,7 @@ const locations = [
     locationName: "Twin Lakes Trading Post"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJJfluIeyNYVMRCcFbxPwsyk8",
     edition: "NID",
     notes: "EX SINGLE RACK Inside store",
@@ -1690,7 +1690,7 @@ const locations = [
     locationName: "Jifi Stop "
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJRwgb6ZKNYVMRxsOITOvnwJk",
     edition: "NID",
     notes: "Outside ",
@@ -1700,7 +1700,7 @@ const locations = [
     locationName: "Miller's Harvest Foods Gas"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJbe2F8pKNYVMRe8ggB7L8kfY",
     edition: "NID",
     notes: "Inside Table",
@@ -1710,7 +1710,7 @@ const locations = [
     locationName: "Miller's Laundry"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJz9tO7pKNYVMRS0i3gWEG33I",
     edition: "NID",
     notes: "Inside Single ; EX Rack; Right of door",
@@ -1720,7 +1720,7 @@ const locations = [
     locationName: "Miller's Harvest Foods"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJffHmIpONYVMRSj3fzW_upmg",
     edition: "NID",
     notes: "Outside EX Single Rack; w/ WCD",
@@ -1730,7 +1730,7 @@ const locations = [
     locationName: "Spirits Mini Stop"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJ2ZaTYpONYVMRrsVpaS-5Z_Y",
     edition: "NID",
     notes: "Place by entry door",
@@ -1740,7 +1740,7 @@ const locations = [
     locationName: "Mi Pueblo"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJFSVGp4mQYVMRqOFd29FD9oQ",
     edition: "NID",
     notes: "Outside White EX Rack",
@@ -1750,7 +1750,7 @@ const locations = [
     locationName: "Conoco Crossroads Food"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJzQqCq-mRYVMR2LC9XYHHZRA",
     edition: "NID",
     notes: "Outside white EX rack behind pillar at front door",
@@ -1760,7 +1760,7 @@ const locations = [
     locationName: "Kay's Quickstop Union 76"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJRfic_HeQYVMRaLDzzToghYg",
     edition: "NID",
     notes: "Inlander Community Rack ; 3 Pockets ",
@@ -1770,7 +1770,7 @@ const locations = [
     locationName: "Super 1"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJr7_3Qe3VY1MRx9YywQAAam8",
     edition: "NID",
     notes: "Outside Auto Clipper Rack; West side of building; w/ WCD",
@@ -1780,7 +1780,7 @@ const locations = [
     locationName: "Conoco (Travel America) "
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJq2E_5kgrYlMRgLabL0yX1tU",
     edition: "NID",
     notes: "Place on ground under NW rack",
@@ -1790,7 +1790,7 @@ const locations = [
     locationName: "Laclede Store "
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJRY5XTgApYlMRJWqafCO6blw",
     edition: "NID",
     notes: "Inside counter",
@@ -1800,7 +1800,7 @@ const locations = [
     locationName: "AJ's CAFÉ "
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJadh37RwmYlMRr8xaLj--nMc",
     edition: "NID",
     notes: "Inside Community Shelf; to the left of NW",
@@ -1810,7 +1810,7 @@ const locations = [
     locationName: "Mitchell's Harvest Foods"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJI7gIWQUmYlMRYwq05cb5it4",
     edition: "NID",
     notes: "Inside Community Rack",
@@ -1820,7 +1820,7 @@ const locations = [
     locationName: "Ace Hardware "
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJfUNwPRsmYlMRHzsrVfk_tbE",
     edition: "NID",
     notes: "Single EX Wire rack",
@@ -1830,7 +1830,7 @@ const locations = [
     locationName: "NAPA  "
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJFwv69DskYlMRbwBVJSkol9s",
     edition: "NID",
     notes: "Inside Community Rack",
@@ -1840,7 +1840,7 @@ const locations = [
     locationName: "DJs Superstop"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJqwokE3IlYlMRolWTC-oOeb8",
     edition: "NID",
     notes: "Inlander Community Rack; 3 Pockets ",
@@ -1850,7 +1850,7 @@ const locations = [
     locationName: "Super 1"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJc9DTKxUkYlMRBEmZ-JH7n_8",
     edition: "NID",
     notes: "Inside Foyer; EX Double Rack",
@@ -1860,7 +1860,7 @@ const locations = [
     locationName: "Albeni Falls Building Supply"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJVzFz2mokYlMR64UwTS6vgr8",
     edition: "NID",
     notes: "On Front Counter",
@@ -1870,7 +1870,7 @@ const locations = [
     locationName: "O'Reilly Auto Parts "
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJkbCazRQkYlMRcTXsUb3b_j0",
     edition: "NID",
     notes: "Inside EX Single Rack",
@@ -1880,7 +1880,7 @@ const locations = [
     locationName: "Ace Hardware"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJ6UkIvhIkYlMRLVF1bLP7dEw",
     edition: "NID",
     notes: "Outside rack",
@@ -1890,7 +1890,7 @@ const locations = [
     locationName: "Dollar Tree"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJG3RAqBIkYlMRxGmG0AGyGjY",
     edition: "NID, EWA",
     notes: "Community Rack to Left of counter",
@@ -1900,7 +1900,7 @@ const locations = [
     locationName: "Mobil"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJjXcGUg0kYlMRV77PA4h3LWo",
     edition: "EWA",
     notes: "Keokee Community Rack; 3 Pockets; 2nd, 3rd, 4th row on left",
@@ -1910,7 +1910,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJ9X9lMnMkYlMRpWwYof9gNYI",
     edition: "EWA",
     notes: "inside entry way",
@@ -1920,7 +1920,7 @@ const locations = [
     locationName: "Mi Pueblo "
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJHWEsTQQiYlMRJZLPRUMBcBE",
     edition: "EWA",
     notes: "Outside EX Single Rack",
@@ -1930,7 +1930,7 @@ const locations = [
     locationName: "Exxon Country Store"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJLfK9H3jfuVIRHWxnfhbnUYk",
     edition: "EWA",
     notes: "On top of trash can HOLD AT 5 PER OWNER; West Door",
@@ -1940,7 +1940,7 @@ const locations = [
     locationName: "Subway "
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJlwBxx-0jYlMRdQ7XxTkjjUU",
     edition: "EWA",
     notes: "Inside EX Single Rack",
@@ -1950,7 +1950,7 @@ const locations = [
     locationName: "Audry's Restaurant"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJT51UK_gZYlMRaUomYdykgu8",
     edition: "EWA",
     notes: "on counter just inside door",
@@ -1960,7 +1960,7 @@ const locations = [
     locationName: "Edgewater Lounge"
   },
   {
-    route: "undefined",
+    route: "Newport/ North Idaho",
     placeId: "ChIJQW3WRtUeYlMRTLhQxgcSel4",
     edition: "EWA",
     notes: "Inside community rack; Top Shelf",
@@ -1970,7 +1970,7 @@ const locations = [
     locationName: "Diamond Lake Deli"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJT9q84xTfYVMR38-YLXT5duA",
     edition: "EWA",
     notes: "Exchange rack in entrance",
@@ -1980,7 +1980,7 @@ const locations = [
     locationName: "Ace General Store          "
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJR9S9eY7eYVMRMuUwjU6tb6c",
     edition: "EWA",
     notes: "South Door; Inlander Community Rack; 1 Pocket",
@@ -1990,7 +1990,7 @@ const locations = [
     locationName: "Yoke's"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJb45qW_vfYVMRcpChHviwjIY",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 Pocket - 60 Max",
@@ -2000,7 +2000,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJ0-wp_47eYVMRiUa8uIMZAiI",
     edition: "EWA",
     notes: "Inside Exchange Rack",
@@ -2010,7 +2010,7 @@ const locations = [
     locationName: "McDonald's"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJg3OC4I7eYVMRePkSgEcWR6M",
     edition: "EWA",
     notes: "Second Shelf Community Rack",
@@ -2020,7 +2020,7 @@ const locations = [
     locationName: "Walgreens"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJ7bNBkYneYVMRC_-61Jm49hI",
     edition: "EWA",
     notes: "Inside Top Community Rack",
@@ -2030,7 +2030,7 @@ const locations = [
     locationName: "Divine's 76"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJDSuMrr_fYVMRuUYaNc3Zfbo",
     edition: "EWA",
     notes: "Inside EX Rack",
@@ -2040,7 +2040,7 @@ const locations = [
     locationName: "KH Grocery Market"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJE5APEnXgYVMRTQy-_1ZRkBU",
     edition: "EWA",
     notes: "inside comm rack",
@@ -2050,7 +2050,7 @@ const locations = [
     locationName: "Harvest Foods"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJk_cb6wvgYVMR5uA-ocmhLHg",
     edition: "EWA",
     notes: "Top of Community Rack ",
@@ -2060,7 +2060,7 @@ const locations = [
     locationName: "Mobil Fuel"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJm_agXQngYVMR93eP1biVdWY",
     edition: "EWA",
     notes: "inside EX rack; West Door",
@@ -2070,7 +2070,7 @@ const locations = [
     locationName: "Zips"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJuZoiPoYfnlQRaCbEiEgqf4o",
     edition: "EWA",
     notes: "Single EX Wire Rack; South Door",
@@ -2080,7 +2080,7 @@ const locations = [
     locationName: "Longhorn Barbecue"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJkbeKSH0fnlQRsC-iQjPUGL8",
     edition: "EWA",
     notes: "EX Rack Inside Rt of Door; Parris - Manager",
@@ -2090,7 +2090,7 @@ const locations = [
     locationName: "Ace Hardware"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJI-2bdSkgnlQRBaskgw74vBc",
     edition: "EWA",
     notes: "Opens 11am; In Foyer Community Shelf",
@@ -2100,7 +2100,7 @@ const locations = [
     locationName: "Casa de Oro"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJUzdmLYYfnlQRGW2Pf6qQP3g",
     edition: "EWA",
     notes: "Inside EX Single Rack; South Door; ",
@@ -2110,7 +2110,7 @@ const locations = [
     locationName: "McDonalds"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJIw3x7IgfnlQRocWhexcPFjE",
     edition: "EWA",
     notes: "Inlander Store Rack; 2 Pockets. (MAX 100 bundles 30)",
@@ -2120,7 +2120,7 @@ const locations = [
     locationName: "Yoke's"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJvTJIJ-cfnlQRLXBpyH7eLl0",
     edition: "EWA",
     notes: "Inside Community Angle Iron EX Rack",
@@ -2130,7 +2130,7 @@ const locations = [
     locationName: "True Value Hardware"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJRf5nF48fnlQRCyMqR066TMo",
     edition: "EWA",
     notes: "Opens 8am; store Spokesman rack",
@@ -2140,7 +2140,7 @@ const locations = [
     locationName: "Walgreens"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJ9aoHG8AfnlQRPmiN-ReXmXU",
     edition: "EWA",
     notes: "Inside EX Single Rack",
@@ -2150,7 +2150,7 @@ const locations = [
     locationName: "Argonne Library"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJz80kgoUfnlQRyWDbt65zGRc",
     edition: "EWA",
     notes: "Inlander Community rack; 2 Pockets (MAX 90 BUNDLES of 30)",
@@ -2160,7 +2160,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJN3_fgoMfnlQRHRi8ahfviXM",
     edition: "EWA",
     notes: "Inside EX Double Rack; West Door",
@@ -2170,7 +2170,7 @@ const locations = [
     locationName: "North 40 Outfitters"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJ38p7oYMfnlQRZiAtVSTr5lk",
     edition: "EWA",
     notes: "Front Counter",
@@ -2180,7 +2180,7 @@ const locations = [
     locationName: "Indiana Harness"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJ-SAFsWgfnlQR1_94pMZiSpc",
     edition: "EWA",
     notes: "Community top shelf to left of door",
@@ -2190,7 +2190,7 @@ const locations = [
     locationName: "Mobil"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJ_2uQ5HEfnlQRY8QRYm4PF_o",
     edition: "EWA",
     notes: "Inside Single EX Rack CLOSES 2PM",
@@ -2200,7 +2200,7 @@ const locations = [
     locationName: "Skyway Rest. Felts Field"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJm5n2GjAfnlQRVlp2cA3RwLE",
     edition: "EWA",
     notes: "Yellow Inlander Rack",
@@ -2210,7 +2210,7 @@ const locations = [
     locationName: "Neighborhood Grocery"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJW7XQSS4fnlQROuN69VZlH6U",
     edition: "EWA",
     notes: "Inside EX rack SOUTH door; Inside EX rack NORTH door",
@@ -2220,7 +2220,7 @@ const locations = [
     locationName: "Zip's - SOUTH DOOR"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJMccQmtUenlQRPzEKamlcH9g",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 Pocket",
@@ -2230,7 +2230,7 @@ const locations = [
     locationName: "Bargain Giant"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJhyzXUdAenlQRoMQ3dUS_tgM",
     edition: "EWA",
     notes: "Inside Community Rack Between In/Out doors",
@@ -2240,7 +2240,7 @@ const locations = [
     locationName: "Walgreens"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJ4WkfTdkenlQRp05r8XWPHbg",
     edition: "EWA",
     notes: "InsideEX Single Rack; ",
@@ -2250,7 +2250,7 @@ const locations = [
     locationName: "M&K Smoke Shop"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJI1nzRNwenlQRGWSWu0exdms",
     edition: "EWA",
     notes: "Inside EX Single Rack",
@@ -2260,7 +2260,7 @@ const locations = [
     locationName: "Green's Market"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJea0Gar8enlQRr6ximlGiFrw",
     edition: "EWA",
     notes: "Inside Yellow Inlander Rack; ",
@@ -2270,7 +2270,7 @@ const locations = [
     locationName: "G&B Groceries"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJx4ojUsQfnlQRqH_n-yyCF_c",
     edition: "EWA",
     notes: "Bottom Inlander Rack",
@@ -2280,7 +2280,7 @@ const locations = [
     locationName: "76"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJwWGE_rAenlQRf23EHxI5c2M",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 pocket",
@@ -2290,7 +2290,7 @@ const locations = [
     locationName: "Albertsons"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJnZ1bErAenlQRuOOHB6Xweb4",
     edition: "EWA",
     notes: "Inside EX Single Rack",
@@ -2300,7 +2300,7 @@ const locations = [
     locationName: "The Laundry Room"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJ2z2x9soenlQR9Ikm4rrb1OA",
     edition: "EWA",
     notes: "Outside EX Single Rack w/WCD",
@@ -2310,7 +2310,7 @@ const locations = [
     locationName: "Empire Foods"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJsRssUzcZnlQRN-8bl8d7PE4",
     edition: "EWA",
     notes: "Inside Wooden community rack; 2nd Shelf",
@@ -2320,7 +2320,7 @@ const locations = [
     locationName: "Conoco"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJyZOy8TIZnlQRFMPpcCVPs2o",
     edition: "EWA",
     notes: "Inside EX Double Rack",
@@ -2330,7 +2330,7 @@ const locations = [
     locationName: "Taco John's"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJp9pZASgZnlQRhC_KpN4e6Jg",
     edition: "EWA",
     notes: "Inside Single Exchange cream rack 3 shelves",
@@ -2340,7 +2340,7 @@ const locations = [
     locationName: "Conoco"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJHd_oSdgYnlQRklUULh-oZhs",
     edition: "EWA",
     notes: "Single Exchange rack closes at 1:00 pm",
@@ -2350,7 +2350,7 @@ const locations = [
     locationName: "Hillside Restaurant"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJk_LaccIYnlQRh4Qa6IiR_pg",
     edition: "EWA",
     notes: "Inside Community Rack North Door",
@@ -2360,7 +2360,7 @@ const locations = [
     locationName: "Hamilton Wash & Dry"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJyTdSHMIYnlQRWXZ7wQbxS90",
     edition: "EWA",
     notes: "Inlander Store rack  ; 3 Pockets; (MAX 120  bundles 30)",
@@ -2370,7 +2370,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Northeast Spokane",
     placeId: "ChIJITRqqrUYnlQRgsARqX3afYM",
     edition: "EWA",
     notes: "Opens 6:30am; Top of Community Rack ; Left of Door",
@@ -2380,7 +2380,7 @@ const locations = [
     locationName: "Jaxs"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJnbvbE_8cnlQR1amQ7SSD8Lc",
     edition: "EWA",
     notes: "Inside on waiting room table",
@@ -2390,7 +2390,7 @@ const locations = [
     locationName: "Grease Monkey"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJWfziElYcnlQR_F4umbo_5C8",
     edition: "EWA",
     notes: "Single EX rack outside w/ WCD",
@@ -2400,7 +2400,7 @@ const locations = [
     locationName: "Union 76"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJhZaYalYcnlQRMewpIa-yz5g",
     edition: "EWA",
     notes: "Spokesman rack cubby between registers",
@@ -2410,7 +2410,7 @@ const locations = [
     locationName: "Walgreens"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJcVgQ5GocnlQRXmsuw-70da8",
     edition: "EWA",
     notes: "Open 10:30am; Inside EX Rack ",
@@ -2420,7 +2420,7 @@ const locations = [
     locationName: "Zip's"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJ7V3MjmocnlQRqRHdJwPDNM8",
     edition: "EWA",
     notes: "Tables",
@@ -2430,7 +2430,7 @@ const locations = [
     locationName: "N. Spokane Auto Licensing"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJP4PBtEAcnlQRNGjuwLFQRdo",
     edition: "EWA",
     notes: "Inside Exchange single rack",
@@ -2440,7 +2440,7 @@ const locations = [
     locationName: "Providence Urgent Care"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJaRjnxz8cnlQRVrk0YURzGho",
     edition: "EWA",
     notes: "Inlander Community Rack ; 2 Pockets - South Door",
@@ -2450,7 +2450,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJJcpdzhUcnlQRz-UhDJCX_xI",
     edition: "EWA",
     notes: "Shared rack; Opens 11am",
@@ -2460,7 +2460,7 @@ const locations = [
     locationName: "Canaan Buffet"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJb8Kv2j0cnlQRevHMMuXYHUw",
     edition: "EWA",
     notes: "Counter inside door to right",
@@ -2470,7 +2470,7 @@ const locations = [
     locationName: "Cancer Care Northwest"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJmbH2jBMcnlQRLh6talscLeU",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 Pocket ",
@@ -2480,7 +2480,7 @@ const locations = [
     locationName: "Rosauers"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJ9WQ0YxQcnlQRfQSrCaiZ2Tw",
     edition: "EWA",
     notes: "Single EX rack in Foyer; AC Rack",
@@ -2490,7 +2490,7 @@ const locations = [
     locationName: "Napa Auto Parts"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJYX6A8A8cnlQRE-k7Kt2Dfuc",
     edition: "EWA",
     notes: "Inside Single black rack",
@@ -2500,7 +2500,7 @@ const locations = [
     locationName: "Spokane Fitness Center "
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJI1FO7qwenlQRoOL5eHnfraE",
     edition: "EWA",
     notes: " Inside Foyer EX double width double shelf Rack",
@@ -2510,7 +2510,7 @@ const locations = [
     locationName: "Sportsman's Warehouse"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJX46uugMcnlQRuHFy51tnbCI",
     edition: "EWA",
     notes: "Inside EX Single Rack",
@@ -2520,7 +2520,7 @@ const locations = [
     locationName: "Osaka Buffet"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJLaYP_aoenlQRUtZCNJmAuIY",
     edition: "EWA",
     notes: "Double width EX rack; Opens 11am Max 160 (30)",
@@ -2530,7 +2530,7 @@ const locations = [
     locationName: "Golden Corral"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJAVPYiFIZnlQR0inQyk_Wd_8",
     edition: "EWA",
     notes: "Inside EX Single Rack",
@@ -2540,7 +2540,7 @@ const locations = [
     locationName: "Moon's Mongolian Grill "
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJ80AAnVAZnlQRaqPjlJibLMQ",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 pocket",
@@ -2550,7 +2550,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJ4QKZQloZnlQRanRIE3vKFKw",
     edition: "EWA",
     notes: "Top basket of wine rack in foyer",
@@ -2560,7 +2560,7 @@ const locations = [
     locationName: "Swinging Doors"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJuaKTvV4ZnlQRrJ5JmkwmIxw",
     edition: "EWA",
     notes: "Top Yellow NW Rack; In window against rack",
@@ -2570,7 +2570,7 @@ const locations = [
     locationName: "Zip's"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJqe3dz1gZnlQRDLjFg524vTg",
     edition: "EWA",
     notes: "Single EX Rack inside",
@@ -2580,7 +2580,7 @@ const locations = [
     locationName: "Christian Thrift"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJ9cWy5F4ZnlQRJJowzz_cnhs",
     edition: "EWA",
     notes: "Inlander Store Rack; 1 Long Pocket",
@@ -2590,7 +2590,7 @@ const locations = [
     locationName: "Rosauers"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJnYgLVV4ZnlQR1HHCirpXIUE",
     edition: "EWA",
     notes: "Open 10am; Use Inlander rack ",
@@ -2600,7 +2600,7 @@ const locations = [
     locationName: "Das Stein Haus"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJ7-HotF8ZnlQR0QTXsYgFejU",
     edition: "EWA",
     notes: "Table by chairs on left.; Opens 8am",
@@ -2610,7 +2610,7 @@ const locations = [
     locationName: "Wash & Dry"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJA9FSZtcbnlQR-91ON4g__jY",
     edition: "EWA",
     notes: "Inlander Store Rack; 1 Pocket",
@@ -2620,7 +2620,7 @@ const locations = [
     locationName: "Yokes Pac & Save"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJO02_9K8bnlQR2FGkGU7ank4",
     edition: "EWA",
     notes: "Inlander Store Rack 1 Pocket",
@@ -2630,7 +2630,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJaSbIGIAZnlQRNu5cNv_hCyI",
     edition: "EWA",
     notes: "Single EX rack outside NEEDS WCD",
@@ -2640,7 +2640,7 @@ const locations = [
     locationName: "Northwest Food Mart"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJU2qNwIUZnlQRGf3SHSVjuhE",
     edition: "EWA",
     notes: "Inside main entrance Double EX rack",
@@ -2650,7 +2650,7 @@ const locations = [
     locationName: "Veteran's Hospital"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJa04eImUZnlQRCRiz73LcfsM",
     edition: "EWA",
     notes: "Shared rack inside",
@@ -2660,7 +2660,7 @@ const locations = [
     locationName: "J.B. Foods"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJaezxvHMZnlQRazkyqPFG-eY",
     edition: "EWA",
     notes: "Inlander Store Rack; 1 Pocket",
@@ -2670,7 +2670,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJQfHqOnIZnlQRyLoQgSSeh8E",
     edition: "EWA",
     notes: "Single EX rack; ",
@@ -2680,7 +2680,7 @@ const locations = [
     locationName: "Laundry Land"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJqWiKAGgZnlQRvUE1-P5GnfU",
     edition: "EWA",
     notes: "Spokesman Rack",
@@ -2690,7 +2690,7 @@ const locations = [
     locationName: "Nom Nom"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJK5DCgrMZnlQRTP1Qc3ek1iw",
     edition: "EWA",
     notes: "",
@@ -2700,7 +2700,7 @@ const locations = [
     locationName: "Over the Moon Relics"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJUV2gSAAZnlQRuy7HfeYA2G8",
     edition: "EWA",
     notes: "",
@@ -2710,7 +2710,7 @@ const locations = [
     locationName: "Garland Treasure Trove"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJt2pPRBsZnlQRRAYP8R13ibc",
     edition: "EWA",
     notes: "Outside Green Community Box Top Right Spot",
@@ -2720,7 +2720,7 @@ const locations = [
     locationName: "Sure Save Grocery                                  "
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJp71HjqQZnlQRwxuVdXAcHAs",
     edition: "EWA",
     notes: "@ Gumballs on right",
@@ -2730,7 +2730,7 @@ const locations = [
     locationName: "Mini Mart"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJfZ1fdvgYnlQR0ZN7DJ4rzj0",
     edition: "EWA",
     notes: "Community Rack inside front door; Manager: Josh",
@@ -2740,7 +2740,7 @@ const locations = [
     locationName: "Sinto Senior Center"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJ9T3_UaYZnlQR9F4nrm3ZXn4",
     edition: "EWA",
     notes: "Outside EX rack",
@@ -2750,7 +2750,7 @@ const locations = [
     locationName: "Monroe Quick Stop 76"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJQ6qsgQIZnlQREaF_Fn7PJP4",
     edition: "EWA",
     notes: "Top Cubby Community Rack",
@@ -2760,7 +2760,7 @@ const locations = [
     locationName: "Green Hand"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJG0D_PfkYnlQRMXjOnosJC0Y",
     edition: "EWA",
     notes: "Counter",
@@ -2770,7 +2770,7 @@ const locations = [
     locationName: "NAPA"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJB1ZEEBsZnlQRwSGtdqOK7YE",
     edition: "EWA",
     notes: "Inside EX Rack",
@@ -2780,7 +2780,7 @@ const locations = [
     locationName: "Zips"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJ-_TJlf4YnlQRqvZtP6LxMO8",
     edition: "EWA",
     notes: "Inside Green Community Rack",
@@ -2790,7 +2790,7 @@ const locations = [
     locationName: "Zip's Drive Inn"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJMX4V-AAZnlQRVrgPLn7yS44",
     edition: "EWA",
     notes: "Inlander Community Rack ; 2 pockets; West door MAX 100!",
@@ -2800,7 +2800,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJLdNKcKgZnlQRYm7tQ9za3MM",
     edition: "EWA",
     notes: "Inside Inlander Rack",
@@ -2810,7 +2810,7 @@ const locations = [
     locationName: "Papa Murphy's"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJVVVVVXIZnlQRRp1YvPn3Ddc",
     edition: "EWA",
     notes: "Inside Foyer",
@@ -2820,7 +2820,7 @@ const locations = [
     locationName: "Tecate Grill"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJNZfeL6IZnlQR8Ya63ifGUUo",
     edition: "EWA",
     notes: "Inside Single EX",
@@ -2830,7 +2830,7 @@ const locations = [
     locationName: "Flying Goat"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJdXocwqkZnlQRiSKBxKUdKn0",
     edition: "EWA",
     notes: "Community Rack",
@@ -2840,7 +2840,7 @@ const locations = [
     locationName: "Nom Nom"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJ8fvrbFUYnlQRYpu_LbxjMUA",
     edition: "EWA",
     notes: "Use bottom of Spokesman",
@@ -2850,7 +2850,7 @@ const locations = [
     locationName: "Spokane Assoc Realtors"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJDyjaDFUYnlQRPEbV3bQnuis",
     edition: "EWA",
     notes: "Single EX Rack ",
@@ -2860,7 +2860,7 @@ const locations = [
     locationName: "Towners Conoco"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJnTbuq1UYnlQREqo0iuf36a8",
     edition: "EWA",
     notes: "Single EX Rack",
@@ -2870,7 +2870,7 @@ const locations = [
     locationName: "Texaco"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJp3Y7TVQYnlQRbz8Y0mKx0b4",
     edition: "EWA",
     notes: "Inside Single EX w/WCD",
@@ -2880,7 +2880,7 @@ const locations = [
     locationName: "The Laundry Room"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJB0BgZ0oZnlQRzz2Xrper-xA",
     edition: "EWA",
     notes: "Community rack 1 pocket",
@@ -2890,7 +2890,7 @@ const locations = [
     locationName: "West Central Comm. Center"
   },
   {
-    route: "undefined",
+    route: "Northwest Spokane",
     placeId: "ChIJ5yQBz1EYnlQRKwKz3ycqd9s",
     edition: "EWA",
     notes: "Gumball machine left.",
@@ -2900,7 +2900,7 @@ const locations = [
     locationName: "Bongs Grocery"
   },
   {
-    route: "undefined",
+    route: "Ritzville/ Sprague",
     placeId: "ChIJZYOrCADfnlQRGuvREKCm5VQ",
     edition: "EWA",
     notes: "under bottom beverage shelf",
@@ -2910,7 +2910,7 @@ const locations = [
     locationName: "Circle K"
   },
   {
-    route: "undefined",
+    route: "Ritzville/ Sprague",
     placeId: "ChIJG2V4T2HenlQRn92T3Pzhp1k",
     edition: "EWA, WML, IND",
     notes: "Inside Small EX rack west end by Booths; Wenatchee/Moses Lake Exchange; 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
@@ -2920,7 +2920,7 @@ const locations = [
     locationName: "Zip's"
   },
   {
-    route: "undefined",
+    route: "Ritzville/ Sprague",
     placeId: "ChIJw-N05n3enlQRP4yhXuoZPk8",
     edition: "EWA, WML",
     notes: "On Shelf Right of Door",
@@ -2930,7 +2930,7 @@ const locations = [
     locationName: "Ace Hardware"
   },
   {
-    route: "undefined",
+    route: "Ritzville/ Sprague",
     placeId: "ChIJ2WQnWYbenlQROXfna9iXeDQ",
     edition: "EWA, WML, IND",
     notes: "Inlander Rack in Entry to Left; Wenatchee/Moses Lake Exchange; 1.5 BUNDLE OF INLANDER; <-- Please write returns here",
@@ -2940,7 +2940,7 @@ const locations = [
     locationName: "Akins Harvest Foods"
   },
   {
-    route: "undefined",
+    route: "Ritzville/ Sprague",
     placeId: "ChIJF5QPGX7enlQRYu09Czb8gMM",
     edition: "EWA, WML",
     notes: "15 Max on counter; Wenatchee/Moses Lake Exchange",
@@ -2950,7 +2950,7 @@ const locations = [
     locationName: "Texaco"
   },
   {
-    route: "undefined",
+    route: "Ritzville/ Sprague",
     placeId: "ChIJodBviY_enlQRgkUWcSmDQ1Q",
     edition: "EWA, WML",
     notes: "SINGLE EX RACK ENTRY; Wenatchee/Moses Lake Exchange",
@@ -2960,7 +2960,7 @@ const locations = [
     locationName: "Jakes"
   },
   {
-    route: "undefined",
+    route: "Ritzville/ Sprague",
     placeId: "ChIJd-u0DzbknlQRLSOa6CLR1Vs",
     edition: "EWA, WML",
     notes: "***Tokio Weigh Station exit***(Outside rack); Wenatchee/Moses Lake Exchange",
@@ -2970,7 +2970,7 @@ const locations = [
     locationName: "Big B's Truck Stop "
   },
   {
-    route: "undefined",
+    route: "Ritzville/ Sprague",
     placeId: "ChIJFX3iNED4nlQRX6X9BrtcoQ8",
     edition: "EWA, WML",
     notes: "By counter at  exit door; Wenatchee/Moses Lake Exchange",
@@ -2980,7 +2980,7 @@ const locations = [
     locationName: "Kathy's Family Food"
   },
   {
-    route: "undefined",
+    route: "Ritzville/ Sprague",
     placeId: "ChIJGZfP_Wn4nlQRbGbkEaPIUhw",
     edition: "EWA, WML",
     notes: "Inside on counter to left; Wenatchee/Moses Lake Exchange",
@@ -2990,7 +2990,7 @@ const locations = [
     locationName: "Chevron, Sprague Grange"
   },
   {
-    route: "undefined",
+    route: "Ritzville/ Sprague",
     placeId: "ChIJPR6yAWr4nlQRTnlCfRMQHnM",
     edition: "EWA, WML",
     notes: "CLOSES AT 3; Wenatchee/Moses Lake Exchange",
@@ -3000,7 +3000,7 @@ const locations = [
     locationName: "Viking Drive-Inn"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJl89QreptnlQRxJRMo7BG7mc",
     edition: "EWA, IND",
     notes: "1/2 BUNDLE OF INLANDER; <-- Please write returns here",
@@ -3010,7 +3010,7 @@ const locations = [
     locationName: "Reardan Store"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJiStGO3N7nlQRi5xDQy4VfD0",
     edition: "EWA",
     notes: "",
@@ -3020,7 +3020,7 @@ const locations = [
     locationName: "Scott's Les Schwab"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJAeODPHN7nlQRr6C4I0AGgnU",
     edition: "EWA",
     notes: "Angle Iron Exchange Rack",
@@ -3030,7 +3030,7 @@ const locations = [
     locationName: "Cenex"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJa5YAC3N7nlQRJVxyFtJcaT8",
     edition: "EWA, IND",
     notes: "1/2 BUNDLE OF INLANDER; <-- Please write returns here",
@@ -3040,7 +3040,7 @@ const locations = [
     locationName: "Family Foods"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJzSbvmHN7nlQRFxACpCpfWwQ",
     edition: "EWA",
     notes: "Prefers to pick them up directly from driver",
@@ -3050,7 +3050,7 @@ const locations = [
     locationName: "Stockland"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJS7LV0HZ7nlQR-JJYLrGW6Z8",
     edition: "EWA",
     notes: "",
@@ -3060,7 +3060,7 @@ const locations = [
     locationName: "Exxon"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJ45xFJ3d7nlQRgNGhAdBPRDs",
     edition: "EWA, IND",
     notes: "1 BUNDLE OF INLANDER; <-- Please write returns here",
@@ -3070,7 +3070,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJHbPNIcIrnFQRzx0huuzdVYE",
     edition: "EWA",
     notes: "4 Shelf Exchange Rack",
@@ -3080,7 +3080,7 @@ const locations = [
     locationName: "Corner Cafe"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJ2YI1s28vnFQRobzT99K75pM",
     edition: "EWA",
     notes: "Bag if not open",
@@ -3090,7 +3090,7 @@ const locations = [
     locationName: "Hazel's Barber & Style Shop"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJo9I9apovnFQR1D50UKUY6Ig",
     edition: "EWA",
     notes: "Bag if not open",
@@ -3100,7 +3100,7 @@ const locations = [
     locationName: "Billy Burger Drive In"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJJdV0SWUvnFQRtFO0ct-6ODw",
     edition: "EWA",
     notes: "Outside Rack",
@@ -3110,7 +3110,7 @@ const locations = [
     locationName: "Conoco Grocery"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJZ2Y_9XsvnFQRHSKNcuXEKZQ",
     edition: "EWA",
     notes: "",
@@ -3120,7 +3120,7 @@ const locations = [
     locationName: "Sandy's Bakery & Deli Thrift"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJ9X9rBnwvnFQRK6Lvzz0EgjY",
     edition: "EWA",
     notes: "In Entryway",
@@ -3130,7 +3130,7 @@ const locations = [
     locationName: "Doxie's Dine-In"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJZaHuFAlHnFQRH_neex5V_84",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3140,7 +3140,7 @@ const locations = [
     locationName: "Lapresa Mexican Restaurant"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJ54xpdyhHnFQRKhYmSqZm3rQ",
     edition: "EWA, WML",
     notes: "Community Rack; Wenatchee Moses Lake Exchange",
@@ -3150,7 +3150,7 @@ const locations = [
     locationName: "A & S Grocery"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJd_j05gJHnFQRr--Fba34Dyw",
     edition: "EWA",
     notes: "EX Rack",
@@ -3160,7 +3160,7 @@ const locations = [
     locationName: "BEST Coulee Hardware"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJcRYiSwJHnFQRjJAa_-CDc1o",
     edition: "EWA",
     notes: "MAX 50; No Target Rack - Shelf",
@@ -3170,7 +3170,7 @@ const locations = [
     locationName: "Safeway                                       "
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJZ4k5SgJHnFQR7m7pyuZl_7Q",
     edition: "EWA",
     notes: "Inside Community",
@@ -3180,7 +3180,7 @@ const locations = [
     locationName: "Coulee Gas"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJdXmCDaRHnFQRhLlNTaw2T6Q",
     edition: "EWA",
     notes: "",
@@ -3190,7 +3190,7 @@ const locations = [
     locationName: "Jack's Chevron"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJt8b8EohTnFQRXjjNEM3yajc",
     edition: "EWA",
     notes: "",
@@ -3200,7 +3200,7 @@ const locations = [
     locationName: "The Trading Post Store                                        "
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJidPoFHFUnFQRXiRk611S2gw",
     edition: "EWA",
     notes: " EX Angle Iron Rack; 200 Max",
@@ -3210,7 +3210,7 @@ const locations = [
     locationName: "Jackson's Chevron"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJpw09OgDpnFQRt8C8_zOznXg",
     edition: "EWA, WML",
     notes: "Maximum 100 with Inserts; Wenatchee Moses Lake Exchange",
@@ -3220,7 +3220,7 @@ const locations = [
     locationName: "Conoco"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJ7-_6jqvpnFQRwdaOSsqEkTU",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3230,7 +3230,7 @@ const locations = [
     locationName: "Tribal Trails"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJRw3JFPyjnFQRCT8QtCv2W2Y",
     edition: "EWA, WML",
     notes: "75 Max; Wenatchee Moses Lake Exchange",
@@ -3240,7 +3240,7 @@ const locations = [
     locationName: "Hank's Mini Mart"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJbVXblvyjnFQRSKzCWbYoRNA",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3250,7 +3250,7 @@ const locations = [
     locationName: "Hank's Market"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJrd-mdZTrnFQRV9VdmKCMJyI",
     edition: "EWA, WML",
     notes: "",
@@ -3260,7 +3260,7 @@ const locations = [
     locationName: "Okanogan IGA"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJfd7yej7rnFQRUJUFWfQMo0g",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3270,7 +3270,7 @@ const locations = [
     locationName: "76"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJp9gLJ2XpnFQRQkSYStpisw4",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3280,7 +3280,7 @@ const locations = [
     locationName: "Okanogan Food Center"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJgyB_aqzpnFQRLBS3lCz3Rbk",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3290,7 +3290,7 @@ const locations = [
     locationName: "Gene's Harvest Foods"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJy8kcPK3pnFQRjn7W5Sp5QlA",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3300,7 +3300,7 @@ const locations = [
     locationName: "Omak Feed & Supply "
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJ5yIvrVDonFQRi2Q-F8VQ4FI",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3310,7 +3310,7 @@ const locations = [
     locationName: "Food Mart Travel Plaza"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJfXo3BVronFQRS-iQFSEMgz0",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3320,7 +3320,7 @@ const locations = [
     locationName: "Chevron"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJDSy_UmnonFQR3UY9Q2uYvu4",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3330,7 +3330,7 @@ const locations = [
     locationName: "North 40 Outfitters"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJXT6vfOHcnFQRNYv510wKV40",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3340,7 +3340,7 @@ const locations = [
     locationName: "Detros Western "
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJacvDSbcpnVQRWjHysIavvZk",
     edition: "EWA, WML",
     notes: "NEEDS RACK; Wenatchee Moses Lake Exchange",
@@ -3350,7 +3350,7 @@ const locations = [
     locationName: "Tonasket Food Mart"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJ3_5IUropnVQR1C7SV4qASZI",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3360,7 +3360,7 @@ const locations = [
     locationName: "Tonasket Feed & Supply "
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJfyR_v6QpnVQRnILUx-KZIus",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3370,7 +3370,7 @@ const locations = [
     locationName: "Beyers Market Floral Design"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJY6j8gqQpnVQR_HHgqSKTyPc",
     edition: "EWA, WML",
     notes: "Check if open July 1; Wenatchee Moses Lake Exchange",
@@ -3380,7 +3380,7 @@ const locations = [
     locationName: "Rancho Grande"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJLQtzfjfOglQRrcB1dsCnThI",
     edition: "EWA",
     notes: "",
@@ -3390,7 +3390,7 @@ const locations = [
     locationName: "Country Store"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJk6IUHQDPglQRQ-ZWtDNNVx0",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3400,7 +3400,7 @@ const locations = [
     locationName: "Frontier Foods"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJ4W24TrcpnVQRvYfl-6CChvU",
     edition: "EWA, WML",
     notes: "Wenatchee Moses Lake Exchange",
@@ -3410,7 +3410,7 @@ const locations = [
     locationName: "Junction Mobil"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJMRRcwmlqnVQRzIQeuzOF3QA",
     edition: "EWA",
     notes: "",
@@ -3420,7 +3420,7 @@ const locations = [
     locationName: "Anderson's Grocery"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJVZoWe0JqnVQRFCVRl_LRG2g",
     edition: "EWA",
     notes: "",
@@ -3430,7 +3430,7 @@ const locations = [
     locationName: "Wild West Farm & Garden"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJYTFs-UJqnVQRGvsw0veZvos",
     edition: "EWA",
     notes: "",
@@ -3440,7 +3440,7 @@ const locations = [
     locationName: "Republic Market"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJlRa0cMZunVQRDlH0N_3HSZI",
     edition: "EWA",
     notes: "",
@@ -3450,7 +3450,7 @@ const locations = [
     locationName: "Chevron"
   },
   {
-    route: "undefined",
+    route: "Okanagan",
     placeId: "ChIJ5VnG_4hpnVQRFojYb5K2EdM",
     edition: "EWA",
     notes: "",
@@ -3460,7 +3460,7 @@ const locations = [
     locationName: "Pine Grove Junction"
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJUUHbUqshnlQRNhINv4RCbYo",
     edition: "EWA",
     notes: "Outside front door, Single EX",
@@ -3470,7 +3470,7 @@ const locations = [
     locationName: "Exxon"
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJk-WhQBghnlQREg5Wj-DDYVg",
     edition: "EWA",
     notes: "Inlander store rack; 1 short pocket north door",
@@ -3480,7 +3480,7 @@ const locations = [
     locationName: "Harvest Foods"
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJG0Xf8SIhnlQRzNGKdDkmBLA",
     edition: "EWA",
     notes: "Shared community rack",
@@ -3490,7 +3490,7 @@ const locations = [
     locationName: "Chester Store / 76"
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJHSem2ekgnlQR31Yj1UnwoFM",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 extended Pocket 80 MAX",
@@ -3500,7 +3500,7 @@ const locations = [
     locationName: "Safeway                                           "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJFxJk_eclnlQRpovcf_HIHxY",
     edition: "EWA",
     notes: "Stack on Counter",
@@ -3510,7 +3510,7 @@ const locations = [
     locationName: "Valleyford Post Office"
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJgfyPaKkonlQRFu1tqkeJjg8",
     edition: "EWA",
     notes: "Shared rack outside front door",
@@ -3520,7 +3520,7 @@ const locations = [
     locationName: "Freeman Store                                  "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJ_W_aQTopnlQRX-VHy0AHEM4",
     edition: "EWA",
     notes: "Counter",
@@ -3530,7 +3530,7 @@ const locations = [
     locationName: "Golden Gem Mercantile                                         "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJE0v0lvgrnlQRgRNrv4YsVZk",
     edition: "EWA",
     notes: "Single EX right inside door",
@@ -3540,7 +3540,7 @@ const locations = [
     locationName: "Harvest Moon                             "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJT7C2hwcsnlQRlIQ2p6b5Ypg",
     edition: "EWA",
     notes: "Shared rack inside east door",
@@ -3550,7 +3550,7 @@ const locations = [
     locationName: "Rockford Mini Mart                                          "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJtxIkPvPPn1QRCrvRw6a3sUk",
     edition: "EWA",
     notes: "Shared shelf by door",
@@ -3560,7 +3560,7 @@ const locations = [
     locationName: "Tekoa Market                              "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJ60V35orPn1QRLDNatYtiaGo",
     edition: "EWA",
     notes: "Shared shelf at register",
@@ -3570,7 +3570,7 @@ const locations = [
     locationName: "Tekoa True Value Hardware                           "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJM2JSfYrPn1QRqgPwFn9AvcY",
     edition: "EWA",
     notes: "",
@@ -3580,7 +3580,7 @@ const locations = [
     locationName: "Tekoa Post Office                               "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJ7VkaSo24n1QREOQ8UMftJ2I",
     edition: "EWA",
     notes: "Shared rack bottom shelf near checker",
@@ -3590,7 +3590,7 @@ const locations = [
     locationName: "Crossett's Market                                      "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJL4pAQw6Vn1QRUOeF2if8N-8",
     edition: "EWA",
     notes: "Outside under EX brick on Daily News box",
@@ -3600,7 +3600,7 @@ const locations = [
     locationName: "Garfield Post Office "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJIVDRPg6Vn1QR9DiYaqEl_eM",
     edition: "EWA",
     notes: "",
@@ -3610,7 +3610,7 @@ const locations = [
     locationName: "Schaut's Market"
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJ8X4tCkOSn1QRsaywR3hubBM",
     edition: "EWA, LCV",
     notes: "Single EX outside entrance; LC Valley Edition",
@@ -3620,7 +3620,7 @@ const locations = [
     locationName: "Palouse Market                              "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJA8Z4EkOSn1QRMDyQS0wZGFA",
     edition: "EWA",
     notes: "Stack on Counter",
@@ -3630,7 +3630,7 @@ const locations = [
     locationName: "Palouse Post Office"
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJ4Y7tcAucn1QR24W6jq8IwiM",
     edition: "EWA",
     notes: "Shared window sill",
@@ -3640,7 +3640,7 @@ const locations = [
     locationName: "Ace Hardware"
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJa-UZB_mbn1QRGLdoxPnYHmk",
     edition: "EWA, LCV",
     notes: "Opens 6am; Shared rack Top Shelf; LC Valley Edition",
@@ -3650,7 +3650,7 @@ const locations = [
     locationName: "Rosauers"
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJ2TlmRvmbn1QRXC5cMRG8Ruw",
     edition: "EWA, LCV",
     notes: "Counter to Right of Door; LC Valley Edition",
@@ -3660,7 +3660,7 @@ const locations = [
     locationName: "Cougar Food Mart                          "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJBWqKrP6bn1QR3XD9ZuW36xc",
     edition: "EWA",
     notes: "; Opens at 11 leave bag at door",
@@ -3670,7 +3670,7 @@ const locations = [
     locationName: "Zips                                           "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJoxXMOfibn1QR8TbuNgXpW8M",
     edition: "EWA, LCV",
     notes: "Shared rack inside door; LC Valley Edition",
@@ -3680,7 +3680,7 @@ const locations = [
     locationName: "Chevron                                        "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJ5Wrqqdu1n1QRSRcMi4SdVMw",
     edition: "EWA, LCV",
     notes: "White Double EX rack by front door; LC Valley Edition",
@@ -3690,7 +3690,7 @@ const locations = [
     locationName: "Rosalia Market                               "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJBQ127982nlQR8cF0GLjGZDk",
     edition: "EWA",
     notes: "Opens 6am; Single EX by front door",
@@ -3700,7 +3700,7 @@ const locations = [
     locationName: "Spangle Food & Gas                                     "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJ5f4uxNI2nlQRoWrOAJXPihM",
     edition: "EWA",
     notes: "Opens 8am; Yellow community rack in foyer",
@@ -3710,7 +3710,7 @@ const locations = [
     locationName: "Harvester Restaurant                                     "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJP-tNjh8jnlQRpJk2cc3AwbY",
     edition: "EWA",
     notes: " N. Door Inlander Store rack; 1 Long Pocket; 1 Short Pocket",
@@ -3720,7 +3720,7 @@ const locations = [
     locationName: "Yoke's                                           "
   },
   {
-    route: "undefined",
+    route: "Palouse",
     placeId: "ChIJl4trivEjnlQRDKz2XQhC5pg",
     edition: "EWA",
     notes: "Shelf at register",
@@ -3730,7 +3730,7 @@ const locations = [
     locationName: "Nom Nom "
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJR07IBqgYnlQRX7dzCu7n-_0",
     edition: "EWA",
     notes: "Inside Community Rack",
@@ -3740,7 +3740,7 @@ const locations = [
     locationName: "Mobil"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJNes3cwginlQR1L4juV_FG7Q",
     edition: "EWA",
     notes: "Enclosed Red Auto Clipper Rack",
@@ -3750,7 +3750,7 @@ const locations = [
     locationName: "Conoco"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJ2WdU01winlQRCwDkkvEnXX0",
     edition: "EWA",
     notes: "Ex Single 1 shelf",
@@ -3760,7 +3760,7 @@ const locations = [
     locationName: "McDonalds"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJz51xvl0inlQRatkJZMUsie8",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 Pocket EAST ENTRANCE",
@@ -3770,7 +3770,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJ4YYX_40inlQRVOzIEsCKGQA",
     edition: "EWA",
     notes: "Bottom of Inlander ",
@@ -3780,7 +3780,7 @@ const locations = [
     locationName: "The Chalet"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJCQPw0Y0inlQRZ3KJhWtp_M0",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 Pocket",
@@ -3790,7 +3790,7 @@ const locations = [
     locationName: "Super 1 Foods"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJp5NjyV0inlQRmWeM4M15zks",
     edition: "EWA",
     notes: "Bottom of Inlander ",
@@ -3800,7 +3800,7 @@ const locations = [
     locationName: "Great Harvest"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJZ67J5mMjnlQRhRgfgJjtB50",
     edition: "EWA",
     notes: "Single Exchange rack by other racks",
@@ -3810,7 +3810,7 @@ const locations = [
     locationName: "Natural Grocers"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJuxWgv10inlQRPwyu8mCR9h4",
     edition: "EWA",
     notes: "Inside Bottom of Inlander Rack OPENS @ 11:00",
@@ -3820,7 +3820,7 @@ const locations = [
     locationName: "Papa Murphy's"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJxVuNTFwinlQRIZ9APfkpM3c",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 pocket",
@@ -3830,7 +3830,7 @@ const locations = [
     locationName: "Rosauers"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJzV8Ll1winlQRdMYJ-ZJU44A",
     edition: "EWA",
     notes: "Inside Community Rack, opens at 10:00 ",
@@ -3840,7 +3840,7 @@ const locations = [
     locationName: "Senor Froggys"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJP7MUgP8inlQRMk336UhDcSA",
     edition: "EWA",
     notes: "Inside EX Single Rack",
@@ -3850,7 +3850,7 @@ const locations = [
     locationName: "Ace Hardware"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJTTtptQUjnlQRqBVy5tG0bHo",
     edition: "EWA",
     notes: "Inside Community Rack",
@@ -3860,7 +3860,7 @@ const locations = [
     locationName: "Nom Nom"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJccG76wUjnlQRequGwbIN02w",
     edition: "EWA",
     notes: "Inlander Community Rack; 2 Pockets",
@@ -3870,7 +3870,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJ9dYcZd0jnlQR0FdiPxXiDkM",
     edition: "EWA",
     notes: "Exchnage Rack, inside to left 3 shelves",
@@ -3880,7 +3880,7 @@ const locations = [
     locationName: "Divine's Fasmart"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJo6MX51winlQRrYeOrC0qBBg",
     edition: "EWA",
     notes: "Basket on Table in Entryway",
@@ -3890,7 +3890,7 @@ const locations = [
     locationName: "South Hill Grill"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJk7v9HwQjnlQRdW9yb7cok-4",
     edition: "EWA",
     notes: "Inside EX Single Rack",
@@ -3900,7 +3900,7 @@ const locations = [
     locationName: "Morty's"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJeSigZVUinlQRcC-N3KqcuIs",
     edition: "EWA",
     notes: "Inside Single Ex 2 shelves",
@@ -3910,7 +3910,7 @@ const locations = [
     locationName: "Conoco Gas Station"
   },
   {
-    route: "undefined",
+    route: "South Hill",
     placeId: "ChIJ8ZmkWFsinlQR_0NEIQ7uucE",
     edition: "EWA",
     notes: "waiting area",
@@ -3920,7 +3920,7 @@ const locations = [
     locationName: "Les Schwabs"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJoX_mA_ofnlQRy5RkyFyoBzg",
     edition: "EWA",
     notes: "Inside EX Single Rack",
@@ -3930,7 +3930,7 @@ const locations = [
     locationName: "American Recycling Office"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJ-xtPFV8fnlQRAs5TN91G3M0",
     edition: "EWA",
     notes: "Community Rack Left of entry",
@@ -3940,7 +3940,7 @@ const locations = [
     locationName: "Chevron"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJ7fBE7eAhnlQRNZIReAirEZ4",
     edition: "EWA",
     notes: "waiting area",
@@ -3950,7 +3950,7 @@ const locations = [
     locationName: "Les Schwab"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJ__9PNd4hnlQR9qZNL2Hl7q0",
     edition: "EWA",
     notes: "Inside Do not put on Spokesman papers",
@@ -3960,7 +3960,7 @@ const locations = [
     locationName: "Jackson Pilot"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJy4LKRWAhnlQRJiI3261DX8U",
     edition: "EWA",
     notes: "Single EX Rack  ",
@@ -3970,7 +3970,7 @@ const locations = [
     locationName: "Amerimart"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJvXJ7I-IhnlQR9KkBN6lRf5M",
     edition: "EWA",
     notes: "SINGLE Exchange Rack at Counter",
@@ -3980,7 +3980,7 @@ const locations = [
     locationName: "Royal Express"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJ523TscIhnlQRfjRxkQSlN3E",
     edition: "EWA",
     notes: "Shelf by register",
@@ -3990,7 +3990,7 @@ const locations = [
     locationName: "Conoco Food Mart"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJVevdEeghnlQRYfplgRReGDA",
     edition: "EWA",
     notes: "Exchange rack in entrance",
@@ -4000,7 +4000,7 @@ const locations = [
     locationName: "Cottage Cafe"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJ1Zv_1zQgnlQRoImvAUwQFT4",
     edition: "EWA",
     notes: "Place in waiting area",
@@ -4010,7 +4010,7 @@ const locations = [
     locationName: "Discount Tire"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJ_S3HK8shnlQRj7p4w_oIIAU",
     edition: "EWA",
     notes: "Inside Exchange Rack CLOSES 2PM",
@@ -4020,7 +4020,7 @@ const locations = [
     locationName: "Jenny's Cafe"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJGZSotUYgnlQR-0OyHMJ4hXA",
     edition: "EWA",
     notes: "Table by door",
@@ -4030,7 +4030,7 @@ const locations = [
     locationName: "Mike's Donuts"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJ6aDlEsshnlQRZ7fSD9L6qqw",
     edition: "EWA",
     notes: "Inside Exchange Rack",
@@ -4040,7 +4040,7 @@ const locations = [
     locationName: "Hico Village"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJG--mDDognlQRn7R16bBuF_U",
     edition: "EWA",
     notes: "Outdoor Wood Community Rack",
@@ -4050,7 +4050,7 @@ const locations = [
     locationName: "Broadway Mini Mart"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJbaFCtUkgnlQReZAOCyF0lAM",
     edition: "EWA",
     notes: "Inside, On top of Garbage Can",
@@ -4060,7 +4060,7 @@ const locations = [
     locationName: "McDonalds"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJ7YoW50kgnlQR3FCIxdZDPhU",
     edition: "EWA",
     notes: "Place on several tables",
@@ -4070,7 +4070,7 @@ const locations = [
     locationName: "Les Schwabs"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJ0dAMakggnlQR7a8Vcc2gzNw",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 Pocket + Shelf",
@@ -4080,7 +4080,7 @@ const locations = [
     locationName: "Rosauers"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJW4OElEYgnlQR-KwHqoQWFGs",
     edition: "EWA",
     notes: "Inside Dining Room by West Door Exchange Rack",
@@ -4090,7 +4090,7 @@ const locations = [
     locationName: "Zip's"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJcw3P2mkgnlQR4uTkjhk1CRA",
     edition: "EWA",
     notes: "Outside Exchange Rack Back Door",
@@ -4100,7 +4100,7 @@ const locations = [
     locationName: "Dave's Bar & Grill "
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJ042IEF0gnlQRHA_wmNQmN48",
     edition: "EWA",
     notes: "Outside Exchange Rack",
@@ -4110,7 +4110,7 @@ const locations = [
     locationName: "Exxon"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJWRdVrmkgnlQRLo_9RxpccP8",
     edition: "EWA",
     notes: "use space under Spokesman",
@@ -4120,7 +4120,7 @@ const locations = [
     locationName: "Walgreen's"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJu9Q8zQUgnlQRKv3fBoyJR5E",
     edition: "EWA",
     notes: "Outside Blue Box",
@@ -4130,7 +4130,7 @@ const locations = [
     locationName: "Sam's Stop & Shop"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJsYHizWggnlQRlJQX8b2t3PQ",
     edition: "EWA",
     notes: "Inside Exchange Rack",
@@ -4140,7 +4140,7 @@ const locations = [
     locationName: "Conley's Place"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJR0dqMnAYnlQR13sg_m0q3bc",
     edition: "EWA",
     notes: "Inlander Community Rack; 1 Pocket 1 Shelf; WEST Entrance",
@@ -4150,7 +4150,7 @@ const locations = [
     locationName: "Yoke's"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJlQfa53ognlQRcfN_m9536ak",
     edition: "EWA",
     notes: "On right hand side of counter",
@@ -4160,7 +4160,7 @@ const locations = [
     locationName: "Franz Bakery"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJY8zq0nsgnlQRT3XerbbClg8",
     edition: "EWA",
     notes: "West side; Community Rack",
@@ -4170,7 +4170,7 @@ const locations = [
     locationName: "Carl's Jr"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJT92N23sgnlQRGDHRm8PtD6I",
     edition: "EWA",
     notes: "Inlander Community Rack; 2 pockets; East Entrance",
@@ -4180,7 +4180,7 @@ const locations = [
     locationName: "Safeway"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJAdl-QoLfYVMRk7_ZXGPQzRA",
     edition: "EWA",
     notes: "Inside Exchange Rack ",
@@ -4190,7 +4190,7 @@ const locations = [
     locationName: "DeLeon's Food"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJm0M3s4PfYVMRzDejp_VHlY4",
     edition: "EWA",
     notes: "Ex Rack",
@@ -4200,7 +4200,7 @@ const locations = [
     locationName: "Dollar Tree"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJa0olRoLfYVMRVm5tT5QQbi8",
     edition: "EWA",
     notes: "Second Shelf Community Rack",
@@ -4210,7 +4210,7 @@ const locations = [
     locationName: "Walgreens"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJe2x3TZLfYVMREHT7DxjqoJ0",
     edition: "EWA",
     notes: "Inside Exchange Rack",
@@ -4220,7 +4220,7 @@ const locations = [
     locationName: "Sportsman's Warehouse"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJGb8S55bfYVMR9Bx3yOiCjtU",
     edition: "EWA",
     notes: "Inside Exchange Rack",
@@ -4230,7 +4230,7 @@ const locations = [
     locationName: "CHAS Clinic"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJnTv65aLfYVMRMIrtfn-lFIk",
     edition: "EWA",
     notes: "West entrance by coffee shop",
@@ -4240,7 +4240,7 @@ const locations = [
     locationName: "Providence Health"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJGcEwAqvfYVMRA845g21cOg8",
     edition: "EWA",
     notes: "5:30-10:30; Bag if not open; Exchange Rack",
@@ -4250,7 +4250,7 @@ const locations = [
     locationName: "RISE Donuts"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJRxaNCKvfYVMRN3rlODPDBNo",
     edition: "EWA",
     notes: "Exchange rack by Wendys entrance",
@@ -4260,7 +4260,7 @@ const locations = [
     locationName: "Conoco"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJMzv1vAbfYVMRksiXoRQge-U",
     edition: "EWA",
     notes: "Outside Exchange Rack",
@@ -4270,7 +4270,7 @@ const locations = [
     locationName: "Exxon"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJlQjp-HTfYVMRjNt5kOwy7Ds",
     edition: "EWA",
     notes: "Ziggy's rack by door",
@@ -4280,7 +4280,7 @@ const locations = [
     locationName: "Ziggy's"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJp6W_yZrfYVMR6WkaoOvz7hU",
     edition: "EWA",
     notes: "Inside Exchange Rack",
@@ -4290,7 +4290,7 @@ const locations = [
     locationName: "URM"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJq6ragHXfYVMRATh3qIIqNXs",
     edition: "EWA",
     notes: "",
@@ -4300,7 +4300,7 @@ const locations = [
     locationName: "Eagles Spokane Valley"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJQx6HMZ3fYVMRy-9NUnz5JvE",
     edition: "EWA",
     notes: "Scatter around waiting room tables",
@@ -4310,7 +4310,7 @@ const locations = [
     locationName: "Les Schwabs"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJXU_wloLfYVMRBwy330jdHMg",
     edition: "EWA",
     notes: "Opens 10am; Inside Exchange Rack",
@@ -4320,7 +4320,7 @@ const locations = [
     locationName: "Zips"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJX_qx2HUgnlQRnadsXOLLQkA",
     edition: "EWA",
     notes: "Outside Exchange Rack",
@@ -4330,7 +4330,7 @@ const locations = [
     locationName: "Exxon"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJneQslwwgnlQRGgwwuN27ajI",
     edition: "EWA",
     notes: "Inside Exchange Rack",
@@ -4340,7 +4340,7 @@ const locations = [
     locationName: "Spokane Internal Medicine"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJNchC_WggnlQR8Z2qjp1SDF8",
     edition: "EWA",
     notes: "Inside East Door Exchange Rack   Opens at 10:30am",
@@ -4350,7 +4350,7 @@ const locations = [
     locationName: "Ron's Hamburgers"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJCQGwXFuKUocRrDLFltZDhJ8",
     edition: "EWA",
     notes: "Bottom Inlander Rack NEED RACK ",
@@ -4360,7 +4360,7 @@ const locations = [
     locationName: "Taco Time"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJf9fRC0IgnlQR58ySfEb3doE",
     edition: "EWA",
     notes: "Inside North Door; Exchange Rack",
@@ -4370,7 +4370,7 @@ const locations = [
     locationName: "Thrifty Scotsman Drive-In"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJE1tSHEIgnlQRY5YMkLxUK_s",
     edition: "EWA",
     notes: "Inside Exchange Rack",
@@ -4380,7 +4380,7 @@ const locations = [
     locationName: "UGM Thrift"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJTUAogkEgnlQR9WpM_j4NLuA",
     edition: "EWA",
     notes: "One table and coffee table in waiting room",
@@ -4390,7 +4390,7 @@ const locations = [
     locationName: "Tire-Rama"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJOYJNAgYhnlQRMdh3BHS94I8",
     edition: "EWA",
     notes: "Red Box outside",
@@ -4400,7 +4400,7 @@ const locations = [
     locationName: "Bowdish Market"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJoffVNkIgnlQRyRuv432wqIk",
     edition: "EWA",
     notes: "on counter",
@@ -4410,7 +4410,7 @@ const locations = [
     locationName: "Thrift Store"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJezZn30cgnlQRbkFHhNGFa7Q",
     edition: "EWA",
     notes: "Round table in corner or coffee table",
@@ -4420,7 +4420,7 @@ const locations = [
     locationName: "Perfection Tire"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJA2GqsMshnlQRVO05D3qSWQU",
     edition: "EWA",
     notes: "Inside Windowsill",
@@ -4430,7 +4430,7 @@ const locations = [
     locationName: "Discount Muffler"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJP7f8U3EhnlQRCSTFjUadqnA",
     edition: "EWA",
     notes: "",
@@ -4440,7 +4440,7 @@ const locations = [
     locationName: "Zips"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJAQCQfwgcnlQRtGk1hxgIOew",
     edition: "EWA",
     notes: "Extra stop delivered when Dick stops there each week",
@@ -4450,7 +4450,7 @@ const locations = [
     locationName: "North Star Senior Center"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJO8sZ7xwZnlQR73rrk_xYFLU",
     edition: "EWA",
     notes: "Extra stop delivered when Dick stops there each week",
@@ -4460,7 +4460,7 @@ const locations = [
     locationName: "Corbin Center"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJxSFl-bUhnlQRo2d2U1a08sc",
     edition: "EWA",
     notes: "Extra stop delivered when Dick stops there each week",
@@ -4470,7 +4470,7 @@ const locations = [
     locationName: "Joes Barber Shop"
   },
   {
-    route: "undefined",
+    route: "Spokane Valley",
     placeId: "ChIJB-o2usUjnlQRRi5ywv2fmQU",
     edition: "EWA",
     notes: "Extra stop delivered when Dick stops there each week",
@@ -4480,7 +4480,7 @@ const locations = [
     locationName: "Veterans Thrift Center"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJHWGzHlcWnlQRh2BszB0WyhI",
     edition: "EWA",
     notes: "",
@@ -4490,7 +4490,7 @@ const locations = [
     locationName: "O'Reilly Auto Parts"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJS9VfxS4XnlQRXI8B0WeLa-k",
     edition: "EWA",
     notes: "Opens 11 AM",
@@ -4500,7 +4500,7 @@ const locations = [
     locationName: "Noodle Express"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJU4CVcfUWnlQRfUna5Mbl520",
     edition: "EWA",
     notes: "Wooden shelf left of door",
@@ -4510,7 +4510,7 @@ const locations = [
     locationName: "Chevron"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJK9voy4gWnlQRD1sGhlXCLpM",
     edition: "EWA",
     notes: "Single EX rack by customer service counter",
@@ -4520,7 +4520,7 @@ const locations = [
     locationName: "Yoke's"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJ3by5GBUXnlQR1MBlbN-uwy0",
     edition: "EWA",
     notes: "Ex Rack ",
@@ -4530,7 +4530,7 @@ const locations = [
     locationName: "Gas For Less"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJg6yRHYsWnlQRQo4QAuKDdeo",
     edition: "EWA",
     notes: "EX rack w/WCD; East entrance Opens 5AM",
@@ -4540,7 +4540,7 @@ const locations = [
     locationName: "McDonalds"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJWXJoB4sWnlQR-G00fCLlMJY",
     edition: "EWA",
     notes: "2 white racks in Breezeway; Opens 8am",
@@ -4550,7 +4550,7 @@ const locations = [
     locationName: "NAPA"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJPdz5Q4kWnlQRsMfa7kwlJso",
     edition: "EWA",
     notes: "Counter East Side of Restaurant Opens 6AM",
@@ -4560,7 +4560,7 @@ const locations = [
     locationName: "Atilano's"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJvc_TKYkWnlQRy4PS3X0ePPM",
     edition: "EWA",
     notes: "Rack in front of counter",
@@ -4570,7 +4570,7 @@ const locations = [
     locationName: "Motion Auto Supply"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJG1fjf4QWnlQRWYlMr_CIP1E",
     edition: "EWA",
     notes: "On top of Garbage/ tray return left of door OPENS 10:30",
@@ -4580,7 +4580,7 @@ const locations = [
     locationName: "Subway"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJe5RtuYUWnlQRSghXM3azy7o",
     edition: "EWA",
     notes: "Right of door on top of candy machine OPENS 11AM ",
@@ -4590,7 +4590,7 @@ const locations = [
     locationName: "La Presa Mexicana"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJu-UwDWoUnlQRx0UG5tPjRCg",
     edition: "EWA",
     notes: "Top Shelf ; rack in cafe area",
@@ -4600,7 +4600,7 @@ const locations = [
     locationName: "Spoko Fuel"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJf2H-14sWnlQRoJzZa7p6Cqs",
     edition: "EWA",
     notes: "Inside EX rack; West entrance; Opens 6AM",
@@ -4610,7 +4610,7 @@ const locations = [
     locationName: "Zip's"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJk3285GIWnlQRqWdyNXmC66Y",
     edition: "EWA",
     notes: "On counter ",
@@ -4620,7 +4620,7 @@ const locations = [
     locationName: "AutoZone"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJpT_bt1gWnlQRujUx2Rypi7I",
     edition: "EWA",
     notes: "on counter waiting area",
@@ -4630,7 +4630,7 @@ const locations = [
     locationName: "Les Schwab"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJMTvPGVkWnlQR3rUsHDu9CVc",
     edition: "EWA",
     notes: "Opens 8am, Sinlge Ex rack",
@@ -4640,7 +4640,7 @@ const locations = [
     locationName: "Grocery Outlet"
   },
   {
-    route: "undefined",
+    route: "West Plains",
     placeId: "ChIJccOB9boXnlQReuFiY2PfMPg",
     edition: "EWA",
     notes: "Inside EX Rack Front Door; Opens 11AM ",
