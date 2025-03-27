@@ -8139,4 +8139,1344 @@ const locations = [
     lng: -120.3250927,
     locationName: "Denny's"
   },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJWXq6joZSYFMRe7PcjxvDN0E",
+    edition: "NID",
+    notes: "Outside Single EX Rack with weatherguard; Left of Door",
+    address: "400 Coeur D'Alene River Rd, Kingston, ID 83839, USA",
+    lat: 47.5526753,
+    lng: -116.2699682,
+    locationName: "76 Gas Station"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJhz2ylIBSYFMRDnTJ4bZ2nXE",
+    edition: "NID, IND",
+    notes: "; Outside Single EX Rack; with weatherguard; 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
+    address: "123 Stem Loop, Kingston, ID 83839, USA",
+    lat: 47.548859,
+    lng: -116.2720969,
+    locationName: "Exxon"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJVfZONUBSYFMR_ME07wVbOKw",
+    edition: "NID, IND",
+    notes: "Outdoor Community Rack; 1/2 BUNDLE OF INLANDER; <-- Please write returns here; Inside Community Rack Left of Door",
+    address: "117 N Division St, Pinehurst, ID 83850, USA",
+    lat: 47.5386574,
+    lng: -116.2323612,
+    locationName: "Barney's Harvest Foods"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJP6mY9dZTYFMR_OHWrEK4asI",
+    edition: "NID",
+    notes: "Outdoor Rack",
+    address: "608 N Division St, Pinehurst, ID 83850, USA",
+    lat: 47.54202589999999,
+    lng: -116.2307946,
+    locationName: "Goose N The Tree"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJ3d-k18ZTYFMRKJfodUimOdg",
+    edition: "NID",
+    notes: "Iron rack by customer service",
+    address: "583 Commerce Dr, Smelterville, ID 83868, USA",
+    lat: 47.54481550000001,
+    lng: -116.1867878,
+    locationName: "Walmart Supercenter"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJSQfZ2qVTYFMRguxyP00ddtk",
+    edition: "NID",
+    notes: "Outdoor Rack",
+    address: "20 Nearing Way, Smelterville, ID 83868, USA",
+    lat: 47.545631,
+    lng: -116.1735456,
+    locationName: "Grocery Outlet"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJGVHhPmVTYFMRatjki0agbmI",
+    edition: "NID",
+    notes: "Outdoor Rack Right of Door (needs weather guard) leave returns with store",
+    address: "167 Commerce Dr, Smelterville, ID 83868, USA",
+    lat: 47.5452934,
+    lng: -116.1741605,
+    locationName: "Dollar Tree"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJU_DJzqtWYFMRrcfHH6J80lQ",
+    edition: "NID, IND",
+    notes: "Outside Single EX Rack; 1 FULL BUNDLE OF INLANDER; <-- Please write returns here",
+    address: "119 N Hill St, Kellogg, ID 83837, USA",
+    lat: 47.5391076,
+    lng: -116.1254511,
+    locationName: "Kellogg Super Stop"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJjVjKzqtWYFMRfOmXGe2OCjU",
+    edition: "NID, IND",
+    notes: "Inlander Community Rack Inside; 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
+    address: "117 Hill St, Kellogg, ID 83837, USA",
+    lat: 47.5394452,
+    lng: -116.1257084,
+    locationName: "Yoke's Fresh Market"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJuzwe0qhWYFMRFnV8LKz_x0U",
+    edition: "NID",
+    notes: "Ex Single ",
+    address: "3 E Cameron Ave, Kellogg, ID 83837, USA",
+    lat: 47.5380268,
+    lng: -116.1188098,
+    locationName: "Conoco"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJja4M0qhWYFMRFqWaz5sYQRA",
+    edition: "NID",
+    notes: "Inside Ledge to Right of Door",
+    address: "15 E Cameron Ave, Kellogg, ID 83837, USA",
+    lat: 47.537671,
+    lng: -116.118163,
+    locationName: "Les Schwab Tire Center"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJC_le16lWYFMRJcDkrCyPV6s",
+    edition: "NID, IND",
+    notes: "Right side of Door; 1/2 BUNDLE OF INLANDER",
+    address: "313 W Cameron Ave, Kellogg, ID 83837, USA",
+    lat: 47.541843,
+    lng: -116.1251349,
+    locationName: "Kellogg Ace Hardware"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJQwlZ8ANUYFMRKPCDzjz0yY4",
+    edition: "NID",
+    notes: "Community rack inside right of door",
+    address: "711 W Cameron Ave, Kellogg, ID 83837, USA",
+    lat: 47.54543839999999,
+    lng: -116.1311987,
+    locationName: "Sam's Restaurant"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJW-ptJwRUYFMRq7Z02GO2AlY",
+    edition: "NID, IND",
+    notes: "Inside Single EX Rack; 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
+    address: "802 W Cameron Ave, Kellogg, ID 83837, USA",
+    lat: 47.54686290000001,
+    lng: -116.1325129,
+    locationName: "76"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJ3f4ZSOtXYFMRWUOKOLsi4tI",
+    edition: "NID, IND",
+    notes: "Outside Single EX Rack; 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
+    address: "400 E Mullan Ave, Osburn, ID 83849, USA",
+    lat: 47.50630319999999,
+    lng: -115.999673,
+    locationName: "76"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJO9L9kexXYFMR4Hx5N_gWYhI",
+    edition: "NID, IND",
+    notes: "Exchange rack in foyer by ice machine; 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
+    address: "712 E Mullan Ave, Osburn, ID 83849, USA",
+    lat: 47.504137,
+    lng: -115.9933493,
+    locationName: "Watson's Market"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJib7EGtn3YFMR6293m8ninek",
+    edition: "NID, IND",
+    notes: "Inside back of store; 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
+    address: "10 Front St, Wallace, ID 83873, USA",
+    lat: 47.4765111,
+    lng: -115.9331427,
+    locationName: "Conoco"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJP6RcpdD3YFMRs_c8m2wQxCU",
+    edition: "NID, IND",
+    notes: "Indoor; 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
+    address: "205 5th St, Wallace, ID 83873, USA",
+    lat: 47.4738449,
+    lng: -115.925061,
+    locationName: "Beamis Hi Co/ Exxon"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJt00yLNf3YFMRxOko8sphLtY",
+    edition: "NID, IND",
+    notes: "Opens 9am; Inside right of door on ledge; 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
+    address: "600 Cedar St, Wallace, ID 83873, USA",
+    lat: 47.4722115,
+    lng: -115.9237814,
+    locationName: "Todd's Bookstore & Coffee"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJS93Ec9H3YFMR0Kpolai_yCY",
+    edition: "NID",
+    notes: "Inside Community Rack ",
+    address: "800 Bank St, Wallace, ID 83873, USA",
+    lat: 47.471369,
+    lng: -115.9204555,
+    locationName: "Harvest Foods"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJU3W07Z60YVMRwC-tkdc6R_g",
+    edition: "NID, IND",
+    notes: "Outside Single EX Rack; ; 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
+    address: "11235 State Hwy 3, Cataldo, ID 83810, USA",
+    lat: 47.5724423,
+    lng: -116.4427819,
+    locationName: "Rose Lake General Store"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJqZ-nXZ-0YVMRyXmbG0v_B3U",
+    edition: "NID, IND",
+    notes: "Outside Single EX Rack; ; 1/2 BUNDLE OF INLANDER; <-- Please write returns here",
+    address: "11550 State Hwy 3, Cataldo, ID 83810, USA",
+    lat: 47.569689,
+    lng: -116.441587,
+    locationName: "Conoco"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJJ01vK3g0YFMR-ENIo29KPFs",
+    edition: "NID",
+    notes: "Community rack Inside Right of Door by Register",
+    address: "31504 State Hwy 3, Medimont, ID 83842, USA",
+    lat: 47.4585795,
+    lng: -116.5908942,
+    locationName: "Valley Mart"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJgUmLdds6YFMR_Lyh6HKVnJ0",
+    edition: "NID",
+    notes: "Outside Community Rack ; Left of Door",
+    address: "320 W College Ave, St Maries, ID 83861, USA",
+    lat: 47.31536910000001,
+    lng: -116.5629428,
+    locationName: "76"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJ3eFfDNs6YFMRLF7ndtH7C8k",
+    edition: "NID",
+    notes: "Inside community Rack Right of Door",
+    address: "402 College Ave, St Maries, ID 83861, USA",
+    lat: 47.3154684,
+    lng: -116.5636697,
+    locationName: "Conoco"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJaRVOR9w6YFMRLOeBmpY_HKU",
+    edition: "NID",
+    notes: "Outside EX Rack Left of Door",
+    address: "127 E College Ave, St Maries, ID 83861, USA",
+    lat: 47.3143933,
+    lng: -116.5590143,
+    locationName: "Zip's"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJO8wIYe47YFMRnO1Qqt8IurQ",
+    edition: "NID",
+    notes: "Inside Community Rack",
+    address: "105 E College Ave, St Maries, ID 83861, USA",
+    lat: 47.31485379999999,
+    lng: -116.5600086,
+    locationName: "Archie's IGA "
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJ7Vq5bNA6YFMRHht4slGkZJI",
+    edition: "NID",
+    notes: "Inside Community Rack Right of Door",
+    address: "40 Homer Dr, St Maries, ID 83861, USA",
+    lat: 47.31315009999999,
+    lng: -116.5514132,
+    locationName: "Harvest Foods - Saint Maries"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJb_1SQdw6YFMRs646edUd2EY",
+    edition: "NID",
+    notes: "Community Rack Inside left of register",
+    address: "130 E College Ave, St Maries, ID 83861, USA",
+    lat: 47.315451,
+    lng: -116.5586325,
+    locationName: "Triple X Feeds"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJ9bv_aMU6YFMRvKwW0kx1mFo",
+    edition: "NID",
+    notes: "Inside Single EX Rack",
+    address: "211 N 10th St, St Maries, ID 83861, USA",
+    lat: 47.3175414,
+    lng: -116.5705942,
+    locationName: "Conoco"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJd3mLVRnWn1QRmZqhxPy9IyE",
+    edition: "NID",
+    notes: "Inside Community Rack; Left of Door",
+    address: "300 10th St, Plummer, ID 83851, USA",
+    lat: 47.3349479,
+    lng: -116.8876145,
+    locationName: "Plummer Quick Stop"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJu-Wlqx7Wn1QRztjFf_jbbAA",
+    edition: "NID",
+    notes: "EX (AC) rack in entry",
+    address: "1111 Birch St, Plummer, ID 83851, USA",
+    lat: 47.3360502,
+    lng: -116.8887029,
+    locationName: "Benewah Market"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJq7ePCBzWn1QR4jf-drd7guY",
+    edition: "NID",
+    notes: "EX Rack",
+    address: "126 10th St, Plummer, ID 83851, USA",
+    lat: 47.3369525,
+    lng: -116.8874053,
+    locationName: "The Gateway"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJrz6BQRnWn1QR5pt6BnH5qlw",
+    edition: "NID",
+    notes: "Outside 4 Level EX Rack",
+    address: "396070 US-95, Plummer, ID 83851, USA",
+    lat: 47.33810820000001,
+    lng: -116.8890313,
+    locationName: "Warpath Smoke Shop"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJ26ZbC3LXn1QRbI-XSNadMoY",
+    edition: "NID",
+    notes: "",
+    address: "165 US-95, Plummer, ID 83851, USA",
+    lat: 47.338014,
+    lng: -116.889106,
+    locationName: "Warpath One Stop Shop"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJ946N9Y0qYFMR4aWq1uJjJFY",
+    edition: "NID",
+    notes: "Outside single EX Rack Left of Door",
+    address: "9824 W F St, Worley, ID 83876, USA",
+    lat: 47.400538,
+    lng: -116.91987,
+    locationName: "BNS Smoke Shop"
+  },
+  {
+    route: "Around The Lake",
+    placeId: "ChIJn2LPsrPWYVMR416pVdzG0Q8",
+    edition: "NID",
+    notes: "Inside Double EX Rack",
+    address: "12727 W Elder Rd, Worley, ID 83876, USA",
+    lat: 47.50762899999999,
+    lng: -116.9576824,
+    locationName: "Fightin' Creek Smoke Shop"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJp5AB17fGYVMR_JDS4JevHgw",
+    edition: "NID",
+    notes: "shared yellow rack right of door outside",
+    address: "1650 West Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.701497,
+    lng: -116.80885,
+    locationName: "Goodies 76"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJCwV-usnGYVMRHrMnlDjtk6E",
+    edition: "NID",
+    notes: "Single Exchange rack in front of customer service",
+    address: "1485 West Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.7038489,
+    lng: -116.8055175,
+    locationName: "WinCo Foods"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJhdS7VsTGYVMRdyb3EP0KHKQ",
+    edition: "NID",
+    notes: "Community Rack, ; inside left of door",
+    address: "502 West Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.7004342,
+    lng: -116.792564,
+    locationName: "Mobil"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJqwqi78TGYVMRdjsnUgClhX4",
+    edition: "NID",
+    notes: "Inside left of door narow Exchange metal ",
+    address: "W 350 Appleway Ave., Coeur d'Alene, ID 83815, USA",
+    lat: 47.70052799999999,
+    lng: -116.7909218,
+    locationName: "Exxon"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJTUicwcTGYVMRE9rl_OUenI0",
+    edition: "NID",
+    notes: "Middle of Shared rack space",
+    address: "290 West Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.699718,
+    lng: -116.789724,
+    locationName: "Elmer's Restaurant (Coeur d'Alene, ID)"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJzbEQR9vGYVMR5e7TqjmHN7U",
+    edition: "NID",
+    notes: "Top Community Rack, ; inside door to Right",
+    address: "W 201 Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.700905,
+    lng: -116.7868187,
+    locationName: "Exxon"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJDUNin3zHYVMR8ZrHS47ONYs",
+    edition: "NID",
+    notes: "Community Rack, ; inside left of door",
+    address: "1427 E Best Ave, Coeur d'Alene, ID 83814, USA",
+    lat: 47.7009596,
+    lng: -116.7655225,
+    locationName: "NomNom"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJP2KQc_nGYVMRPEvRn-seI_o",
+    edition: "NID",
+    notes: "Shared rack outside",
+    address: "1003 N 15th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.68285849999999,
+    lng: -116.7651669,
+    locationName: "Taj Grocery Store"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJEfhSmVHGYVMRad23HSznIJ0",
+    edition: "NID",
+    notes: "Inside East Door ; community rack by cashier",
+    address: "2301 Sherman Ave, Coeur d'Alene, ID 83814, USA",
+    lat: 47.67303620000001,
+    lng: -116.7530055,
+    locationName: "Mobil"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJd6H45VDGYVMRqVMWqPw8itk",
+    edition: "NID",
+    notes: "Community Rack",
+    address: "2001 E Sherman Ave, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6735058,
+    lng: -116.757691,
+    locationName: "Chevron"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJEZB2OFnGYVMRLZRtOk8QvrE",
+    edition: "NID",
+    notes: "INSIDE NW COMMUNITY RACK; Black Angle Iron  USE MIDDLE RIGHT",
+    address: "1211 Sherman Ave, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6739308,
+    lng: -116.7683629,
+    locationName: "Harvest Foods"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJxdRcamDGYVMR5QlAnzS7uIw",
+    edition: "NID",
+    notes: "Outside bottom of Nickel's Worth Rack",
+    address: "107 N 5th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6737427,
+    lng: -116.7800068,
+    locationName: "Nickel's Worth Classifieds"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJL2IK51LHYVMRgss_HgfzS8E",
+    edition: "NID",
+    notes: "Single Exchange rack inside with other racks",
+    address: "210 Sherman Ave #156, Coeur d'Alene, ID 83814, USA",
+    lat: 47.67321279999999,
+    lng: -116.783342,
+    locationName: "Downtown Mall"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJl6OkcPPGYVMRJ9dtiSE4OGo",
+    edition: "NID",
+    notes: "9am - Bottom of Nickel's Worth Rack; Wants 50 returned papers for wrapping",
+    address: "845 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.68151199999999,
+    lng: -116.78124,
+    locationName: "Idaho Youth Ranch Thrift Store"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ7YdlT_LGYVMRyR-k9i3WeSY",
+    edition: "NID",
+    notes: "Inlander Community Rack; 1 Pocket",
+    address: "1001 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6831962,
+    lng: -116.7817444,
+    locationName: "Safeway"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJK6-ma-7GYVMRhl0PQPB0pSU",
+    edition: "NID",
+    notes: "Exchange Folding Rack",
+    address: "1217 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.68674370000001,
+    lng: -116.7812601,
+    locationName: "Seright's Ace Hardware"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJV-XWUO7GYVMRsUnj1msBukw",
+    edition: "NID",
+    notes: "Bottom of Inlander Rack",
+    address: "1316 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.687611,
+    lng: -116.780135,
+    locationName: "Pilgrim's Market"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ0Urh6ujGYVMRtXnQdsA5kDE",
+    edition: "NID",
+    notes: "Outside Red box",
+    address: "1719 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6919226,
+    lng: -116.7814993,
+    locationName: "The Breakfast Nook"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ7dCmZ93GYVMRVar5z-R847Y",
+    edition: "NID",
+    notes: "Bottom of NW? ",
+    address: "2105 N 4th St, Coeur d'Alene, ID 83814, USA",
+    lat: 47.696411,
+    lng: -116.781424,
+    locationName: "Exxon Jifi Stop"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJQbQSAOrGYVMRG1dNUalJAzk",
+    edition: "NID",
+    notes: "Inlander Community Rack; 1 Pocket",
+    address: "220 Ironwood Dr, Coeur d'Alene, ID 83814, USA",
+    lat: 47.6936402,
+    lng: -116.7898478,
+    locationName: "Safeway"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJQ6G65cTGYVMRhgCwHl36fMo",
+    edition: "NID",
+    notes: "Inside Community Rack by front door. Share shelf with Nickels Worth",
+    address: "335 West Appleway Ave., Coeur d'Alene, ID 83814, USA",
+    lat: 47.7012054,
+    lng: -116.7905702,
+    locationName: "Walgreens"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ_3vjtRnHYVMR0vT84t8M8FQ",
+    edition: "NID",
+    notes: ""Closes @ 2pm; Kat 208-416-0238" Exchange folding rack foyer",
+    address: "155 W Neider Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7076436,
+    lng: -116.7898087,
+    locationName: "Giorgi's Breakfast & Lunch"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJLcmkytbGYVMRLEqpErnt0Lk",
+    edition: "NID",
+    notes: "Inlander Community Rack; 1 Pocket",
+    address: "121 W Neider Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7087848,
+    lng: -116.7878515,
+    locationName: "Safeway"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJP56hnirHYVMRYgcs7Ge0pPc",
+    edition: "NID",
+    notes: "Inside Exchange Angle Iron Multi-Shelf Rack",
+    address: "170 E Kathleen Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.71415409999999,
+    lng: -116.7847022,
+    locationName: "North 40 Outfitters"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJFdXX5SrBYVMRRYMI0Nc93sk",
+    edition: "NID",
+    notes: "Inlander Community Rack; 3 Pockets ",
+    address: "305 W Kathleen Ave Suite 1, Coeur d'Alene, ID 83815, USA",
+    lat: 47.71636469999999,
+    lng: -116.7904276,
+    locationName: "Super 1 Foods"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJx_apbjHBYVMR2BObQcnjqVM",
+    edition: "NID",
+    notes: "Inside Community Rack bottom with Nickels Worth",
+    address: "1735 W Kathleen Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7161391,
+    lng: -116.8097348,
+    locationName: "Fairway Grocery & Gas"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJLwHn1M_GYVMR_3RRasV3xlA",
+    edition: "NID",
+    notes: "12 pocket EX RACK ",
+    address: "410 W Neider Ave, Coeur d'Alene, ID 83814, USA",
+    lat: 47.7059214,
+    lng: -116.7938058,
+    locationName: "Grocery Outlet"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ7e_szeXBYVMRCgZk7pGC3Hw",
+    edition: "NID",
+    notes: "Community Rack",
+    address: "5525 N Government Wy, Coeur d'Alene, ID 83815, USA",
+    lat: 47.72205049999999,
+    lng: -116.7876382,
+    locationName: "Maverik"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJi5JuStfAYVMRE2DrFNa8QuM",
+    edition: "NID",
+    notes: "Manuel Azevedo; Community Rack",
+    address: "5831 N Government Wy, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7250777,
+    lng: -116.7872944,
+    locationName: "Cenex"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJp3QcYtzAYVMReFcjPTw8dt8",
+    edition: "NID",
+    notes: "Mall Foodcourt entrance, east end, double EX 2 shelf",
+    address: "200 W Hanley Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7317686,
+    lng: -116.7896362,
+    locationName: "Silver Lake Mall"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJM1ns7dPGYVMRVGBTHRHoTM8",
+    edition: "NID",
+    notes: "Bottom of Nickelsworth rack in foyer",
+    address: "200 W Hanley Ave #200-2, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7310246,
+    lng: -116.7902406,
+    locationName: "Black Sheep Sporting Goods"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJjWNhku3AYVMRx77uRN-pkHI",
+    edition: "NID",
+    notes: "Inlander Community Rack; 1 Pocket",
+    address: "161 W Prairie Ave, Hayden, ID 83835, USA",
+    lat: 47.7461576,
+    lng: -116.7889153,
+    locationName: "Safeway"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJhU9JJ-7AYVMRD0fxLIU8gj8",
+    edition: "NID",
+    notes: "",
+    address: "8120 N Cornerstone Dr, Hayden, ID 83835, USA",
+    lat: 47.745438,
+    lng: -116.7930958,
+    locationName: "Discount Tire"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJdTQKifzAYVMRvOKzLXiaNHY",
+    edition: "NID",
+    notes: "CDA Press Comm Rack middle shelf",
+    address: "1600 W Prairie Ave, Coeur d'Alene, ID 83815, USA",
+    lat: 47.7441156,
+    lng: -116.807611,
+    locationName: "Exxon"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJz3_RqmHAYVMRgrb2ZK9BIe8",
+    edition: "NID",
+    notes: "Green Table in Entry; Closes 2pm",
+    address: "9757 N Rustlers TRL, Hayden, ID 83835, USA",
+    lat: 47.76028809999999,
+    lng: -116.7918304,
+    locationName: "Rustlers Roost"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJy9ETV2DAYVMRCqYGZkTnEmc",
+    edition: "NID",
+    notes: "Comunity Rack",
+    address: "425 Hayden Ave, Hayden, ID 83835, USA",
+    lat: 47.7596601,
+    lng: -116.7918772,
+    locationName: "Maverik"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ12Hve_TAYVMRMxh4NxRRVws",
+    edition: "NID",
+    notes: "Single Black angle iron rack in vestabule by carts",
+    address: "550 W Honeysuckle Ave, Hayden, ID 83835, USA",
+    lat: 47.7489986,
+    lng: -116.7932458,
+    locationName: "Walmart Supercenter"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ66Ceu2HAYVMRNy_BFZkoQLY",
+    edition: "NID",
+    notes: "Inlander Community Rack ; 2 pockets",
+    address: "240 Hayden Ave ste f ste f, Hayden Lake, ID 83835, USA",
+    lat: 47.7577952,
+    lng: -116.7898497,
+    locationName: "Super 1 Foods"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJR0O522HAYVMR2Oj8PBuFeas",
+    edition: "NID",
+    notes: "Inside EX Single Rack",
+    address: "196 Hayden Ave, Hayden, ID 83835, USA",
+    lat: 47.7577459,
+    lng: -116.788869,
+    locationName: "Hayden Ace Hardware"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJl6pbHWLAYVMR0XlsUmqNDT8",
+    edition: "NID",
+    notes: "Inside Rack, Left of Door",
+    address: "9577 N Government Wy, Hayden, ID 83835, USA",
+    lat: 47.75871,
+    lng: -116.7870708,
+    locationName: "Fast Trip and Vapor"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ57I6kIzAYVMR3t_W1424VZk",
+    edition: "NID",
+    notes: "Opens @ 11am ; Top community rack with Inlander (black)",
+    address: "8882 N Government Wy, Hayden, ID 83835, USA",
+    lat: 47.75220299999999,
+    lng: -116.785799,
+    locationName: "Rancho Viejo Hayden ID"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJKxobhGPAYVMRZS8n2pTj4wE",
+    edition: "NID",
+    notes: "Use bottom of Inlander Rack (owner does not want more racks) Closes 1:30pm",
+    address: "10015 N Government Wy, Hayden, ID 83835, USA",
+    lat: 47.7627868,
+    lng: -116.7874718,
+    locationName: "Blue Plate Cafe"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJA7QclHHAYVMRAMH4IAGSAF0",
+    edition: "NID",
+    notes: "Exchange Rack, ; Inside Entry, Right",
+    address: "176 W Wyoming Ave, Hayden, ID 83835, USA",
+    lat: 47.77223659999999,
+    lng: -116.7894519,
+    locationName: "Habitat For Humanity of North Idaho"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJ-V2p6fe_YVMRFE8wYVnIheE",
+    edition: "NID",
+    notes: "Inside store - shared rack",
+    address: "266 W Lancaster Rd, Hayden, ID 83835, USA",
+    lat: 47.78732120000001,
+    lng: -116.7893347,
+    locationName: "Lancaster Market"
+  },
+  {
+    route: "Coeur d'Alene",
+    placeId: "ChIJsyhGgHHAYVMRbU29RHJ5PuY",
+    edition: "NID",
+    notes: "Jake (mgr) use the middle rack of the Blue Ziggys marketing rack",
+    address: "170 W Wyoming Ave, Hayden Lake, ID 83835, USA",
+    lat: 47.77277759999999,
+    lng: -116.7893611,
+    locationName: "Ziggy’s Home Improvement"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJwaPQZAbdYVMR6b1TnCIjtzk",
+    edition: "NID",
+    notes: "6am - Inside top community rack",
+    address: "7217 W Seltice Way Suite B, Post Falls, ID 83854, USA",
+    lat: 47.7021878,
+    lng: -117.041509,
+    locationName: "Lew's Smoke Shop"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJdfsYigbdYVMR_gdGzZE_FM4",
+    edition: "NID",
+    notes: "Outside Exchange Rack",
+    address: "7200 W Seltice Way #1, State Line, ID 83854, USA",
+    lat: 47.7018581,
+    lng: -117.0397905,
+    locationName: "A1 Smoke Shop"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJh5UMcQbdYVMRR4GdMJ6w2kg",
+    edition: "NID",
+    notes: "5am - Exchange 4 Shelf Rack",
+    address: "7035 W Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7034077,
+    lng: -117.0402522,
+    locationName: "AmeriMart Convenience Store"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ50LevgXdYVMRq9TANzjYlfE",
+    edition: "NID",
+    notes: "Top Right Pocket Outside Community Rack",
+    address: "6902 W Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7036965,
+    lng: -117.03781,
+    locationName: "Liberty Stop-N-Go"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJI8jRMBvdYVMRcJGe71QNVkw",
+    edition: "NID",
+    notes: "Exchange Rack inside the East Side Door",
+    address: "6405 W Pointe Pkwy, Post Falls, ID 83854, USA",
+    lat: 47.7039956,
+    lng: -117.0308823,
+    locationName: "Walmart Supercenter"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ7-e6LdXdYVMRJVyyvn2Yxlw",
+    edition: "NID",
+    notes: "Outside Exchange Rack left of door",
+    address: "4100 W Expo Pkwy, Post Falls, ID 83854, USA",
+    lat: 47.7124733,
+    lng: -117.0025176,
+    locationName: "Exxon"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJA96Ygi_dYVMReSIWs1dlpXs",
+    edition: "NID",
+    notes: "Single Exchange rack in Foyer",
+    address: "4208 W Expo Pkwy, Post Falls, ID 83854, USA",
+    lat: 47.7111799,
+    lng: -117.0033602,
+    locationName: "Carl's Jr."
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJUUY7gdHCYVMRRmIiJiExzEo",
+    edition: "NID",
+    notes: "community rack",
+    address: "2707 W Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.71641659999999,
+    lng: -116.9843042,
+    locationName: "Frontier Grocery"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJh8XE1R3DYVMRQySsspzEPAw",
+    edition: "NID",
+    notes: "Exchange Rack",
+    address: "104 W Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7149592,
+    lng: -116.9483843,
+    locationName: "Rob's Seafoods & Burgers"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJg2ql0R3DYVMRB3SGmEtKiqk",
+    edition: "NID",
+    notes: "Shared shelf by cashier - share with Nickels Worth (NOT ON TOP OF NW)",
+    address: "701 N Spokane St, Post Falls, ID 83854, USA",
+    lat: 47.7145759,
+    lng: -116.948481,
+    locationName: "Exxon"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJX7pzHBnDYVMRDDDUnYvuo2c",
+    edition: "NID",
+    notes: "OUTSIDE METAL RACK ",
+    address: "312 N Spokane St, Post Falls, ID 83854, USA",
+    lat: 47.7103912,
+    lng: -116.9478082,
+    locationName: "Handy Mart"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ9dBVsx3DYVMRCxyVjnbntPI",
+    edition: "NID",
+    notes: "Inside counter",
+    address: "203 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7154938,
+    lng: -116.9463016,
+    locationName: "Corner Cafe"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ1apTqx3DYVMRYgOcETqyd_A",
+    edition: "NID",
+    notes: "OUTSIDE RACK RIGHT OF DOOR",
+    address: "211 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7154091,
+    lng: -116.9452432,
+    locationName: "76"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJC0b7ThzDYVMRvHBalRqMAR4",
+    edition: "NID",
+    notes: "Blue Community Rack Left of Entry Door",
+    address: "206 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7148653,
+    lng: -116.9456954,
+    locationName: "Motion Auto Supply"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJo0snDyfDYVMRNRLOe58Z1Hk",
+    edition: "NID",
+    notes: "RED RACK OUTSIDE, RIGHT OF ENTRANCE",
+    address: "317 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7156715,
+    lng: -116.9445648,
+    locationName: "Family Dollar"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJe_dGyRzDYVMRzNP_qxC6tWw",
+    edition: "NID",
+    notes: "Bag if not open. Community Rack; Leave returns with clerk 5 ONLY",
+    address: "503 E Seltice Way #12, Post Falls, ID 83854, USA",
+    lat: 47.71527259999999,
+    lng: -116.9410979,
+    locationName: "My Favorite Things"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJY7Jc4R_DYVMR_2vfnNnF3Qs",
+    edition: "NID",
+    notes: "Felix / Carrie; 208-773-4325; Community Rack",
+    address: "604 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7140738,
+    lng: -116.9401277,
+    locationName: "La Cabana Mexican Restaurant"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJgcoZVAPDYVMRB9_TGW349UY",
+    edition: "NID",
+    notes: "Place on single EX Rack",
+    address: "611 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7145657,
+    lng: -116.9391692,
+    locationName: "The Falls Club"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJfWsJShnDYVMRkoH55QBKL4M",
+    edition: "NID",
+    notes: "Community Rack",
+    address: "706 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7136021,
+    lng: -116.9384111,
+    locationName: "Walgreens"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJw6miggPDYVMRoFh-bb5JU68",
+    edition: "NID",
+    notes: "Inlander Community Rack; 1 Pocket ",
+    address: "Post Falls Square Shopping Center, 805 E Polston Ave, Post Falls, ID 83854, USA",
+    lat: 47.71544,
+    lng: -116.936455,
+    locationName: "Super 1 Foods"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJt_0dmAjDYVMRXhDIHcdiMKc",
+    edition: "NID",
+    notes: "Inlander Community Rack ; 1 Pocket",
+    address: "1501 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.71167459999999,
+    lng: -116.9259325,
+    locationName: "Yoke's Fresh Market - Post Falls"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJdUPiKQjDYVMRVZw0Ib3yt2U",
+    edition: "NID",
+    notes: "Top of community shelf",
+    address: "1710 E Schneidmiller Ave, Post Falls, ID 83854, USA",
+    lat: 47.7116876,
+    lng: -116.9196044,
+    locationName: "The Old European Restaurant"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJxVXBCADDYVMRCAVGowUJsM4",
+    edition: "NID",
+    notes: "Rack inside foyer",
+    address: "1780 E Schneidmiller Ave, Post Falls, ID 83854, USA",
+    lat: 47.71174389999999,
+    lng: -116.9191192,
+    locationName: "La Pinata"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ0fbRp-nAYVMR56Sal9d1vpM",
+    edition: "NID",
+    notes: "on rack with other papers middle of store",
+    address: "525 N Graffiti St, Post Falls, ID 83854, USA",
+    lat: 47.7112612,
+    lng: -116.91896,
+    locationName: "Tim's Special Cut Meats"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ8b21Y6fDYVMR-6pGAemCS-4",
+    edition: "NID",
+    notes: "Yellow Community Rack Inside Right of Door",
+    address: "1815 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7108194,
+    lng: -116.9181179,
+    locationName: "76"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJVaNKzAnDYVMRh82NhxvvMPQ",
+    edition: "NID",
+    notes: "On Counter; Opens 10 am",
+    address: "1645 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.710968,
+    lng: -116.9202499,
+    locationName: "Zip's Drive In"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJb8FrWAjDYVMRBapxu_Ycc7s",
+    edition: "NID",
+    notes: "Community Rack/Table",
+    address: "1603 E Seltice Way C, Post Falls, ID 83854, USA",
+    lat: 47.7112205,
+    lng: -116.923107,
+    locationName: "Gross Donuts"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJN_Jh_RzDYVMRYjZrChfbGbA",
+    edition: "NID",
+    notes: "Table to the right of the door; Opens 10 am",
+    address: "1600 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.71015819999999,
+    lng: -116.9240144,
+    locationName: "Idaho Youth Ranch Thrift Store"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ2w0jBwnDYVMRIVwoKQJxmTI",
+    edition: "NID",
+    notes: "Exchange Wire folding rack",
+    address: "1604 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.71018,
+    lng: -116.922512,
+    locationName: "Seright's Ace Hardware"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ7zzGwAnDYVMRCBKOTEka6Ew",
+    edition: "NID",
+    notes: "coffee table",
+    address: "1650 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7101972,
+    lng: -116.9199765,
+    locationName: "Jiffy Lube"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJV_EfwgnDYVMR5R-Fq5qizmE",
+    edition: "NID",
+    notes: "Window Sill",
+    address: "1704 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7100665,
+    lng: -116.9195303,
+    locationName: "VCA Kootenai Animal Hospital"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJQ9f0yJfDYVMRG_Cks9ZBdso",
+    edition: "NID",
+    notes: "Rack in Entry",
+    address: "315 S Ross Point Rd, Post Falls, ID 83854, USA",
+    lat: 47.7083053,
+    lng: -116.8956146,
+    locationName: "Capone's Pub & Grill"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJEYy8OJbDYVMRSXH09mgATf8",
+    edition: "NID",
+    notes: "Metal folding Exchange Rack in Foyer",
+    address: "4020 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7086484,
+    lng: -116.8935112,
+    locationName: "Chevron"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJjT7vKrnDYVMRT9O5dOtJyiM",
+    edition: "NID",
+    notes: "Community Rack",
+    address: "770 ID-41, Post Falls, ID 83854, USA",
+    lat: 47.7153434,
+    lng: -116.8935233,
+    locationName: "76"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJTXKZ6KTDYVMRKj4bbQ_kQeY",
+    edition: "NID",
+    notes: "Rack in entry next to Subway",
+    address: "3050 E Mullan Ave, Post Falls, ID 83854, USA",
+    lat: 47.71371389999999,
+    lng: -116.9068306,
+    locationName: "Walmart Supercenter"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJgaAIpsvDYVMRNTTGnhaVmjE",
+    edition: "NID",
+    notes: "Ziggys Rack at cashier; Manager Tim",
+    address: "2121 ID-41, Post Falls, ID 83854, USA",
+    lat: 47.72749340000001,
+    lng: -116.8953597,
+    locationName: "Ziggy's Home Improvement"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJvVOTJsnWY1MRL2HOhnDlg_M",
+    edition: "NID",
+    notes: "Tables",
+    address: "502 Fifth Ave, Sandpoint, ID 83864, USA",
+    lat: 48.2773489,
+    lng: -116.5530256,
+    locationName: "Wash-o-Mat"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJja_qrs7WY1MR7RRoQOp9eCc",
+    edition: "NID",
+    notes: "KEOKEE POCKET ONLY 1 MAX 60",
+    address: "702 Fifth Ave, Sandpoint, ID 83864, USA",
+    lat: 48.2796508,
+    lng: -116.5523818,
+    locationName: "Safeway"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJvdXf8svWY1MRjyT-W8kHIiI",
+    edition: "NID",
+    notes: "KEOKEE POCKET ONLY 1 MAX 60",
+    address: "624 Larch St, Sandpoint, ID 83864, USA",
+    lat: 48.281838,
+    lng: -116.5562533,
+    locationName: "Super 1 Foods"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJrSSE4yfRY1MRGms3wVHVPTM",
+    edition: "NID",
+    notes: "COMMUNITY RACK (per convo with Rich 4/6/22, he leaves 40 here AND WOULD LIKE HP HERE AUGUST)",
+    address: "125 Tibbetts Ln, Ponderay, ID 83852, USA",
+    lat: 48.2969358,
+    lng: -116.5475554,
+    locationName: "The CO-OP Gas & Supply Co., Inc."
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJrbFG2tjQY1MRqfLUGRDG290",
+    edition: "NID",
+    notes: "Front Counter",
+    address: "47656 0, US-95, Ponderay, ID 83852, USA",
+    lat: 48.3018975,
+    lng: -116.5470816,
+    locationName: "Zip’s Drive In - Ponderay"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJ7TdU4tjQY1MROQXyEQlI1Gw",
+    edition: "NID",
+    notes: "KEOKEE POCKET ONLY 1 MAX 60",
+    address: "212 Bonner Mall Way, Sandpoint, ID 83864, USA",
+    lat: 48.3022252,
+    lng: -116.5451252,
+    locationName: "Yoke's Fresh Market - Sandpoint"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJnbfhbNnQY1MRvkfKoezKwvs",
+    edition: "NID",
+    notes: "",
+    address: "300 Bonner Mall Way, Sandpoint, ID 83864, USA",
+    lat: 48.30153350000001,
+    lng: -116.5428369,
+    locationName: "Bonner Mall"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJXZw5qOfQY1MRIP_JVqOpOdk",
+    edition: "NID",
+    notes: "Exchange Tall Angle Iron Rack",
+    address: "477181 US-95, Ponderay, ID 83852, USA",
+    lat: 48.3102098,
+    lng: -116.5443484,
+    locationName: "North 40 Outfitters"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJyZ8uAdvQY1MRq9sx_Gm2Ja8",
+    edition: "NID",
+    notes: "Closes 2pm",
+    address: "30784 ID-200, Ponderay, ID 83852, USA",
+    lat: 48.3014884,
+    lng: -116.5390659,
+    locationName: "Hoot Owl Cafe"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJZ-kIipbBY1MR1QqTGTVVQXk",
+    edition: "NID",
+    notes: "Inside past cashier to left; Cabinet marked Auto Clipper",
+    address: "486260 US-95, Sandpoint, ID 83864, USA",
+    lat: 48.428585,
+    lng: -116.4955749,
+    locationName: "Blue Heron Cafe & Samuel Store"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJaRoICibrY1MRBPcCzFt7lNk",
+    edition: "NID",
+    notes: "Inside Right Window Sill; Last stop if going up and back on 95",
+    address: "517 Deep Creek Loop, Naples, ID 83847, USA",
+    lat: 48.5700037,
+    lng: -116.3941087,
+    locationName: "Naples General Store"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJw_MqSrrWY1MRtXs2YZWxYVE",
+    edition: "NID",
+    notes: "",
+    address: "357 S Olive Ave, Sandpoint, ID 83864, USA",
+    lat: 48.26981139999999,
+    lng: -116.563541,
+    locationName: "Carter Country Farm & Feed"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJ8f8hsv-RY1MRncIzxUwxkeE",
+    edition: "NID",
+    notes: "",
+    address: "6421 Main St, Bonners Ferry, ID 83805, USA",
+    lat: 48.6760762,
+    lng: -116.3326688,
+    locationName: "Chic-N-Chop"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJQf6AwxiSY1MRR0iP_xGgFUQ",
+    edition: "NID",
+    notes: "KEOKEE POCKET ONLY 1 MAX 60",
+    address: "6452 Main St, Bonners Ferry, ID 83805, USA",
+    lat: 48.67731639999999,
+    lng: -116.3332884,
+    locationName: "Super 1 Foods"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJNwq5DLaTY1MR6A6qZvD5cNI",
+    edition: "NID",
+    notes: "Outside EX Single w/ WCD; NEEDS SIGN",
+    address: "6603 S Main St, Bonners Ferry, ID 83805, USA",
+    lat: 48.6806738,
+    lng: -116.3255318,
+    locationName: "Sam’s Stop and Shop"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJ6TZt1AKOY1MRvYEomt6a1bg",
+    edition: "NID",
+    notes: "Inside on Bar Top",
+    address: "6424 Riverside St, Bonners Ferry, ID 83805, USA",
+    lat: 48.6977157,
+    lng: -116.3132248,
+    locationName: "Kootenai River Brewing Co"
+  },
 ];
