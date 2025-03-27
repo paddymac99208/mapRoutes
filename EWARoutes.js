@@ -8299,5 +8299,365 @@ const locations = [
     lng: -116.3941087,
     locationName: "Naples General Store"
   },
+    {
+    route: "Post Falls",
+    placeId: "ChIJwaPQZAbdYVMR6b1TnCIjtzk",
+    edition: "NID",
+    notes: "6am - Inside top community rack",
+    address: "7217 W Seltice Way Suite B, Post Falls, ID 83854, USA",
+    lat: 47.7021878,
+    lng: -117.041509,
+    locationName: "Lew's Smoke Shop"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJdfsYigbdYVMR_gdGzZE_FM4",
+    edition: "NID",
+    notes: "Outside Exchange Rack",
+    address: "7200 W Seltice Way #1, State Line, ID 83854, USA",
+    lat: 47.7018581,
+    lng: -117.0397905,
+    locationName: "A1 Smoke Shop"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJh5UMcQbdYVMRR4GdMJ6w2kg",
+    edition: "NID",
+    notes: "5am - Exchange 4 Shelf Rack",
+    address: "7035 W Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7034077,
+    lng: -117.0402522,
+    locationName: "AmeriMart Convenience Store"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ50LevgXdYVMRq9TANzjYlfE",
+    edition: "NID",
+    notes: "Top Right Pocket Outside Community Rack",
+    address: "6902 W Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7036965,
+    lng: -117.03781,
+    locationName: "Liberty Stop-N-Go"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJI8jRMBvdYVMRcJGe71QNVkw",
+    edition: "NID",
+    notes: "Exchange Rack inside the East Side Door",
+    address: "6405 W Pointe Pkwy, Post Falls, ID 83854, USA",
+    lat: 47.7039956,
+    lng: -117.0308823,
+    locationName: "Walmart Supercenter"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ7-e6LdXdYVMRJVyyvn2Yxlw",
+    edition: "NID",
+    notes: "Outside Exchange Rack left of door",
+    address: "4100 W Expo Pkwy, Post Falls, ID 83854, USA",
+    lat: 47.7124733,
+    lng: -117.0025176,
+    locationName: "Exxon"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJA96Ygi_dYVMReSIWs1dlpXs",
+    edition: "NID",
+    notes: "Single Exchange rack in Foyer",
+    address: "4208 W Expo Pkwy, Post Falls, ID 83854, USA",
+    lat: 47.7111799,
+    lng: -117.0033602,
+    locationName: "Carl's Jr."
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJUUY7gdHCYVMRRmIiJiExzEo",
+    edition: "NID",
+    notes: "community rack",
+    address: "2707 W Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.71641659999999,
+    lng: -116.9843042,
+    locationName: "Frontier Grocery"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJh8XE1R3DYVMRQySsspzEPAw",
+    edition: "NID",
+    notes: "Exchange Rack",
+    address: "104 W Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7149592,
+    lng: -116.9483843,
+    locationName: "Rob's Seafoods & Burgers"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJg2ql0R3DYVMRB3SGmEtKiqk",
+    edition: "NID",
+    notes: "Shared shelf by cashier - share with Nickels Worth (NOT ON TOP OF NW)",
+    address: "701 N Spokane St, Post Falls, ID 83854, USA",
+    lat: 47.7145759,
+    lng: -116.948481,
+    locationName: "Exxon"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJX7pzHBnDYVMRDDDUnYvuo2c",
+    edition: "NID",
+    notes: "OUTSIDE METAL RACK ",
+    address: "312 N Spokane St, Post Falls, ID 83854, USA",
+    lat: 47.7103912,
+    lng: -116.9478082,
+    locationName: "Handy Mart"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ9dBVsx3DYVMRCxyVjnbntPI",
+    edition: "NID",
+    notes: "Inside counter",
+    address: "203 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7154938,
+    lng: -116.9463016,
+    locationName: "Corner Cafe"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ1apTqx3DYVMRYgOcETqyd_A",
+    edition: "NID",
+    notes: "OUTSIDE RACK RIGHT OF DOOR",
+    address: "211 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7154091,
+    lng: -116.9452432,
+    locationName: "76"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJC0b7ThzDYVMRvHBalRqMAR4",
+    edition: "NID",
+    notes: "Blue Community Rack Left of Entry Door",
+    address: "206 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7148653,
+    lng: -116.9456954,
+    locationName: "Motion Auto Supply"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJo0snDyfDYVMRNRLOe58Z1Hk",
+    edition: "NID",
+    notes: "RED RACK OUTSIDE, RIGHT OF ENTRANCE",
+    address: "317 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7156715,
+    lng: -116.9445648,
+    locationName: "Family Dollar"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJe_dGyRzDYVMRzNP_qxC6tWw",
+    edition: "NID",
+    notes: "Bag if not open. Community Rack; Leave returns with clerk 5 ONLY",
+    address: "503 E Seltice Way #12, Post Falls, ID 83854, USA",
+    lat: 47.71527259999999,
+    lng: -116.9410979,
+    locationName: "My Favorite Things"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJY7Jc4R_DYVMR_2vfnNnF3Qs",
+    edition: "NID",
+    notes: "Felix / Carrie; 208-773-4325; Community Rack",
+    address: "604 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7140738,
+    lng: -116.9401277,
+    locationName: "La Cabana Mexican Restaurant"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJgcoZVAPDYVMRB9_TGW349UY",
+    edition: "NID",
+    notes: "Place on single EX Rack",
+    address: "611 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7145657,
+    lng: -116.9391692,
+    locationName: "The Falls Club"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJfWsJShnDYVMRkoH55QBKL4M",
+    edition: "NID",
+    notes: "Community Rack",
+    address: "706 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7136021,
+    lng: -116.9384111,
+    locationName: "Walgreens"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJw6miggPDYVMRoFh-bb5JU68",
+    edition: "NID",
+    notes: "Inlander Community Rack; 1 Pocket ",
+    address: "Post Falls Square Shopping Center, 805 E Polston Ave, Post Falls, ID 83854, USA",
+    lat: 47.71544,
+    lng: -116.936455,
+    locationName: "Super 1 Foods"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJt_0dmAjDYVMRXhDIHcdiMKc",
+    edition: "NID",
+    notes: "Inlander Community Rack ; 1 Pocket",
+    address: "1501 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.71167459999999,
+    lng: -116.9259325,
+    locationName: "Yoke's Fresh Market - Post Falls"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJdUPiKQjDYVMRVZw0Ib3yt2U",
+    edition: "NID",
+    notes: "Top of community shelf",
+    address: "1710 E Schneidmiller Ave, Post Falls, ID 83854, USA",
+    lat: 47.7116876,
+    lng: -116.9196044,
+    locationName: "The Old European Restaurant"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJxVXBCADDYVMRCAVGowUJsM4",
+    edition: "NID",
+    notes: "Rack inside foyer",
+    address: "1780 E Schneidmiller Ave, Post Falls, ID 83854, USA",
+    lat: 47.71174389999999,
+    lng: -116.9191192,
+    locationName: "La Pinata"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ0fbRp-nAYVMR56Sal9d1vpM",
+    edition: "NID",
+    notes: "on rack with other papers middle of store",
+    address: "525 N Graffiti St, Post Falls, ID 83854, USA",
+    lat: 47.7112612,
+    lng: -116.91896,
+    locationName: "Tim's Special Cut Meats"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ8b21Y6fDYVMR-6pGAemCS-4",
+    edition: "NID",
+    notes: "Yellow Community Rack Inside Right of Door",
+    address: "1815 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7108194,
+    lng: -116.9181179,
+    locationName: "76"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJVaNKzAnDYVMRh82NhxvvMPQ",
+    edition: "NID",
+    notes: "On Counter; Opens 10 am",
+    address: "1645 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.710968,
+    lng: -116.9202499,
+    locationName: "Zip's Drive In"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJb8FrWAjDYVMRBapxu_Ycc7s",
+    edition: "NID",
+    notes: "Community Rack/Table",
+    address: "1603 E Seltice Way C, Post Falls, ID 83854, USA",
+    lat: 47.7112205,
+    lng: -116.923107,
+    locationName: "Gross Donuts"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJN_Jh_RzDYVMRYjZrChfbGbA",
+    edition: "NID",
+    notes: "Table to the right of the door; Opens 10 am",
+    address: "1600 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.71015819999999,
+    lng: -116.9240144,
+    locationName: "Idaho Youth Ranch Thrift Store"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ2w0jBwnDYVMRIVwoKQJxmTI",
+    edition: "NID",
+    notes: "Exchange Wire folding rack",
+    address: "1604 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.71018,
+    lng: -116.922512,
+    locationName: "Seright's Ace Hardware"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJ7zzGwAnDYVMRCBKOTEka6Ew",
+    edition: "NID",
+    notes: "coffee table",
+    address: "1650 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7101972,
+    lng: -116.9199765,
+    locationName: "Jiffy Lube"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJV_EfwgnDYVMR5R-Fq5qizmE",
+    edition: "NID",
+    notes: "Window Sill",
+    address: "1704 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7100665,
+    lng: -116.9195303,
+    locationName: "VCA Kootenai Animal Hospital"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJQ9f0yJfDYVMRG_Cks9ZBdso",
+    edition: "NID",
+    notes: "Rack in Entry",
+    address: "315 S Ross Point Rd, Post Falls, ID 83854, USA",
+    lat: 47.7083053,
+    lng: -116.8956146,
+    locationName: "Capone's Pub & Grill"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJEYy8OJbDYVMRSXH09mgATf8",
+    edition: "NID",
+    notes: "Metal folding Exchange Rack in Foyer",
+    address: "4020 E Seltice Way, Post Falls, ID 83854, USA",
+    lat: 47.7086484,
+    lng: -116.8935112,
+    locationName: "Chevron"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJjT7vKrnDYVMRT9O5dOtJyiM",
+    edition: "NID",
+    notes: "Community Rack",
+    address: "770 ID-41, Post Falls, ID 83854, USA",
+    lat: 47.7153434,
+    lng: -116.8935233,
+    locationName: "76"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJTXKZ6KTDYVMRKj4bbQ_kQeY",
+    edition: "NID",
+    notes: "Rack in entry next to Subway",
+    address: "3050 E Mullan Ave, Post Falls, ID 83854, USA",
+    lat: 47.71371389999999,
+    lng: -116.9068306,
+    locationName: "Walmart Supercenter"
+  },
+  {
+    route: "Post Falls",
+    placeId: "ChIJgaAIpsvDYVMRNTTGnhaVmjE",
+    edition: "NID",
+    notes: "Ziggys Rack at cashier; Manager Tim",
+    address: "2121 ID-41, Post Falls, ID 83854, USA",
+    lat: 47.72749340000001,
+    lng: -116.8953597,
+    locationName: "Ziggy's Home Improvement"
+  },
  
 ];
