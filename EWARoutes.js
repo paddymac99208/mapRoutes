@@ -8139,5 +8139,55 @@ const locations = [
     lng: -120.3250927,
     locationName: "Denny's"
   },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJw_MqSrrWY1MRtXs2YZWxYVE",
+    edition: "NID",
+    notes: "",
+    address: "357 S Olive Ave, Sandpoint, ID 83864, USA",
+    lat: 48.26981139999999,
+    lng: -116.563541,
+    locationName: "Carter Country Farm & Feed"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJ8f8hsv-RY1MRncIzxUwxkeE",
+    edition: "NID",
+    notes: "",
+    address: "6421 Main St, Bonners Ferry, ID 83805, USA",
+    lat: 48.6760762,
+    lng: -116.3326688,
+    locationName: "Chic-N-Chop"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJQf6AwxiSY1MRR0iP_xGgFUQ",
+    edition: "NID",
+    notes: "KEOKEE POCKET ONLY 1 MAX 60",
+    address: "6452 Main St, Bonners Ferry, ID 83805, USA",
+    lat: 48.67731639999999,
+    lng: -116.3332884,
+    locationName: "Super 1 Foods"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJNwq5DLaTY1MR6A6qZvD5cNI",
+    edition: "NID",
+    notes: "Outside EX Single w/ WCD; NEEDS SIGN",
+    address: "6603 S Main St, Bonners Ferry, ID 83805, USA",
+    lat: 48.6806738,
+    lng: -116.3255318,
+    locationName: "Sam’s Stop and Shop"
+  },
+  {
+    route: "Sandpoint/ Bonners Ferry",
+    placeId: "ChIJ6TZt1AKOY1MRvYEomt6a1bg",
+    edition: "NID",
+    notes: "Inside on Bar Top",
+    address: "6424 Riverside St, Bonners Ferry, ID 83805, USA",
+    lat: 48.6977157,
+    lng: -116.3132248,
+    locationName: "Kootenai River Brewing Co"
+  },
  
 ];
