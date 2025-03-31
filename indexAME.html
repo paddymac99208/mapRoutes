@@ -7,22 +7,24 @@
     <script src="EWARoutes.js"></script>
 
     <script>
-      function getMarkerIcon(edition) {
-        const editionColors = {
-          EWA: "green",
-          LCV: "yellow",
-          WML: "blue",
-          NID: "red"
-        };
+     function getMarkerIcon(edition) {
+  const editionColors = {
+    EWA: "green",
+    LCV: "yellow",
+    WML: "blue",
+    NID: "red"
+  };
 
-        const editions = edition.split(",").map(e => e.trim());
+  const editions = edition.split(",").map(e => e.trim());
 
-        if (editions.length === 1 && editionColors[editions[0]]) {
-          return `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`;
-        }
+  if (editions.length === 1 && editionColors[editions[0]]) {
+    return `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`;
+  }
 
-        return "http://maps.google.com/mapfiles/ms/icons/white-dot.png";
-      }
+  // Multi-edition: use star icon
+  return "http://maps.google.com/mapfiles/ms/icons/yellow-star.png";
+}
+
 
       function initMap() {
         const map = new google.maps.Map(document.getElementById("map"), {
