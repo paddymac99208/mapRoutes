@@ -3,77 +3,67 @@
   <head>
     <title>Exchange Distribution Locations</title>
 
-    <!-- Load EWARoutes.js FIRST -->
+    <!-- Load Locations -->
     <script src="EWARoutes.js"></script>
 
-    <!-- Load Google Maps API -->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&libraries=marker"
-      async
-      defer
-      onload="initializeApp()"
-    ></script>
-
     <script>
-      async function initializeApp() {
-        // Wait until locations is defined
-        while (typeof locations === "undefined") {
-          console.log("Waiting for locations to load...");
-          await new Promise((r) => setTimeout(r, 100));
-        }
-
-        initMap(); // Now it's safe to call
-      }
-
       function getMarkerIcon(edition) {
         const editionColors = {
           EWA: "green",
           LCV: "yellow",
           WML: "blue",
-          NID: "red",
+          NID: "red"
         };
 
-        const editions = edition.split(",").map((e) => e.trim());
+        const editions = edition.split(",").map(e => e.trim());
 
         if (editions.length === 1 && editionColors[editions[0]]) {
           return `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`;
         }
 
-        // Multi-edition fallback
         return "http://maps.google.com/mapfiles/ms/icons/white-dot.png";
       }
 
-      locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
-  const position = { lat: parseFloat(lat), lng: parseFloat(lng) };
+      function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 47.65, lng: -117.42 },
+          zoom: 11
+        });
 
-  const marker = new google.maps.Marker({
-    position,
-    map,
-    title: locationName,
-    icon: getMarkerIcon(edition)
-  });
+        locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
+          const marker = new google.maps.Marker({
+            position: { lat: parseFloat(lat), lng: parseFloat(lng) },
+            map,
+            title: locationName,
+            icon: getMarkerIcon(edition)
+          });
 
-  const infoWindow = new google.maps.InfoWindow({
-    content: `
-      <div style="max-width: 250px;">
-        <h3>${locationName}</h3>
-        <p><strong>Route:</strong> ${route}</p>
-        <p><strong>Address:</strong> ${address}</p>
-        <p><strong>Edition:</strong> ${edition}</p>
-        <p><strong>Notes:</strong> ${notes}</p>
-        <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-          address
-        )}" target="_blank">View on Google Maps</a></p>
-      </div>
-    `,
-  });
+          const infoWindow = new google.maps.InfoWindow({
+            content: `
+              <div style="max-width: 250px;">
+                <h3>${locationName}</h3>
+                <p><strong>Route:</strong> ${route}</p>
+                <p><strong>Address:</strong> ${address}</p>
+                <p><strong>Edition:</strong> ${edition}</p>
+                <p><strong>Notes:</strong> ${notes}</p>
+                <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}" target="_blank">View on Google Maps</a></p>
+              </div>
+            `
+          });
 
-  marker.addListener("click", () => {
-    infoWindow.open(map, marker);
-  });
-});
-
+          marker.addListener("click", () => {
+            infoWindow.open(map, marker);
+          });
+        });
+      }
     </script>
+
+    <!-- Load Google Maps last -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap"
+      async
+      defer
+    ></script>
   </head>
 
   <body>
