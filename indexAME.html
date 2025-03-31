@@ -1,85 +1,112 @@
 <!DOCTYPE html>
 <html>
- <head>
-  <title>Exchange Distribution Locations</title>
+  <head>
+    <title>Exchange Distribution Locations</title>
 
-  <!-- Load Locations -->
-  <script src="EWARoutes.js"></script>
+    <!-- Load Locations -->
+    <script src="EWARoutes.js"></script>
 
-  <script>
-    function getMarkerIcon(edition) {
-      const editionColors = {
-        EWA: "green",
-        LCV: "yellow",
-        WML: "blue",
-        NID: "red"
-      };
+    <script>
+            function getMarkerIcon(edition) {
+        const editionColors = {
+          EWA: "green",
+          LCV: "yellow",
+          WML: "blue",
+          NID: "red"
+        };
 
-      if (!edition || typeof edition !== "string") {
-        console.warn("Edition is missing or invalid:", edition);
-        return "http://maps.google.com/mapfiles/ms/icons/white-dot.png";
+        if (!edition || typeof edition !== "string") {
+          console.warn("Edition is missing or invalid:", edition);
+          return "http://maps.google.com/mapfiles/ms/icons/white-dot.png";
+        }
+
+        const editions = edition
+          .split(",")
+          .map(e => e.trim())
+          .filter(e => e.length > 0);
+
+        console.log("Resolved Editions:", editions);
+
+        if (editions.length === 1 && editionColors[editions[0]]) {
+          return `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`;
+        }
+
+        // Multi-edition — use star
+        return "http://maps.google.com/mapfiles/ms/icons/yellow-star.png";
       }
 
-      const editions = edition
-        .split(",")
-        .map(e => e.trim())
-        .filter(e => e.length > 0);
+              const editionColors = {
+                EWA: "green",
+                LCV: "yellow",
+                WML: "blue",
+                NID: "red",
+              };
 
-      if (editions.length === 1 && editionColors[editions[0]]) {
-        return `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`;
-      }
+              const editions = edition.split(",").map((e) => e.trim());
 
-      // Multi-edition: use star
-      return "http://maps.google.com/mapfiles/ms/icons/yellow-star.png";
-    }
+              if (editions.length === 1 && editionColors[editions[0]]) {
+                return `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`;
+              }
 
-    function initMap() {
-      const map = new google.maps.Map(document.getElementById("map"), {
-        center: { lat: 47.65, lng: -117.42 },
-        zoom: 11
-      });
+              // Multi-edition: use star icon
+              return "http://maps.google.com/mapfiles/ms/icons/yellow-star.png";
+            }
 
-      if (!Array.isArray(locations)) {
-        console.error("Locations array not found or not loaded");
-        return;
-      }
+            function initMap() {
+              const map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: 47.65, lng: -117.42 },
+                zoom: 11,
+              });
 
-      locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
-        const marker = new google.maps.Marker({
-          position: { lat: parseFloat(lat), lng: parseFloat(lng) },
-          map,
-          title: locationName,
-          icon: getMarkerIcon(edition)
-        });
+              console.log("Checking for multi-edition stops:");
+const multiEditionStops = locations.filter(loc => {
+  if (!loc.edition) return false;
+  const editions = loc.edition
+    .split(",")
+    .map(e => e.trim())
+    .filter(e => e.length > 0);
+  return editions.length > 1;
+});
+console.log("Multi-edition Stops:", multiEditionStops);
 
-        const infoWindow = new google.maps.InfoWindow({
-          content: `
-            <div style="max-width: 250px;">
-              <h3>${locationName}</h3>
-              <p><strong>Route:</strong> ${route}</p>
-              <p><strong>Address:</strong> ${address}</p>
-              <p><strong>Edition:</strong> ${edition}</p>
-              <p><strong>Notes:</strong> ${notes}</p>
-              <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}" target="_blank">View on Google Maps</a></p>
-            </div>
-          `
-        });
 
-        marker.addListener("click", () => {
-          infoWindow.open(map, marker);
-        });
-      });
-    }
-  </script>
+              locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
+                const marker = new google.maps.Marker({
+                  position: { lat: parseFloat(lat), lng: parseFloat(lng) },
+                  map,
+                  title: locationName,
+                  icon: getMarkerIcon(edition),
+                });
 
-  <!-- Google Maps API (loads and calls initMap) -->
-  <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap"
-    async
-    defer
-  ></script>
-</head>
+                const infoWindow = new google.maps.InfoWindow({
+                  content: `
+                    <div style="max-width: 250px;">
+                      <h3>${locationName}</h3>
+                      <p><strong>Route:</strong> ${route}</p>
+                      <p><strong>Address:</strong> ${address}</p>
+                      <p><strong>Edition:</strong> ${edition}</p>
+                      <p><strong>Notes:</strong> ${notes}</p>
+                      <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                        address
+                      )}" target="_blank">View on Google Maps</a></p>
+                    </div>
+                  `,
+                });
 
+                marker.addListener("click", () => {
+                  infoWindow.open(map, marker);
+                });
+              });
+            }
+    </script>
+
+    <!-- Load Google Maps last -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap"
+      async
+      defer
+    ></script>
+  </head>
 
   <body>
     <div id="map" style="height: 100vh; width: 100%"></div>
