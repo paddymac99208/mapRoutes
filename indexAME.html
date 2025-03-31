@@ -94,9 +94,37 @@
       async
       defer
     ></script>
+    <style>
+  #legend {
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    z-index: 5;
+  }
+  #legend img {
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+</style>
+
   </head>
 
   <body>
     <div id="map" style="height: 100vh; width: 100%"></div>
+    <div id="legend">
+  <h3>Legend</h3>
+  <p><img src="http://maps.google.com/mapfiles/ms/icons/green-dot.png"> EWA</p>
+  <p><img src="http://maps.google.com/mapfiles/ms/icons/yellow-dot.png"> LCV</p>
+  <p><img src="http://maps.google.com/mapfiles/ms/icons/red-dot.png"> NID</p>
+  <p><img src="http://maps.google.com/mapfiles/ms/icons/blue-dot.png"> WML</p>
+  <p><img src="multiEdition.png" style="width: 20px; height: 20px;"> Multiple Editions</p>
+</div>
+
   </body>
 </html>
