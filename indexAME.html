@@ -7,7 +7,7 @@
     <script src="EWARoutes.js"></script>
 
     <script>
-            function getMarkerIcon(edition) {
+      function getMarkerIcon(edition) {
         const editionColors = {
           EWA: "green",
           LCV: "yellow",
@@ -35,69 +35,49 @@
         return "http://maps.google.com/mapfiles/ms/icons/yellow-star.png";
       }
 
-              const editionColors = {
-                EWA: "green",
-                LCV: "yellow",
-                WML: "blue",
-                NID: "red",
-              };
+      function initMap() {
+        const map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 47.65, lng: -117.42 },
+          zoom: 11
+        });
 
-              const editions = edition.split(",").map((e) => e.trim());
+        console.log("Checking for multi-edition stops:");
+        const multiEditionStops = locations.filter(loc => {
+          if (!loc.edition) return false;
+          const editions = loc.edition
+            .split(",")
+            .map(e => e.trim())
+            .filter(e => e.length > 0);
+          return editions.length > 1;
+        });
+        console.log("Multi-edition Stops:", multiEditionStops);
 
-              if (editions.length === 1 && editionColors[editions[0]]) {
-                return `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`;
-              }
+        locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
+          const marker = new google.maps.Marker({
+            position: { lat: parseFloat(lat), lng: parseFloat(lng) },
+            map,
+            title: locationName,
+            icon: getMarkerIcon(edition)
+          });
 
-              // Multi-edition: use star icon
-              return "http://maps.google.com/mapfiles/ms/icons/yellow-star.png";
-            }
+          const infoWindow = new google.maps.InfoWindow({
+            content: `
+              <div style="max-width: 250px;">
+                <h3>${locationName}</h3>
+                <p><strong>Route:</strong> ${route}</p>
+                <p><strong>Address:</strong> ${address}</p>
+                <p><strong>Edition:</strong> ${edition}</p>
+                <p><strong>Notes:</strong> ${notes}</p>
+                <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}" target="_blank">View on Google Maps</a></p>
+              </div>
+            `
+          });
 
-            function initMap() {
-              const map = new google.maps.Map(document.getElementById("map"), {
-                center: { lat: 47.65, lng: -117.42 },
-                zoom: 11,
-              });
-
-              console.log("Checking for multi-edition stops:");
-const multiEditionStops = locations.filter(loc => {
-  if (!loc.edition) return false;
-  const editions = loc.edition
-    .split(",")
-    .map(e => e.trim())
-    .filter(e => e.length > 0);
-  return editions.length > 1;
-});
-console.log("Multi-edition Stops:", multiEditionStops);
-
-
-              locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
-                const marker = new google.maps.Marker({
-                  position: { lat: parseFloat(lat), lng: parseFloat(lng) },
-                  map,
-                  title: locationName,
-                  icon: getMarkerIcon(edition),
-                });
-
-                const infoWindow = new google.maps.InfoWindow({
-                  content: `
-                    <div style="max-width: 250px;">
-                      <h3>${locationName}</h3>
-                      <p><strong>Route:</strong> ${route}</p>
-                      <p><strong>Address:</strong> ${address}</p>
-                      <p><strong>Edition:</strong> ${edition}</p>
-                      <p><strong>Notes:</strong> ${notes}</p>
-                      <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                        address
-                      )}" target="_blank">View on Google Maps</a></p>
-                    </div>
-                  `,
-                });
-
-                marker.addListener("click", () => {
-                  infoWindow.open(map, marker);
-                });
-              });
-            }
+          marker.addListener("click", () => {
+            infoWindow.open(map, marker);
+          });
+        });
+      }
     </script>
 
     <!-- Load Google Maps last -->
