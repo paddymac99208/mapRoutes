@@ -7,7 +7,7 @@
     <script src="EWARoutes.js"></script>
 
     <script>
-  function getMarkerIcon(edition) {
+ function getMarkerIcon(edition) {
   const editionColors = {
     EWA: "green",
     LCV: "yellow",
@@ -17,7 +17,10 @@
 
   if (!edition || typeof edition !== "string") {
     console.warn("Edition is missing or invalid:", edition);
-    return "http://maps.google.com/mapfiles/ms/icons/white-dot.png";
+    return {
+      url: "http://maps.google.com/mapfiles/ms/icons/white-dot.png",
+      scaledSize: new google.maps.Size(32, 32)
+    };
   }
 
   const editions = edition
@@ -25,14 +28,18 @@
     .map(e => e.trim())
     .filter(e => e.length > 0);
 
-  console.log("Resolved Editions:", editions);
-
   if (editions.length === 1 && editionColors[editions[0]]) {
-    return `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`;
+    return {
+      url: `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`,
+      scaledSize: new google.maps.Size(32, 32)
+    };
   }
 
-  // Multi-edition — use your custom icon
-  return "multiEdition.png";
+  // Multi-edition — use your custom icon scaled
+  return {
+    url: "multiEdition.png",
+    scaledSize: new google.maps.Size(32, 32)
+  };
 }
 
 
