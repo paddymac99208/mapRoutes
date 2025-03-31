@@ -7,33 +7,34 @@
     <script src="EWARoutes.js"></script>
 
     <script>
-      function getMarkerIcon(edition) {
-        const editionColors = {
-          EWA: "green",
-          LCV: "yellow",
-          WML: "blue",
-          NID: "red"
-        };
+  function getMarkerIcon(edition) {
+  const editionColors = {
+    EWA: "green",
+    LCV: "yellow",
+    WML: "blue",
+    NID: "red"
+  };
 
-        if (!edition || typeof edition !== "string") {
-          console.warn("Edition is missing or invalid:", edition);
-          return "http://maps.google.com/mapfiles/ms/icons/white-dot.png";
-        }
+  if (!edition || typeof edition !== "string") {
+    console.warn("Edition is missing or invalid:", edition);
+    return "http://maps.google.com/mapfiles/ms/icons/white-dot.png";
+  }
 
-        const editions = edition
-          .split(",")
-          .map(e => e.trim())
-          .filter(e => e.length > 0);
+  const editions = edition
+    .split(",")
+    .map(e => e.trim())
+    .filter(e => e.length > 0);
 
-        console.log("Resolved Editions:", editions);
+  console.log("Resolved Editions:", editions);
 
-        if (editions.length === 1 && editionColors[editions[0]]) {
-          return `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`;
-        }
+  if (editions.length === 1 && editionColors[editions[0]]) {
+    return `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`;
+  }
 
-        // Multi-edition — use star
-        return "http://maps.google.com/mapfiles/ms/icons/yellow-star.png";
-      }
+  // Multi-edition — use your custom icon
+  return "multiEdition.png";
+}
+
 
       function initMap() {
         const map = new google.maps.Map(document.getElementById("map"), {
