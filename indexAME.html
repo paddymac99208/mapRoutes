@@ -130,32 +130,34 @@
     font-family: Arial, sans-serif;
     border: 1px solid #ccc;
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     left: 30px;
     z-index: 5;
     width: 180px;
   }
+
   #legend img {
     vertical-align: middle;
     margin-right: 6px;
   }
- #routeFilter {
-  background: white;
-  padding: 10px;
-  margin: 10px 10px 0 10px;
-  font-size: 14px;
-  font-family: Arial, sans-serif;
-  border: 1px solid #ccc;
-  position: absolute;
-  bottom: 160px;
-  left: 30px;
-  z-index: 5;
-  max-height: 200px;
-  overflow-y: auto;
-  width: 180px;
-}
 
+  #routeFilter {
+    background: white;
+    padding: 10px;
+    margin: 10px 10px 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    z-index: 5;
+    width: 180px;
+    bottom: 150px; /* Leaves space for legend + 20px gap */
+    overflow-y: auto;
+  }
 </style>
+
 
   </head>
 
