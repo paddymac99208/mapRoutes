@@ -1,177 +1,151 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Exchange Distribution Locations</title>
+<head>
+  <title>Exchange Distribution Locations</title>
+  <script src="EWARoutes.js"></script>
+  <script>
+    function getMarkerIcon(edition) {
+      const editionColors = {
+        EWA: "green",
+        LCV: "yellow",
+        WML: "blue",
+        NID: "red"
+      };
 
-    <!-- Load Locations -->
-    <script src="EWARoutes.js"></script>
+      if (!edition || typeof edition !== "string") {
+        return {
+          url: "http://maps.google.com/mapfiles/ms/icons/white-dot.png",
+          scaledSize: new google.maps.Size(32, 32)
+        };
+      }
 
-    <script>
- function getMarkerIcon(edition) {
-  const editionColors = {
-    EWA: "green",
-    LCV: "yellow",
-    WML: "blue",
-    NID: "red"
-  };
+      const editions = edition.split(",").map(e => e.trim()).filter(e => e.length > 0);
 
-  if (!edition || typeof edition !== "string") {
-    console.warn("Edition is missing or invalid:", edition);
-    return {
-      url: "http://maps.google.com/mapfiles/ms/icons/white-dot.png",
-      scaledSize: new google.maps.Size(32, 32)
-    };
-  }
+      if (editions.length === 1 && editionColors[editions[0]]) {
+        return {
+          url: `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`,
+          scaledSize: new google.maps.Size(32, 32)
+        };
+      }
 
-  const editions = edition
-    .split(",")
-    .map(e => e.trim())
-    .filter(e => e.length > 0);
-
-  if (editions.length === 1 && editionColors[editions[0]]) {
-    return {
-      url: `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`,
-      scaledSize: new google.maps.Size(32, 32)
-    };
-  }
-
-  // Multi-edition — use your custom icon scaled
-  return {
-    url: "multiEdition.png",
-    scaledSize: new google.maps.Size(32, 32)
-  };
-}
-
-
-     function initMap() {
-  const map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 47.65, lng: -117.42 },
-    zoom: 11,
-  });
-
-  const markersByRoute = {};
-  const uniqueRoutes = new Set();
-
-  locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
-    const marker = new google.maps.Marker({
-      position: { lat: parseFloat(lat), lng: parseFloat(lng) },
-      map,
-      title: locationName,
-      icon: getMarkerIcon(edition),
-    });
-
-    const infoWindow = new google.maps.InfoWindow({
-      content: `
-        <div style="max-width: 250px;">
-          <h3>${locationName}</h3>
-          <p><strong>Route:</strong> ${route}</p>
-          <p><strong>Address:</strong> ${address}</p>
-          <p><strong>Edition:</strong> ${edition}</p>
-          <p><strong>Notes:</strong> ${notes}</p>
-          <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-            address
-          )}" target="_blank">View on Google Maps</a></p>
-        </div>
-      `,
-    });
-
-    marker.addListener("click", () => {
-      infoWindow.open(map, marker);
-    });
-
-    // Store markers by route
-    if (!markersByRoute[route]) {
-      markersByRoute[route] = [];
+      return {
+        url: "multiEdition.png",
+        scaledSize: new google.maps.Size(32, 32)
+      };
     }
-    markersByRoute[route].push(marker);
-    uniqueRoutes.add(route);
-  });
 
-  // Create route filter checkboxes
-  const filterContainer = document.getElementById("routeFilter");
-  filterContainer.innerHTML = "<h3>Filter Routes</h3>";
+    function initMap() {
+      const map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 47.65, lng: -117.42 },
+        zoom: 11,
+      });
 
-  [...uniqueRoutes].sort().forEach((routeName) => {
-    const id = routeName.replace(/\s+/g, "_");
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.id = id;
-    checkbox.checked = true;
+      const markersByRoute = {};
+      const uniqueRoutes = new Set();
 
-    checkbox.addEventListener("change", () => {
-      const visible = checkbox.checked;
-      markersByRoute[routeName].forEach((marker) => marker.setVisible(visible));
-    });
+      locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
+        const marker = new google.maps.Marker({
+          position: { lat: parseFloat(lat), lng: parseFloat(lng) },
+          map,
+          title: locationName,
+          icon: getMarkerIcon(edition),
+        });
 
-    const label = document.createElement("label");
-    label.htmlFor = id;
-    label.textContent = routeName;
+        const infoWindow = new google.maps.InfoWindow({
+          content: `
+            <div style="max-width: 250px;">
+              <h3>${locationName}</h3>
+              <p><strong>Route:</strong> ${route}</p>
+              <p><strong>Address:</strong> ${address}</p>
+              <p><strong>Edition:</strong> ${edition}</p>
+              <p><strong>Notes:</strong> ${notes}</p>
+              <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}" target="_blank">View on Google Maps</a></p>
+            </div>
+          `,
+        });
 
-    const row = document.createElement("div");
-    row.appendChild(checkbox);
-    row.appendChild(label);
-    filterContainer.appendChild(row);
-  });
-}
-    </script>
+        marker.addListener("click", () => infoWindow.open(map, marker));
 
-    <!-- Load Google Maps last -->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap"
-      async
-      defer
-    ></script>
-    <style>
-  #legend {
-    background: white;
-    padding: 10px;
-    margin: 10px;
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    border: 1px solid #ccc;
-    position: absolute;
-    bottom: 10px;
-    left: 30px;
-    z-index: 5;
-    width: 200px;
-  }
+        if (!markersByRoute[route]) markersByRoute[route] = [];
+        markersByRoute[route].push(marker);
+        uniqueRoutes.add(route);
+      });
 
-  #legend img {
-    vertical-align: middle;
-    margin-right: 6px;
-  }
+      const filterContainer = document.getElementById("routeFilter");
+      filterContainer.innerHTML = "<h3>Filter Routes</h3>";
 
-  #routeFilter {
-    background: white;
-    padding: 10px;
-    margin: 10px 10px 0 10px;
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    border: 1px solid #ccc;
-    position: absolute;
-    top: 10px;
-    left: 30px;
-    z-index: 5;
-    width: 200px;
-    bottom: 130px; /* Leaves space for legend + 20px gap */
-    overflow-y: auto;
-  }
-</style>
+      [...uniqueRoutes].sort().forEach(routeName => {
+        const id = routeName.replace(/\s+/g, "_");
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.id = id;
+        checkbox.checked = true;
+        checkbox.addEventListener("change", () => {
+          const visible = checkbox.checked;
+          markersByRoute[routeName].forEach(marker => marker.setVisible(visible));
+        });
 
+        const label = document.createElement("label");
+        label.htmlFor = id;
+        label.textContent = routeName;
 
-  </head>
+        const row = document.createElement("div");
+        row.appendChild(checkbox);
+        row.appendChild(label);
+        filterContainer.appendChild(row);
+      });
 
-  <body>
-    <div id="map" style="height: 100vh; width: 100%"></div>
-    <div id="routeFilter"></div>
-    <div id="legend">
-  <h3>Legend</h3>
-  <p><img src="http://maps.google.com/mapfiles/ms/icons/green-dot.png"> EWA</p>
-  <p><img src="http://maps.google.com/mapfiles/ms/icons/yellow-dot.png"> LCV</p>
-  <p><img src="http://maps.google.com/mapfiles/ms/icons/red-dot.png"> NID</p>
-  <p><img src="http://maps.google.com/mapfiles/ms/icons/blue-dot.png"> WML</p>
-  <p><img src="multiEdition.png" style="width: 20px; height: 20px;"> Multiple Editions</p>
-</div>
+      // Add legend at bottom of filter
+      const legendHTML = `
+        <hr><h3>Legend</h3>
+        <p><img src="http://maps.google.com/mapfiles/ms/icons/green-dot.png"> EWA</p>
+        <p><img src="http://maps.google.com/mapfiles/ms/icons/yellow-dot.png"> LCV</p>
+        <p><img src="http://maps.google.com/mapfiles/ms/icons/red-dot.png"> NID</p>
+        <p><img src="http://maps.google.com/mapfiles/ms/icons/blue-dot.png"> WML</p>
+        <p><img src="multiEdition.png" style="width: 20px; height: 20px;"> Multiple Editions</p>
+      `;
+      filterContainer.insertAdjacentHTML("beforeend", legendHTML);
+    }
+  </script>
 
-  </body>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+  <style>
+    #routeFilter {
+      background: white;
+      padding: 10px;
+      margin: 10px;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      border: 1px solid #ccc;
+      position: absolute;
+      top: 10px;
+      left: 30px;
+      z-index: 5;
+      width: 220px;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+
+    #routeFilter h3 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
+
+    #routeFilter img {
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <div id="routeFilter"></div>
+</body>
 </html>
