@@ -1,72 +1,194 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Exchange Distribution Locations</title>
+<head>
+  <title>Exchange Distribution Locations</title>
+  <script src="EWARoutes.js"></script>
 
-    <!-- Load EWARoutes.js FIRST -->
-    <script src="EWARoutes.js"></script>
+  <script>
+    function getMarkerIcon(edition) {
+      const editionColors = {
+        EWA: "green",
+        LCV: "yellow",
+        WML: "blue",
+        NID: "red"
+      };
 
-    <!-- Load Google Maps API -->
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&libraries=marker"
-      async
-      defer
-      onload="initializeApp()"
-    ></script>
+      if (!edition || typeof edition !== "string") {
+        return {
+          url: "http://maps.google.com/mapfiles/ms/icons/white-dot.png",
+          scaledSize: new google.maps.Size(32, 32)
+        };
+      }
 
-    <script>
-      async function initializeApp() {
-        // Wait until locations is defined
-        while (typeof locations === "undefined") {
-          console.log("Waiting for locations to load...");
-          await new Promise((r) => setTimeout(r, 100));
+      const editions = edition.split(",").map(e => e.trim()).filter(e => e.length > 0);
+
+      if (editions.length === 1 && editionColors[editions[0]]) {
+        return {
+          url: `http://maps.google.com/mapfiles/ms/icons/${editionColors[editions[0]]}-dot.png`,
+          scaledSize: new google.maps.Size(32, 32)
+        };
+      }
+
+      return {
+        url: "multiEdition.png",
+        scaledSize: new google.maps.Size(32, 32)
+      };
+    }
+
+    function initMap() {
+      const map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 47.65, lng: -117.42 },
+        zoom: 11,
+      });
+
+      const markersByRoute = {};
+      const uniqueRoutes = new Set();
+      const geocoder = new google.maps.Geocoder();
+      let searchMarker = null;
+
+      locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
+        const marker = new google.maps.Marker({
+          position: { lat: parseFloat(lat), lng: parseFloat(lng) },
+          map,
+          title: locationName,
+          icon: getMarkerIcon(edition),
+        });
+
+        const infoWindow = new google.maps.InfoWindow({
+          content: `
+            <div style="max-width: 250px;">
+              <h3>${locationName}</h3>
+              <p><strong>Route:</strong> ${route}</p>
+              <p><strong>Address:</strong> ${address}</p>
+              <p><strong>Edition:</strong> ${edition}</p>
+              <p><strong>Notes:</strong> ${notes}</p>
+              <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}" target="_blank">View on Google Maps</a></p>
+            </div>
+          `,
+        });
+
+        marker.addListener("click", () => infoWindow.open(map, marker));
+
+        if (!markersByRoute[route]) markersByRoute[route] = [];
+        markersByRoute[route].push(marker);
+        uniqueRoutes.add(route);
+      });
+
+      const filterContainer = document.getElementById("routeFilter");
+      filterContainer.innerHTML = "<h3>Filter Routes</h3>";
+
+      [...uniqueRoutes].sort().forEach(routeName => {
+        const id = routeName.replace(/\s+/g, "_");
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.id = id;
+        checkbox.checked = true;
+        checkbox.addEventListener("change", () => {
+          const visible = checkbox.checked;
+          markersByRoute[routeName].forEach(marker => marker.setVisible(visible));
+        });
+
+        const label = document.createElement("label");
+        label.htmlFor = id;
+        label.textContent = routeName;
+
+        const row = document.createElement("div");
+        row.appendChild(checkbox);
+        row.appendChild(label);
+        filterContainer.appendChild(row);
+      });
+
+      // Add legend at bottom of filter
+      const legendHTML = `
+        <hr><h3>Legend</h3>
+        <p><img src="http://maps.google.com/mapfiles/ms/icons/green-dot.png"> EWA</p>
+        <p><img src="http://maps.google.com/mapfiles/ms/icons/yellow-dot.png"> LCV</p>
+        <p><img src="http://maps.google.com/mapfiles/ms/icons/red-dot.png"> NID</p>
+        <p><img src="http://maps.google.com/mapfiles/ms/icons/blue-dot.png"> WML</p>
+        <p><img src="multiEdition.png" style="width: 20px; height: 20px;"> Multiple Editions</p>
+      `;
+      filterContainer.insertAdjacentHTML("beforeend", legendHTML);
+
+      // Search box logic
+      const searchBox = document.getElementById("mapSearchBox");
+      searchBox.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+          const address = this.value;
+          if (!address) return;
+
+          geocoder.geocode({ address }, (results, status) => {
+            if (status === "OK" && results[0]) {
+              const location = results[0].geometry.location;
+              map.setCenter(location);
+              map.setZoom(15);
+
+              if (searchMarker) searchMarker.setMap(null);
+              searchMarker = new google.maps.Marker({
+                position: location,
+                map,
+                title: results[0].formatted_address,
+              });
+            } else {
+              alert("Location not found: " + status);
+            }
+          });
         }
+      });
+    }
+  </script>
 
-        initMap(); // Now it's safe to call
-      }
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap"></script>
 
-      function initMap() {
-        const map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: 47.65, lng: -117.42 },
-          zoom: 11,
-          mapId: "52467dabf04a25e0",
-          tilt: 0,
-          rotateControl: false,
-        });
+  <style>
+    #routeFilter {
+      background: white;
+      padding: 10px;
+      margin: 10px;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      border: 1px solid #ccc;
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      z-index: 5;
+      width: 220px;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
 
-        locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
-          const position = { lat: parseFloat(lat), lng: parseFloat(lng) };
+    #routeFilter h3 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+    }
 
-          const marker = new google.maps.marker.AdvancedMarkerElement({
-            map,
-            position,
-            title: locationName,
-          });
+    #routeFilter img {
+      vertical-align: middle;
+      margin-right: 6px;
+    }
 
-          const infoWindow = new google.maps.InfoWindow({
-            content: `
-              <div style="max-width: 250px;">
-                <h3>${locationName}</h3>
-                <p><strong>Route:</strong> ${route}</p>
-                <p><strong>Address:</strong> ${address}</p>
-                <p><strong>Edition:</strong> ${edition}</p>
-                <p><strong>Notes:</strong> ${notes}</p>
-                <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-                  address
-                )}" target="_blank">View on Google Maps</a></p>
-              </div>
-            `,
-          });
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
 
-          marker.addListener("gmp-click", () => {
-            infoWindow.open(map, marker);
-          });
-        });
-      }
-    </script>
-  </head>
+    #mapSearchBox {
+      position: absolute;
+      top: 10px;
+      right: 30px;
+      z-index: 5;
+      padding: 8px;
+      font-size: 14px;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
 
-  <body>
-    <div id="map" style="height: 100vh; width: 100%"></div>
-  </body>
+<body>
+  <div id="map"></div>
+  <input id="mapSearchBox" type="text" placeholder="Search location..." />
+  <div id="routeFilter"></div>
+</body>
 </html>
