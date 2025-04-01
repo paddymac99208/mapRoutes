@@ -3,6 +3,7 @@
 <head>
   <title>Exchange Distribution Locations</title>
   <script src="EWARoutes.js"></script>
+
   <script>
     function getMarkerIcon(edition) {
       const editionColors = {
@@ -35,106 +36,67 @@
     }
 
     function initMap() {
-  const map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 47.65, lng: -117.42 },
-    zoom: 11,
-  });
-
-  const markersByRoute = {};
-  const uniqueRoutes = new Set();
-  const geocoder = new google.maps.Geocoder();
-  let searchMarker = null;
-
-  locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
-    const marker = new google.maps.Marker({
-      position: { lat: parseFloat(lat), lng: parseFloat(lng) },
-      map,
-      title: locationName,
-      icon: getMarkerIcon(edition),
-    });
-
-    const infoWindow = new google.maps.InfoWindow({
-      content: `
-        <div style="max-width: 250px;">
-          <h3>${locationName}</h3>
-          <p><strong>Route:</strong> ${route}</p>
-          <p><strong>Address:</strong> ${address}</p>
-          <p><strong>Edition:</strong> ${edition}</p>
-          <p><strong>Notes:</strong> ${notes}</p>
-          <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}" target="_blank">View on Google Maps</a></p>
-        </div>
-      `,
-    });
-
-    marker.addListener("click", () => infoWindow.open(map, marker));
-
-    if (!markersByRoute[route]) markersByRoute[route] = [];
-    markersByRoute[route].push(marker);
-    uniqueRoutes.add(route);
-  });
-
-  const filterContainer = document.getElementById("routeFilter");
-  filterContainer.innerHTML = "<h3>Filter Routes</h3>";
-
-  [...uniqueRoutes].sort().forEach(routeName => {
-    const id = routeName.replace(/\s+/g, "_");
-    const checkbox = document.createElement("input");
-    checkbox.type = "checkbox";
-    checkbox.id = id;
-    checkbox.checked = true;
-    checkbox.addEventListener("change", () => {
-      const visible = checkbox.checked;
-      markersByRoute[routeName].forEach(marker => marker.setVisible(visible));
-    });
-
-    const label = document.createElement("label");
-    label.htmlFor = id;
-    label.textContent = routeName;
-
-    const row = document.createElement("div");
-    row.appendChild(checkbox);
-    row.appendChild(label);
-    filterContainer.appendChild(row);
-  });
-
-  // Add legend at bottom of filter
-  const legendHTML = `
-    <hr><h3>Legend</h3>
-    <p><img src="http://maps.google.com/mapfiles/ms/icons/green-dot.png"> EWA</p>
-    <p><img src="http://maps.google.com/mapfiles/ms/icons/yellow-dot.png"> LCV</p>
-    <p><img src="http://maps.google.com/mapfiles/ms/icons/red-dot.png"> NID</p>
-    <p><img src="http://maps.google.com/mapfiles/ms/icons/blue-dot.png"> WML</p>
-    <p><img src="multiEdition.png" style="width: 20px; height: 20px;"> Multiple Editions</p>
-  `;
-  filterContainer.insertAdjacentHTML("beforeend", legendHTML);
-
-  // 🔍 Handle search box
-  const searchBox = document.getElementById("mapSearchBox");
-  searchBox.addEventListener("keydown", function (e) {
-    if (e.key === "Enter") {
-      const address = this.value;
-      if (!address) return;
-
-      geocoder.geocode({ address }, (results, status) => {
-        if (status === "OK" && results[0]) {
-          const location = results[0].geometry.location;
-          map.setCenter(location);
-          map.setZoom(15);
-
-          if (searchMarker) searchMarker.setMap(null);
-          searchMarker = new google.maps.Marker({
-            position: location,
-            map,
-            title: results[0].formatted_address,
-          });
-        } else {
-          alert("Location not found: " + status);
-        }
+      const map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 47.65, lng: -117.42 },
+        zoom: 11,
       });
-    }
-  });
-}
 
+      const markersByRoute = {};
+      const uniqueRoutes = new Set();
+      const geocoder = new google.maps.Geocoder();
+      let searchMarker = null;
+
+      locations.forEach(({ lat, lng, placeId, route, edition, notes, address, locationName }) => {
+        const marker = new google.maps.Marker({
+          position: { lat: parseFloat(lat), lng: parseFloat(lng) },
+          map,
+          title: locationName,
+          icon: getMarkerIcon(edition),
+        });
+
+        const infoWindow = new google.maps.InfoWindow({
+          content: `
+            <div style="max-width: 250px;">
+              <h3>${locationName}</h3>
+              <p><strong>Route:</strong> ${route}</p>
+              <p><strong>Address:</strong> ${address}</p>
+              <p><strong>Edition:</strong> ${edition}</p>
+              <p><strong>Notes:</strong> ${notes}</p>
+              <p><a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}" target="_blank">View on Google Maps</a></p>
+            </div>
+          `,
+        });
+
+        marker.addListener("click", () => infoWindow.open(map, marker));
+
+        if (!markersByRoute[route]) markersByRoute[route] = [];
+        markersByRoute[route].push(marker);
+        uniqueRoutes.add(route);
+      });
+
+      const filterContainer = document.getElementById("routeFilter");
+      filterContainer.innerHTML = "<h3>Filter Routes</h3>";
+
+      [...uniqueRoutes].sort().forEach(routeName => {
+        const id = routeName.replace(/\s+/g, "_");
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.id = id;
+        checkbox.checked = true;
+        checkbox.addEventListener("change", () => {
+          const visible = checkbox.checked;
+          markersByRoute[routeName].forEach(marker => marker.setVisible(visible));
+        });
+
+        const label = document.createElement("label");
+        label.htmlFor = id;
+        label.textContent = routeName;
+
+        const row = document.createElement("div");
+        row.appendChild(checkbox);
+        row.appendChild(label);
+        filterContainer.appendChild(row);
+      });
 
       // Add legend at bottom of filter
       const legendHTML = `
@@ -146,10 +108,36 @@
         <p><img src="multiEdition.png" style="width: 20px; height: 20px;"> Multiple Editions</p>
       `;
       filterContainer.insertAdjacentHTML("beforeend", legendHTML);
+
+      // Search box logic
+      const searchBox = document.getElementById("mapSearchBox");
+      searchBox.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+          const address = this.value;
+          if (!address) return;
+
+          geocoder.geocode({ address }, (results, status) => {
+            if (status === "OK" && results[0]) {
+              const location = results[0].geometry.location;
+              map.setCenter(location);
+              map.setZoom(15);
+
+              if (searchMarker) searchMarker.setMap(null);
+              searchMarker = new google.maps.Marker({
+                position: location,
+                map,
+                title: results[0].formatted_address,
+              });
+            } else {
+              alert("Location not found: " + status);
+            }
+          });
+        }
+      });
     }
   </script>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap" async defer></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBWFsbxlhDL-eEODcF1X9oheYWopr3uAg&callback=initMap"></script>
 
   <style>
     #routeFilter {
@@ -182,19 +170,19 @@
       height: 100vh;
       width: 100%;
     }
-    #mapSearchBox {
-  position: absolute;
-  top: 10px;
-  right: 30px;
-  z-index: 5;
-  padding: 8px;
-  font-size: 14px;
-  width: 250px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
-}
 
+    #mapSearchBox {
+      position: absolute;
+      top: 10px;
+      right: 30px;
+      z-index: 5;
+      padding: 8px;
+      font-size: 14px;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
   </style>
 </head>
 
