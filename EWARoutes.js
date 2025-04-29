@@ -71,16 +71,6 @@ const locations = [
   },
   {
     route: "Central Spokane",
-    placeId: "ChIJpetyQTsZnlQR-ODvgpN1x5Y",
-    edition: "EWA",
-    notes: "Community rack - claim top shelf",
-    address: "4120 N Division St, Spokane, WA 99207, USA",
-    lat: 47.6959263,
-    lng: -117.4107787,
-    locationName: "Peking North Chinese Restaurant"
-  },
-  {
-    route: "Central Spokane",
     placeId: "ChIJc8NVBzsZnlQR2KJkBZQQdzE",
     edition: "EWA",
     notes: "Single EX rack inside",
@@ -123,7 +113,7 @@ const locations = [
     route: "Central Spokane",
     placeId: "ChIJTTklM-CBVIcR7sFsTCIsoYc",
     edition: "EWA",
-    notes: "Inlander Rack",
+    notes: "Closed Remodeling",
     address: "5102 N Division St, Spokane, WA 99207, USA",
     lat: 47.704597,
     lng: -117.4105505,
@@ -208,6 +198,16 @@ const locations = [
     lat: 47.714701,
     lng: -117.407702,
     locationName: "De Leon Foods"
+  },
+  {
+    route: "Central Spokane",
+    placeId: "ChIJyRFJ5LMenlQRl5Bpbg59LOU",
+    edition: "EWA",
+    notes: "",
+    address: "718 E Francis Ave, Spokane, WA 99208, USA",
+    lat: 47.7147513,
+    lng: -117.3983412,
+    locationName: "Uncle Rusty's"
   },
   {
     route: "Central Spokane",
@@ -3141,6 +3141,16 @@ const locations = [
   },
   {
     route: "Okanagan",
+    placeId: "ChIJiRzsPw9HnFQRS1K6U0tSEQI",
+    edition: "EWA",
+    notes: "Yellow NN rack",
+    address: "311 E Grand Coulee Ave, Grand Coulee, WA 99133, USA",
+    lat: 47.9343033,
+    lng: -118.9953358,
+    locationName: "Jacks's Exxon"
+  },
+  {
+    route: "Okanagan",
     placeId: "ChIJ54xpdyhHnFQRKhYmSqZm3rQ",
     edition: "EWA, WML",
     notes: "Community Rack; Wenatchee Moses Lake Exchange",
@@ -3798,16 +3808,6 @@ const locations = [
     lat: 47.627449,
     lng: -117.3741073,
     locationName: "Great Harvest"
-  },
-  {
-    route: "South Hill",
-    placeId: "ChIJZ67J5mMjnlQRhRgfgJjtB50",
-    edition: "EWA",
-    notes: "Single Exchange rack by other racks",
-    address: "2512 E 29th Ave, Spokane, WA 99223, USA",
-    lat: 47.6268673,
-    lng: -117.3745864,
-    locationName: "Natural Grocers"
   },
   {
     route: "South Hill",
@@ -5462,8 +5462,8 @@ const locations = [
   {
     route: "Moscow/ Pullman",
     placeId: "ChIJJ7ZOUNeJn1QRUfFvzpE6_ws",
-    edition: "LCV, EWA",
-    notes: "Exchange rack by registers; Rack inside Foyer",
+    edition: "LCV",
+    notes: "Exchange rack by registers",
     address: "760 N Main St, Moscow, ID 83843, USA",
     lat: 46.74227899999999,
     lng: -117.0006561,
@@ -6493,7 +6493,7 @@ const locations = [
     route: "MosesLake",
     placeId: "ChIJuWuE6604mVQR9yy9GfSk7tI",
     edition: "WML",
-    notes: "",
+    notes: "Keep at 25",
     address: "710 W Broadway Ave, Moses Lake, WA 98837, USA",
     lat: 47.12744410000001,
     lng: -119.2868099,
@@ -6588,16 +6588,6 @@ const locations = [
     lat: 47.12959670000001,
     lng: -119.2788025,
     locationName: "Emperador Azteca Moses Lake"
-  },
-  {
-    route: "MosesLake",
-    placeId: "ChIJU1mG98c4mVQRNL7iLCDKaIs",
-    edition: "WML",
-    notes: "",
-    address: "1000 S Pioneer Way, Moses Lake, WA 98837, USA",
-    lat: 47.1207885,
-    lng: -119.2681495,
-    locationName: "Coldwell Banker Tomlinson Ranch & Home"
   },
   {
     route: "MosesLake",
@@ -6728,16 +6718,6 @@ const locations = [
     lat: 47.1332902,
     lng: -119.2741167,
     locationName: "Faber Industrial Supply"
-  },
-  {
-    route: "MosesLake",
-    placeId: "ChIJCfvch6M4mVQRQVdOeH1evu4",
-    edition: "WML",
-    notes: "",
-    address: "507 E Broadway Ave, Moses Lake, WA 98837, USA",
-    lat: 47.1335161,
-    lng: -119.2734642,
-    locationName: "Sporty's Steakhouse"
   },
   {
     route: "MosesLake",
@@ -7201,16 +7181,6 @@ const locations = [
   },
   {
     route: "WenatcheeA",
-    placeId: "ChIJ4xpJEhubm1QRUzTpSzDFfDU",
-    edition: "WML",
-    notes: "",
-    address: "302 E Woodin Ave, Chelan, WA 98816, USA",
-    lat: 47.8396122,
-    lng: -120.0146197,
-    locationName: "Lake Chelan E-Z Mart"
-  },
-  {
-    route: "WenatcheeA",
     placeId: "ChIJS5r-xg-bm1QR51wllVn0c1Q",
     edition: "WML",
     notes: "",
@@ -7558,16 +7528,6 @@ const locations = [
     lat: 47.52859100000001,
     lng: -120.4879616,
     locationName: "The Outpost Saloon"
-  },
-  {
-    route: "WenatcheeB",
-    placeId: "ChIJJZKZCtRKmlQRl8H8Jx9RoJc",
-    edition: "WML",
-    notes: "",
-    address: "5740 Vale Rd, Cashmere, WA 98815, USA",
-    lat: 47.5286292,
-    lng: -120.4887942,
-    locationName: "Old Mission Spirits"
   },
   {
     route: "WenatcheeB",
@@ -8721,6 +8681,16 @@ const locations = [
   },
   {
     route: "Coeur d'Alene",
+    placeId: "ChIJLwHn1M_GYVMR_3RRasV3xlA",
+    edition: "NID",
+    notes: "12 pocket EX RACK ",
+    address: "410 W Neider Ave, Coeur d'Alene, ID 83814, USA",
+    lat: 47.7059214,
+    lng: -116.7938058,
+    locationName: "Grocery Outlet"
+  },
+  {
+    route: "Coeur d'Alene",
     placeId: "ChIJ_3vjtRnHYVMR0vT84t8M8FQ",
     edition: "NID",
     notes: "Closes @ 2pm; Kat 208-416-0238 Exchange folding rack foyer",
@@ -8768,16 +8738,6 @@ const locations = [
     lat: 47.7161391,
     lng: -116.8097348,
     locationName: "Fairway Grocery & Gas"
-  },
-  {
-    route: "Coeur d'Alene",
-    placeId: "ChIJLwHn1M_GYVMR_3RRasV3xlA",
-    edition: "NID",
-    notes: "12 pocket EX RACK ",
-    address: "410 W Neider Ave, Coeur d'Alene, ID 83814, USA",
-    lat: 47.7059214,
-    lng: -116.7938058,
-    locationName: "Grocery Outlet"
   },
   {
     route: "Coeur d'Alene",
